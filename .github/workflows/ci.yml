@@ -14,4 +14,7 @@ jobs:
         with:
           python-version: 3.x
       - run: pip install mkdocs-material
-      - run: mkdocs gh-deploy --force
+      - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          mkdocs gh-deploy --force
