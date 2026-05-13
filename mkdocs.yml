@@ -1,0 +1,134 @@
+# ============================================================
+# 州民中飞跃手册 - MkDocs 配置文件
+# 基于 MkDocs Material 主题
+# ============================================================
+
+# ---------- 网站基本信息 ----------
+site_name: 州民中飞跃手册
+site_description: >-
+  来自学长学姐的真实经验，写给正在寻找方向的后来者。
+  汇集湘西州民族中学历届毕业生的真实升学案例与大学体验。
+site_author: 州民中飞跃手册
+site_url: https://andrewlong7.github.io/zhouminzhong-feiyue/
+
+# ---------- 主题配置 ----------
+theme:
+  name: material
+  language: zh
+  logo: assets/images/logo.svg
+  favicon: assets/images/favicon.svg
+
+  # 调色板：浅色模式 + 深色模式
+  palette:
+    # 浅色模式 - 温暖米白底 + 青绿色主色调
+    - scheme: default
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    # 深色模式
+    - scheme: slate
+      primary: teal
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+
+  # 字体配置
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+
+  # 功能开关
+  features:
+    # 顶部导航标签
+    - navigation.tabs
+    # 导航栏粘性固定
+    - navigation.sticky
+    # 自动展开侧边栏章节
+    - navigation.sections
+    - navigation.expand
+    # 返回顶部按钮
+    - navigation.top
+    # 导航路径面包屑
+    - navigation.path
+    # 搜索功能增强
+    - search.suggest
+    - search.highlight
+    - search.share
+    # 页脚上一页/下一页
+    - navigation.footer
+    # 代码块增强
+    - content.code.copy
+    - content.code.annotate
+    # 内容标签页
+    - content.tabs.link
+
+  # 自定义模板覆盖目录
+  custom_dir: docs/overrides
+
+# ---------- 额外 CSS ----------
+extra_css:
+  - stylesheets/extra.css
+
+# ---------- 插件 ----------
+plugins:
+  # 中文搜索
+  - search:
+      lang: zh
+      separator: '[\s​，。、；：？！“”（）《》]'
+  # 标签系统
+  - tags
+
+# ---------- Markdown 扩展 ----------
+markdown_extensions:
+  # 提示框
+  - admonition
+  - pymdownx.details
+  # 代码高亮
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  # 标签页
+  - pymdownx.tabbed:
+      alternate_style: true
+  # 属性列表（给元素添加 class/id）
+  - attr_list
+  # Markdown 内嵌 HTML
+  - md_in_html
+  # 元数据
+  - meta
+  # 定义列表
+  - def_list
+  # 脚注
+  - footnotes
+  # 目录 permalink
+  - toc:
+      permalink: true
+      title: 本页目录
+  # 表格增强
+  - tables
+
+# ---------- 导航栏 ----------
+nav:
+  - 首页: index.md
+  - 案例库:
+      - 案例总览: cases/index.md
+      - 2026 届: cases/2026/index.md
+      - 2025 届: cases/2025/index.md
+      - 2024 届: cases/2024/index.md
+  - 大学分类: universities/index.md
+  - 投稿指南: contribute.md
+  - 关于我们: about.md
+
+# ---------- 额外配置 ----------
+extra:
+  # 页脚社交链接
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/AndrewLong7/zhouminzhong-feiyue
+      name: GitHub 仓库
+  # 生成器信息
+  generator: false
