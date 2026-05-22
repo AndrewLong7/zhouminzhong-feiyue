@@ -96,7 +96,7 @@
   <nav class="md-header__inner md-grid" aria-label="页眉">
     <a href="." title="州民中飞跃手册" class="md-header__button md-logo" aria-label="州民中飞跃手册" data-md-component="logo">
       
-  <img src="assets/images/logo.svg" alt="logo">
+  <img src="assets/images/logo.jpg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -337,7 +337,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href="." title="州民中飞跃手册" class="md-nav__button md-logo" aria-label="州民中飞跃手册" data-md-component="logo">
       
-  <img src="assets/images/logo.svg" alt="logo">
+  <img src="assets/images/logo.jpg" alt="logo">
 
     </a>
     州民中飞跃手册
@@ -846,7 +846,7 @@
       type="text"
       placeholder="搜索学校、专业、城市、关键词……"
       id="fy-global-search"
-      onkeydown="if(event.key==='Enter'){let q=document.getElementById('fy-global-search').value.trim();if(q){window.location.href='/search/?q='+encodeURIComponent(q)}}"
+      onkeydown="if(event.key==='Enter'){let q=document.getElementById('fy-global-search').value.trim();if(q){let s=document.querySelector('.md-search__input');if(s){let l=document.querySelector('[for=__search]');if(l)l.click();s.value=q;s.focus();s.dispatchEvent(new KeyboardEvent('keyup',{bubbles:true}));}}}"
     />
   </div>
 </div>

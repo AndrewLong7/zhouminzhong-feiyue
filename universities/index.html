@@ -98,7 +98,7 @@
   <nav class="md-header__inner md-grid" aria-label="页眉">
     <a href=".." title="州民中飞跃手册" class="md-header__button md-logo" aria-label="州民中飞跃手册" data-md-component="logo">
       
-  <img src="../assets/images/logo.svg" alt="logo">
+  <img src="../assets/images/logo.jpg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -337,7 +337,7 @@
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="州民中飞跃手册" class="md-nav__button md-logo" aria-label="州民中飞跃手册" data-md-component="logo">
       
-  <img src="../assets/images/logo.svg" alt="logo">
+  <img src="../assets/images/logo.jpg" alt="logo">
 
     </a>
     州民中飞跃手册
@@ -639,10 +639,38 @@
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        港澳院校
+        港澳及海外院校
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        其他院校
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="其他院校">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📭 你的学校不在这里？
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -762,10 +790,38 @@
   <a href="#_2" class="md-nav__link">
     <span class="md-ellipsis">
       
-        港澳院校
+        港澳及海外院校
       
     </span>
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        其他院校
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="其他院校">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        📭 你的学校不在这里？
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -796,7 +852,7 @@
 
 <!-- Hero -->
 <div class="fy-hero" style="padding: 56px 24px 48px;">
-<h1 id="_1"><span class="fy-hero-title" style="font-size: 2.2rem !important;">大学分类</span><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<h1 id="_1"><span class="fy-hero-title" style="font-size: 2.6rem !important;">大学分类</span><a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
 <p class="fy-hero-subtitle">
 按大学浏览校友案例，了解各个学校的真实体验。
 </p>
@@ -810,6 +866,7 @@
       type="text"
       placeholder="搜索大学名称……"
       id="uni-search"
+      onkeydown="if(event.key==='Enter'){let q=document.getElementById('uni-search').value.trim();if(q){let s=document.querySelector('.md-search__input');if(s){let l=document.querySelector('[for=__search]');if(l)l.click();s.value=q;s.focus();s.dispatchEvent(new KeyboardEvent('keyup',{bubbles:true}));}}}"
     />
   </div>
 </div>
@@ -873,7 +930,7 @@
 
 </div>
 
-<h2 id="_2">港澳院校<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
+<h2 id="_2">港澳及海外院校<a class="headerlink" href="#_2" title="Permanent link">&para;</a></h2>
 <div class="fy-card-grid">
 
 <a href="/cases/" class="fy-school-card">
@@ -890,6 +947,12 @@
 
 </div>
 
+<h2 id="_3">其他院校<a class="headerlink" href="#_3" title="Permanent link">&para;</a></h2>
+<div style="text-align: center; padding: 40px 16px; background: var(--feiyue-card-bg); border: 1px dashed var(--feiyue-card-border); border-radius: 16px; margin-bottom: 48px;">
+<h3 id="_4">📭 你的学校不在这里？<a class="headerlink" href="#_4" title="Permanent link">&para;</a></h3>
+<p>欢迎投稿，让更多学弟学妹看到你的学校！</p>
+<p><a href="../contribute/" class="fy-btn fy-btn-primary" style="margin-top: 16px;">📝 立即投稿</a></p>
+</div>
 <hr />
 <blockquote>
 <p>📢 <strong>你去的大学不在这里？</strong> 欢迎投稿，让更多学弟学妹看到你的学校！<a href="../contribute/">立即投稿 →</a></p>
