@@ -6,7 +6,7 @@ description: 浏览所有州民中校友升学案例。
 <!-- Hero -->
 <div class="fy-hero" style="padding: 56px 24px 48px;" markdown>
 
-# <span class="fy-hero-title" style="font-size: 2.2rem !important;">案例库</span>
+# <span class="fy-hero-title" style="font-size: 2.6rem !important;">案例库</span>
 
 <p class="fy-hero-subtitle">
 每一份案例，都是一个真实的成长故事。
@@ -23,6 +23,7 @@ description: 浏览所有州民中校友升学案例。
       type="text"
       placeholder="按学校、专业、标签搜索案例……"
       id="case-search"
+      onkeydown="if(event.key==='Enter'){let q=document.getElementById('case-search').value.trim();if(q){let s=document.querySelector('.md-search__input');if(s){let l=document.querySelector('[for=__search]');if(l)l.click();s.value=q;s.focus();s.dispatchEvent(new KeyboardEvent('keyup',{bubbles:true}));}}}"
     />
   </div>
 </div>
@@ -80,6 +81,7 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">高分段</span>
     <span class="fy-tag">跨省</span>
   </div>
+  <a href="2026/xiaoxi-pku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 
 <div class="fy-case-card">
@@ -103,6 +105,7 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">医学</span>
     <span class="fy-tag">本省</span>
   </div>
+  <a href="2026/achen-csu/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 
 <div class="fy-case-card">
@@ -126,6 +129,7 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">高分段</span>
     <span class="fy-tag">跨省</span>
   </div>
+  <a href="2026/yuanrao-hku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 
 </div>

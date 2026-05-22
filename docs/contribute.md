@@ -6,7 +6,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 <!-- Hero -->
 <div class="fy-hero" style="padding: 56px 24px 48px;" markdown>
 
-# <span class="fy-hero-title" style="font-size: 2.2rem !important;">投稿指南</span>
+# <span class="fy-hero-title" style="font-size: 2.6rem !important;">投稿指南</span>
 
 <p class="fy-hero-subtitle">
 你的经验，是后来者最珍贵的礼物。<br>
@@ -44,7 +44,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 
 ### 📧 方式一：邮箱投稿
 
-发送邮件至 **[u3638259@hku.hk](mailto:u3638259@hku.hk)**
+发送邮件至 **[u3638259@connect.hku.hk](mailto:u3638259@connect.hku.hk)**
 
 主题格式：`[投稿] 你的化名 - 录取院校`
 
@@ -61,7 +61,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 
 ### 🐙 方式二：GitHub PR 投稿
 
-1. Fork 我们的 [GitHub 仓库](https://github.com/zhouminzhong-feiyue)
+1. Fork 我们的 [GitHub 仓库](https://github.com/AndrewLong7/zhouminzhong-feiyue)
 2. 在 `docs/cases/` 下对应年份文件夹中新建 `.md` 文件
 3. 按下方模板填写内容
 4. 提交 Pull Request
@@ -107,6 +107,7 @@ tags:
 | **录取院校** | 如：中南大学 |
 | **录取专业** | 如：临床医学（八年制） |
 | **所在城市** | 如：长沙 |
+| **联系方式** | 微信 / QQ / 邮箱（选填） |
 
 ---
 
@@ -214,9 +215,9 @@ tags:
 你的经验，可能是某个学弟学妹在迷茫时刻最需要的那盏灯。
 
 <div style="margin-top: 32px;">
-  <a href="mailto:u3638259@hku.hk" class="fy-btn fy-btn-primary">📧 立即投稿</a>
+  <a href="mailto:u3638259@connect.hku.hk" class="fy-btn fy-btn-primary">📧 立即投稿</a>
   &nbsp;
-  <a href="https://github.com/zhouminzhong-feiyue" class="fy-btn">🐙 GitHub</a>
+  <a href="https://github.com/AndrewLong7/zhouminzhong-feiyue" class="fy-btn">🐙 GitHub</a>
 </div>
 
 </div>

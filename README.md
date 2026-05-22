@@ -83,7 +83,7 @@ zhouminzhong-feiyue/
 ## 投稿方式
 
 ### 方式一：邮箱投稿
-发送邮件至 **u3638259@hku.hk**，主题格式：`[投稿] 你的化名 - 录取院校`
+发送邮件至 **u3638259@connect.hku.hk**，主题格式：`[投稿] 你的化名 - 录取院校`
 
 ### 方式二：GitHub PR
 1. Fork 本仓库
@@ -105,5 +105,5 @@ zhouminzhong-feiyue/
 
 ## 联系方式
 
-- 📧 邮箱：u3638259@hku.hk
+- 📧 邮箱：u3638259@connect.hku.hk
 - 👤 联系人：龙熙予

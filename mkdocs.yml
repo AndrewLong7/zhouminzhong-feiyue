@@ -15,7 +15,7 @@ site_url: https://andrewlong7.github.io/zhouminzhong-feiyue/
 theme:
   name: material
   language: zh
-  logo: assets/images/logo.svg
+  logo: assets/images/logo.jpg
   favicon: assets/images/favicon.svg
 
   # 调色板：浅色模式 + 深色模式

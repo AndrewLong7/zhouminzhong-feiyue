@@ -6,7 +6,7 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 <!-- Hero -->
 <div class="fy-hero" style="padding: 56px 24px 48px;" markdown>
 
-# <span class="fy-hero-title" style="font-size: 2.2rem !important;">关于我们</span>
+# <span class="fy-hero-title" style="font-size: 2.6rem !important;">关于我们</span>
 
 <p class="fy-hero-subtitle">
 一个由州民中校友自发创建的<br>
@@ -65,13 +65,13 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 
 **📧 邮箱投稿 / 联系**
 
-[u3638259@hku.hk](mailto:u3638259@hku.hk)
+[u3638259@connect.hku.hk](mailto:u3638259@connect.hku.hk)
 
 ---
 
 **🐙 GitHub**
 
-[github.com/zhouminzhong-feiyue](https://github.com/zhouminzhong-feiyue)
+[github.com/AndrewLong7/zhouminzhong-feiyue](https://github.com/AndrewLong7/zhouminzhong-feiyue)
 
 ---
 

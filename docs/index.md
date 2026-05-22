@@ -35,7 +35,7 @@ hide:
       type="text"
       placeholder="搜索学校、专业、城市、关键词……"
       id="fy-global-search"
-      onkeydown="if(event.key==='Enter'){let q=document.getElementById('fy-global-search').value.trim();if(q){window.location.href='/search/?q='+encodeURIComponent(q)}}"
+      onkeydown="if(event.key==='Enter'){let q=document.getElementById('fy-global-search').value.trim();if(q){let s=document.querySelector('.md-search__input');if(s){let l=document.querySelector('[for=__search]');if(l)l.click();s.value=q;s.focus();s.dispatchEvent(new KeyboardEvent('keyup',{bubbles:true}));}}}"
     />
   </div>
 </div>

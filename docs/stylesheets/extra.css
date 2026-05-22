@@ -24,7 +24,7 @@
   /* 文字颜色 */
   --feiyue-text-primary: #1A1A18;
   --feiyue-text-secondary: #6B6B65;
-  --feiyue-text-muted: #9E9E96;
+  --feiyue-text-muted: #7A7A72;
   --feiyue-text-warm: #5C4A3A;
 
   /* 装饰色 */
@@ -75,7 +75,20 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--feiyue-text-primary);
 }
 
-/* ---------- 4. 顶部导航栏 ---------- */
+/* ---------- 4. 侧边栏文字放大 ---------- */
+.md-nav {
+  font-size: 0.9rem;
+}
+
+.md-nav__link {
+  font-size: 0.9rem;
+}
+
+.md-nav__title {
+  font-size: 0.95rem;
+}
+
+/* ---------- 5. 顶部导航栏 ---------- */
 .md-header {
   background-color: rgba(255,255,255,0.92) !important;
   backdrop-filter: blur(12px);
@@ -149,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .fy-hero-title {
   position: relative;
-  font-size: 2.8rem !important;
+  font-size: 3.2rem !important;
   font-weight: 800 !important;
   letter-spacing: 0.06em !important;
   color: var(--feiyue-text-primary) !important;
@@ -159,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .fy-hero-subtitle {
   position: relative;
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   font-weight: 400;
   color: var(--feiyue-text-secondary);
   line-height: 2;
@@ -571,6 +584,12 @@ h1, h2, h3, h4, h5, h6 {
   counter-reset: step;
   list-style: none;
   padding: 0;
+}
+
+.fy-contribute-steps ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .fy-contribute-steps li {
