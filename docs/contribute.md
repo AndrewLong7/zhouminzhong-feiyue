@@ -87,27 +87,66 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 ```markdown
 ---
 title: 你的化名 - 录取院校
+not_in_nav: true
 tags:
-  - 理工 / 文科 / 医学 / 商科
-  - 985 / 211 / 双一流 / 港澳 / 海外
-  - 高分段 / 中分段
+  - 985
+  - 理工
+  - 高分段
+  - 跨省
+  - 城市名
 ---
 
 # 我的飞跃故事
 
+<div class="fy-case-hero" markdown>
+
 ## 基本信息
 
-| 项目 | 内容 |
-|------|------|
-| **化名** | （用于展示的名字，支持完全匿名） |
-| **毕业届数** | 如：2026 届 |
-| **高考分数** | 如：642 分 |
-| **全省位次** | 如：全省第 2851 名 |
-| **选科组合** | 如：物理+化学+生物 |
-| **录取院校** | 如：中南大学 |
-| **录取专业** | 如：临床医学（八年制） |
-| **所在城市** | 如：长沙 |
-| **联系方式** | 微信 / QQ / 邮箱（选填） |
+<div class="fy-case-info-grid" markdown>
+
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">化名</div>
+  <div class="fy-case-info-value">（用于展示的名字，支持完全匿名）</div>
+</div>
+
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">毕业届数</div>
+  <div class="fy-case-info-value">如：2025 届</div>
+</div>
+
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">高考分数</div>
+  <div class="fy-case-info-value">如：642 分</div>
+</div>
+
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">全省位次</div>
+  <div class="fy-case-info-value">如：全省第 2851 名</div>
+</div>
+
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">选科组合</div>
+  <div class="fy-case-info-value">如：物理 + 化学 + 生物</div>
+</div>
+
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">录取院校</div>
+  <div class="fy-case-info-value">如：中南大学</div>
+</div>
+
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">录取专业</div>
+  <div class="fy-case-info-value">如：临床医学（八年制）</div>
+</div>
+
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">所在城市</div>
+  <div class="fy-case-info-value">如：长沙</div>
+</div>
+
+</div>
+
+</div>
 
 ---
 
@@ -147,34 +186,41 @@ tags:
 （这是非常重要的模块。请分享你在志愿填报、大学适应、
 专业选择等方面走弯路的地方，帮助后来者避开。）
 
+<div class="fy-highlight-box" markdown>
+
+#### ⚠️ 坑一：（标题）
+
+（描述你踩过的坑和反思）
+
+</div>
+
+<div class="fy-highlight-box" markdown>
+
+#### ⚠️ 坑二：（标题）
+
+（描述你踩过的坑和反思）
+
+</div>
+
 ---
 
 ## 写给后来者的一句话
 
 > （请为未来的州民中学子留下一句话。可长可短。）
+>
+> —— 你的化名，20XX 届
 
 ---
 
 ## 标签
 
-<!-- 请勾选适用的标签：
-- [ ] 理工
-- [ ] 文科
-- [ ] 医学
-- [ ] 商科
-- [ ] 高分段（650+）
-- [ ] 中高分段（600-649）
-- [ ] 中分段（550-599）
-- [ ] 跨省
-- [ ] 本省
-- [ ] 985
-- [ ] 211
-- [ ] 双一流
-- [ ] 香港/澳门
-- [ ] 考研
-- [ ] 保研
--->
+<span class="fy-tag">985</span>
+<span class="fy-tag">理工</span>
+<span class="fy-tag">高分段</span>
+<span class="fy-tag">城市名</span>
+<span class="fy-tag">专业名</span>
 ```
+
 
 </div>
 

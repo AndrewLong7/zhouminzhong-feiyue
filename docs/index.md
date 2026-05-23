@@ -101,6 +101,12 @@ hide:
   <span class="fy-school-card-major">机械 · 光电</span>
 </a>
 
+<a href="/cases/earlier/Andrew-hitsz/" class="fy-school-card">
+  <span class="fy-school-card-name">哈尔滨工业大学（深圳）</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">计算机科学</span>
+</a>
+
 </div>
 
 <div class="fy-text-center">
@@ -127,7 +133,7 @@ hide:
     <div class="fy-case-card-avatar">溪</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">小溪</span>
-      <span class="fy-case-card-year">2026 届 · 物理类</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
     </div>
   </div>
   <div class="fy-case-card-body">
@@ -138,6 +144,7 @@ hide:
     </div>
   </div>
   <div class="fy-case-card-tags">
+    <span class="fy-tag fy-tag-amber">模板案例</span>
     <span class="fy-tag">985</span>
     <span class="fy-tag">文科</span>
     <span class="fy-tag">高分段</span>
@@ -150,7 +157,7 @@ hide:
     <div class="fy-case-card-avatar">辰</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">阿辰</span>
-      <span class="fy-case-card-year">2026 届 · 物理类</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
     </div>
   </div>
   <div class="fy-case-card-body">
@@ -161,6 +168,7 @@ hide:
     </div>
   </div>
   <div class="fy-case-card-tags">
+    <span class="fy-tag fy-tag-amber">模板案例</span>
     <span class="fy-tag">985</span>
     <span class="fy-tag">双一流</span>
     <span class="fy-tag">医学</span>
@@ -173,7 +181,7 @@ hide:
     <div class="fy-case-card-avatar">遥</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">远遥</span>
-      <span class="fy-case-card-year">2026 届 · 物理类</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
     </div>
   </div>
   <div class="fy-case-card-body">
@@ -184,10 +192,34 @@ hide:
     </div>
   </div>
   <div class="fy-case-card-tags">
+    <span class="fy-tag fy-tag-amber">模板案例</span>
     <span class="fy-tag">香港</span>
     <span class="fy-tag">商科</span>
     <span class="fy-tag">高分段</span>
     <span class="fy-tag">跨省</span>
+  </div>
+</div>
+
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">A</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">Andrew</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 哈尔滨工业大学（深圳） · 计算机科学</div>
+    <div class="fy-case-card-major-score">高考 662 分 · 全省第 1000 名</div>
+    <div class="fy-case-card-summary">
+      "不要因为来自小地方，就默认自己看不到更大的世界。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">985</span>
+    <span class="fy-tag">理工</span>
+    <span class="fy-tag">高分段</span>
+    <span class="fy-tag">深圳</span>
   </div>
 </div>
 
@@ -226,13 +258,65 @@ hide:
   <p class="fy-quote-text">
     "你不需要和任何人走一样的路。<br>但你需要知道，<br>这个世界上有哪些路可以走。"
   </p>
-  <p class="fy-quote-author">—— 一位 2026 届毕业生</p>
+  <p class="fy-quote-author">—— 一位 2025 届毕业生</p>
 </div>
 
 <hr class="fy-divider">
 
 <!-- ============================================================ -->
-<!-- 模块四：加入我们 -->
+<!-- 模块四：实用资源 -->
+<!-- ============================================================ -->
+<div class="fy-section-title" markdown="1">
+
+## 实用资源
+
+<p>学长学姐整理的升学工具和信息渠道。</p>
+
+</div>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 48px;" markdown>
+
+<div class="fy-case-card" markdown>
+
+### 💬 交流群
+
+**州民中升学交流群**
+
+QQ 群号：[待补充]
+
+微信群：[待补充]
+
+> 加入请备注「州民中 + 届数 + 姓名」，方便管理员审核。
+
+</div>
+
+<div class="fy-case-card" markdown>
+
+### 🔗 志愿填报工具
+
+- **阳光高考网** — 教育部官方志愿填报平台
+- **各省教育考试院官网** — 查分、查位次、查录取
+- **各大学本科招生网** — 最权威的专业和录取信息
+- **软科 / 校友会排名** — 仅供参考，不宜作为唯一依据
+
+</div>
+
+<div class="fy-case-card" markdown>
+
+### 📚 推荐阅读
+
+- [**州民中飞跃手册 · 投稿指南**](contribute/) — 如何分享你的故事
+- [**案例库**](cases/) — 浏览所有校友案例
+- [**大学分类**](universities/) — 按学校类型浏览
+
+</div>
+
+</div>
+
+<hr class="fy-divider">
+
+<!-- ============================================================ -->
+<!-- 模块五：加入我们 -->
 <!-- ============================================================ -->
 <div style="text-align: center; padding: 48px 16px;" markdown="1">
 

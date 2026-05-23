@@ -33,22 +33,28 @@ description: 浏览所有州民中校友升学案例。
 
 <div class="fy-card-grid" markdown>
 
-<div class="fy-school-card" style="cursor: pointer;" onclick="location.href='2026/'">
-  <span class="fy-school-card-name">2026 届</span>
-  <span class="fy-school-card-count">3 个案例</span>
-  <span class="fy-school-card-major">最新一届</span>
-</div>
-
 <div class="fy-school-card" style="cursor: pointer;" onclick="location.href='2025/'">
   <span class="fy-school-card-name">2025 届</span>
-  <span class="fy-school-card-count">即将添加</span>
-  <span class="fy-school-card-major">敬请期待</span>
+  <span class="fy-school-card-count">3 个案例</span>
+  <span class="fy-school-card-major">模板案例</span>
 </div>
 
 <div class="fy-school-card" style="cursor: pointer;" onclick="location.href='2024/'">
   <span class="fy-school-card-name">2024 届</span>
   <span class="fy-school-card-count">即将添加</span>
   <span class="fy-school-card-major">敬请期待</span>
+</div>
+
+<div class="fy-school-card" style="cursor: pointer;" onclick="location.href='2023/'">
+  <span class="fy-school-card-name">2023 届</span>
+  <span class="fy-school-card-count">即将添加</span>
+  <span class="fy-school-card-major">敬请期待</span>
+</div>
+
+<div class="fy-school-card" style="cursor: pointer;" onclick="location.href='earlier/'">
+  <span class="fy-school-card-name">更早的案例</span>
+  <span class="fy-school-card-count">1 个案例</span>
+  <span class="fy-school-card-major">往届毕业生</span>
 </div>
 
 </div>
@@ -65,7 +71,7 @@ description: 浏览所有州民中校友升学案例。
     <div class="fy-case-card-avatar">溪</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">小溪</span>
-      <span class="fy-case-card-year">2026 届 · 物理类</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
     </div>
   </div>
   <div class="fy-case-card-body">
@@ -76,12 +82,13 @@ description: 浏览所有州民中校友升学案例。
     </div>
   </div>
   <div class="fy-case-card-tags">
+    <span class="fy-tag fy-tag-amber">模板案例</span>
     <span class="fy-tag">985</span>
     <span class="fy-tag">文科</span>
     <span class="fy-tag">高分段</span>
     <span class="fy-tag">跨省</span>
   </div>
-  <a href="2026/xiaoxi-pku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="2025/xiaoxi-pku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 
 <div class="fy-case-card">
@@ -89,7 +96,7 @@ description: 浏览所有州民中校友升学案例。
     <div class="fy-case-card-avatar">辰</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">阿辰</span>
-      <span class="fy-case-card-year">2026 届 · 物理类</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
     </div>
   </div>
   <div class="fy-case-card-body">
@@ -100,12 +107,13 @@ description: 浏览所有州民中校友升学案例。
     </div>
   </div>
   <div class="fy-case-card-tags">
+    <span class="fy-tag fy-tag-amber">模板案例</span>
     <span class="fy-tag">985</span>
     <span class="fy-tag">双一流</span>
     <span class="fy-tag">医学</span>
     <span class="fy-tag">本省</span>
   </div>
-  <a href="2026/achen-csu/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="2025/achen-csu/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 
 <div class="fy-case-card">
@@ -113,7 +121,7 @@ description: 浏览所有州民中校友升学案例。
     <div class="fy-case-card-avatar">遥</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">远遥</span>
-      <span class="fy-case-card-year">2026 届 · 物理类</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
     </div>
   </div>
   <div class="fy-case-card-body">
@@ -124,12 +132,37 @@ description: 浏览所有州民中校友升学案例。
     </div>
   </div>
   <div class="fy-case-card-tags">
+    <span class="fy-tag fy-tag-amber">模板案例</span>
     <span class="fy-tag">香港</span>
     <span class="fy-tag">商科</span>
     <span class="fy-tag">高分段</span>
     <span class="fy-tag">跨省</span>
   </div>
-  <a href="2026/yuanrao-hku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="2025/yuanrao-hku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">A</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">Andrew</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 哈尔滨工业大学（深圳） · 计算机科学</div>
+    <div class="fy-case-card-major-score">高考 662 分 · 全省第 1000 名</div>
+    <div class="fy-case-card-summary">
+      "不要因为来自小地方，就默认自己看不到更大的世界。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">985</span>
+    <span class="fy-tag">理工</span>
+    <span class="fy-tag">高分段</span>
+    <span class="fy-tag">深圳</span>
+  </div>
+  <a href="earlier/Andrew-hitsz/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 
 </div>

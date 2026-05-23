@@ -11,6 +11,8 @@ tags:
 
 # 我的飞跃故事
 
+> 📝 **模板案例**：此案例为格式参考，内容为虚构。实际案例来自真实校友投稿。
+
 <div class="fy-case-hero" markdown>
 
 ## 基本信息
@@ -24,7 +26,7 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">毕业届数</div>
-  <div class="fy-case-info-value">2026 届</div>
+  <div class="fy-case-info-value">2025 届</div>
 </div>
 
 <div class="fy-case-info-item">
@@ -165,7 +167,7 @@ tags:
 
 > "从湘西到香港，这段路很长。但我想告诉你：不要因为来自小地方，就觉得某些选择不属于你。世界很大，你有权利去看看。"
 >
-> —— 远遥，2026 届
+> —— 远遥，2025 届
 
 ---
 

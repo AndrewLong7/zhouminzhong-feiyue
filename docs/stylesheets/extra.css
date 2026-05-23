@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6 {
     #ECF8F5 100%
   );
   border-radius: 0 0 40px 40px;
-  margin: -30px -24px 48px;
+  margin: 0 -24px 48px;
   overflow: hidden;
 }
 
@@ -467,7 +467,7 @@ h1, h2, h3, h4, h5, h6 {
   .fy-hero {
     padding: 48px 16px 40px;
     border-radius: 0 0 24px 24px;
-    margin: -16px -16px 32px;
+    margin: 0 -16px 32px;
   }
 
   .fy-hero-title {
@@ -642,8 +642,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .fy-case-info-label {
-  font-size: 0.78rem;
-  color: var(--feiyue-text-muted);
+  font-size: 0.85rem;
+  color: #3B3B35;
+  font-weight: 500;
   margin-bottom: 4px;
 }
 

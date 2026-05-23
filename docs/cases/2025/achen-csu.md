@@ -11,6 +11,8 @@ tags:
 
 # 我的飞跃故事
 
+> 📝 **模板案例**：此案例为格式参考，内容为虚构。实际案例来自真实校友投稿。
+
 <div class="fy-case-hero" markdown>
 
 ## 基本信息
@@ -24,7 +26,7 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">毕业届数</div>
-  <div class="fy-case-info-value">2026 届</div>
+  <div class="fy-case-info-value">2025 届</div>
 </div>
 
 <div class="fy-case-info-item">
@@ -155,7 +157,7 @@ tags:
 
 > "选医学之前，请确认你爱的不只是'当医生'这三个字，而是'成为一个能帮助别人的人'这件事本身。这条路很长，但如果你真的热爱，每一步都值得。"
 >
-> —— 阿辰，2026 届
+> —— 阿辰，2025 届
 
 ---
 

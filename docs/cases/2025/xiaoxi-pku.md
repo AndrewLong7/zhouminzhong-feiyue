@@ -11,6 +11,8 @@ tags:
 
 # 我的飞跃故事
 
+> 📝 **模板案例**：此案例为格式参考，内容为虚构。实际案例来自真实校友投稿。
+
 <div class="fy-case-hero" markdown>
 
 ## 基本信息
@@ -24,7 +26,7 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">毕业届数</div>
-  <div class="fy-case-info-value">2026 届</div>
+  <div class="fy-case-info-value">2025 届</div>
 </div>
 
 <div class="fy-case-info-item">
@@ -153,7 +155,7 @@ tags:
 
 > "不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了。接下来，只需要保持那份勇敢，继续往前走。"
 >
-> —— 小溪，2026 届
+> —— 小溪，2025 届
 
 ---
 
