@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6 {
 .fy-hero::before {
   content: "";
   position: absolute;
-  top: -120px;
+  top: 5%;
   right: -80px;
   width: 360px;
   height: 360px;
