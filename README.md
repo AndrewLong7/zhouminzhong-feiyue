@@ -5,6 +5,8 @@
 [![Built with MkDocs](https://img.shields.io/badge/MkDocs-Material-0D9488?style=flat&logo=materialformkdocs)](https://squidfunk.github.io/mkdocs-material/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-222?style=flat&logo=github)](https://pages.github.com/)
 
+**🌐 网站入口：[andrewlong7.github.io/zhouminzhong-feiyue](https://andrewlong7.github.io/zhouminzhong-feiyue/)**
+
 ## 关于本项目
 
 **州民中飞跃手册** 是一个由湘西州民族中学校友自发创建的公益性经验分享网站。
@@ -67,9 +69,10 @@ zhouminzhong-feiyue/
 │   ├── contribute.md           # 投稿指南
 │   ├── cases/                  # 案例库
 │   │   ├── index.md            # 案例总览
-│   │   ├── 2026/               # 2026 届案例
 │   │   ├── 2025/               # 2025 届案例
-│   │   └── 2024/               # 2024 届案例
+│   │   ├── 2024/               # 2024 届案例
+│   │   ├── 2023/               # 2023 届案例
+│   │   └── earlier/            # 更早的案例
 │   ├── universities/           # 大学分类
 │   │   └── index.md            # 大学分类总览
 │   ├── assets/                 # 静态资源
