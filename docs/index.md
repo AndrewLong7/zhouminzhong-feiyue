@@ -53,52 +53,17 @@ hide:
 
 <div class="fy-card-grid">
 
-<a href="/universities/" class="fy-school-card">
+<!-- AUTO-GEN: HOMEPAGE_UNIVERSITIES -->
+<a href="/cases/2025/xiaoxi-pku/" class="fy-school-card">
   <span class="fy-school-card-name">北京大学</span>
   <span class="fy-school-card-count">模板案例</span>
   <span class="fy-school-card-major">法学</span>
 </a>
 
-<a href="/universities/" class="fy-school-card">
-  <span class="fy-school-card-name">香港大学</span>
-  <span class="fy-school-card-count">模板案例</span>
-  <span class="fy-school-card-major">工商管理</span>
-</a>
-
-<a href="/universities/" class="fy-school-card">
+<a href="/cases/2025/achen-csu/" class="fy-school-card">
   <span class="fy-school-card-name">中南大学</span>
   <span class="fy-school-card-count">模板案例</span>
   <span class="fy-school-card-major">临床医学（八年制）</span>
-</a>
-
-<a href="/universities/" class="fy-school-card">
-  <span class="fy-school-card-name">湖南大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">土木 · 金融 · 电气</span>
-</a>
-
-<a href="/universities/" class="fy-school-card">
-  <span class="fy-school-card-name">武汉大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">测绘 · 法学 · 计算机</span>
-</a>
-
-<a href="/universities/" class="fy-school-card">
-  <span class="fy-school-card-name">厦门大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">海洋科学 · 会计</span>
-</a>
-
-<a href="/universities/" class="fy-school-card">
-  <span class="fy-school-card-name">香港中文大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">社会科学</span>
-</a>
-
-<a href="/universities/" class="fy-school-card">
-  <span class="fy-school-card-name">华中科技大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">机械 · 光电</span>
 </a>
 
 <a href="/cases/earlier/Andrew-hitsz/" class="fy-school-card">
@@ -106,6 +71,49 @@ hide:
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">计算机科学</span>
 </a>
+
+<a href="/contribute/" class="fy-school-card">
+  <span class="fy-school-card-name">湖南师范大学</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major">敬请期待</span>
+</a>
+
+<a href="/contribute/" class="fy-school-card">
+  <span class="fy-school-card-name">湘潭大学</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major">敬请期待</span>
+</a>
+
+<a href="/contribute/" class="fy-school-card">
+  <span class="fy-school-card-name">中南财经政法大学</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major">敬请期待</span>
+</a>
+
+<a href="/cases/2025/yuanrao-hku/" class="fy-school-card">
+  <span class="fy-school-card-name">香港大学</span>
+  <span class="fy-school-card-count">模板案例</span>
+  <span class="fy-school-card-major">工商管理（BBA）</span>
+</a>
+
+<a href="/contribute/" class="fy-school-card">
+  <span class="fy-school-card-name">纽约大学</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major">敬请期待</span>
+</a>
+
+<a href="/contribute/" class="fy-school-card">
+  <span class="fy-school-card-name">深圳大学</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major">敬请期待</span>
+</a>
+
+<a href="/contribute/" class="fy-school-card">
+  <span class="fy-school-card-name">吉首大学</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major">敬请期待</span>
+</a>
+<!-- /AUTO-GEN: HOMEPAGE_UNIVERSITIES -->
 
 </div>
 
@@ -126,8 +134,9 @@ hide:
 
 </div>
 
-<div class="fy-case-grid" markdown>
+<div class="fy-case-grid">
 
+<!-- AUTO-GEN: LATEST_CASES -->
 <div class="fy-case-card">
   <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">溪</div>
@@ -149,9 +158,10 @@ hide:
     <span class="fy-tag">文科</span>
     <span class="fy-tag">高分段</span>
     <span class="fy-tag">跨省</span>
+    <span class="fy-tag">北京</span>
   </div>
+  <a href="cases/2025/xiaoxi-pku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
-
 <div class="fy-case-card">
   <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">辰</div>
@@ -173,9 +183,10 @@ hide:
     <span class="fy-tag">双一流</span>
     <span class="fy-tag">医学</span>
     <span class="fy-tag">本省</span>
+    <span class="fy-tag">长沙</span>
   </div>
+  <a href="cases/2025/achen-csu/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
-
 <div class="fy-case-card">
   <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">遥</div>
@@ -185,7 +196,7 @@ hide:
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 香港大学 · 工商管理</div>
+    <div class="fy-case-card-school">🏫 香港大学 · 工商管理（BBA）</div>
     <div class="fy-case-card-major-score">高考 652 分 · 全省第 1560 名</div>
     <div class="fy-case-card-summary">
       "第一次用全英文上课的时候，我在图书馆哭了。但后来发现，适应的过程本身就是成长。"
@@ -197,9 +208,10 @@ hide:
     <span class="fy-tag">商科</span>
     <span class="fy-tag">高分段</span>
     <span class="fy-tag">跨省</span>
+    <span class="fy-tag">港澳</span>
   </div>
+  <a href="cases/2025/yuanrao-hku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
-
 <div class="fy-case-card">
   <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">A</div>
@@ -219,9 +231,12 @@ hide:
     <span class="fy-tag">985</span>
     <span class="fy-tag">理工</span>
     <span class="fy-tag">高分段</span>
+    <span class="fy-tag">跨省</span>
     <span class="fy-tag">深圳</span>
   </div>
+  <a href="cases/earlier/Andrew-hitsz/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
+<!-- /AUTO-GEN: LATEST_CASES -->
 
 </div>
 
@@ -335,3 +350,7 @@ QQ 群号：[待补充]
 </div>
 
 </div>
+
+
+
+

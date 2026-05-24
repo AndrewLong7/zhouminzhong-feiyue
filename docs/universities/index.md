@@ -28,45 +28,21 @@ description: 按大学浏览州民中校友的升学案例。
   </div>
 </div>
 
-<!-- 大学列表 -->
+<!-- AUTO-GEN: UNIVERSITY_CARDS -->
 ## 985 院校
 
 <div class="fy-card-grid">
 
-<a href="/cases/" class="fy-school-card">
+<a href="/cases/2025/xiaoxi-pku/" class="fy-school-card">
   <span class="fy-school-card-name">北京大学</span>
   <span class="fy-school-card-count">模板案例</span>
   <span class="fy-school-card-major">法学</span>
 </a>
 
-<a href="/cases/" class="fy-school-card">
-  <span class="fy-school-card-name">武汉大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">测绘 · 法学 · 计算机</span>
-</a>
-
-<a href="/cases/" class="fy-school-card">
-  <span class="fy-school-card-name">华中科技大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">机械 · 光电</span>
-</a>
-
-<a href="/cases/" class="fy-school-card">
+<a href="/cases/2025/achen-csu/" class="fy-school-card">
   <span class="fy-school-card-name">中南大学</span>
   <span class="fy-school-card-count">模板案例</span>
   <span class="fy-school-card-major">临床医学（八年制）</span>
-</a>
-
-<a href="/cases/" class="fy-school-card">
-  <span class="fy-school-card-name">湖南大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">土木 · 金融 · 电气</span>
-</a>
-
-<a href="/cases/" class="fy-school-card">
-  <span class="fy-school-card-name">厦门大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">海洋科学 · 会计</span>
 </a>
 
 <a href="/cases/earlier/Andrew-hitsz/" class="fy-school-card">
@@ -81,16 +57,22 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
-<a href="/cases/" class="fy-school-card">
+<a href="/contribute/" class="fy-school-card">
   <span class="fy-school-card-name">湖南师范大学</span>
   <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">英语 · 生物 · 教育学</span>
+  <span class="fy-school-card-major">敬请期待</span>
 </a>
 
-<a href="/cases/" class="fy-school-card">
+<a href="/contribute/" class="fy-school-card">
   <span class="fy-school-card-name">湘潭大学</span>
   <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">数学 · 法学</span>
+  <span class="fy-school-card-major">敬请期待</span>
+</a>
+
+<a href="/contribute/" class="fy-school-card">
+  <span class="fy-school-card-name">中南财经政法大学</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major">敬请期待</span>
 </a>
 
 </div>
@@ -99,32 +81,43 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
-<a href="/cases/" class="fy-school-card">
+<a href="/cases/2025/yuanrao-hku/" class="fy-school-card">
   <span class="fy-school-card-name">香港大学</span>
   <span class="fy-school-card-count">模板案例</span>
   <span class="fy-school-card-major">工商管理（BBA）</span>
 </a>
 
-<a href="/cases/" class="fy-school-card">
-  <span class="fy-school-card-name">香港中文大学</span>
+<a href="/contribute/" class="fy-school-card">
+  <span class="fy-school-card-name">纽约大学</span>
   <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">社会科学</span>
+  <span class="fy-school-card-major">敬请期待</span>
 </a>
 
 </div>
 
 ## 其他院校
 
-<div style="text-align: center; padding: 40px 16px; background: var(--feiyue-card-bg); border: 1px dashed var(--feiyue-card-border); border-radius: 16px; margin-bottom: 48px;" markdown>
+<div class="fy-card-grid">
 
-### 📭 你的学校不在这里？
+<a href="/contribute/" class="fy-school-card">
+  <span class="fy-school-card-name">深圳大学</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major">敬请期待</span>
+</a>
 
-欢迎投稿，让更多学弟学妹看到你的学校！
-
-<a href="../contribute/" class="fy-btn fy-btn-primary" style="margin-top: 16px;">📝 立即投稿</a>
+<a href="/contribute/" class="fy-school-card">
+  <span class="fy-school-card-name">吉首大学</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major">敬请期待</span>
+</a>
 
 </div>
+<!-- /AUTO-GEN: UNIVERSITY_CARDS -->
 
 ---
 
 > 📢 **你去的大学不在这里？** 欢迎投稿，让更多学弟学妹看到你的学校！[立即投稿 →](../contribute.md)
+
+
+
+
