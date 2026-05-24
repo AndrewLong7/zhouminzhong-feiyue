@@ -40,10 +40,16 @@ description: 浏览所有州民中校友升学案例。
   <span class="fy-school-card-major">模板案例</span>
 </div>
 
-<div class="fy-school-card" style="cursor: pointer;" onclick="location.href='earlier/'">
-  <span class="fy-school-card-name">2020 届</span>
-  <span class="fy-school-card-count">1 个案例</span>
-  <span class="fy-school-card-major">往届毕业生</span>
+<div class="fy-school-card" style="cursor: pointer;" onclick="location.href='2024/'">
+  <span class="fy-school-card-name">2024 届</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major">敬请期待</span>
+</div>
+
+<div class="fy-school-card" style="cursor: pointer;" onclick="location.href='2023/'">
+  <span class="fy-school-card-name">2023 届</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major">敬请期待</span>
 </div>
 
 <div class="fy-school-card" style="cursor: pointer;" onclick="location.href='earlier/'">
@@ -169,6 +175,10 @@ description: 浏览所有州民中校友升学案例。
 ---
 
 > 📢 **你是州民中校友？** [分享你的故事 →](../contribute.md)
+
+
+
+
 
 
 

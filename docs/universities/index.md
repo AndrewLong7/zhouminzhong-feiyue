@@ -33,19 +33,19 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
-<a href="/cases/2025/xiaoxi-pku/" class="fy-school-card">
+<a href="../cases/2025/xiaoxi-pku/" class="fy-school-card">
   <span class="fy-school-card-name">北京大学</span>
   <span class="fy-school-card-count">模板案例</span>
   <span class="fy-school-card-major">法学</span>
 </a>
 
-<a href="/cases/2025/achen-csu/" class="fy-school-card">
+<a href="../cases/2025/achen-csu/" class="fy-school-card">
   <span class="fy-school-card-name">中南大学</span>
   <span class="fy-school-card-count">模板案例</span>
   <span class="fy-school-card-major">临床医学（八年制）</span>
 </a>
 
-<a href="/cases/earlier/Andrew-hitsz/" class="fy-school-card">
+<a href="../cases/earlier/Andrew-hitsz/" class="fy-school-card">
   <span class="fy-school-card-name">哈尔滨工业大学（深圳）</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">计算机科学</span>
@@ -57,22 +57,22 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
-<a href="/contribute/" class="fy-school-card">
+<a href="../contribute/" class="fy-school-card">
   <span class="fy-school-card-name">湖南师范大学</span>
   <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">敬请期待</span>
+  <span class="fy-school-card-major"></span>
 </a>
 
-<a href="/contribute/" class="fy-school-card">
+<a href="../contribute/" class="fy-school-card">
   <span class="fy-school-card-name">湘潭大学</span>
   <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">敬请期待</span>
+  <span class="fy-school-card-major"></span>
 </a>
 
-<a href="/contribute/" class="fy-school-card">
+<a href="../contribute/" class="fy-school-card">
   <span class="fy-school-card-name">中南财经政法大学</span>
   <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">敬请期待</span>
+  <span class="fy-school-card-major"></span>
 </a>
 
 </div>
@@ -81,16 +81,16 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
-<a href="/cases/2025/yuanrao-hku/" class="fy-school-card">
+<a href="../cases/2025/yuanrao-hku/" class="fy-school-card">
   <span class="fy-school-card-name">香港大学</span>
   <span class="fy-school-card-count">模板案例</span>
   <span class="fy-school-card-major">工商管理（BBA）</span>
 </a>
 
-<a href="/contribute/" class="fy-school-card">
+<a href="../contribute/" class="fy-school-card">
   <span class="fy-school-card-name">纽约大学</span>
   <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">敬请期待</span>
+  <span class="fy-school-card-major"></span>
 </a>
 
 </div>
@@ -99,16 +99,16 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
-<a href="/contribute/" class="fy-school-card">
+<a href="../contribute/" class="fy-school-card">
   <span class="fy-school-card-name">深圳大学</span>
   <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">敬请期待</span>
+  <span class="fy-school-card-major"></span>
 </a>
 
-<a href="/contribute/" class="fy-school-card">
+<a href="../contribute/" class="fy-school-card">
   <span class="fy-school-card-name">吉首大学</span>
   <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major">敬请期待</span>
+  <span class="fy-school-card-major"></span>
 </a>
 
 </div>
@@ -117,6 +117,10 @@ description: 按大学浏览州民中校友的升学案例。
 ---
 
 > 📢 **你去的大学不在这里？** 欢迎投稿，让更多学弟学妹看到你的学校！[立即投稿 →](../contribute.md)
+
+
+
+
 
 
 

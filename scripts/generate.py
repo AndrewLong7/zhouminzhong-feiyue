@@ -69,8 +69,12 @@ def case_card(c: dict, href: str) -> str:
 def year_card(year: int, count: int, is_template: bool = False) -> str:
     """生成年份卡片 HTML"""
     slug = str(year) if year >= 2023 else "earlier"
-    count_text = f"{count} 个案例"
-    major_text = "模板案例" if is_template else "往届毕业生"
+    if count == 0:
+        count_text = "敬请期待"
+        major_text = "敬请期待"
+    else:
+        count_text = f"{count} 个案例"
+        major_text = "模板案例" if is_template else "往届毕业生"
     return f"""<div class="fy-school-card" style="cursor: pointer;" onclick="location.href='{slug}/'">
   <span class="fy-school-card-name">{year} 届</span>
   <span class="fy-school-card-count">{count_text}</span>
@@ -78,8 +82,8 @@ def year_card(year: int, count: int, is_template: bool = False) -> str:
 </div>"""
 
 
-def university_card(school: str) -> str:
-    """生成大学卡片 HTML"""
+def university_card(school: str, base: str = "") -> str:
+    """生成大学卡片 HTML（base 为相对路径前缀）"""
     school_cases = cases_by_school.get(school, [])
     real_count = sum(1 for c in school_cases if c["type"] == "real")
     template_count = sum(1 for c in school_cases if c["type"] == "template")
@@ -98,18 +102,17 @@ def university_card(school: str) -> str:
     majors = list(dict.fromkeys(c["major"] for c in school_cases))
 
     if not majors:
-        # 从白名单中的 majors 字段获取（暂不支持手填，用通用描述）
-        majors = ["敬请期待"]
+        majors_str = ""
+    else:
+        majors_str = " · ".join(majors[:3])
 
-    majors_str = " · ".join(majors[:3])
-
-    # 链接：有案例则跳到案例库，无案例则跳到投稿页
+    # 链接：有案例则跳到案例库，无案例则跳到投稿页（相对路径）
     if school_cases:
         first_case = school_cases[0]
         slug = first_case["file"].replace("cases/", "").replace(".md", "/")
-        link = f"/cases/{slug}"
+        link = f"{base}cases/{slug}"
     else:
-        link = "/contribute/"
+        link = f"{base}contribute/"
 
     return f"""<a href="{link}" class="fy-school-card">
   <span class="fy-school-card-name">{school}</span>
@@ -122,23 +125,28 @@ def university_card(school: str) -> str:
 # 3. 生成各模块内容
 # ============================================================
 def gen_year_cards() -> str:
-    """生成案例总览页的年份卡片区"""
+    """生成案例总览页的年份卡片区（固定 2025/2024/2023 + 更早的案例）"""
     lines = []
-    # 从 cases.yml 自动发现所有年份
-    all_years = sorted(set(c["year"] for c in cases), reverse=True)
-    for year in all_years:
-        year_cases = cases_by_year[year]
+    fixed_years = [2025, 2024, 2023]
+    for year in fixed_years:
+        year_cases = cases_by_year.get(year, [])
         count = len(year_cases)
-        is_template = all(c["type"] == "template" for c in year_cases)
+        is_template = all(c["type"] == "template" for c in year_cases) if year_cases else False
         lines.append(year_card(year, count, is_template))
 
-    # 更早的案例
-    min_year = min(all_years) if all_years else 9999
-    earlier_count = sum(1 for c in cases if c["year"] < min_year)
+    # 更早的案例 (< 2023)
+    earlier_cases = [c for c in cases if c["year"] < 2023]
+    earlier_count = len(earlier_cases)
+    if earlier_count == 0:
+        earlier_count_text = "敬请期待"
+        earlier_major_text = "敬请期待"
+    else:
+        earlier_count_text = f"{earlier_count} 个案例"
+        earlier_major_text = "往届毕业生"
     lines.append(f"""<div class="fy-school-card" style="cursor: pointer;" onclick="location.href='earlier/'">
   <span class="fy-school-card-name">更早的案例</span>
-  <span class="fy-school-card-count">{earlier_count if earlier_count else '1'} 个案例</span>
-  <span class="fy-school-card-major">往届毕业生</span>
+  <span class="fy-school-card-count">{earlier_count_text}</span>
+  <span class="fy-school-card-major">{earlier_major_text}</span>
 </div>""")
 
     return "\n\n".join(lines)
@@ -181,7 +189,7 @@ def gen_homepage_university_cards() -> str:
     all_schools = []
     for cat in universities:
         all_schools.extend(cat["schools"])
-    cards = [university_card(s) for s in all_schools]
+    cards = [university_card(s, "") for s in all_schools]
     return "\n\n".join(cards)
 
 
@@ -191,7 +199,7 @@ def gen_university_cards() -> str:
     for cat in universities:
         category_name = cat["category"]
         schools = cat["schools"]
-        cards = [university_card(s) for s in schools]
+        cards = [university_card(s, "../") for s in schools]
         cards_html = "\n\n".join(cards)
         sections.append(f"""## {category_name}
 
