@@ -61,7 +61,7 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 
 <div style="max-width: 480px; margin: 0 auto; text-align: center;" markdown>
 
-<div class="fy-case-card" style="text-align: center;" markdown>
+<div class="fy-case-card" style="text-align: center;" markdown="1">
 
 **📧 邮箱投稿 / 联系**
 
@@ -92,9 +92,9 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 <!-- 维护团队 -->
 ## 维护团队
 
-<div class="fy-card-grid">
+<div class="fy-card-grid" markdown="1">
 
-<div class="fy-case-card" style="text-align: center;" markdown>
+<div class="fy-case-card" style="text-align: center;" markdown="1">
 
 **项目负责人**
 
@@ -104,7 +104,7 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 
 </div>
 
-<div class="fy-case-card" style="text-align: center;" markdown>
+<div class="fy-case-card" style="text-align: center;" markdown="1">
 
 **技术支持**
 
