@@ -89,6 +89,37 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 
 <hr class="fy-divider">
 
+<!-- 维护团队 -->
+## 维护团队
+
+<div class="fy-card-grid">
+
+<div class="fy-case-card" style="text-align: center;" markdown>
+
+**项目创始人**
+
+龙熙予
+
+[GitHub](https://github.com/AndrewLong7)
+
+负责项目管理、内容策划与校友联络
+
+</div>
+
+<div class="fy-case-card" style="text-align: center;" markdown>
+
+**技术负责人**
+
+彭若云
+
+[GitHub](https://github.com/boring1x)
+
+负责网站开发、自动化工具维护与技术架构
+
+</div>
+
+</div>
+
 <!-- 致谢 -->
 ## 致谢
 
