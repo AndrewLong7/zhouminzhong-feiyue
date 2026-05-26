@@ -47,7 +47,7 @@ description: 按大学浏览州民中校友的升学案例。
 
 <a href="../cases/earlier/Andrew-hitsz/" class="fy-school-card">
   <span class="fy-school-card-name">哈尔滨工业大学（深圳）</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-count">已收录 2 人</span>
   <span class="fy-school-card-major">计算机科学</span>
 </a>
 
@@ -87,6 +87,12 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">工商管理（BBA）</span>
 </a>
 
+<a href="../cases/earlier/George-Monash/" class="fy-school-card">
+  <span class="fy-school-card-name">莫纳什大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">经济与金融</span>
+</a>
+
 <a href="../contribute/" class="fy-school-card">
   <span class="fy-school-card-name">纽约大学</span>
   <span class="fy-school-card-count">敬请期待</span>
@@ -117,6 +123,8 @@ description: 按大学浏览州民中校友的升学案例。
 ---
 
 > 📢 **你去的大学不在这里？** 欢迎投稿，让更多学弟学妹看到你的学校！[立即投稿 →](../contribute.md)
+
+
 
 
 

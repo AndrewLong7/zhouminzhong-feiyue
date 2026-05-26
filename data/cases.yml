@@ -58,12 +58,42 @@ cases:
     school: 哈尔滨工业大学（深圳）
     major: 计算机科学
     score: 662
-    rank: 1000
+    rank: 1254
     city: 深圳
     type: real
     tags: [985, 理工, 高分段, 跨省, 深圳]
     quote: "不要因为来自小地方，就默认自己看不到更大的世界。"
     file: cases/earlier/Andrew-hitsz.md
+
+  - id: adj-hitsz
+    name: adj
+    avatar: a
+    year: 2020
+    group: 物理类
+    school: 哈尔滨工业大学（深圳）
+    major: 计算机科学
+    score: 661
+    rank: 1260
+    city: 深圳
+    type: real
+    tags: [985, 理工, 高分段, 深圳]
+    quote: "很多时候，小镇孩子和别人的差距不在于有没有出过国，有没有体验过世界上各种各样的事情，而在于有没有规划，有没有能力掌握自己的人生。如果可以做到，这些我们之后都会拥有的。"
+    file: cases/earlier/adj-hitsz.md
+
+  - id: george-monash
+    name: George
+    avatar: G
+    year: 2020
+    group: 物理类
+    school: 莫纳什大学
+    major: 经济与金融
+    score: 492
+    rank: 95771
+    city: 墨尔本
+    type: real
+    tags: [海外, 商科, 墨尔本]
+    quote: "不要瞻前顾后，不要顾此失彼，不要畏手畏脚，脚踏实地往前走，未来一定会握在自己的手里。"
+    file: cases/earlier/George-Monash.md
 
 # ============================================================
 # 大学白名单 - 按分类展示
@@ -86,6 +116,7 @@ universities:
   - category: 港澳及海外院校
     schools:
       - 香港大学
+      - 莫纳什大学
       - 纽约大学
 
   - category: 其他院校

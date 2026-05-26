@@ -266,8 +266,42 @@ def process_page(filepath: Path, generators: dict) -> bool:
     return modified
 
 
+def validate_coverage():
+    """校验 YAML 元数据与实际 case 文件的一致性"""
+    # 收集 YAML 中注册的文件路径
+    yaml_files = {c["file"] for c in cases}
+
+    # 收集 docs/cases/ 下所有实际的 case .md 文件（排除 index.md）
+    actual_files = set()
+    for md_file in DOCS.glob("cases/**/*.md"):
+        if md_file.name == "index.md":
+            continue
+        rel = str(md_file.relative_to(DOCS)).replace("\\", "/")
+        actual_files.add(rel)
+
+    missing_in_yaml = actual_files - yaml_files
+    missing_on_disk = yaml_files - actual_files
+
+    if missing_in_yaml:
+        print("⚠️  以下 case 文件未在 data/cases.yml 中注册：")
+        for f in sorted(missing_in_yaml):
+            print(f"    - {f}")
+        print()
+
+    if missing_on_disk:
+        print("⚠️  data/cases.yml 中以下条目指向不存在的文件：")
+        for f in sorted(missing_on_disk):
+            print(f"    - {f}")
+        print()
+
+    return len(missing_in_yaml) == 0 and len(missing_on_disk) == 0
+
+
 def main():
     print("州民中飞跃手册 - 卡片生成\n")
+
+    # 0. 先做覆盖校验
+    all_ok = validate_coverage()
 
     # 案例总览页
     print("[案例总览]")
@@ -304,7 +338,10 @@ def main():
         {"UNIVERSITY_CARDS": gen_university_cards},
     )
 
-    print("\n✅ 全部完成")
+    if all_ok:
+        print("\n✅ 全部完成（校验通过）")
+    else:
+        print("❌ 请先修复上述问题后再提交")
 
 
 if __name__ == "__main__":

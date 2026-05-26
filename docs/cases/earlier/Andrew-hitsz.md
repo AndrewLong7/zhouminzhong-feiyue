@@ -34,7 +34,7 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">全省位次</div>
-  <div class="fy-case-info-value">全省第 1000 名</div>
+  <div class="fy-case-info-value">全省第 1254 名</div>
 </div>
 
 <div class="fy-case-info-item">
