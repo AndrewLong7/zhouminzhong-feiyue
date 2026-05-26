@@ -32,6 +32,29 @@ description: 2023 届之前州民中校友升学经验分享。
   </div>
   <a href="Andrew-hitsz/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">A</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">adj</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 哈尔滨工业大学（深圳） · 计算机科学</div>
+    <div class="fy-case-card-major-score">高考 661 分 · 全省第 1000 名</div>
+    <div class="fy-case-card-summary">
+      "来自州民中的飞跃故事。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">985</span>
+    <span class="fy-tag">理工</span>
+    <span class="fy-tag">高分段</span>
+    <span class="fy-tag">深圳</span>
+  </div>
+  <a href="adj-hitsz/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
 <!-- /AUTO-GEN: CASE_CARDS -->
 
 </div>
