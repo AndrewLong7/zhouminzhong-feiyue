@@ -27,6 +27,13 @@
 
 无后端，无数据库，纯静态网站。易于维护，适合开源协作。
 
+## 分支策略
+
+| 分支 | 职责 |
+|------|------|
+| `main` | 线上版本，通过 GitHub Pages 部署。只通过 PR 合并进入，不直接修改。 |
+| `dev` | 日常开发与测试。所有修改在此分支进行，确认无误后通过 PR 合并到 `main`。 |
+
 ## 本地运行
 
 ### 环境要求
@@ -37,17 +44,59 @@
 ### 安装与启动
 
 ```bash
-# 1. 安装 MkDocs Material
-pip install mkdocs-material
+# 1. 安装依赖
+pip install mkdocs-material pyyaml
 
 # 2. 进入项目目录
 cd zhouminzhong-feiyue
 
-# 3. 启动本地预览
+# 3. 切换到开发分支
+git checkout dev
+
+# 4. 启动本地预览
 mkdocs serve
 ```
 
-浏览器访问 `http://127.0.0.1:8000` 查看网站。
+浏览器访问 `http://127.0.0.1:8080` 查看网站。
+
+### 开发流程
+
+所有修改在 `dev` 分支进行，测试通过后合并到 `main`。
+
+```bash
+# 1. 确保在 dev 分支
+git checkout dev
+git pull origin dev
+
+# 2. 做修改（编辑 YAML、Markdown 等）
+
+# 3. 如果有增删案例，重新生成卡片
+python scripts/generate.py
+
+# 4. 本地预览确认
+mkdocs serve
+
+# 5. 确认无误后提交到 dev
+git add .
+git commit -m "feat: 描述你的修改"
+git push origin dev
+```
+
+### 发布上线（dev → main）
+
+确认 `dev` 上所有改动测试通过后：
+
+1. 打开 GitHub 仓库 → **Pull Requests** → **New Pull Request**
+2. base 选 `main`，compare 选 `dev`
+3. 填写 PR 标题和说明，点击 **Create Pull Request**
+4. Review 确认后点击 **Merge Pull Request**
+5. 合并后 GitHub Pages 会自动部署最新版本
+
+```bash
+# 合并后同步本地 main
+git checkout main
+git pull origin main
+```
 
 ### 构建静态文件
 
