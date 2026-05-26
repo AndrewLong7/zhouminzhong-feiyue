@@ -119,10 +119,7 @@ nav:
       - 2025 届: cases/2025/index.md
       - 2024 届: cases/2024/index.md
       - 2023 届: cases/2023/index.md
-      - 更早的案例:
-          - 总览: cases/earlier/index.md
-          - adj - 哈工大（深圳）: cases/earlier/adj-hitsz.md
-          - Andrew - 哈工大（深圳）: cases/earlier/Andrew-hitsz.md
+      - 更早的案例: cases/earlier/index.md
   - 大学分类: universities/index.md
   - 投稿指南: contribute.md
   - 关于我们: about.md

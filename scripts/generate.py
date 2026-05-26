@@ -153,10 +153,10 @@ def gen_year_cards() -> str:
 
 
 def gen_latest_cases(for_index: bool = False) -> str:
-    """生成最新案例列表（按届数降序）"""
-    sorted_cases = sorted(cases, key=lambda c: c["year"], reverse=True)
+    """生成最新案例列表（按 YAML 顺序取前 6 条）"""
+    latest = cases[:6]
     cards = []
-    for c in sorted_cases:
+    for c in latest:
         file_path = c["file"]
         if for_index:
             # 案例总览页：相对路径如 2025/xiaoxi-pku/
