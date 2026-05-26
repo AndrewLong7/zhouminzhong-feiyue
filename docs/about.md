@@ -110,7 +110,7 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 
 彭若云 · [GitHub](https://github.com/boring1x)
 
-自动化工具开发与协作维护
+网站开发与协作维护
 
 </div>
 
