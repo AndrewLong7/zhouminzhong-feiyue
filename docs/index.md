@@ -54,22 +54,52 @@ hide:
 <div class="fy-card-grid">
 
 <!-- AUTO-GEN: HOMEPAGE_UNIVERSITIES -->
-<a href="cases/2025/xiaoxi-pku/" class="fy-school-card">
-  <span class="fy-school-card-name">北京大学</span>
-  <span class="fy-school-card-count">模板案例</span>
-  <span class="fy-school-card-major">法学</span>
-</a>
-
 <a href="cases/2025/achen-csu/" class="fy-school-card">
   <span class="fy-school-card-name">中南大学</span>
   <span class="fy-school-card-count">模板案例</span>
   <span class="fy-school-card-major">临床医学（八年制）</span>
 </a>
 
+<a href="cases/2025/xiaoxi-pku/" class="fy-school-card">
+  <span class="fy-school-card-name">北京大学</span>
+  <span class="fy-school-card-count">模板案例</span>
+  <span class="fy-school-card-major">法学</span>
+</a>
+
 <a href="cases/earlier/Andrew-hitsz/" class="fy-school-card">
   <span class="fy-school-card-name">哈尔滨工业大学（深圳）</span>
   <span class="fy-school-card-count">已收录 2 人</span>
   <span class="fy-school-card-major">计算机科学</span>
+</a>
+
+<a href="cases/earlier/George-Monash/" class="fy-school-card">
+  <span class="fy-school-card-name">莫纳什大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">经济与金融</span>
+</a>
+
+<a href="cases/2025/yuanrao-hku/" class="fy-school-card">
+  <span class="fy-school-card-name">香港大学</span>
+  <span class="fy-school-card-count">模板案例</span>
+  <span class="fy-school-card-major">工商管理（BBA）</span>
+</a>
+
+<a href="contribute/" class="fy-school-card">
+  <span class="fy-school-card-name">中南财经政法大学</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major"></span>
+</a>
+
+<a href="contribute/" class="fy-school-card">
+  <span class="fy-school-card-name">吉首大学</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major"></span>
+</a>
+
+<a href="contribute/" class="fy-school-card">
+  <span class="fy-school-card-name">深圳大学</span>
+  <span class="fy-school-card-count">敬请期待</span>
+  <span class="fy-school-card-major"></span>
 </a>
 
 <a href="contribute/" class="fy-school-card">
@@ -85,37 +115,7 @@ hide:
 </a>
 
 <a href="contribute/" class="fy-school-card">
-  <span class="fy-school-card-name">中南财经政法大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major"></span>
-</a>
-
-<a href="cases/2025/yuanrao-hku/" class="fy-school-card">
-  <span class="fy-school-card-name">香港大学</span>
-  <span class="fy-school-card-count">模板案例</span>
-  <span class="fy-school-card-major">工商管理（BBA）</span>
-</a>
-
-<a href="cases/earlier/George-Monash/" class="fy-school-card">
-  <span class="fy-school-card-name">莫纳什大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">经济与金融</span>
-</a>
-
-<a href="contribute/" class="fy-school-card">
   <span class="fy-school-card-name">纽约大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major"></span>
-</a>
-
-<a href="contribute/" class="fy-school-card">
-  <span class="fy-school-card-name">深圳大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major"></span>
-</a>
-
-<a href="contribute/" class="fy-school-card">
-  <span class="fy-school-card-name">吉首大学</span>
   <span class="fy-school-card-count">敬请期待</span>
   <span class="fy-school-card-major"></span>
 </a>
@@ -340,15 +340,15 @@ hide:
 
 </div>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 48px;" markdown>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-bottom: 48px;" markdown="1">
 
-<div class="fy-case-card" markdown>
+<div class="fy-case-card" markdown="1">
 
 ### 💬 交流群
 
 **州民中升学交流群**
 
-QQ 群号：[待补充]
+QQ 群号：793634202
 
 微信群：[待补充]
 
@@ -356,18 +356,18 @@ QQ 群号：[待补充]
 
 </div>
 
-<div class="fy-case-card" markdown>
+<div class="fy-case-card" markdown="1">
 
 ### 🔗 志愿填报工具
 
-- **阳光高考网** — 教育部官方志愿填报平台
-- **各省教育考试院官网** — 查分、查位次、查录取
+- [**阳光高考网**](https://gaokao.chsi.com.cn/) — 教育部官方志愿填报平台
+- [**湖南省教育考试院**](http://jyt.hunan.gov.cn/sjyt/hnsjyksy/) — 查分、查位次、查录取
 - **各大学本科招生网** — 最权威的专业和录取信息
-- **软科 / 校友会排名** — 仅供参考，不宜作为唯一依据
+- [**软科排名**](https://www.shanghairanking.cn/) / [**校友会排名**](https://www.cuaa.net/) — 仅供参考，不宜作为唯一依据
 
 </div>
 
-<div class="fy-case-card" markdown>
+<div class="fy-case-card" markdown="1">
 
 ### 📚 推荐阅读
 
@@ -401,6 +401,7 @@ QQ 群号：[待补充]
 </div>
 
 </div>
+
 
 
 

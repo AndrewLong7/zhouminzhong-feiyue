@@ -4,7 +4,7 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 ---
 
 <!-- Hero -->
-<div class="fy-hero" style="padding: 56px 24px 48px;" markdown>
+<div class="fy-hero" style="padding: 56px 24px 48px;" markdown="1">
 
 # <span class="fy-hero-title" style="font-size: 2.6rem !important;">关于我们</span>
 
@@ -16,7 +16,7 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 </div>
 
 <!-- 我们是谁 -->
-<div class="fy-about-intro" markdown>
+<div class="fy-about-intro" markdown="1">
 
 ## 我们是谁
 
@@ -35,9 +35,9 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 <!-- 我们的信念 -->
 ## 我们的信念
 
-<div style="max-width: 720px; margin: 0 auto;" markdown>
+<div style="max-width: 720px; margin: 0 auto;" markdown="1">
 
-<div class="fy-quote-section" markdown>
+<div class="fy-quote-section" markdown="1">
 
 **我们相信三件事：**
 
@@ -59,7 +59,7 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 <!-- 联系方式 -->
 ## 联系我们
 
-<div style="max-width: 480px; margin: 0 auto; text-align: center;" markdown>
+<div style="max-width: 480px; margin: 0 auto; text-align: center;" markdown="1">
 
 <div class="fy-case-card" style="text-align: center;" markdown="1">
 
@@ -127,7 +127,7 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 
 ---
 
-<div style="text-align: center; font-size: 0.88rem; color: var(--feiyue-text-muted); margin-top: 48px;" markdown>
+<div style="text-align: center; font-size: 0.88rem; color: var(--feiyue-text-muted); margin-top: 48px;" markdown="1">
 
 © 州民中飞跃手册 · 由校友共同维护
 

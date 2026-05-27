@@ -83,7 +83,7 @@ description: 2023 届之前州民中校友升学经验分享。
 
 ---
 
-<div style="text-align: center; padding: 40px 16px;" markdown>
+<div style="text-align: center; padding: 40px 16px;" markdown="1">
 
 更早届别的案例正在持续收集中。
 
@@ -94,6 +94,7 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 
 </div>
+
 
 
 

@@ -184,12 +184,17 @@ def gen_year_case_cards(year_dir: str) -> str:
     return "\n".join(cards)
 
 
+def _sorted_schools(schools: list) -> list:
+    """学校排序：有案例的优先，无案例的靠后"""
+    return sorted(schools, key=lambda s: (len(cases_by_school.get(s, [])) == 0, s))
+
+
 def gen_homepage_university_cards() -> str:
     """生成首页大学卡片（不带分类标题）"""
     all_schools = []
     for cat in universities:
         all_schools.extend(cat["schools"])
-    cards = [university_card(s, "") for s in all_schools]
+    cards = [university_card(s, "") for s in _sorted_schools(all_schools)]
     return "\n\n".join(cards)
 
 
@@ -198,7 +203,7 @@ def gen_university_cards() -> str:
     sections = []
     for cat in universities:
         category_name = cat["category"]
-        schools = cat["schools"]
+        schools = _sorted_schools(cat["schools"])
         cards = [university_card(s, "../") for s in schools]
         cards_html = "\n\n".join(cards)
         sections.append(f"""## {category_name}

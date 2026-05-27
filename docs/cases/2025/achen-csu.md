@@ -13,11 +13,11 @@ tags:
 
 > 📝 **模板案例**：此案例为格式参考，内容为虚构。实际案例来自真实校友投稿。
 
-<div class="fy-case-hero" markdown>
+<div class="fy-case-hero" markdown="1">
 
 ## 基本信息
 
-<div class="fy-case-info-grid" markdown>
+<div class="fy-case-info-grid" markdown="1">
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">化名</div>
@@ -127,7 +127,7 @@ tags:
 
 ## 我踩过的坑
 
-<div class="fy-highlight-box" markdown>
+<div class="fy-highlight-box" markdown="1">
 
 #### ⚠️ 坑一：低估了医学的学习周期
 
@@ -135,7 +135,7 @@ tags:
 
 </div>
 
-<div class="fy-highlight-box" markdown>
+<div class="fy-highlight-box" markdown="1">
 
 #### ⚠️ 坑二：没有了解不同医学院的区别
 
@@ -143,7 +143,7 @@ tags:
 
 </div>
 
-<div class="fy-highlight-box" markdown>
+<div class="fy-highlight-box" markdown="1">
 
 #### ⚠️ 坑三：选本省的学校不等于"没有挑战"
 

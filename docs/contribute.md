@@ -4,7 +4,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 ---
 
 <!-- Hero -->
-<div class="fy-hero" style="padding: 56px 24px 48px;" markdown>
+<div class="fy-hero" style="padding: 56px 24px 48px;" markdown="1">
 
 # <span class="fy-hero-title" style="font-size: 2.6rem !important;">投稿指南</span>
 
@@ -18,7 +18,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 <!-- 为什么投稿 -->
 ## 为什么你的故事很重要？
 
-<div style="max-width: 720px; margin: 0 auto;" markdown>
+<div style="max-width: 720px; margin: 0 auto;" markdown="1">
 
 对于每一个正在州民中读书的学弟学妹来说：
 
@@ -55,42 +55,29 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 <!-- 投稿方式 -->
 ## 三种投稿方式
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 32px 0;" markdown>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 32px 0;" markdown="1">
 
-<div class="fy-case-card" markdown>
+<div class="fy-case-card" markdown="1">
 
-### 🐙 方式一：GitHub PR（推荐）
+### 📋 方式一：问卷星问卷（推荐）
 
-**最推荐的方式。** 通过 Pull Request 提交，你的头像和名字将出现在项目贡献者列表中。
+**最推荐的方式，无需任何技术操作。**
 
-**在 GitHub 网页直接编辑：**
+直接在问卷中填写你的升学经验，提交即可。
 
-1. 访问 [仓库](https://github.com/AndrewLong7/zhouminzhong-feiyue)，进入 `docs/cases/` 下对应年份文件夹
-2. 点击 **Add file → Create new file**
-3. 文件名格式：`你的化名-学校.md`，如 `xiaoxi-pku.md`
-4. 参考已有案例填写内容，或使用下方的[投稿模板](#_2)
-5. 点击 **Commit changes**，填写提交说明
-6. 点击 **Propose changes** 创建 Pull Request
-7. 为 PR 设置标题，如 `post: 小溪-北京大学`
-8. 勾选 **Allow edits from maintainers**，点击 **Create pull request**
+<div style="margin-top: 16px;">
+  <a href="[待补充]" class="fy-btn fy-btn-primary">📝 填写问卷 →</a>
+</div>
 
-完成！维护者审核后会合并，网站自动更新。
-
-**在本地编辑（更灵活）：**
-
-1. Fork 本仓库，clone 到本地
-2. 新建分支：`git checkout -b post/你的化名`
-3. 使用你喜欢的编辑器撰写 `.md` 文件
-4. Commit 并 push 到你的 fork
-5. 在 GitHub 上发起 Pull Request
+> 链接待补充，敬请期待。
 
 </div>
 
-<div class="fy-case-card" markdown>
+<div class="fy-case-card" markdown="1">
 
 ### 📧 方式二：邮箱投稿
 
-不想折腾 GitHub？直接发邮件即可。
+不想填问卷？直接发邮件即可。
 
 发送至 **[u3638259@connect.hku.hk](mailto:u3638259@connect.hku.hk)**
 
@@ -99,37 +86,28 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 将下方[投稿模板](#_2)复制到邮件正文，填写后发送。
 
 适合：
-- 不熟悉 GitHub 的同学
 - 希望完全匿名的投稿
-- 快速投稿
+- 习惯邮件沟通
 
 </div>
 
-<div class="fy-case-card" markdown>
+<div class="fy-case-card" markdown="1">
 
-### 📎 方式三：直接发文件
+### 🐙 方式三：GitHub PR
 
-你也可以直接把写好的文档发给我们：
+熟悉 GitHub？直接提交 Pull Request。
 
-- 在 [GitHub Issues](https://github.com/AndrewLong7/zhouminzhong-feiyue/issues) 中新建 Issue，上传文件
-- 或直接发送文件至邮箱 **u3638259@connect.hku.hk**
+1. 在 `docs/cases/` 对应年份文件夹中新建 `.md` 文件
+2. 参考下方[投稿模板](#_2)填写内容
+3. 提交 Pull Request
 
-支持 Markdown（`.md`）、Word（`.docx`）、纯文本（`.txt`）等格式。
+文件名格式：`你的化名-学校.md`，如 `xiaoxi-pku.md`
 
-> 不过我们还是更推荐前两种方式，尤其是 GitHub PR——它可以让你体验开源协作的乐趣！
+适合：
+- 有 GitHub 使用经验的同学
+- 希望体验开源协作
 
 </div>
-
-</div>
-
-<div class="fy-highlight-box" markdown>
-
-**为什么推荐 GitHub PR？**
-
-- 你的头像和用户名将出现在项目的 [Contributors](https://github.com/AndrewLong7/zhouminzhong-feiyue/graphs/contributors) 列表中
-- 体验开源项目的工作流程，了解 git 的使用——一份有趣的经历
-- 你可以精确控制内容，实时预览网页效果
-- 方便后续更新——你可以随时修改自己的案例并再次提交 PR
 
 </div>
 
@@ -140,7 +118,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 
 > **不用担心格式！** 把以下内容复制下来，用纯文字填写后发送即可。排版和格式由我们来处理。
 
-<div style="background: #F8F7F2; border: 1px solid #E8E6E1; border-radius: 16px; padding: 32px; margin: 24px 0;" markdown>
+<div style="background: #F8F7F2; border: 1px solid #E8E6E1; border-radius: 16px; padding: 32px; margin: 24px 0;" markdown="1">
 
 ```
 化名：（用于展示的名字，支持完全匿名）
@@ -207,7 +185,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 <!-- 投稿须知 -->
 ## 投稿须知
 
-<div class="fy-contribute-steps" markdown>
+<div class="fy-contribute-steps" markdown="1">
 
 1. ### 匿名机制
    你可以使用**化名**或**完全匿名**。我们尊重每一位分享者的隐私。  
@@ -241,7 +219,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 <hr class="fy-divider">
 
 <!-- CTA -->
-<div style="text-align: center; padding: 48px 16px;" markdown>
+<div style="text-align: center; padding: 48px 16px;" markdown="1">
 
 ## 准备好了吗？
 

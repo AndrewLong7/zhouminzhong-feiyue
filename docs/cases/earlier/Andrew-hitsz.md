@@ -11,11 +11,11 @@ tags:
 
 # 我的飞跃故事
 
-<div class="fy-case-hero" markdown>
+<div class="fy-case-hero" markdown="1">
 
 ## 基本信息
 
-<div class="fy-case-info-grid" markdown>
+<div class="fy-case-info-grid" markdown="1">
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">化名</div>
@@ -117,7 +117,7 @@ tags:
 
 ## 我踩过的坑
 
-<div class="fy-highlight-box" markdown>
+<div class="fy-highlight-box" markdown="1">
 
 #### ⚠️ 坑一：低估了信息差
 
@@ -125,7 +125,7 @@ tags:
 
 </div>
 
-<div class="fy-highlight-box" markdown>
+<div class="fy-highlight-box" markdown="1">
 
 #### ⚠️ 坑二：没有提前规划大学生活
 

@@ -9,11 +9,11 @@ tags:
 
 # 我的飞跃故事
 
-<div class="fy-case-hero" markdown>
+<div class="fy-case-hero" markdown="1">
 
 ## 基本信息
 
-<div class="fy-case-info-grid" markdown>
+<div class="fy-case-info-grid" markdown="1">
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">化名</div>
@@ -97,7 +97,7 @@ tags:
 
 ## 我踩过的坑
 
-<div class="fy-highlight-box" markdown>
+<div class="fy-highlight-box" markdown="1">
 
 #### ⚠️ 坑一：专业选择草率
 
@@ -105,7 +105,7 @@ tags:
 
 </div>
 
-<div class="fy-highlight-box" markdown>
+<div class="fy-highlight-box" markdown="1">
 
 #### ⚠️ 坑二：大学适应慢
 
@@ -113,7 +113,7 @@ tags:
 
 </div>
 
-<div class="fy-highlight-box" markdown>
+<div class="fy-highlight-box" markdown="1">
 
 #### ⚠️ 坑三：初期不敢社交
 

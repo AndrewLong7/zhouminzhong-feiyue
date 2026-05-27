@@ -134,14 +134,17 @@ zhouminzhong-feiyue/
 
 ## 投稿方式
 
-### 方式一：邮箱投稿
+### 方式一：问卷星问卷（推荐）
+填写问卷即可投稿，无需任何技术操作。  
+链接：[待补充]
+
+### 方式二：邮箱投稿
 发送邮件至 **u3638259@connect.hku.hk**，主题格式：`[投稿] 你的化名 - 录取院校`
 
-### 方式二：GitHub PR
-1. Fork 本仓库
-2. 在 `docs/cases/` 对应年份文件夹中新建 `.md` 文件
-3. 参考[投稿模板](https://andrewlong7.github.io/zhouminzhong-feiyue/contribute/)填写
-4. 提交 Pull Request
+### 方式三：GitHub PR
+1. 在 `docs/cases/` 对应年份文件夹中新建 `.md` 文件
+2. 参考[投稿模板](https://andrewlong7.github.io/zhouminzhong-feiyue/contribute/)填写
+3. 提交 Pull Request
 
 详见 [投稿指南](https://andrewlong7.github.io/zhouminzhong-feiyue/contribute/)
 

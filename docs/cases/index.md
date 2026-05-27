@@ -4,7 +4,7 @@ description: 浏览所有州民中校友升学案例。
 ---
 
 <!-- Hero -->
-<div class="fy-hero" style="padding: 56px 24px 48px;" markdown>
+<div class="fy-hero" style="padding: 56px 24px 48px;" markdown="1">
 
 # <span class="fy-hero-title" style="font-size: 2.6rem !important;">案例库</span>
 
@@ -31,7 +31,7 @@ description: 浏览所有州民中校友升学案例。
 <!-- 按年份 -->
 ## 按年份浏览
 
-<div class="fy-card-grid" markdown>
+<div class="fy-card-grid" markdown="1">
 
 <!-- AUTO-GEN: YEAR_CARDS -->
 <div class="fy-school-card" style="cursor: pointer;" onclick="location.href='2025/'">
@@ -220,6 +220,7 @@ description: 浏览所有州民中校友升学案例。
 ---
 
 > 📢 **你是州民中校友？** [分享你的故事 →](../contribute.md)
+
 
 
 
