@@ -69,8 +69,6 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
   <a href="https://v.wjx.cn/vm/PNYNel6.aspx" class="fy-btn fy-btn-primary">📝 填写问卷 →</a>
 </div>
 
-> 链接待补充，敬请期待。
-
 </div>
 
 <div class="fy-case-card" markdown="1">
