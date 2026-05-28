@@ -66,7 +66,7 @@ hide:
   <span class="fy-school-card-major">法学</span>
 </a>
 
-<a href="cases/earlier/Andrew-hitsz/" class="fy-school-card">
+<a href="universities/hitsz/" class="fy-school-card">
   <span class="fy-school-card-name">哈尔滨工业大学（深圳）</span>
   <span class="fy-school-card-count">已收录 2 人</span>
   <span class="fy-school-card-major">计算机科学</span>
@@ -401,6 +401,8 @@ QQ 群号：793634202
 </div>
 
 </div>
+
+
 
 
 

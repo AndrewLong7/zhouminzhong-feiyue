@@ -46,7 +46,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 
 - [**Markdown 基本语法**](https://markdown.com.cn/basic-syntax/) — 10 分钟就能看完
 - [**我们已有的案例文件**](https://github.com/AndrewLong7/zhouminzhong-feiyue/tree/main/docs/cases) — 看看别人怎么写，照着改就行
-- [**投稿模板**](#_2) — 直接复制粘贴，改掉占位符即可
+- [**投稿模板**](#template) — 直接复制粘贴，改掉占位符即可
 
 **当然，如果你暂时不想学 Markdown，也完全没有关系**——直接用纯文字写邮件投稿，排版我们帮你处理。
 
@@ -66,10 +66,8 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 直接在问卷中填写你的升学经验，提交即可。
 
 <div style="margin-top: 16px;">
-  <a href="[待补充]" class="fy-btn fy-btn-primary">📝 填写问卷 →</a>
+  <a href="https://v.wjx.cn/vm/PNYNel6.aspx" class="fy-btn fy-btn-primary">📝 填写问卷 →</a>
 </div>
-
-> 链接待补充，敬请期待。
 
 </div>
 
@@ -83,7 +81,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 
 主题格式：`[投稿] 你的化名 - 录取院校`
 
-将下方[投稿模板](#_2)复制到邮件正文，填写后发送。
+将下方[投稿模板](#template)复制到邮件正文，填写后发送。
 
 适合：
 - 希望完全匿名的投稿
@@ -98,7 +96,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 熟悉 GitHub？直接提交 Pull Request。
 
 1. 在 `docs/cases/` 对应年份文件夹中新建 `.md` 文件
-2. 参考下方[投稿模板](#_2)填写内容
+2. 参考下方[投稿模板](#template)填写内容
 3. 提交 Pull Request
 
 文件名格式：`你的化名-学校.md`，如 `xiaoxi-pku.md`
@@ -114,7 +112,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 <hr class="fy-divider">
 
 <!-- 投稿模板 -->
-## 📝 投稿模板
+## 📝 投稿模板 {#template}
 
 > **不用担心格式！** 把以下内容复制下来，用纯文字填写后发送即可。排版和格式由我们来处理。
 
