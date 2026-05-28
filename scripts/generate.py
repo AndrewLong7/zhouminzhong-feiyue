@@ -32,6 +32,31 @@ cases_by_school = defaultdict(list)
 for c in cases:
     cases_by_school[c["school"]].append(c)
 
+# 学校 slug 映射：{学校名: slug}
+school_slug = {}
+
+
+def _school_name(entry) -> str:
+    """归一化：学校条目可以是字符串或 {name, slug} 对象"""
+    if isinstance(entry, dict):
+        name = entry["name"]
+        if "slug" in entry:
+            school_slug[name] = entry["slug"]
+        return name
+    return entry
+
+
+def _iter_schools():
+    """遍历所有学校名（用于排序和卡片生成）"""
+    for cat in universities:
+        for s in cat["schools"]:
+            yield _school_name(s)
+
+
+# 初始化 school_slug 映射
+for _ in _iter_schools():
+    pass
+
 
 # ============================================================
 # 2. HTML 生成函数
@@ -106,11 +131,14 @@ def university_card(school: str, base: str = "") -> str:
     else:
         majors_str = " · ".join(majors[:3])
 
-    # 链接：有案例则跳到案例库，无案例则跳到投稿页（相对路径）
-    if school_cases:
+    # 链接：多案例（≥2）→ 学校专属页面；单案例 → 直接跳到案例
+    slug = school_slug.get(school)
+    if school_cases and total >= 2 and slug:
+        link = f"{base}universities/{slug}/"
+    elif school_cases:
         first_case = school_cases[0]
-        slug = first_case["file"].replace("cases/", "").replace(".md", "/")
-        link = f"{base}cases/{slug}"
+        case_slug = first_case["file"].replace("cases/", "").replace(".md", "/")
+        link = f"{base}cases/{case_slug}"
     else:
         link = f"{base}contribute/"
 
@@ -186,7 +214,7 @@ def gen_year_case_cards(year_dir: str) -> str:
 
 def _sorted_schools(schools: list) -> list:
     """学校排序：有案例的优先，无案例的靠后"""
-    return sorted(schools, key=lambda s: (len(cases_by_school.get(s, [])) == 0, s))
+    return sorted(schools, key=lambda s: (len(cases_by_school.get(_school_name(s), [])) == 0, _school_name(s)))
 
 
 def gen_homepage_university_cards() -> str:
@@ -194,8 +222,17 @@ def gen_homepage_university_cards() -> str:
     all_schools = []
     for cat in universities:
         all_schools.extend(cat["schools"])
-    cards = [university_card(s, "") for s in _sorted_schools(all_schools)]
+    cards = [university_card(_school_name(s), "") for s in _sorted_schools(all_schools)]
     return "\n\n".join(cards)
+
+
+def gen_school_case_cards(school: str) -> str:
+    """生成学校专属页面的案例卡片列表"""
+    school_cases = cases_by_school.get(school, [])
+    if not school_cases:
+        return '<div style="text-align: center; padding: 40px 16px;">\n\n暂无案例。\n\n</div>'
+    cards = [case_card(c, f"../../cases/{c['file'].replace('cases/', '').replace('.md', '/')}") for c in school_cases]
+    return "\n".join(cards)
 
 
 def gen_university_cards() -> str:
@@ -204,7 +241,7 @@ def gen_university_cards() -> str:
     for cat in universities:
         category_name = cat["category"]
         schools = _sorted_schools(cat["schools"])
-        cards = [university_card(s, "../") for s in schools]
+        cards = [university_card(_school_name(s), "../") for s in schools]
         cards_html = "\n\n".join(cards)
         sections.append(f"""## {category_name}
 
@@ -342,6 +379,35 @@ def main():
         DOCS / "universities" / "index.md",
         {"UNIVERSITY_CARDS": gen_university_cards},
     )
+
+    # 学校专属页面（多案例学校）
+    for school_name, slug in school_slug.items():
+        school_cases = cases_by_school.get(school_name, [])
+        if len(school_cases) >= 2:
+            print(f"[学校页: {slug}]")
+            school_page = DOCS / "universities" / f"{slug}.md"
+            if not school_page.exists():
+                school_page.write_text(
+                    f"""---
+title: {school_name}
+not_in_nav: true
+---
+
+# {school_name}
+
+<div class="fy-case-grid">
+
+<!-- AUTO-GEN: SCHOOL_CASE_CARDS -->
+<!-- /AUTO-GEN: SCHOOL_CASE_CARDS -->
+
+</div>
+""",
+                    encoding="utf-8",
+                )
+            process_page(
+                school_page,
+                {"SCHOOL_CASE_CARDS": lambda s=school_name: gen_school_case_cards(s)},
+            )
 
     if all_ok:
         print("\n✅ 全部完成（校验通过）")
