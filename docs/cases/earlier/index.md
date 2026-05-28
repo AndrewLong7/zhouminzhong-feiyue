@@ -77,6 +77,29 @@ description: 2023 届之前州民中校友升学经验分享。
   </div>
   <a href="George-Monash/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">A</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">Andrew</span>
+      <span class="fy-case-card-year">20 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 哈尔滨工业大学 · 计算机科学</div>
+    <div class="fy-case-card-major-score">高考 545 分 · 全省第 15797 名</div>
+    <div class="fy-case-card-summary">
+      "加油加油加油"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">985</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">东北</span>
+  </div>
+  <a href="Andrew/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
 <!-- /AUTO-GEN: CASE_CARDS -->
 
 </div>
