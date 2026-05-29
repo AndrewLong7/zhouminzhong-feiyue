@@ -33,6 +33,12 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
+<a href="../cases/2023/k1v-thu/" class="fy-school-card">
+  <span class="fy-school-card-name">清华大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">机械工程 -> 自动化（转专业）</span>
+</a>
+
 <a href="../cases/2025/achen-csu/" class="fy-school-card">
   <span class="fy-school-card-name">中南大学</span>
   <span class="fy-school-card-count">模板案例</span>
@@ -123,7 +129,6 @@ description: 按大学浏览州民中校友的升学案例。
 ---
 
 > 📢 **你去的大学不在这里？** 欢迎投稿，让更多学弟学妹看到你的学校！[立即投稿 →](../contribute.md)
-
 
 
 
