@@ -50,6 +50,51 @@ cases:
     quote: "第一次用全英文上课的时候，我在图书馆哭了。但后来发现，适应的过程本身就是成长。"
     file: cases/2025/yuanrao-hku.md
 
+  - id: ivy-uibe
+    name: Ivy
+    avatar: I
+    year: 2025
+    group: 物理类
+    school: 对外经济贸易大学
+    major: 少数民族预科班
+    score: 607
+    rank: 12000
+    city: 北京
+    type: real
+    tags: [211, 双一流, 商科, 跨省, 北京, 少数民族预科班]
+    quote: "有凹陷，就会有高山相连。"
+    file: cases/2025/Ivy-uibe.md
+
+  - id: ruby-dut
+    name: Ruby
+    avatar: R
+    year: 2025
+    group: 物理类
+    school: 大连理工大学
+    major: 储能科学与工程
+    score: 640
+    rank: 3700
+    city: 大连
+    type: real
+    tags: [985, 理工, 跨省, 东北, 大连]
+    quote: "你是你自己人生的负责人，选择摆在面前的时候大胆去选。"
+    file: cases/2025/Ruby-dut.md
+
+  - id: zhangzhihao-hkust
+    name: 张智豪
+    avatar: 张
+    year: 2022
+    group: 物理类
+    school: 香港科技大学
+    major: TIE
+    score: 614
+    rank: 1000
+    city: 香港
+    type: real
+    tags: [港澳, 香港, 理工, 珠三角]
+    quote: "对自己要求严格，不人云亦云，选择大于努力，努力也很重要。"
+    file: cases/2025/张智豪-hkust.md
+
   - id: andrew-hitsz
     name: Andrew
     avatar: A
@@ -95,6 +140,81 @@ cases:
     quote: "不要瞻前顾后，不要顾此失彼，不要畏手畏脚，脚踏实地往前走，未来一定会握在自己的手里。"
     file: cases/earlier/George-Monash.md
 
+  - id: john-cmut
+    name: John
+    avatar: J
+    year: 2020
+    group: 物理类
+    school: 中国矿业大学
+    major: 能源动力
+    score: 604
+    rank: 13000
+    city: 徐州
+    type: real
+    tags: [211, 双一流, 理工, 长三角]
+    quote: "好好享受你在大学的一分一秒吧，学弟学妹们。"
+    file: cases/earlier/John-cmut.md
+
+  - id: taylor-hdu
+    name: Taylor
+    avatar: T
+    year: 2020
+    group: 物理类
+    school: 杭州电子科技大学
+    major: 电子信息
+    score: 614
+    rank: 14000
+    city: 杭州
+    type: real
+    tags: [理工, 跨省, 长三角, 杭州]
+    quote: "请珍惜所剩无几的高中时光，以后会一直回忆的。"
+    file: cases/earlier/Taylor-hdu.md
+
+  - id: aplp-nju
+    name: aplp
+    avatar: a
+    year: 2020
+    group: 物理类
+    school: 南京大学
+    major: 光电信息科学与工程
+    score: 671
+    rank: 500
+    city: 南京
+    type: real
+    tags: [985, 理工, 高分段, 跨省, 长三角, 南京]
+    quote: "人生的容错率超乎你想象。"
+    file: cases/earlier/aplp-nju.md
+
+  - id: summer-hust
+    name: summer
+    avatar: s
+    year: 2020
+    group: 物理类
+    school: 华中科技大学
+    major: 电子信息工程
+    score: 657
+    rank: 1700
+    city: 武汉
+    type: real
+    tags: [985, 理工, 高分段, 武汉]
+    quote: "请永远相信自己，只要你真的想做成一件事，那就真的可以。"
+    file: cases/earlier/summer-hust.md
+
+  - id: enen-swjtu
+    name: 嗯嗯不知道
+    avatar: 嗯
+    year: 2020
+    group: 物理类
+    school: 西南交通大学
+    major: 数学
+    score: 599
+    rank: 9300
+    city: 成都
+    type: real
+    tags: [211, 双一流, 理科, 跨省, 成都]
+    quote: "希望后来的你们也都找到了自己喜欢的专业，在各自的领域闪闪发光。"
+    file: cases/earlier/嗯嗯不知道-swjtu.md
+
 # ============================================================
 # 大学白名单 - 按分类展示
 # 有案例的大学: majors 由脚本自动汇总
@@ -108,20 +228,28 @@ universities:
       - 中南大学
       - name: 哈尔滨工业大学（深圳）
         slug: hitsz
+      - 南京大学
+      - 华中科技大学
+      - 大连理工大学
 
   - category: 211 / 双一流 院校
     schools:
       - 湖南师范大学
       - 湘潭大学
       - 中南财经政法大学
+      - 中国矿业大学
+      - 西南交通大学
+      - 对外经济贸易大学
 
   - category: 港澳及海外院校
     schools:
       - 香港大学
       - 莫纳什大学
       - 纽约大学
+      - 香港科技大学
 
   - category: 其他院校
     schools:
       - 深圳大学
       - 吉首大学
+      - 杭州电子科技大学
