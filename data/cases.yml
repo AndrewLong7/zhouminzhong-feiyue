@@ -20,36 +20,6 @@ cases:
     quote: "从湘西到北京，最大的感受不是大学的压力，而是世界突然变大了。"
     file: cases/2025/xiaoxi-pku.md
 
-  - id: achen-csu
-    name: 阿辰
-    avatar: 辰
-    year: 2025
-    group: 物理类
-    school: 中南大学
-    major: 临床医学（八年制）
-    score: 642
-    rank: 2851
-    city: 长沙
-    type: template
-    tags: [985, 双一流, 医学, 本省, 长沙]
-    quote: "选医学之前，我只知道'当医生'三个字。真正进入医学院才知道这条路有多长。"
-    file: cases/2025/achen-csu.md
-
-  - id: yuanrao-hku
-    name: 远遥
-    avatar: 遥
-    year: 2025
-    group: 物理类
-    school: 香港大学
-    major: 工商管理（BBA）
-    score: 652
-    rank: 1560
-    city: 香港
-    type: template
-    tags: [香港, 商科, 高分段, 跨省, 港澳]
-    quote: "第一次用全英文上课的时候，我在图书馆哭了。但后来发现，适应的过程本身就是成长。"
-    file: cases/2025/yuanrao-hku.md
-
   - id: ivy-uibe
     name: Ivy
     avatar: I
