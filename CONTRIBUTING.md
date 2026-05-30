@@ -20,9 +20,9 @@
 
 ### 案例投稿
 
-1. 在 `docs/cases/` 对应年份文件夹中新建 `.md` 文件
-2. 在 `data/cases.yml` 中添加元数据条目
-3. 运行 `python scripts/generate.py`
+1. 参考[投稿模板](https://andrewlong7.github.io/zhouminzhong-feiyue/contribute/)填写内容，保存为 `.md` 文件
+2. 文件命名为 `姓名-学校.md`（如 `xiaoxi-pku.md`）
+3. 放置到 `docs/cases/` 对应的年份文件夹下
 4. 提交 Pull Request 到 `dev` 分支
 
 ### 代码 / 网站修改
