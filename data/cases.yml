@@ -5,6 +5,21 @@
 # ============================================================
 
 cases:
+  - id: k1v-thu
+    name: k1v
+    avatar: K
+    year: 2023
+    group: 物理类
+    school: 清华大学
+    major: 机械工程 -> 自动化（转专业）
+    score: 687
+    rank: 61
+    city: 北京
+    type: real
+    tags: [985, 双一流, 理工, 高分段, 跨省, 北京]
+    quote: "不要怕走弯路，但在做决定之前，请先把能看的路都认真看一遍。"
+    file: cases/2023/k1v-thu.md
+
   - id: xiaoxi-pku
     name: 小溪
     avatar: 溪
@@ -194,6 +209,7 @@ cases:
 universities:
   - category: 985 院校
     schools:
+      - 清华大学
       - 北京大学
       - 中南大学
       - name: 哈尔滨工业大学（深圳）
