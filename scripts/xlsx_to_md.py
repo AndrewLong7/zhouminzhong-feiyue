@@ -354,14 +354,13 @@ def convert(xlsx_path: Path, output_dir: Path) -> list[Path]:
         if not data["alias"]:
             print(f"  [skip] 第 {idx} 行：缺少化名")
             continue
-        md = render_markdown(data)
-        filename = f"{slugify(data['alias'])}.md"
+        # 文件名：化名-学校.md
+        alias_slug = slugify(data['alias'])
+        school_slug = slugify(data.get('school', '')) if data.get('school') else ''
+        base_name = f"{alias_slug}-{school_slug}" if school_slug else alias_slug
+        filename = f"{base_name}.md"
         out = output_dir / filename
-        # 同名时加序号
-        n = 2
-        while out.exists():
-            out = output_dir / f"{slugify(data['alias'])}-{n}.md"
-            n += 1
+        md = render_markdown(data)
         out.write_text(md, encoding="utf-8")
         written.append(out)
         try:
