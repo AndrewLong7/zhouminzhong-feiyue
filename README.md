@@ -70,13 +70,10 @@ git pull origin dev
 
 # 2. 做修改（编辑 YAML、Markdown 等）
 
-# 3. 如果有增删案例，重新生成卡片
-python scripts/generate.py
-
-# 4. 本地预览确认
+# 3. 本地预览确认
 mkdocs serve
 
-# 5. 确认无误后提交到 dev
+# 4. 确认无误后提交到 dev
 git add .
 git commit -m "feat: 描述你的修改"
 git push origin dev
@@ -142,9 +139,10 @@ zhouminzhong-feiyue/
 发送邮件至 **u3638259@connect.hku.hk**，主题格式：`[投稿] 你的化名 - 录取院校`
 
 ### 方式三：GitHub PR
-1. 在 `docs/cases/` 对应年份文件夹中新建 `.md` 文件
-2. 参考[投稿模板](https://andrewlong7.github.io/zhouminzhong-feiyue/contribute/)填写
-3. 提交 Pull Request
+1. 参考[投稿模板](https://andrewlong7.github.io/zhouminzhong-feiyue/contribute/)填写内容，保存为 `.md` 文件
+2. 文件命名为 `姓名-学校.md`（如 `xiaoxi-pku.md`）
+3. 放置到 `docs/cases/` 对应的年份文件夹下
+4. 提交 Pull Request 到 `dev` 分支
 
 详见 [投稿指南](https://andrewlong7.github.io/zhouminzhong-feiyue/contribute/)
 
