@@ -20,6 +20,21 @@ cases:
     quote: "不要怕走弯路，但在做决定之前，请先把能看的路都认真看一遍。"
     file: cases/2023/k1v-清华大学.md
 
+  - id: gl-uestc
+    name: GL
+    avatar: G
+    year: 2023
+    group: 物理类
+    school: 电子科技大学
+    major: 电子信息工程
+    score: 647
+    rank: 2600
+    city: 成都
+    type: real
+    tags: [985, 双一流, 工科, 跨省, 西南, 成都]
+    quote: "世界那么大，我却只是路过，周边那么小，但那确是我的人生。"
+    file: cases/2023/GL-电子科技大学.md
+
   - id: xiaoxi-pku
     name: 小溪
     avatar: 溪

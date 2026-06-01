@@ -36,7 +36,7 @@ description: 浏览所有州民中校友升学案例。
 <!-- AUTO-GEN: YEAR_CARDS -->
 <div class="fy-school-card" style="cursor: pointer;" onclick="location.href='2025/'">
   <span class="fy-school-card-name">2025 届</span>
-  <span class="fy-school-card-count">5 个案例</span>
+  <span class="fy-school-card-count">4 个案例</span>
   <span class="fy-school-card-major">往届毕业生</span>
 </div>
 
@@ -48,7 +48,7 @@ description: 浏览所有州民中校友升学案例。
 
 <div class="fy-school-card" style="cursor: pointer;" onclick="location.href='2023/'">
   <span class="fy-school-card-name">2023 届</span>
-  <span class="fy-school-card-count">1 个案例</span>
+  <span class="fy-school-card-count">2 个案例</span>
   <span class="fy-school-card-major">往届毕业生</span>
 </div>
 
@@ -93,6 +93,31 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">北京</span>
   </div>
   <a href="2023/k1v-清华大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">G</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">GL</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 电子科技大学 · 电子信息工程</div>
+    <div class="fy-case-card-major-score">高考 647 分 · 全省第 2600 名</div>
+    <div class="fy-case-card-summary">
+      "世界那么大，我却只是路过，周边那么小，但那确是我的人生。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">985</span>
+    <span class="fy-tag">双一流</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">成都</span>
+  </div>
+  <a href="2023/GL-电子科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">

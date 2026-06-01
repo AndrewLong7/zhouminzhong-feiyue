@@ -102,6 +102,12 @@ hide:
   <span class="fy-school-card-major">经济与金融</span>
 </a>
 
+<a href="cases/2023/GL-电子科技大学/" class="fy-school-card">
+  <span class="fy-school-card-name">电子科技大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">电子信息工程</span>
+</a>
+
 <a href="cases/earlier/嗯嗯不知道-西南交通大学/" class="fy-school-card">
   <span class="fy-school-card-name">西南交通大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>

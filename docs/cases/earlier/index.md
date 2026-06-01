@@ -10,29 +10,6 @@ description: 2023 届之前州民中校友升学经验分享。
 <!-- AUTO-GEN: CASE_CARDS -->
 <div class="fy-case-card">
   <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">张</div>
-    <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">张智豪</span>
-      <span class="fy-case-card-year">2022 届 · 物理类</span>
-    </div>
-  </div>
-  <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 香港科技大学 · TIE</div>
-    <div class="fy-case-card-major-score">高考 614 分 · 全省第 1000 名</div>
-    <div class="fy-case-card-summary">
-      "对自己要求严格，不人云亦云，选择大于努力，努力也很重要。"
-    </div>
-  </div>
-  <div class="fy-case-card-tags">
-    <span class="fy-tag">港澳</span>
-    <span class="fy-tag">香港</span>
-    <span class="fy-tag">理工</span>
-    <span class="fy-tag">珠三角</span>
-  </div>
-  <a href="../2025/张智豪-香港科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
-  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">A</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">Andrew</span>
@@ -67,7 +44,7 @@ description: 2023 届之前州民中校友升学经验分享。
     <div class="fy-case-card-school">🏫 哈尔滨工业大学（深圳） · 计算机科学</div>
     <div class="fy-case-card-major-score">高考 661 分 · 全省第 1260 名</div>
     <div class="fy-case-card-summary">
-      "很多时候，小镇孩子和别人的差距不在于有没有出过国，有没有体验过世界上各种各样的事情，而在于有没有规划，有没有能力掌握自己的人生。如果可以做到，这些我们之后都会拥有的。"
+      "平时可以随便点, 但是尽量去规划好重要的东西."
     </div>
   </div>
   <div class="fy-case-card-tags">
@@ -169,6 +146,78 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">成都</span>
   </div>
   <a href="嗯嗯不知道-西南交通大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">S</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">Sophie</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 复旦大学 · 广播电视学</div>
+    <div class="fy-case-card-major-score">高考 638 分 · 全省第 54 名</div>
+    <div class="fy-case-card-summary">
+      "世界有浮力 放松 就能被托举"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">985</span>
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">高分段</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">上海</span>
+  </div>
+  <a href="Sophie-复旦大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">浩</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">浩哥</span>
+      <span class="fy-case-card-year">1998 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 清华大学（硕士） · 电气工程及自动化</div>
+    <div class="fy-case-card-major-score">高考 639 分 · 全省第 100 名</div>
+    <div class="fy-case-card-summary">
+      "选择大于努力！开放心态，多试错，多接触，找到自己真正喜欢的方向，形成适合自己的方法论！"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">985</span>
+    <span class="fy-tag">理工</span>
+    <span class="fy-tag">高分段</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">北京</span>
+  </div>
+  <a href="浩哥-清华大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">宋</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">宋泽熙</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 中央民族大学 · 少数民族预科班/中国史</div>
+    <div class="fy-case-card-major-score">高考 603 分 · 全省第 1500 名左右</div>
+    <div class="fy-case-card-summary">
+      "加油，再坚持一下。走出这座屋子，外面就是属于你的广阔天空。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">985</span>
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">北京</span>
+    <span class="fy-tag">少数民族预科班</span>
+  </div>
+  <a href="宋泽熙-中央民族大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: CASE_CARDS -->
 
