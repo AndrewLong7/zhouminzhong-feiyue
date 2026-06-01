@@ -18,7 +18,7 @@ cases:
     type: real
     tags: [985, 双一流, 理工, 高分段, 跨省, 北京]
     quote: "不要怕走弯路，但在做决定之前，请先把能看的路都认真看一遍。"
-    file: cases/2023/k1v-thu.md
+    file: cases/2023/k1v-清华大学.md
 
   - id: xiaoxi-pku
     name: 小溪
@@ -48,7 +48,7 @@ cases:
     type: real
     tags: [211, 双一流, 商科, 跨省, 北京, 少数民族预科班]
     quote: "有凹陷，就会有高山相连。"
-    file: cases/2025/Ivy-uibe.md
+    file: cases/2025/Ivy-对外经济贸易大学.md
 
   - id: ruby-dut
     name: Ruby
@@ -63,7 +63,7 @@ cases:
     type: real
     tags: [985, 理工, 跨省, 东北, 大连]
     quote: "你是你自己人生的负责人，选择摆在面前的时候大胆去选。"
-    file: cases/2025/Ruby-dut.md
+    file: cases/2025/Ruby-大连理工大学.md
 
   - id: zhangzhihao-hkust
     name: 张智豪
@@ -78,7 +78,7 @@ cases:
     type: real
     tags: [港澳, 香港, 理工, 珠三角]
     quote: "对自己要求严格，不人云亦云，选择大于努力，努力也很重要。"
-    file: cases/2025/张智豪-hkust.md
+    file: cases/2025/张智豪-香港科技大学.md
 
   - id: andrew-hitsz
     name: Andrew
@@ -93,7 +93,7 @@ cases:
     type: real
     tags: [985, 理工, 高分段, 跨省, 深圳]
     quote: "不要因为来自小地方，就默认自己看不到更大的世界。"
-    file: cases/earlier/Andrew-hitsz.md
+    file: cases/earlier/Andrew-哈尔滨工业大学（深圳）.md
 
   - id: adj-hitsz
     name: adj
@@ -107,8 +107,8 @@ cases:
     city: 深圳
     type: real
     tags: [985, 理工, 高分段, 深圳]
-    quote: "很多时候，小镇孩子和别人的差距不在于有没有出过国，有没有体验过世界上各种各样的事情，而在于有没有规划，有没有能力掌握自己的人生。如果可以做到，这些我们之后都会拥有的。"
-    file: cases/earlier/adj-hitsz.md
+    quote: "希望你永远能保持大山的淳朴和善良."
+    file: cases/earlier/adj-哈尔滨工业大学（深圳）.md
 
   - id: george-monash
     name: George
@@ -123,7 +123,7 @@ cases:
     type: real
     tags: [海外, 商科, 墨尔本]
     quote: "不要瞻前顾后，不要顾此失彼，不要畏手畏脚，脚踏实地往前走，未来一定会握在自己的手里。"
-    file: cases/earlier/George-Monash.md
+    file: cases/earlier/George-莫纳什大学（Monash University）.md
 
   - id: john-cmut
     name: John
@@ -138,7 +138,7 @@ cases:
     type: real
     tags: [211, 双一流, 理工, 长三角]
     quote: "好好享受你在大学的一分一秒吧，学弟学妹们。"
-    file: cases/earlier/John-cmut.md
+    file: cases/earlier/John-中国矿业大学.md
 
   - id: taylor-hdu
     name: Taylor
@@ -153,7 +153,7 @@ cases:
     type: real
     tags: [理工, 跨省, 长三角, 杭州]
     quote: "请珍惜所剩无几的高中时光，以后会一直回忆的。"
-    file: cases/earlier/Taylor-hdu.md
+    file: cases/earlier/Taylor-杭州电子科技大学.md
 
   - id: aplp-nju
     name: aplp
@@ -168,7 +168,7 @@ cases:
     type: real
     tags: [985, 理工, 高分段, 跨省, 长三角, 南京]
     quote: "人生的容错率超乎你想象。"
-    file: cases/earlier/aplp-nju.md
+    file: cases/earlier/aplp-南京大学.md
 
   - id: summer-hust
     name: summer
@@ -183,7 +183,7 @@ cases:
     type: real
     tags: [985, 理工, 高分段, 武汉]
     quote: "请永远相信自己，只要你真的想做成一件事，那就真的可以。"
-    file: cases/earlier/summer-hust.md
+    file: cases/earlier/summer-华中科技大学.md
 
   - id: enen-swjtu
     name: 嗯嗯不知道
@@ -198,7 +198,7 @@ cases:
     type: real
     tags: [211, 双一流, 理科, 跨省, 成都]
     quote: "希望后来的你们也都找到了自己喜欢的专业，在各自的领域闪闪发光。"
-    file: cases/earlier/嗯嗯不知道-swjtu.md
+    file: cases/earlier/嗯嗯不知道-西南交通大学.md
 
 # ============================================================
 # 大学白名单 - 按分类展示

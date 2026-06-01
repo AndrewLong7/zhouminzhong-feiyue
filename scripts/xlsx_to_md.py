@@ -40,6 +40,7 @@ COL = {
     "exam_track": 13,      # 高考科目（物理类/历史类）
     "exam_score": 14,      # 高考分数
     "exam_rank": 15,       # 高考排位
+    "contact": 16,         # 联系方式（选填）
     "reason": 17,          # 我为什么选择这个学校/专业
     "destination": 18,     # 学校应届生去向
     "study": 19,           # 学业压力
@@ -115,6 +116,31 @@ def slugify(name: str) -> str:
     return s or "case"
 
 
+def safe_name(name: str) -> str:
+    """文件名清洗：保留原始字符（包括中文括号等），仅替换文件系统不允许的字符。"""
+    if not name:
+        return ""
+    s = name.strip()
+    # macOS/Linux 禁用 /；Windows 额外禁用 \ : * ? " < > |
+    trans = {
+        '/': '／',   # 全角斜杠
+        '\\': '＼',  # 全角反斜杠
+        ':': '：',
+        '*': '＊',
+        '?': '？',
+        '"': '”',
+        '<': '＜',
+        '>': '＞',
+        '|': '｜',
+        '\0': '',
+    }
+    for k, v in trans.items():
+        s = s.replace(k, v)
+    # 合并连续空白
+    s = re.sub(r"\s+", " ", s).strip()
+    return s
+
+
 def yaml_escape(s: str) -> str:
     """frontmatter 中字符串转义（含冒号、引号时加引号）。"""
     if any(c in s for c in [":", "#", "\"", "'"]):
@@ -159,6 +185,8 @@ def build_basic_info(d: dict[str, str]) -> str:
         items.append(("录取专业", d["major"]))
     if d.get("region"):
         items.append(("所在城市", d["region"]))
+    if d.get("contact"):
+        items.append(("联系方式", d["contact"]))
 
     blocks = []
     for label, value in items:
@@ -326,6 +354,7 @@ def parse_row(row: tuple) -> dict[str, Any]:
         "exam_track": cell(row, COL["exam_track"]),
         "exam_score": cell(row, COL["exam_score"]),
         "exam_rank": cell(row, COL["exam_rank"]),
+        "contact": cell(row, COL["contact"]),
         "reason": cell(row, COL["reason"]),
         "destination": cell(row, COL["destination"]),
         "study": cell(row, COL["study"]),
@@ -354,10 +383,10 @@ def convert(xlsx_path: Path, output_dir: Path) -> list[Path]:
         if not data["alias"]:
             print(f"  [skip] 第 {idx} 行：缺少化名")
             continue
-        # 文件名：化名-学校.md
+        # 文件名：化名-学校.md（学校保留单元格原始文本，仅做文件系统安全清洗）
         alias_slug = slugify(data['alias'])
-        school_slug = slugify(data.get('school', '')) if data.get('school') else ''
-        base_name = f"{alias_slug}-{school_slug}" if school_slug else alias_slug
+        school_name = safe_name(data.get('school', ''))
+        base_name = f"{alias_slug}-{school_name}" if school_name else alias_slug
         filename = f"{base_name}.md"
         out = output_dir / filename
         md = render_markdown(data)

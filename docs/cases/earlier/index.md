@@ -29,7 +29,7 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">理工</span>
     <span class="fy-tag">珠三角</span>
   </div>
-  <a href="张智豪-hkust/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="张智豪-香港科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -53,7 +53,7 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">深圳</span>
   </div>
-  <a href="Andrew-hitsz/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="Andrew-哈尔滨工业大学（深圳）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -76,7 +76,7 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">高分段</span>
     <span class="fy-tag">深圳</span>
   </div>
-  <a href="adj-hitsz/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="adj-哈尔滨工业大学（深圳）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -98,7 +98,7 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">商科</span>
     <span class="fy-tag">墨尔本</span>
   </div>
-  <a href="George-Monash/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="George-莫纳什大学（Monash University）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -121,7 +121,7 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">理工</span>
     <span class="fy-tag">长三角</span>
   </div>
-  <a href="John-cmut/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="John-中国矿业大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -144,7 +144,7 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">长三角</span>
     <span class="fy-tag">杭州</span>
   </div>
-  <a href="Taylor-hdu/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="Taylor-杭州电子科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -169,7 +169,7 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">长三角</span>
     <span class="fy-tag">南京</span>
   </div>
-  <a href="aplp-nju/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="aplp-南京大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -192,7 +192,7 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">高分段</span>
     <span class="fy-tag">武汉</span>
   </div>
-  <a href="summer-hust/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="summer-华中科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -216,7 +216,7 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">成都</span>
   </div>
-  <a href="嗯嗯不知道-swjtu/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="嗯嗯不知道-西南交通大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: CASE_CARDS -->
 

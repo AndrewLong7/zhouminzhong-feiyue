@@ -54,13 +54,13 @@ hide:
 <div class="fy-card-grid">
 
 <!-- AUTO-GEN: HOMEPAGE_UNIVERSITIES -->
-<a href="cases/2023/k1v-thu/" class="fy-school-card">
+<a href="cases/2023/k1v-清华大学/" class="fy-school-card">
   <span class="fy-school-card-name">清华大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">机械工程 -> 自动化（转专业）</span>
 </a>
 
-<a href="cases/earlier/John-cmut/" class="fy-school-card">
+<a href="cases/earlier/John-中国矿业大学/" class="fy-school-card">
   <span class="fy-school-card-name">中国矿业大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">能源动力</span>
@@ -72,13 +72,13 @@ hide:
   <span class="fy-school-card-major">法学</span>
 </a>
 
-<a href="cases/earlier/summer-hust/" class="fy-school-card">
+<a href="cases/earlier/summer-华中科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">华中科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">电子信息工程</span>
 </a>
 
-<a href="cases/earlier/aplp-nju/" class="fy-school-card">
+<a href="cases/earlier/aplp-南京大学/" class="fy-school-card">
   <span class="fy-school-card-name">南京大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">光电信息科学与工程</span>
@@ -90,37 +90,37 @@ hide:
   <span class="fy-school-card-major">计算机科学</span>
 </a>
 
-<a href="cases/2025/Ruby-dut/" class="fy-school-card">
+<a href="cases/2025/Ruby-大连理工大学/" class="fy-school-card">
   <span class="fy-school-card-name">大连理工大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">储能科学与工程</span>
 </a>
 
-<a href="cases/2025/Ivy-uibe/" class="fy-school-card">
+<a href="cases/2025/Ivy-对外经济贸易大学/" class="fy-school-card">
   <span class="fy-school-card-name">对外经济贸易大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">少数民族预科班</span>
 </a>
 
-<a href="cases/earlier/Taylor-hdu/" class="fy-school-card">
+<a href="cases/earlier/Taylor-杭州电子科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">杭州电子科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">电子信息</span>
 </a>
 
-<a href="cases/earlier/George-Monash/" class="fy-school-card">
+<a href="cases/earlier/George-莫纳什大学（Monash University）/" class="fy-school-card">
   <span class="fy-school-card-name">莫纳什大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">经济与金融</span>
 </a>
 
-<a href="cases/earlier/嗯嗯不知道-swjtu/" class="fy-school-card">
+<a href="cases/earlier/嗯嗯不知道-西南交通大学/" class="fy-school-card">
   <span class="fy-school-card-name">西南交通大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">数学</span>
 </a>
 
-<a href="cases/2025/张智豪-hkust/" class="fy-school-card">
+<a href="cases/2025/张智豪-香港科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">香港科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">TIE</span>
@@ -208,7 +208,7 @@ hide:
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">北京</span>
   </div>
-  <a href="cases/2023/k1v-thu/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="cases/2023/k1v-清华大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -258,7 +258,7 @@ hide:
     <span class="fy-tag">北京</span>
     <span class="fy-tag">少数民族预科班</span>
   </div>
-  <a href="cases/2025/Ivy-uibe/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="cases/2025/Ivy-对外经济贸易大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -282,7 +282,7 @@ hide:
     <span class="fy-tag">东北</span>
     <span class="fy-tag">大连</span>
   </div>
-  <a href="cases/2025/Ruby-dut/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="cases/2025/Ruby-大连理工大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -305,7 +305,7 @@ hide:
     <span class="fy-tag">理工</span>
     <span class="fy-tag">珠三角</span>
   </div>
-  <a href="cases/2025/张智豪-hkust/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="cases/2025/张智豪-香港科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: LATEST_CASES -->
 

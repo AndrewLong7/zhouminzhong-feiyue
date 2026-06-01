@@ -57,6 +57,11 @@ tags:
   <div class="fy-case-info-value">长三角</div>
 </div>
 
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">联系方式</div>
+  <div class="fy-case-info-value">18884312998</div>
+</div>
+
 </div>
 
 </div>

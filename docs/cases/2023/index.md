@@ -31,7 +31,7 @@ description: 2023 届州民中校友升学经验分享。
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">北京</span>
   </div>
-  <a href="k1v-thu/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="k1v-清华大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: CASE_CARDS -->
 

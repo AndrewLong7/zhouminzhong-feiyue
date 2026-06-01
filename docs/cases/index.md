@@ -92,7 +92,7 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">北京</span>
   </div>
-  <a href="2023/k1v-thu/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="2023/k1v-清华大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -142,7 +142,7 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">北京</span>
     <span class="fy-tag">少数民族预科班</span>
   </div>
-  <a href="2025/Ivy-uibe/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="2025/Ivy-对外经济贸易大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -166,7 +166,7 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">东北</span>
     <span class="fy-tag">大连</span>
   </div>
-  <a href="2025/Ruby-dut/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="2025/Ruby-大连理工大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -189,7 +189,7 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">理工</span>
     <span class="fy-tag">珠三角</span>
   </div>
-  <a href="2025/张智豪-hkust/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="2025/张智豪-香港科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: LATEST_CASES -->
 
