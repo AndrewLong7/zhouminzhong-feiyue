@@ -155,36 +155,6 @@ cases:
     quote: "请珍惜所剩无几的高中时光，以后会一直回忆的。"
     file: cases/earlier/Taylor-杭州电子科技大学.md
 
-  - id: aplp-nju
-    name: aplp
-    avatar: a
-    year: 2020
-    group: 物理类
-    school: 南京大学
-    major: 光电信息科学与工程
-    score: 671
-    rank: 500
-    city: 南京
-    type: real
-    tags: [985, 理工, 高分段, 跨省, 长三角, 南京]
-    quote: "人生的容错率超乎你想象。"
-    file: cases/earlier/aplp-南京大学.md
-
-  - id: summer-hust
-    name: summer
-    avatar: s
-    year: 2020
-    group: 物理类
-    school: 华中科技大学
-    major: 电子信息工程
-    score: 657
-    rank: 1700
-    city: 武汉
-    type: real
-    tags: [985, 理工, 高分段, 武汉]
-    quote: "请永远相信自己，只要你真的想做成一件事，那就真的可以。"
-    file: cases/earlier/summer-华中科技大学.md
-
   - id: enen-swjtu
     name: 嗯嗯不知道
     avatar: 嗯

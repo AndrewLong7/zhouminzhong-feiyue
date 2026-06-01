@@ -56,6 +56,11 @@ tags:
   <div class="fy-case-info-value">深圳</div>
 </div>
 
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">联系方式</div>
+  <div class="fy-case-info-value">qq:1183522933</div>
+</div>
+
 </div>
 
 </div>

@@ -72,18 +72,6 @@ hide:
   <span class="fy-school-card-major">法学</span>
 </a>
 
-<a href="cases/earlier/summer-华中科技大学/" class="fy-school-card">
-  <span class="fy-school-card-name">华中科技大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">电子信息工程</span>
-</a>
-
-<a href="cases/earlier/aplp-南京大学/" class="fy-school-card">
-  <span class="fy-school-card-name">南京大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">光电信息科学与工程</span>
-</a>
-
 <a href="universities/hitsz/" class="fy-school-card">
   <span class="fy-school-card-name">哈尔滨工业大学（深圳）</span>
   <span class="fy-school-card-count">已收录 2 人</span>
