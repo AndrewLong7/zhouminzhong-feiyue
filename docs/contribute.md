@@ -66,7 +66,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 直接在问卷中填写你的升学经验，提交即可。
 
 <div style="margin-top: 16px;">
-  <a href="https://v.wjx.cn/vm/PNYNel6.aspx" class="fy-btn fy-btn-primary">📝 填写问卷 →</a>
+  <a href="https://v.wjx.cn/vm/OrMZPgr.aspx" class="fy-btn fy-btn-primary">📝 填写问卷 →</a>
 </div>
 
 </div>
@@ -212,7 +212,6 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 如果你对建设飞跃手册感兴趣——帮忙审稿、改进网站、推广给更多校友——欢迎联系我们加入维护团队！
 
 📧 **u3638259@connect.hku.hk** / 👤 **龙熙予**
-
 <hr class="fy-divider">
 
 <!-- CTA -->

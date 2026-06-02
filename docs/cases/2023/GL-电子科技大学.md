@@ -56,6 +56,11 @@ tags:
   <div class="fy-case-info-value">西南</div>
 </div>
 
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">联系方式</div>
+  <div class="fy-case-info-value">(空)</div>
+</div>
+
 </div>
 
 </div>

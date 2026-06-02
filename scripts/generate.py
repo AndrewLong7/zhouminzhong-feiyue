@@ -264,7 +264,7 @@ MARKER_END = re.compile(r"<!-- /AUTO-GEN:\s*\w+\s*-->")
 def process_page(filepath: Path, generators: dict) -> bool:
     """处理单个页面，替换 AUTO-GEN 标记之间的内容"""
     if not filepath.exists():
-        print(f"  ⚠ 文件不存在: {filepath}")
+        print(f"  [!] 文件不存在: {filepath}")
         return False
 
     with open(filepath, encoding="utf-8") as f:
@@ -301,7 +301,7 @@ def process_page(filepath: Path, generators: dict) -> bool:
     if modified:
         with open(filepath, "w", encoding="utf-8") as f:
             f.write("\n".join(new_lines) + "\n" if new_lines else "\n".join(new_lines))
-        print(f"  ✓ 已更新: {filepath.relative_to(ROOT)}")
+        print(f"  [OK] 已更新: {filepath.relative_to(ROOT)}")
     else:
         print(f"  - 无标记: {filepath.relative_to(ROOT)}")
 
@@ -325,13 +325,13 @@ def validate_coverage():
     missing_on_disk = yaml_files - actual_files
 
     if missing_in_yaml:
-        print("⚠️  以下 case 文件未在 data/cases.yml 中注册：")
+        print("[!]️  以下 case 文件未在 data/cases.yml 中注册：")
         for f in sorted(missing_in_yaml):
             print(f"    - {f}")
         print()
 
     if missing_on_disk:
-        print("⚠️  data/cases.yml 中以下条目指向不存在的文件：")
+        print("[!]️  data/cases.yml 中以下条目指向不存在的文件：")
         for f in sorted(missing_on_disk):
             print(f"    - {f}")
         print()
@@ -410,9 +410,9 @@ not_in_nav: true
             )
 
     if all_ok:
-        print("\n✅ 全部完成（校验通过）")
+        print("\n==> 全部完成（校验通过）")
     else:
-        print("❌ 请先修复上述问题后再提交")
+        print("!! 请先修复上述问题后再提交")
 
 
 if __name__ == "__main__":

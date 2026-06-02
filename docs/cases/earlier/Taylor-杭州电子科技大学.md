@@ -58,7 +58,7 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">联系方式</div>
-  <div class="fy-case-info-value">15757005573</div>
+  <div class="fy-case-info-value">微信：15757005573</div>
 </div>
 
 </div>

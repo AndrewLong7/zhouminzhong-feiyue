@@ -4,7 +4,6 @@ not_in_nav: true
 tags:
   - 985
   - 理工
-  - 高分段
   - 深圳
 ---
 
@@ -53,7 +52,7 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">所在城市</div>
-  <div class="fy-case-info-value">深圳</div>
+  <div class="fy-case-info-value">珠三角</div>
 </div>
 
 <div class="fy-case-info-item">
@@ -135,6 +134,5 @@ tags:
 
 <span class="fy-tag">985</span>
 <span class="fy-tag">理工</span>
-<span class="fy-tag">高分段</span>
 <span class="fy-tag">深圳</span>
 <span class="fy-tag">计算机</span>

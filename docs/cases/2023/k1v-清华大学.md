@@ -5,7 +5,6 @@ tags:
   - 985
   - 双一流
   - 理工
-  - 高分段
   - 跨省
   - 北京
 ---
@@ -56,6 +55,11 @@ tags:
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">所在城市</div>
   <div class="fy-case-info-value">北京</div>
+</div>
+
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">联系方式</div>
+  <div class="fy-case-info-value">(空)</div>
 </div>
 
 </div>
@@ -189,7 +193,6 @@ tags:
 <span class="fy-tag">985</span>
 <span class="fy-tag">双一流</span>
 <span class="fy-tag">理工</span>
-<span class="fy-tag">高分段</span>
 <span class="fy-tag">跨省</span>
 <span class="fy-tag">北京</span>
 <span class="fy-tag">清华大学</span>

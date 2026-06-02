@@ -54,28 +54,34 @@ hide:
 <div class="fy-card-grid">
 
 <!-- AUTO-GEN: HOMEPAGE_UNIVERSITIES -->
-<a href="cases/2023/k1v-清华大学/" class="fy-school-card">
-  <span class="fy-school-card-name">清华大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">机械工程 -> 自动化（转专业）</span>
-</a>
-
 <a href="cases/earlier/John-中国矿业大学/" class="fy-school-card">
   <span class="fy-school-card-name">中国矿业大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">能源动力</span>
 </a>
 
+<a href="cases/earlier/宋泽熙-中央民族大学/" class="fy-school-card">
+  <span class="fy-school-card-name">中央民族大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">少数民族预科班/中国史</span>
+</a>
+
 <a href="cases/2025/xiaoxi-pku/" class="fy-school-card">
   <span class="fy-school-card-name">北京大学</span>
-  <span class="fy-school-card-count">模板案例</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">法学</span>
 </a>
 
-<a href="universities/hitsz/" class="fy-school-card">
+<a href="universities/哈尔滨工业大学-深圳/" class="fy-school-card">
   <span class="fy-school-card-name">哈尔滨工业大学（深圳）</span>
   <span class="fy-school-card-count">已收录 2 人</span>
   <span class="fy-school-card-major">计算机科学</span>
+</a>
+
+<a href="cases/earlier/Sophie-复旦大学/" class="fy-school-card">
+  <span class="fy-school-card-name">复旦大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">广播电视学</span>
 </a>
 
 <a href="cases/2025/Ruby-大连理工大学/" class="fy-school-card">
@@ -96,10 +102,10 @@ hide:
   <span class="fy-school-card-major">电子信息</span>
 </a>
 
-<a href="cases/earlier/George-莫纳什大学（Monash University）/" class="fy-school-card">
-  <span class="fy-school-card-name">莫纳什大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">经济与金融</span>
+<a href="universities/清华大学/" class="fy-school-card">
+  <span class="fy-school-card-name">清华大学</span>
+  <span class="fy-school-card-count">已收录 2 人</span>
+  <span class="fy-school-card-major">机械工程 -> 自动化（转专业） · 电气工程及自动化</span>
 </a>
 
 <a href="cases/2023/GL-电子科技大学/" class="fy-school-card">
@@ -108,52 +114,22 @@ hide:
   <span class="fy-school-card-major">电子信息工程</span>
 </a>
 
+<a href="cases/earlier/George-莫纳什大学（Monash University）/" class="fy-school-card">
+  <span class="fy-school-card-name">莫纳什大学（Monash University）</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">经济与金融</span>
+</a>
+
 <a href="cases/earlier/嗯嗯不知道-西南交通大学/" class="fy-school-card">
   <span class="fy-school-card-name">西南交通大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">数学</span>
+  <span class="fy-school-card-major">数学/基础数学/算术几何和代数几何</span>
 </a>
 
 <a href="cases/2025/张智豪-香港科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">香港科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">TIE</span>
-</a>
-
-<a href="contribute/" class="fy-school-card">
-  <span class="fy-school-card-name">中南财经政法大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major"></span>
-</a>
-
-<a href="contribute/" class="fy-school-card">
-  <span class="fy-school-card-name">吉首大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major"></span>
-</a>
-
-<a href="contribute/" class="fy-school-card">
-  <span class="fy-school-card-name">深圳大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major"></span>
-</a>
-
-<a href="contribute/" class="fy-school-card">
-  <span class="fy-school-card-name">湖南师范大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major"></span>
-</a>
-
-<a href="contribute/" class="fy-school-card">
-  <span class="fy-school-card-name">湘潭大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major"></span>
-</a>
-
-<a href="contribute/" class="fy-school-card">
-  <span class="fy-school-card-name">纽约大学</span>
-  <span class="fy-school-card-count">敬请期待</span>
-  <span class="fy-school-card-major"></span>
 </a>
 <!-- /AUTO-GEN: HOMEPAGE_UNIVERSITIES -->
 
@@ -181,56 +157,6 @@ hide:
 <!-- AUTO-GEN: LATEST_CASES -->
 <div class="fy-case-card">
   <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">K</div>
-    <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">k1v</span>
-      <span class="fy-case-card-year">2023 届 · 物理类</span>
-    </div>
-  </div>
-  <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 清华大学 · 机械工程 -> 自动化（转专业）</div>
-    <div class="fy-case-card-major-score">高考 687 分 · 全省第 61 名</div>
-    <div class="fy-case-card-summary">
-      "不要怕走弯路，但在做决定之前，请先把能看的路都认真看一遍。"
-    </div>
-  </div>
-  <div class="fy-case-card-tags">
-    <span class="fy-tag">985</span>
-    <span class="fy-tag">双一流</span>
-    <span class="fy-tag">理工</span>
-    <span class="fy-tag">高分段</span>
-    <span class="fy-tag">跨省</span>
-    <span class="fy-tag">北京</span>
-  </div>
-  <a href="cases/2023/k1v-清华大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
-  <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">溪</div>
-    <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">小溪</span>
-      <span class="fy-case-card-year">2025 届 · 物理类</span>
-    </div>
-  </div>
-  <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 北京大学 · 法学</div>
-    <div class="fy-case-card-major-score">高考 665 分 · 全省第 482 名</div>
-    <div class="fy-case-card-summary">
-      "从湘西到北京，最大的感受不是大学的压力，而是世界突然变大了。"
-    </div>
-  </div>
-  <div class="fy-case-card-tags">
-    <span class="fy-tag fy-tag-amber">模板案例</span>
-    <span class="fy-tag">985</span>
-    <span class="fy-tag">文科</span>
-    <span class="fy-tag">高分段</span>
-    <span class="fy-tag">跨省</span>
-    <span class="fy-tag">北京</span>
-  </div>
-  <a href="cases/2025/xiaoxi-pku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
-  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">I</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">Ivy</span>
@@ -241,16 +167,16 @@ hide:
     <div class="fy-case-card-school">🏫 对外经济贸易大学 · 少数民族预科班</div>
     <div class="fy-case-card-major-score">高考 607 分 · 全省第 12000 名</div>
     <div class="fy-case-card-summary">
-      "有凹陷，就会有高山相连。"
+      "有凹陷，就会有高山相连。大家一定不要被困于当下的逆境中，你的人生不会因为一场考试的失败而变得糟糕，要永远相信你还有无限的可能！"
     </div>
   </div>
   <div class="fy-case-card-tags">
-    <span class="fy-tag">211</span>
-    <span class="fy-tag">双一流</span>
+    <span class="fy-tag">理科</span>
     <span class="fy-tag">商科</span>
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">北京</span>
     <span class="fy-tag">少数民族预科班</span>
+    <span class="fy-tag">211/双一流</span>
   </div>
   <a href="cases/2025/Ivy-对外经济贸易大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
@@ -266,40 +192,109 @@ hide:
     <div class="fy-case-card-school">🏫 大连理工大学 · 储能科学与工程</div>
     <div class="fy-case-card-major-score">高考 640 分 · 全省第 3700 名</div>
     <div class="fy-case-card-summary">
-      "你是你自己人生的负责人，选择摆在面前的时候大胆去选。"
+      "你是你自己人生的负责人，选择摆在面前的时候大胆去选，坑是一定有的，但是你能做出这个选择就意味着你是能承担这个后果的，不要畏惧，勇敢向前"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">东北</span>
+    <span class="fy-tag">储能科学与工程</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="cases/2025/Ruby-大连理工大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">小</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">小溪</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 北京大学 · 法学</div>
+    <div class="fy-case-card-major-score">高考 665 分 · 全省第 482 名</div>
+    <div class="fy-case-card-summary">
+      "不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了。接下来，只需要保持那份勇敢，继续往前走。"
     </div>
   </div>
   <div class="fy-case-card-tags">
     <span class="fy-tag">985</span>
-    <span class="fy-tag">理工</span>
+    <span class="fy-tag">文科</span>
     <span class="fy-tag">跨省</span>
-    <span class="fy-tag">东北</span>
-    <span class="fy-tag">大连</span>
+    <span class="fy-tag">北京</span>
   </div>
-  <a href="cases/2025/Ruby-大连理工大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="cases/2025/xiaoxi-pku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">张</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">张智豪</span>
-      <span class="fy-case-card-year">2022 届 · 物理类</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
     </div>
   </div>
   <div class="fy-case-card-body">
     <div class="fy-case-card-school">🏫 香港科技大学 · TIE</div>
     <div class="fy-case-card-major-score">高考 614 分 · 全省第 1000 名</div>
     <div class="fy-case-card-summary">
-      "对自己要求严格，不人云亦云，选择大于努力，努力也很重要。"
+      "对自己要求严格，不人云亦云，选择大于努力，努力也很重要"
     </div>
   </div>
   <div class="fy-case-card-tags">
-    <span class="fy-tag">港澳</span>
-    <span class="fy-tag">香港</span>
-    <span class="fy-tag">理工</span>
+    <span class="fy-tag">理科</span>
     <span class="fy-tag">珠三角</span>
+    <span class="fy-tag">TIE</span>
   </div>
   <a href="cases/2025/张智豪-香港科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">G</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">GL</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 电子科技大学 · 电子信息工程</div>
+    <div class="fy-case-card-major-score">高考 647 分 · 全省第 2600 名</div>
+    <div class="fy-case-card-summary">
+      "世界那么大，我却只是路过，周边那么小，但那确是我的人生。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">电子信息工程</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="cases/2023/GL-电子科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">k</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">k1v</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 清华大学 · 机械工程 -> 自动化（转专业）</div>
+    <div class="fy-case-card-major-score">高考 687 分 · 全省第 61 名</div>
+    <div class="fy-case-card-summary">
+      "不要怕走弯路，但在做决定之前，请先把能看的路都认真看一遍。选择之后，也不要反复美化那些没有走上的路；把脚下这条路走深、走稳，本身就是一种很重要的能力。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">985</span>
+    <span class="fy-tag">双一流</span>
+    <span class="fy-tag">理工</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">北京</span>
+  </div>
+  <a href="cases/2023/k1v-清华大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: LATEST_CASES -->
 
@@ -388,6 +383,7 @@ QQ 群号：793634202
 - [**州民中飞跃手册 · 投稿指南**](contribute.md) — 如何分享你的故事
 - [**案例库**](cases/index.md) — 浏览所有校友案例
 - [**大学分类**](universities/index.md) — 按学校类型浏览
+- [**信息门户**](portal.md) — 提问箱 · QQ群 · 常用工具
 
 </div>
 
@@ -415,6 +411,16 @@ QQ 群号：793634202
 </div>
 
 </div>
+
+
+
+
+
+
+
+
+
+
 
 
 

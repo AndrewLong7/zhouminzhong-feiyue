@@ -1,226 +1,262 @@
 # ============================================================
 # 州民中飞跃手册 - 案例与大学元数据
-# 新增案例只需在此文件末尾添加一条记录，然后运行:
-#   python scripts/generate.py
+# 此文件由 scripts/sync.py 自动生成，请勿手动编辑。
+# 新增案例请直接在 docs/cases/ 下添加标准 .md 文件，
+# 然后运行: python scripts/sync.py
 # ============================================================
 
 cases:
-  - id: k1v-thu
-    name: k1v
-    avatar: K
-    year: 2023
-    group: 物理类
-    school: 清华大学
-    major: 机械工程 -> 自动化（转专业）
-    score: 687
-    rank: 61
-    city: 北京
+  - id: "Ivy-对外经济贸易大学"
+    name: "Ivy"
+    avatar: "I"
+    year: 2025
+    group: "物理类"
+    school: "对外经济贸易大学"
+    major: "少数民族预科班"
+    score: 607
+    rank: 12000
+    city: "北京"
     type: real
-    tags: [985, 双一流, 理工, 高分段, 跨省, 北京]
-    quote: "不要怕走弯路，但在做决定之前，请先把能看的路都认真看一遍。"
-    file: cases/2023/k1v-清华大学.md
+    tags: ["理科", "商科", "跨省", "北京", "少数民族预科班", "211/双一流"]
+    quote: "有凹陷，就会有高山相连。大家一定不要被困于当下的逆境中，你的人生不会因为一场考试的失败而变得糟糕，要永远相信你还有无限的可能！"
+    file: cases/2025/Ivy-对外经济贸易大学.md
 
-  - id: gl-uestc
-    name: GL
-    avatar: G
+  - id: "Ruby-大连理工大学"
+    name: "Ruby"
+    avatar: "R"
+    year: 2025
+    group: "物理类"
+    school: "大连理工大学"
+    major: "储能科学与工程"
+    score: 640
+    rank: 3700
+    city: "东北"
+    type: real
+    tags: ["工科", "跨省", "东北", "储能科学与工程", "985"]
+    quote: "你是你自己人生的负责人，选择摆在面前的时候大胆去选，坑是一定有的，但是你能做出这个选择就意味着你是能承担这个后果的，不要畏惧，勇敢向前"
+    file: cases/2025/Ruby-大连理工大学.md
+
+  - id: "xiaoxi-pku"
+    name: "小溪"
+    avatar: "小"
+    year: 2025
+    group: "物理类"
+    school: "北京大学"
+    major: "法学"
+    score: 665
+    rank: 482
+    city: "北京"
+    type: real
+    tags: ["985", "文科", "跨省", "北京"]
+    quote: "不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了。接下来，只需要保持那份勇敢，继续往前走。"
+    file: cases/2025/xiaoxi-pku.md
+
+  - id: "张智豪-香港科技大学"
+    name: "张智豪"
+    avatar: "张"
+    year: 2025
+    group: "物理类"
+    school: "香港科技大学"
+    major: "TIE"
+    score: 614
+    rank: 1000
+    city: "珠三角"
+    type: real
+    tags: ["理科", "珠三角", "TIE"]
+    quote: "对自己要求严格，不人云亦云，选择大于努力，努力也很重要"
+    file: cases/2025/张智豪-香港科技大学.md
+
+  - id: "GL-电子科技大学"
+    name: "GL"
+    avatar: "G"
     year: 2023
-    group: 物理类
-    school: 电子科技大学
-    major: 电子信息工程
+    group: "物理类"
+    school: "电子科技大学"
+    major: "电子信息工程"
     score: 647
     rank: 2600
-    city: 成都
+    city: "西南"
     type: real
-    tags: [985, 双一流, 工科, 跨省, 西南, 成都]
+    tags: ["工科", "西南", "电子信息工程", "985"]
     quote: "世界那么大，我却只是路过，周边那么小，但那确是我的人生。"
     file: cases/2023/GL-电子科技大学.md
 
-  - id: xiaoxi-pku
-    name: 小溪
-    avatar: 溪
-    year: 2025
-    group: 物理类
-    school: 北京大学
-    major: 法学
-    score: 665
-    rank: 482
-    city: 北京
-    type: template
-    tags: [985, 文科, 高分段, 跨省, 北京]
-    quote: "从湘西到北京，最大的感受不是大学的压力，而是世界突然变大了。"
-    file: cases/2025/xiaoxi-pku.md
-
-  - id: ivy-uibe
-    name: Ivy
-    avatar: I
-    year: 2025
-    group: 物理类
-    school: 对外经济贸易大学
-    major: 少数民族预科班
-    score: 607
-    rank: 12000
-    city: 北京
+  - id: "k1v-清华大学"
+    name: "k1v"
+    avatar: "k"
+    year: 2023
+    group: "物理类"
+    school: "清华大学"
+    major: "机械工程 -> 自动化（转专业）"
+    score: 687
+    rank: 61
+    city: "北京"
     type: real
-    tags: [211, 双一流, 商科, 跨省, 北京, 少数民族预科班]
-    quote: "有凹陷，就会有高山相连。"
-    file: cases/2025/Ivy-对外经济贸易大学.md
+    tags: ["985", "双一流", "理工", "跨省", "北京"]
+    quote: "不要怕走弯路，但在做决定之前，请先把能看的路都认真看一遍。选择之后，也不要反复美化那些没有走上的路；把脚下这条路走深、走稳，本身就是一种很重要的能力。"
+    file: cases/2023/k1v-清华大学.md
 
-  - id: ruby-dut
-    name: Ruby
-    avatar: R
-    year: 2025
-    group: 物理类
-    school: 大连理工大学
-    major: 储能科学与工程
-    score: 640
-    rank: 3700
-    city: 大连
-    type: real
-    tags: [985, 理工, 跨省, 东北, 大连]
-    quote: "你是你自己人生的负责人，选择摆在面前的时候大胆去选。"
-    file: cases/2025/Ruby-大连理工大学.md
-
-  - id: zhangzhihao-hkust
-    name: 张智豪
-    avatar: 张
+  - id: "Sophie-复旦大学"
+    name: "Sophie"
+    avatar: "S"
     year: 2022
-    group: 物理类
-    school: 香港科技大学
-    major: TIE
-    score: 614
-    rank: 1000
-    city: 香港
+    group: "历史类"
+    school: "复旦大学"
+    major: "广播电视学"
+    score: 638
+    rank: 54
+    city: "上海"
     type: real
-    tags: [港澳, 香港, 理工, 珠三角]
-    quote: "对自己要求严格，不人云亦云，选择大于努力，努力也很重要。"
-    file: cases/2025/张智豪-香港科技大学.md
+    tags: ["文科", "跨省", "上海", "广播电视学", "985"]
+    quote: "世界有浮力 放松 就能被托举"
+    file: cases/earlier/Sophie-复旦大学.md
 
-  - id: andrew-hitsz
-    name: Andrew
-    avatar: A
+  - id: "Andrew-哈尔滨工业大学（深圳）"
+    name: "Andrew"
+    avatar: "A"
     year: 2020
-    group: 物理类
-    school: 哈尔滨工业大学（深圳）
-    major: 计算机科学
+    group: "物理类"
+    school: "哈尔滨工业大学（深圳）"
+    major: "计算机科学"
     score: 662
     rank: 1254
-    city: 深圳
+    city: "珠三角"
     type: real
-    tags: [985, 理工, 高分段, 跨省, 深圳]
-    quote: "不要因为来自小地方，就默认自己看不到更大的世界。"
+    tags: ["985", "理工", "跨省", "深圳"]
+    quote: "不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了；你能来到这里和全国各地的优秀青年齐聚一堂，说明你的能力获得了认可。接下来，只需要保持那份勇敢，继续往前走。"
     file: cases/earlier/Andrew-哈尔滨工业大学（深圳）.md
 
-  - id: adj-hitsz
-    name: adj
-    avatar: a
+  - id: "George-莫纳什大学（Monash University）"
+    name: "George"
+    avatar: "G"
     year: 2020
-    group: 物理类
-    school: 哈尔滨工业大学（深圳）
-    major: 计算机科学
-    score: 661
-    rank: 1260
-    city: 深圳
-    type: real
-    tags: [985, 理工, 高分段, 深圳]
-    quote: "希望你永远能保持大山的淳朴和善良."
-    file: cases/earlier/adj-哈尔滨工业大学（深圳）.md
-
-  - id: george-monash
-    name: George
-    avatar: G
-    year: 2020
-    group: 物理类
-    school: 莫纳什大学
-    major: 经济与金融
+    group: "物理类"
+    school: "莫纳什大学（Monash University）"
+    major: "经济与金融"
     score: 492
     rank: 95771
-    city: 墨尔本
+    city: "墨尔本"
     type: real
-    tags: [海外, 商科, 墨尔本]
+    tags: ["海外", "商科", "墨尔本"]
     quote: "不要瞻前顾后，不要顾此失彼，不要畏手畏脚，脚踏实地往前走，未来一定会握在自己的手里。"
     file: cases/earlier/George-莫纳什大学（Monash University）.md
 
-  - id: john-cmut
-    name: John
-    avatar: J
+  - id: "John-中国矿业大学"
+    name: "John"
+    avatar: "J"
     year: 2020
-    group: 物理类
-    school: 中国矿业大学
-    major: 能源动力
+    group: "物理类"
+    school: "中国矿业大学"
+    major: "能源动力"
     score: 604
-    rank: 13000
-    city: 徐州
+    rank: 1
+    city: "长三角"
     type: real
-    tags: [211, 双一流, 理工, 长三角]
-    quote: "好好享受你在大学的一分一秒吧，学弟学妹们。"
+    tags: ["工科", "长三角", "能源动力", "211/双一流"]
+    quote: "好好享受你在大学的一分一秒吧，学弟学妹们，往后当你回想起大学的某一刻，青春年少的你总是站在那儿衡量着过去到现在的距离"
     file: cases/earlier/John-中国矿业大学.md
 
-  - id: taylor-hdu
-    name: Taylor
-    avatar: T
+  - id: "Taylor-杭州电子科技大学"
+    name: "Taylor"
+    avatar: "T"
     year: 2020
-    group: 物理类
-    school: 杭州电子科技大学
-    major: 电子信息
+    group: "物理类"
+    school: "杭州电子科技大学"
+    major: "电子信息"
     score: 614
     rank: 14000
-    city: 杭州
+    city: "长三角"
     type: real
-    tags: [理工, 跨省, 长三角, 杭州]
-    quote: "请珍惜所剩无几的高中时光，以后会一直回忆的。"
+    tags: ["工科", "跨省", "长三角", "电子信息"]
+    quote: "请珍惜所剩无几的高中时光，以后会一直回忆的，真是人生中最美好的日子，无忧无虑"
     file: cases/earlier/Taylor-杭州电子科技大学.md
 
-  - id: enen-swjtu
-    name: 嗯嗯不知道
-    avatar: 嗯
+  - id: "adj-哈尔滨工业大学（深圳）"
+    name: "adj"
+    avatar: "a"
     year: 2020
-    group: 物理类
-    school: 西南交通大学
-    major: 数学
+    group: "物理类"
+    school: "哈尔滨工业大学（深圳）"
+    major: "计算机科学"
+    score: 661
+    rank: 1260
+    city: "珠三角"
+    type: real
+    tags: ["985", "理工", "深圳"]
+    quote: "—— adj"
+    file: cases/earlier/adj-哈尔滨工业大学（深圳）.md
+
+  - id: "嗯嗯不知道-西南交通大学"
+    name: "嗯嗯不知道"
+    avatar: "嗯"
+    year: 2020
+    group: "物理类"
+    school: "西南交通大学"
+    major: "数学/基础数学/算术几何和代数几何"
     score: 599
     rank: 9300
-    city: 成都
+    city: "珠三角"
     type: real
-    tags: [211, 双一流, 理科, 跨省, 成都]
-    quote: "希望后来的你们也都找到了自己喜欢的专业，在各自的领域闪闪发光。"
+    tags: ["理科", "跨省", "珠三角", "数学/基础数学/算术几何和代数几何", "211/双一流"]
+    quote: "希望后来的你们也都找到了自己喜欢的专业，在各自的领域闪闪发光。请大家无论在什么时候都要对自己保持信心，都要毫无条件地，无所保留地相信你自己。然后去成为想成为的人，走出大山，走的更远，去看到这个世界的每一面。"
     file: cases/earlier/嗯嗯不知道-西南交通大学.md
 
+  - id: "宋泽熙-中央民族大学"
+    name: "宋泽熙"
+    avatar: "宋"
+    year: 2020
+    group: "历史类"
+    school: "中央民族大学"
+    major: "少数民族预科班/中国史"
+    score: 603
+    rank: 1500
+    city: "北京"
+    type: real
+    tags: ["文科", "跨省", "北京", "少数民族预科班/中国史", "985"]
+    quote: "加油，再坚持一下。走出这座屋子，外面就是属于你的广阔天空。"
+    file: cases/earlier/宋泽熙-中央民族大学.md
+
+  - id: "浩哥-清华大学"
+    name: "浩哥"
+    avatar: "浩"
+    year: 1998
+    group: "物理类"
+    school: "清华大学"
+    major: "电气工程及自动化"
+    score: 639
+    rank: 100
+    city: "北京"
+    type: real
+    tags: ["理科", "工科", "商科", "跨省", "北京", "电气工程及自动化", "985"]
+    quote: "选择大于努力！开放心态，多试错，多接触，找到自己真正喜欢的方向，形成适合自己的方法论！"
+    file: cases/earlier/浩哥-清华大学.md
+
+
 # ============================================================
-# 大学白名单 - 按分类展示
-# 有案例的大学: majors 由脚本自动汇总
-# 暂无案例的大学: majors 手动填写代表性专业
-# 多案例学校需添加 slug，用于生成学校专属页面
+# 大学分类 - 由 sync.py 自动分类
+# 如需添加暂无案例的期待学校，请编辑下方对应 category 的 schools 列表。
 # ============================================================
 universities:
-  - category: 985 院校
+  - category: "985 院校"
     schools:
-      - 清华大学
-      - 北京大学
-      - 中南大学
-      - name: 哈尔滨工业大学（深圳）
-        slug: hitsz
-      - 南京大学
-      - 华中科技大学
-      - 大连理工大学
-
-  - category: 211 / 双一流 院校
+      - "中央民族大学"
+      - "北京大学"
+      - name: "哈尔滨工业大学（深圳）"
+        slug: "哈尔滨工业大学-深圳"
+      - "复旦大学"
+      - "大连理工大学"
+      - name: "清华大学"
+        slug: "清华大学"
+      - "电子科技大学"
+  - category: "211 / 双一流 院校"
     schools:
-      - 湖南师范大学
-      - 湘潭大学
-      - 中南财经政法大学
-      - 中国矿业大学
-      - 西南交通大学
-      - 对外经济贸易大学
-
-  - category: 港澳及海外院校
+      - "中国矿业大学"
+      - "对外经济贸易大学"
+      - "西南交通大学"
+  - category: "港澳及海外院校"
     schools:
-      - 香港大学
-      - 莫纳什大学
-      - 纽约大学
-      - 香港科技大学
-
-  - category: 其他院校
+      - "莫纳什大学（Monash University）"
+  - category: "其他院校"
     schools:
-      - 深圳大学
-      - 吉首大学
-      - 杭州电子科技大学
+      - "杭州电子科技大学"
+      - "香港科技大学"

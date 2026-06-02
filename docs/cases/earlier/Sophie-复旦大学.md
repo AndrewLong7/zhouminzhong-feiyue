@@ -59,7 +59,7 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">联系方式</div>
-  <div class="fy-case-info-value">19848113491</div>
+  <div class="fy-case-info-value">微信：19848113491</div>
 </div>
 
 </div>

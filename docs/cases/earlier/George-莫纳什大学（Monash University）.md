@@ -55,6 +55,11 @@ tags:
   <div class="fy-case-info-value">墨尔本</div>
 </div>
 
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">联系方式</div>
+  <div class="fy-case-info-value">邮箱：lqlqhsz1515@163.com</div>
+</div>
+
 </div>
 
 </div>

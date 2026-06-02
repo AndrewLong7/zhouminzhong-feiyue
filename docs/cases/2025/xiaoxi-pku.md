@@ -4,7 +4,6 @@ not_in_nav: true
 tags:
   - 985
   - 文科
-  - 高分段
   - 跨省
   - 北京
 ---
@@ -163,7 +162,6 @@ tags:
 
 <span class="fy-tag">985</span>
 <span class="fy-tag">文科</span>
-<span class="fy-tag">高分段</span>
 <span class="fy-tag">跨省</span>
 <span class="fy-tag">北京</span>
 <span class="fy-tag">法学</span>
