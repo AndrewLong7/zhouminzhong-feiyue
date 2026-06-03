@@ -18,13 +18,14 @@ import argparse
 import re
 import sys
 from pathlib import Path
-from typing import Any
+from typing import Any, Optional
 
 import openpyxl
 
 
 ROOT = Path(__file__).resolve().parent.parent
-DEFAULT_OUTPUT_DIR = ROOT / "docs" / "cases" / "earlier"
+CASES_DIR = ROOT / "docs" / "cases"
+DEFAULT_OUTPUT_DIR = CASES_DIR / "earlier"
 
 
 # ============================================================
@@ -41,8 +42,8 @@ COL = {
     "exam_score": 14,      # 高考分数
     "exam_rank": 15,       # 高考排位
     "contact": 16,         # 联系方式（选填）
-    "reason": 17,          # 我为什么选择这个学校/专业
-    "destination": 18,     # 学校应届生去向
+    "destination": 17,     # 该学校/专业的实际发展和去向
+    "reason": 18,          # 基于学校/专业选择经历的思考和感悟
     "study": 19,           # 学业压力
     "atmosphere": 20,      # 校园氛围
     "dorm": 21,            # 住宿与生活
@@ -369,11 +370,32 @@ def parse_row(row: tuple) -> dict[str, Any]:
     }
 
 
-def convert(xlsx_path: Path, output_dir: Path) -> list[Path]:
+def resolve_output_dir(graduate_year: str, fallback: Optional[Path] = None) -> Path:
+    """根据毕业届数确定输出目录。
+
+    - 23届 → docs/cases/2023/
+    - 24届 → docs/cases/2024/
+    - 25届 → docs/cases/2025/
+    - 26届 → docs/cases/2026/
+    - 其他 → docs/cases/earlier/
+    """
+    if fallback:
+        return fallback
+    m = re.search(r"(\d+)", graduate_year)
+    if m:
+        year_num = int(m.group(1))
+        # 支持两位数（23）和四位数（2023）
+        if year_num >= 100:
+            year_num = year_num % 100
+        if year_num >= 23:
+            target = CASES_DIR / f"20{year_num:02d}"
+            return target
+    return CASES_DIR / "earlier"
+
+
+def convert(xlsx_path: Path, output_dir_override: Optional[Path] = None) -> list[Path]:
     wb = openpyxl.load_workbook(xlsx_path, data_only=True)
     ws = wb.active
-
-    output_dir.mkdir(parents=True, exist_ok=True)
 
     written: list[Path] = []
     for idx, row in enumerate(ws.iter_rows(values_only=True), 1):
@@ -383,6 +405,9 @@ def convert(xlsx_path: Path, output_dir: Path) -> list[Path]:
         if not data["alias"]:
             print(f"  [skip] 第 {idx} 行：缺少化名")
             continue
+        # 根据毕业届数自动路由到对应文件夹
+        output_dir = resolve_output_dir(data.get("graduate_year", ""), output_dir_override)
+        output_dir.mkdir(parents=True, exist_ok=True)
         # 文件名：化名-学校.md（学校保留单元格原始文本，仅做文件系统安全清洗）
         alias_slug = slugify(data['alias'])
         school_name = safe_name(data.get('school', ''))
@@ -407,8 +432,8 @@ def main() -> int:
     parser.add_argument(
         "-o",
         "--output-dir",
-        default=str(DEFAULT_OUTPUT_DIR),
-        help=f"输出目录（默认: {DEFAULT_OUTPUT_DIR.relative_to(ROOT)}）",
+        default=None,
+        help="输出目录（省略则根据毕业届数自动路由到对应文件夹）",
     )
     args = parser.parse_args()
 
@@ -417,11 +442,16 @@ def main() -> int:
         print(f"错误：文件不存在 {xlsx_path}", file=sys.stderr)
         return 1
 
-    output_dir = Path(args.output_dir).expanduser().resolve()
+    output_dir_override = None
+    if args.output_dir:
+        output_dir_override = Path(args.output_dir).expanduser().resolve()
     print(f"输入: {xlsx_path}")
-    print(f"输出: {output_dir}")
+    if output_dir_override:
+        print(f"输出: {output_dir_override}（手动指定）")
+    else:
+        print(f"输出: 根据毕业届数自动路由（23→ 2023/, 24→ 2024/, ..., 其余→ earlier/）")
     print("-" * 60)
-    written = convert(xlsx_path, output_dir)
+    written = convert(xlsx_path, output_dir_override)
     print("-" * 60)
     print(f"完成：共生成 {len(written)} 个 Markdown 文件")
     return 0
