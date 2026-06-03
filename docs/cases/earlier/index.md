@@ -71,7 +71,7 @@ description: 2023 届之前州民中校友升学经验分享。
     </div>
   </div>
   <div class="fy-case-card-tags">
-    <span class="fy-tag">海外</span>
+    <span class="fy-tag">港澳台及海外</span>
     <span class="fy-tag">商科</span>
     <span class="fy-tag">墨尔本</span>
   </div>
@@ -120,6 +120,7 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">长三角</span>
     <span class="fy-tag">电子信息</span>
+    <span class="fy-tag">一本</span>
   </div>
   <a href="Taylor-杭州电子科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
@@ -211,6 +212,7 @@ description: 2023 届之前州民中校友升学经验分享。
   <div class="fy-case-card-tags">
     <span class="fy-tag">文科</span>
     <span class="fy-tag">商科</span>
+    <span class="fy-tag">一本</span>
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">长三角</span>
     <span class="fy-tag">审计</span>
@@ -260,6 +262,9 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 
 </div>
+
+
+
 
 
 

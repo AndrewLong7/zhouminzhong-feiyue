@@ -113,6 +113,32 @@ description: 按大学浏览州民中校友的升学案例。
 
 </div>
 
+## 一本院校
+
+<div class="fy-card-grid">
+
+<a href="../cases/earlier/花果山污染-南京审计大学/" class="fy-school-card">
+  <span class="fy-school-card-name">南京审计大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">审计</span>
+</a>
+
+<a href="../cases/earlier/Taylor-杭州电子科技大学/" class="fy-school-card">
+  <span class="fy-school-card-name">杭州电子科技大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">电子信息</span>
+</a>
+
+</div>
+
+## 二本院校
+
+<div class="fy-card-grid">
+
+
+
+</div>
+
 ## 港澳及海外院校
 
 <div class="fy-card-grid">
@@ -135,17 +161,7 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
-<a href="../cases/earlier/花果山污染-南京审计大学/" class="fy-school-card">
-  <span class="fy-school-card-name">南京审计大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">审计</span>
-</a>
 
-<a href="../cases/earlier/Taylor-杭州电子科技大学/" class="fy-school-card">
-  <span class="fy-school-card-name">杭州电子科技大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">电子信息</span>
-</a>
 
 </div>
 <!-- /AUTO-GEN: UNIVERSITY_CARDS -->
@@ -153,6 +169,9 @@ description: 按大学浏览州民中校友的升学案例。
 ---
 
 > 📢 **你去的大学不在这里？** 欢迎投稿，让更多学弟学妹看到你的学校！[立即投稿 →](../contribute.md)
+
+
+
 
 
 

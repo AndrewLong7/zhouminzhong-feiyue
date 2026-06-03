@@ -220,6 +220,8 @@ def classify_universities(cases: list) -> list:
     cats = {
         "985 院校": [],
         "211 / 双一流 院校": [],
+        "一本院校": [],
+        "二本院校": [],
         "港澳及海外院校": [],
         "其他院校": [],
     }
@@ -253,11 +255,15 @@ def classify_universities(cases: list) -> list:
                         return True
             return False
 
-        # 分类优先级：985 > 211 > 港澳/海外 > 其他
+        # 分类优先级：985 > 211 > 一本 > 二本 > 港澳/海外 > 其他
         if any("985" in t for t in all_tags):
             cats["985 院校"].append(school_name)
         elif any("211" in t for t in all_tags):
             cats["211 / 双一流 院校"].append(school_name)
+        elif any("一本" in t for t in all_tags):
+            cats["一本院校"].append(school_name)
+        elif any("二本" in t for t in all_tags):
+            cats["二本院校"].append(school_name)
         elif _has_overseas_signal():
             cats["港澳及海外院校"].append(school_name)
         else:
