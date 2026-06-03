@@ -72,6 +72,24 @@ hide:
   <span class="fy-school-card-major">法学</span>
 </a>
 
+<a href="cases/2024/彭子恒-北京师范大学（珠海）/" class="fy-school-card">
+  <span class="fy-school-card-name">北京师范大学（珠海）</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">数学与应用数学</span>
+</a>
+
+<a href="cases/2025/张智豪-华东师范大学/" class="fy-school-card">
+  <span class="fy-school-card-name">华东师范大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">微电子科学与工程</span>
+</a>
+
+<a href="cases/earlier/花果山污染-南京审计大学/" class="fy-school-card">
+  <span class="fy-school-card-name">南京审计大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">审计</span>
+</a>
+
 <a href="universities/哈尔滨工业大学-深圳/" class="fy-school-card">
   <span class="fy-school-card-name">哈尔滨工业大学（深圳）</span>
   <span class="fy-school-card-count">已收录 2 人</span>
@@ -236,6 +254,29 @@ hide:
     </div>
   </div>
   <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 华东师范大学 · 微电子科学与工程</div>
+    <div class="fy-case-card-major-score">高考 617 分 · 全省第 1000 名</div>
+    <div class="fy-case-card-summary">
+      "道路是曲折的，人生并没有固定答案，找到你想做的，并在上面花时间，才能过得快乐"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">上海</span>
+    <span class="fy-tag">微电子科学与工程</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="cases/2025/张智豪-华东师范大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">张</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">张智豪</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
     <div class="fy-case-card-school">🏫 香港科技大学 · TIE</div>
     <div class="fy-case-card-major-score">高考 614 分 · 全省第 1000 名</div>
     <div class="fy-case-card-summary">
@@ -251,50 +292,27 @@ hide:
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">G</div>
+    <div class="fy-case-card-avatar">彭</div>
     <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">GL</span>
-      <span class="fy-case-card-year">2023 届 · 物理类</span>
+      <span class="fy-case-card-name">彭子恒</span>
+      <span class="fy-case-card-year">2024 届 · 物理类</span>
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 电子科技大学 · 电子信息工程</div>
-    <div class="fy-case-card-major-score">高考 647 分 · 全省第 2600 名</div>
+    <div class="fy-case-card-school">🏫 北京师范大学（珠海） · 数学与应用数学</div>
+    <div class="fy-case-card-major-score">高考 619 分 · 全省第 7800 名</div>
     <div class="fy-case-card-summary">
-      "世界那么大，我却只是路过，周边那么小，但那确是我的人生。"
+      "有个好睡眠真的很重要"
     </div>
   </div>
   <div class="fy-case-card-tags">
-    <span class="fy-tag">工科</span>
-    <span class="fy-tag">西南</span>
-    <span class="fy-tag">电子信息工程</span>
-    <span class="fy-tag">985</span>
-  </div>
-  <a href="cases/2023/GL-电子科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
-  <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">k</div>
-    <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">k1v</span>
-      <span class="fy-case-card-year">2023 届 · 物理类</span>
-    </div>
-  </div>
-  <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 清华大学 · 机械工程 -> 自动化（转专业）</div>
-    <div class="fy-case-card-major-score">高考 687 分 · 全省第 61 名</div>
-    <div class="fy-case-card-summary">
-      "不要怕走弯路，但在做决定之前，请先把能看的路都认真看一遍。选择之后，也不要反复美化那些没有走上的路；把脚下这条路走深、走稳，本身就是一种很重要的能力。"
-    </div>
-  </div>
-  <div class="fy-case-card-tags">
-    <span class="fy-tag">985</span>
-    <span class="fy-tag">双一流</span>
-    <span class="fy-tag">理工</span>
+    <span class="fy-tag">理科</span>
     <span class="fy-tag">跨省</span>
-    <span class="fy-tag">北京</span>
+    <span class="fy-tag">珠三角</span>
+    <span class="fy-tag">数学与应用数学</span>
+    <span class="fy-tag">985</span>
   </div>
-  <a href="cases/2023/k1v-清华大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="cases/2024/彭子恒-北京师范大学（珠海）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: LATEST_CASES -->
 
@@ -411,6 +429,8 @@ QQ 群号：793634202
 </div>
 
 </div>
+
+
 
 
 

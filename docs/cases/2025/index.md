@@ -89,6 +89,29 @@ description: 2025 届州民中校友升学经验分享。
     </div>
   </div>
   <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 华东师范大学 · 微电子科学与工程</div>
+    <div class="fy-case-card-major-score">高考 617 分 · 全省第 1000 名</div>
+    <div class="fy-case-card-summary">
+      "道路是曲折的，人生并没有固定答案，找到你想做的，并在上面花时间，才能过得快乐"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">上海</span>
+    <span class="fy-tag">微电子科学与工程</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="张智豪-华东师范大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">张</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">张智豪</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
     <div class="fy-case-card-school">🏫 香港科技大学 · TIE</div>
     <div class="fy-case-card-major-score">高考 614 分 · 全省第 1000 名</div>
     <div class="fy-case-card-summary">
@@ -105,6 +128,8 @@ description: 2025 届州民中校友升学经验分享。
 <!-- /AUTO-GEN: CASE_CARDS -->
 
 </div>
+
+
 
 
 

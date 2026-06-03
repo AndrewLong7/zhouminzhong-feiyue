@@ -45,6 +45,18 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">法学</span>
 </a>
 
+<a href="../cases/2024/彭子恒-北京师范大学（珠海）/" class="fy-school-card">
+  <span class="fy-school-card-name">北京师范大学（珠海）</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">数学与应用数学</span>
+</a>
+
+<a href="../cases/2025/张智豪-华东师范大学/" class="fy-school-card">
+  <span class="fy-school-card-name">华东师范大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">微电子科学与工程</span>
+</a>
+
 <a href="../universities/哈尔滨工业大学-深圳/" class="fy-school-card">
   <span class="fy-school-card-name">哈尔滨工业大学（深圳）</span>
   <span class="fy-school-card-count">已收录 2 人</span>
@@ -117,6 +129,12 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
+<a href="../cases/earlier/花果山污染-南京审计大学/" class="fy-school-card">
+  <span class="fy-school-card-name">南京审计大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">审计</span>
+</a>
+
 <a href="../cases/earlier/Taylor-杭州电子科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">杭州电子科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
@@ -135,6 +153,8 @@ description: 按大学浏览州民中校友的升学案例。
 ---
 
 > 📢 **你去的大学不在这里？** 欢迎投稿，让更多学弟学妹看到你的学校！[立即投稿 →](../contribute.md)
+
+
 
 
 

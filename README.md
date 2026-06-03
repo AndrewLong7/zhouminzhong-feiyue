@@ -133,7 +133,7 @@ zhouminzhong-feiyue/
 
 ### 方式一：问卷星问卷（推荐）
 填写问卷即可投稿，无需任何技术操作。  
-链接：https://v.wjx.cn/vm/OrMZPgr.aspx
+链接：https://v.wjx.cn/vm/h9RRALW.aspx
 
 ### 方式二：邮箱投稿
 发送邮件至 **u3638259@connect.hku.hk**，主题格式：`[投稿] 你的化名 - 录取院校`
