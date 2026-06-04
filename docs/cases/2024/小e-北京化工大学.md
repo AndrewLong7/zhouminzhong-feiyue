@@ -1,13 +1,15 @@
 ---
-title: John - 中国矿业大学
-city: 长三角
+title: 小e - 北京化工大学
+city: 北京
 major: 物理类（理科）
-level: 211
+level: 211/双一流
 not_in_nav: true
 tags:
+  - 理科
   - 工科
-  - 长三角
-  - 能源动力
+  - 跨省
+  - 北京
+  - 材料
   - 211/双一流
 ---
 
@@ -21,22 +23,22 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">化名</div>
-  <div class="fy-case-info-value">John</div>
+  <div class="fy-case-info-value">小e</div>
 </div>
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">毕业届数</div>
-  <div class="fy-case-info-value">20 届</div>
+  <div class="fy-case-info-value">24 届</div>
 </div>
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">高考分数</div>
-  <div class="fy-case-info-value">604 分</div>
+  <div class="fy-case-info-value">590 分</div>
 </div>
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">全省位次</div>
-  <div class="fy-case-info-value">全省第 1w3 名</div>
+  <div class="fy-case-info-value">全省第 17000 名</div>
 </div>
 
 <div class="fy-case-info-item">
@@ -46,22 +48,22 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">录取院校</div>
-  <div class="fy-case-info-value">中国矿业大学</div>
+  <div class="fy-case-info-value">北京化工大学</div>
 </div>
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">录取专业</div>
-  <div class="fy-case-info-value">能源动力</div>
+  <div class="fy-case-info-value">材料</div>
 </div>
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">所在城市</div>
-  <div class="fy-case-info-value">长三角</div>
+  <div class="fy-case-info-value">北京</div>
 </div>
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">联系方式</div>
-  <div class="fy-case-info-value">(空)</div>
+  <div class="fy-case-info-value">18867219720</div>
 </div>
 
 </div>
@@ -70,9 +72,9 @@ tags:
 
 ---
 
-## 我为什么选择这个学校/专业
+## 学校/专业感悟
 
-顺应国家的新能源政策
+无明确目标建议选择好专业
 
 ---
 
@@ -80,33 +82,33 @@ tags:
 
 ### 学习压力
 
-电化学储能和流体力学挺有难度
+大学更自由
 
 ### 校园氛围
 
-总体氛围比较轻松，课业压力不重，比较依赖自学
+整体氛围卷，我偏自由
 
 ### 城市感受
 
-冬天着实够冷的，好在学校有暖气
+北京是个包容又排外的城市，每个人都能找到自己的归宿但整体门槛高。
 
 ### 宿舍与生活
 
-住宿条件yyds ，饮食也还可以，总体消费水平不高
+好
 
 ### 资源与机会
 
-学校保研率尚可，与德国大学有深度合作，可申请留学。奖学金种类较多，多为能源类企业
+实习机会较少，社团活动取决于各社团组织情况，娱乐性社团学校较打压，奖学金还行努力基本都能得，但数额不光由成绩决定。
 
 ### 社交与成长
 
-无
+多社交，向上攀登
 
 ---
 
 ## 应届生去向
 
-升学
+坑，本科大概率进场三班倒，硕士之后得看方向
 
 ---
 
@@ -115,13 +117,7 @@ tags:
 
 <div class="fy-highlight-box" markdown="1">
 
-#### ⚠️ 保研的同学好好研究下高数要求
-
-</div>
-
-<div class="fy-highlight-box" markdown="1">
-
-#### ⚠️ 有兴趣前往德国留学的同学记得早点规划，尤其是语言学习
+#### ⚠️ 比赛经历较少
 
 </div>
 
@@ -129,15 +125,17 @@ tags:
 
 ## 写给后来者的一句话
 
-> "好好享受你在大学的一分一秒吧，学弟学妹们，往后当你回想起大学的某一刻，青春年少的你总是站在那儿衡量着过去到现在的距离🐶🐶🐶"
+> "加油，永远保持学习的积极性，不一定是学业，是个人多方面能力"
 >
-> —— John
+> —— 小e
 
 ---
 
 ## 标签
 
+<span class="fy-tag">理科</span>
 <span class="fy-tag">工科</span>
-<span class="fy-tag">长三角</span>
-<span class="fy-tag">能源动力</span>
+<span class="fy-tag">跨省</span>
+<span class="fy-tag">北京</span>
+<span class="fy-tag">材料</span>
 <span class="fy-tag">211/双一流</span>

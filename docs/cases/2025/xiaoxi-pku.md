@@ -1,5 +1,8 @@
 ---
 title: 小溪 - 北京大学
+city: 北京
+major: 物理 + 政治 + 地理
+level: 985
 not_in_nav: true
 tags:
   - 985

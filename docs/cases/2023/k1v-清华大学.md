@@ -1,5 +1,8 @@
 ---
 title: k1v - 清华大学
+city: 北京
+major: 物理类（理科）
+level: 985
 not_in_nav: true
 tags:
   - 985

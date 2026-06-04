@@ -1,5 +1,8 @@
 ---
 title: Ruby - 大连理工大学
+city: 东北
+major: 物理类（理科）
+level: 985
 not_in_nav: true
 tags:
   - 工科
