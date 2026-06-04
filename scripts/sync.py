@@ -220,22 +220,51 @@ def classify_universities(cases: list) -> list:
     cats = {
         "985 院校": [],
         "211 / 双一流 院校": [],
+        "一本院校": [],
+        "二本院校": [],
         "港澳及海外院校": [],
         "其他院校": [],
     }
 
+    # 港澳/海外 关键词
+    OVERSEAS_CITY_KEYWORDS = ("香港", "澳门", "海外", "墨尔本", "悉尼", "伦敦", "纽约", "东京", "新加坡")
+    OVERSEAS_SCHOOL_KEYWORDS = ("香港", "澳门", "海外")
+
     for school_name, school_cases in schools.items():
         all_tags = set()
+        all_cities = set()
         for c in school_cases:
             all_tags.update(c["tags"])
+            if c.get("city"):
+                all_cities.add(c["city"])
 
-        # 分类优先级：985 > 211 > 港澳/海外 > 其他
-        # 用子串匹配，因为 tag 可能是 "211/双一流" 这样的复合值
+        def _has_overseas_signal() -> bool:
+            """检查标签/学校名/城市是否含港澳或海外信号。"""
+            # 标签匹配
+            for t in all_tags:
+                if any(kw in t for kw in ("港澳", "海外")):
+                    return True
+            # 学校名匹配
+            for kw in OVERSEAS_SCHOOL_KEYWORDS:
+                if kw in school_name:
+                    return True
+            # 城市匹配
+            for city in all_cities:
+                for kw in OVERSEAS_CITY_KEYWORDS:
+                    if kw in city:
+                        return True
+            return False
+
+        # 分类优先级：985 > 211 > 一本 > 二本 > 港澳/海外 > 其他
         if any("985" in t for t in all_tags):
             cats["985 院校"].append(school_name)
         elif any("211" in t for t in all_tags):
             cats["211 / 双一流 院校"].append(school_name)
-        elif any(tag in all_tags or any(tag in t for t in all_tags) for tag in ("港澳", "海外")):
+        elif any("一本" in t for t in all_tags):
+            cats["一本院校"].append(school_name)
+        elif any("二本" in t for t in all_tags):
+            cats["二本院校"].append(school_name)
+        elif _has_overseas_signal():
             cats["港澳及海外院校"].append(school_name)
         else:
             cats["其他院校"].append(school_name)

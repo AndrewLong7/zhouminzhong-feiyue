@@ -6,7 +6,6 @@ level: 985
 not_in_nav: true
 tags:
   - 985
-  - 双一流
   - 理工
   - 跨省
   - 北京

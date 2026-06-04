@@ -5,7 +5,7 @@ major: 物理 + 化学 + 生物
 level: 海外
 not_in_nav: true
 tags:
-  - 海外
+  - 港澳台及海外
   - 商科
   - 墨尔本
 ---

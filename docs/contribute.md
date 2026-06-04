@@ -66,7 +66,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 直接在问卷中填写你的升学经验，提交即可。
 
 <div style="margin-top: 16px;">
-  <a href="https://v.wjx.cn/vm/OrMZPgr.aspx" class="fy-btn fy-btn-primary">📝 填写问卷 →</a>
+  <a href="https://v.wjx.cn/vm/h9RRALW.aspx" class="fy-btn fy-btn-primary">📝 填写问卷 →</a>
 </div>
 
 </div>

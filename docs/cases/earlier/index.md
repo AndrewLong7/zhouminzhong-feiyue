@@ -71,7 +71,7 @@ description: 2023 届之前州民中校友升学经验分享。
     </div>
   </div>
   <div class="fy-case-card-tags">
-    <span class="fy-tag">海外</span>
+    <span class="fy-tag">港澳台及海外</span>
     <span class="fy-tag">商科</span>
     <span class="fy-tag">墨尔本</span>
   </div>
@@ -120,6 +120,7 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">长三角</span>
     <span class="fy-tag">电子信息</span>
+    <span class="fy-tag">一本</span>
   </div>
   <a href="Taylor-杭州电子科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
@@ -195,6 +196,31 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">花</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">花果山污染</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 南京审计大学 · 审计</div>
+    <div class="fy-case-card-major-score">高考 625 分 · 全省第 1200 名</div>
+    <div class="fy-case-card-summary">
+      "做好自己的抉择，明白自己究竟想要什么，选择了就不要后悔，人要为自己的选择负责。也要珍惜自己的大学生活，平时的成绩不是生活的全部，多去交际交一些知心朋友，多去实习提升自己的实操经验。大学整体来讲比较松散，要有一些自制力，劳逸结合，玩累了之后还是要多计划计划未来。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">一本</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">长三角</span>
+    <span class="fy-tag">审计</span>
+  </div>
+  <a href="花果山污染-南京审计大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">浩</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">浩哥</span>
@@ -236,6 +262,12 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 
 </div>
+
+
+
+
+
+
 
 
 

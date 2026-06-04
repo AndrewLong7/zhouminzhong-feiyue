@@ -48,7 +48,6 @@ description: 2023 届州民中校友升学经验分享。
   </div>
   <div class="fy-case-card-tags">
     <span class="fy-tag">985</span>
-    <span class="fy-tag">双一流</span>
     <span class="fy-tag">理工</span>
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">北京</span>
@@ -62,6 +61,12 @@ description: 2023 届州民中校友升学经验分享。
 <div style="text-align: center; margin-top: 32px;">
   <a href="/contribute/" class="fy-btn fy-btn-primary">📝 分享你的故事</a>
 </div>
+
+
+
+
+
+
 
 
 
