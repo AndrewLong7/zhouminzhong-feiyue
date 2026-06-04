@@ -23,6 +23,36 @@ with open(DATA_FILE, encoding="utf-8") as f:
 cases = data["cases"]
 universities = data["universities"]
 
+# 预计算：案例内容长度（用于排序）
+_case_length_cache = {}
+for c in cases:
+    md_path = DOCS / c["file"]
+    try:
+        text = md_path.read_text(encoding="utf-8")
+        # 去掉 frontmatter
+        if text.startswith("---"):
+            end = text.find("---", 4)
+            body = text[end + 3:] if end != -1 else text
+        else:
+            body = text
+        _case_length_cache[c["file"]] = len(body)
+    except Exception:
+        _case_length_cache[c["file"]] = 0
+
+
+def _case_content_len(case: dict) -> int:
+    """返回案例 .md 文件正文字符数，越长 = 内容越丰富。"""
+    return _case_length_cache.get(case["file"], 0)
+
+
+def _school_content_len(school_name: str) -> int:
+    """返回某学校单个最长案例的内容长度（按最优案例排名）。"""
+    school_cases = cases_by_school.get(school_name, [])
+    if not school_cases:
+        return 0
+    return max(_case_content_len(c) for c in school_cases)
+
+
 # 预计算索引
 cases_by_year = defaultdict(list)
 for c in cases:
@@ -181,8 +211,8 @@ def gen_year_cards() -> str:
 
 
 def gen_latest_cases(for_index: bool = False) -> str:
-    """生成最新案例列表（按 YAML 顺序取前 6 条）"""
-    latest = cases[:6]
+    """生成最新案例列表（按内容长度降序取前 6 条，优先展示丰富案例）"""
+    latest = sorted(cases, key=_case_content_len, reverse=True)[:6]
     cards = []
     for c in latest:
         file_path = c["file"]
@@ -208,13 +238,16 @@ def gen_year_case_cards(year_dir: str) -> str:
     if not year_cases:
         return '<div style="text-align: center; padding: 40px 16px;">\n\n该届案例正在收集中，敬请期待。\n\n</div>'
 
-    cards = [case_card(c, c["file"].split("/")[-1].replace(".md", "/")) for c in sorted(year_cases, key=lambda c: c["year"], reverse=True)]
+    cards = [case_card(c, c["file"].split("/")[-1].replace(".md", "/")) for c in sorted(year_cases, key=_case_content_len, reverse=True)]
     return "\n".join(cards)
 
 
 def _sorted_schools(schools: list) -> list:
-    """学校排序：有案例的优先，无案例的靠后"""
-    return sorted(schools, key=lambda s: (len(cases_by_school.get(_school_name(s), [])) == 0, _school_name(s)))
+    """学校排序：有案例的优先（按内容总量降序），无案例的靠后"""
+    return sorted(schools, key=lambda s: (
+        len(cases_by_school.get(_school_name(s), [])) == 0,
+        -_school_content_len(_school_name(s)),
+    ))
 
 
 def gen_homepage_university_cards() -> str:
@@ -222,7 +255,7 @@ def gen_homepage_university_cards() -> str:
     all_schools = []
     for cat in universities:
         all_schools.extend(cat["schools"])
-    cards = [university_card(_school_name(s), "") for s in _sorted_schools(all_schools)]
+    cards = [university_card(_school_name(s), "") for s in _sorted_schools(all_schools)[:20]]
     return "\n\n".join(cards)
 
 
