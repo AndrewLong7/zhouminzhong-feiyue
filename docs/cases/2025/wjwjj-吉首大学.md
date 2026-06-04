@@ -1,13 +1,13 @@
 ---
-title: 张智豪 - 香港科技大学
-city: 珠三角
+title: wjwjj - 吉首大学
+city: 西南
 major: 物理类（理科）
-level: 港澳
+level: 一本
 not_in_nav: true
 tags:
-  - 理科
-  - 珠三角
-  - TIE
+  - 跨省
+  - 西南
+  - 土木工程
 ---
 
 # 我的飞跃故事
@@ -20,22 +20,22 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">化名</div>
-  <div class="fy-case-info-value">张智豪</div>
+  <div class="fy-case-info-value">wjwjj</div>
 </div>
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">毕业届数</div>
-  <div class="fy-case-info-value">22 届</div>
+  <div class="fy-case-info-value">25 届</div>
 </div>
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">高考分数</div>
-  <div class="fy-case-info-value">614 分</div>
+  <div class="fy-case-info-value">509 分</div>
 </div>
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">全省位次</div>
-  <div class="fy-case-info-value">全省第 1000 名</div>
+  <div class="fy-case-info-value">全省第 80000 名</div>
 </div>
 
 <div class="fy-case-info-item">
@@ -45,17 +45,22 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">录取院校</div>
-  <div class="fy-case-info-value">香港科技大学</div>
+  <div class="fy-case-info-value">吉首大学</div>
 </div>
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">录取专业</div>
-  <div class="fy-case-info-value">TIE</div>
+  <div class="fy-case-info-value">土木工程</div>
 </div>
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">所在城市</div>
-  <div class="fy-case-info-value">珠三角</div>
+  <div class="fy-case-info-value">西南</div>
+</div>
+
+<div class="fy-case-info-item">
+  <div class="fy-case-info-label">联系方式</div>
+  <div class="fy-case-info-value">1888773666</div>
 </div>
 
 </div>
@@ -64,9 +69,9 @@ tags:
 
 ---
 
-## 我为什么选择这个学校/专业
+## 学校/专业感悟
 
-感兴趣，经过大学4年的思考，最终决定香港科技大学读书，觉得这条路更适合我的性格
+(空)
 
 ---
 
@@ -74,33 +79,33 @@ tags:
 
 ### 学习压力
 
-动手做自己的项目，不是正常的上学读书，类似创业孵化营
+(空)
 
 ### 校园氛围
 
-开放，多元，遇到很多人，理工类主导
+(空)
 
 ### 城市感受
 
-因人而异，欢迎性格外向，动手能力强，英语能力强的人，面向国际
+(空)
 
 ### 宿舍与生活
 
-香港生活成本很高
+(空)
 
 ### 资源与机会
 
-学校可以遇到很多人，多认识老师，老师手上又很多资源，多参加竞赛，活动，不要局限于课堂的作业
+(空)
 
 ### 社交与成长
 
-不要关于关注别人的眼光，和自己比较，每天进步一点点
+(空)
 
 ---
 
 ## 应届生去向
 
-保研，就业
+不知道
 
 ---
 
@@ -117,14 +122,14 @@ tags:
 
 ## 写给后来者的一句话
 
-> "对自己要求严格，不人云亦云，选择大于努力，努力也很重要"
+> "无"
 >
-> —— 张智豪
+> —— wjwjj
 
 ---
 
 ## 标签
 
-<span class="fy-tag">理科</span>
-<span class="fy-tag">珠三角</span>
-<span class="fy-tag">TIE</span>
+<span class="fy-tag">跨省</span>
+<span class="fy-tag">西南</span>
+<span class="fy-tag">土木工程</span>

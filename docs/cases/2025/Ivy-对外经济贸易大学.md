@@ -1,5 +1,8 @@
 ---
 title: Ivy - 对外经济贸易大学
+city: 北京
+major: 物理类（理科）
+level: 211
 not_in_nav: true
 tags:
   - 理科

@@ -1,5 +1,8 @@
 ---
 title: Andrew - 哈尔滨工业大学（深圳）
+city: 珠三角
+major: 物理 + 化学 + 生物
+level: 985
 not_in_nav: true
 tags:
   - 985

@@ -1,5 +1,8 @@
 ---
 title: Sophie - 复旦大学
+city: 上海
+major: 历史类（文科）
+level: 985
 not_in_nav: true
 tags:
   - 文科

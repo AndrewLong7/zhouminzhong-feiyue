@@ -152,13 +152,20 @@ def yaml_escape(s: str) -> str:
 # ============================================================
 # Markdown 渲染
 # ============================================================
-def build_frontmatter(alias: str, school: str, tags: list[str]) -> str:
+def build_frontmatter(alias: str, school: str, tags: list[str],
+                      city: str = "", major: str = "", level: str = "") -> str:
     title = f"{alias} - {school}" if school else alias
     lines = [
         "---",
         f"title: {yaml_escape(title)}",
-        "not_in_nav: true",
     ]
+    if city:
+        lines.append(f"city: {yaml_escape(city)}")
+    if major:
+        lines.append(f"major: {yaml_escape(major)}")
+    if level:
+        lines.append(f"level: {yaml_escape(level)}")
+    lines.append("not_in_nav: true")
     if tags:
         lines.append("tags:")
         for t in tags:
@@ -243,7 +250,12 @@ def build_tags_section(tags: list[str]) -> str:
 
 def render_markdown(d: dict[str, Any]) -> str:
     parts: list[str] = []
-    parts.append(build_frontmatter(d["alias"], d.get("school", ""), d.get("tags", [])))
+    parts.append(build_frontmatter(
+        d["alias"], d.get("school", ""), d.get("tags", []),
+        city=d.get("region", ""),
+        major=d.get("exam_track", ""),
+        level=d.get("school_type", ""),
+    ))
     parts.append("")
     parts.append("# 我的飞跃故事")
     parts.append("")
@@ -253,7 +265,7 @@ def render_markdown(d: dict[str, Any]) -> str:
 
     if d.get("reason"):
         parts.append("")
-        parts.append("## 我为什么选择这个学校/专业")
+        parts.append("## 学校/专业感悟")
         parts.append("")
         parts.append(d["reason"])
         parts.append("")

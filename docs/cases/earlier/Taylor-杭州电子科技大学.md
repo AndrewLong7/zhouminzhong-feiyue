@@ -1,5 +1,8 @@
 ---
 title: Taylor - 杭州电子科技大学
+city: 长三角
+major: 物理类（理科）
+level: 一本
 not_in_nav: true
 tags:
   - 工科

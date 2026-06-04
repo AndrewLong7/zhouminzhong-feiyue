@@ -1,5 +1,8 @@
 ---
 title: GL - 电子科技大学
+city: 西南
+major: 物理类（理科）
+level: 985
 not_in_nav: true
 tags:
   - 工科
