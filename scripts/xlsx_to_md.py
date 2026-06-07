@@ -73,15 +73,29 @@ def cell(row: tuple, idx: int) -> str:
 
 
 def parse_graduate_year(raw: str) -> str:
-    """'其他：〖20〗' / '2020' / '20届' → '20 届'。"""
+    """'其他：〖 20〗' / '2020' / '20届' → '20 届'。"""
     if not raw:
         return ""
-    m = re.search(r"〖\s*(\d+)\s*〗", raw)
+    m = re.search(r"〖\s*(.+?)\s*〗", raw)
     if m:
         return f"{m.group(1)} 届"
     m = re.search(r"(\d+)", raw)
     if m:
         return f"{m.group(1)} 届"
+    return raw
+
+
+def parse_region(raw: str) -> str:
+    """解析城市所在地字段。
+
+    '其他（可以填写省份）〖山东〗' → '山东'
+    '长三角' → '长三角'
+    """
+    if not raw:
+        return ""
+    m = re.search(r"〖\s*(.+?)\s*〗", raw)
+    if m:
+        return m.group(1)
     return raw
 
 
@@ -343,7 +357,7 @@ def parse_school_type_tags(raw: str) -> list[str]:
 
 def parse_row(row: tuple) -> dict[str, Any]:
     """xlsx 一行 → 字段字典。"""
-    region = cell(row, COL["region"])
+    region = parse_region(cell(row, COL["region"]))
     major = cell(row, COL["major"])
     school_type_raw = cell(row, COL["school_type"])
     tags = parse_tags(cell(row, COL["tags"]))
