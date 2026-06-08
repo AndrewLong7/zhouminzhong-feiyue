@@ -1,11 +1,11 @@
 ---
 title: George - 莫纳什大学
 city: 墨尔本
-major: 物理 + 化学 + 生物
+major: 物理类（理科）
 level: 海外
 not_in_nav: true
 tags:
-  - 港澳台及海外
+  - 海外
   - 商科
   - 墨尔本
 ---

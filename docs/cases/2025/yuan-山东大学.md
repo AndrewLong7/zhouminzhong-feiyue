@@ -57,7 +57,7 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">所在城市</div>
-  <div class="fy-case-info-value">其他（可以填写省份）〖山东〗</div>
+  <div class="fy-case-info-value">山东</div>
 </div>
 
 <div class="fy-case-info-item">
@@ -141,6 +141,6 @@ tags:
 
 <span class="fy-tag">工科</span>
 <span class="fy-tag">跨省</span>
-<span class="fy-tag">其他（可以填写省份）〖山东〗</span>
+<span class="fy-tag">山东</span>
 <span class="fy-tag">智能建造与智慧交通转到自动化</span>
 <span class="fy-tag">985</span>

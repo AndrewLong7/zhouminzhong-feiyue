@@ -310,7 +310,7 @@ description: 2023 届之前州民中校友升学经验分享。
   <div class="fy-case-card-tags">
     <span class="fy-tag">文科</span>
     <span class="fy-tag">本省</span>
-    <span class="fy-tag">其他（可以填写省份）〖湖南〗</span>
+    <span class="fy-tag">湖南</span>
     <span class="fy-tag">英语</span>
   </div>
   <a href="洗洁精-湖南工业大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
@@ -404,7 +404,7 @@ description: 2023 届之前州民中校友升学经验分享。
   </div>
   <div class="fy-case-card-tags">
     <span class="fy-tag">文科</span>
-    <span class="fy-tag">其他（可以填写省份）〖湖南〗</span>
+    <span class="fy-tag">湖南</span>
     <span class="fy-tag">法学</span>
   </div>
   <a href="月-吉首大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>

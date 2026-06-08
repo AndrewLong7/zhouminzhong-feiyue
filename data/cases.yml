@@ -271,10 +271,10 @@ cases:
     major: "法学"
     score: 505
     rank: 0
-    city: "其他（可以填写省份）〖湖南〗"
+    city: "湖南"
     type: real
     level: "一本"
-    tags: ["文科", "其他（可以填写省份）〖湖南〗", "法学"]
+    tags: ["文科", "湖南", "法学"]
     quote: "希望各位前程似锦，能在喜欢的专业发光发热。"
     file: cases/earlier/月-吉首大学.md
 
@@ -319,10 +319,10 @@ cases:
     major: "英语"
     score: 520
     rank: 10000
-    city: "其他（可以填写省份）〖湖南〗"
+    city: "湖南"
     type: real
     level: "一本"
-    tags: ["文科", "本省", "其他（可以填写省份）〖湖南〗", "英语"]
+    tags: ["文科", "本省", "湖南", "英语"]
     quote: "不要在岔路口犹豫不决。选的不对顶多被一个方向的车撞，在路口一直犹豫的话，就会被两个方向的车撞。"
     file: cases/earlier/洗洁精-湖南工业大学.md
 
