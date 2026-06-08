@@ -10,6 +10,29 @@ description: 2025 届州民中校友升学经验分享。
 <!-- AUTO-GEN: CASE_CARDS -->
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">小</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">小溪</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 北京大学 · 法学</div>
+    <div class="fy-case-card-major-score">高考 665 分 · 全省第 482 名</div>
+    <div class="fy-case-card-summary">
+      "不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了。接下来，只需要保持那份勇敢，继续往前走。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">985</span>
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">北京</span>
+  </div>
+  <a href="xiaoxi-pku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">I</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">Ivy</span>
@@ -59,52 +82,6 @@ description: 2025 届州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">小</div>
-    <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">小溪</span>
-      <span class="fy-case-card-year">2025 届 · 物理类</span>
-    </div>
-  </div>
-  <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 北京大学 · 法学</div>
-    <div class="fy-case-card-major-score">高考 665 分 · 全省第 482 名</div>
-    <div class="fy-case-card-summary">
-      "不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了。接下来，只需要保持那份勇敢，继续往前走。"
-    </div>
-  </div>
-  <div class="fy-case-card-tags">
-    <span class="fy-tag">985</span>
-    <span class="fy-tag">文科</span>
-    <span class="fy-tag">跨省</span>
-    <span class="fy-tag">北京</span>
-  </div>
-  <a href="xiaoxi-pku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
-  <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">张</div>
-    <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">张智豪</span>
-      <span class="fy-case-card-year">2025 届 · 物理类</span>
-    </div>
-  </div>
-  <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 华东师范大学 · 微电子科学与工程</div>
-    <div class="fy-case-card-major-score">高考 617 分 · 全省第 1000 名</div>
-    <div class="fy-case-card-summary">
-      "道路是曲折的，人生并没有固定答案，找到你想做的，并在上面花时间，才能过得快乐"
-    </div>
-  </div>
-  <div class="fy-case-card-tags">
-    <span class="fy-tag">理科</span>
-    <span class="fy-tag">上海</span>
-    <span class="fy-tag">微电子科学与工程</span>
-    <span class="fy-tag">985</span>
-  </div>
-  <a href="张智豪-华东师范大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
-  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">张</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">张智豪</span>
@@ -129,6 +106,13 @@ description: 2025 届州民中校友升学经验分享。
 <!-- /AUTO-GEN: CASE_CARDS -->
 
 </div>
+
+
+
+
+
+
+
 
 
 

@@ -149,6 +149,9 @@ def parse_case_file(md_path: Path) -> dict | None:
 
     case_type = "template" if "模板案例" in tags else "real"
 
+    # 学校等级：从 frontmatter 的 level 字段提取（985 / 211 / 一本 / 二本）
+    level = str(fm.get("level", "")).strip()
+
     # 引用语
     quote = extract_quote(content)
     if not quote:
@@ -176,6 +179,7 @@ def parse_case_file(md_path: Path) -> dict | None:
         "city": info.get("所在城市", ""),
         "type": case_type,
         "tags": tags,
+        "level": level,
         "quote": quote,
         "file": rel_path,
     }
@@ -230,33 +234,56 @@ def classify_universities(cases: list) -> list:
     OVERSEAS_CITY_KEYWORDS = ("香港", "澳门", "海外", "墨尔本", "悉尼", "伦敦", "纽约", "东京", "新加坡")
     OVERSEAS_SCHOOL_KEYWORDS = ("香港", "澳门", "海外")
 
+    # level 字段到分类名的映射（兼容复合值如 211/双一流）
+    def _resolve_level(raw: str) -> str:
+        if not raw:
+            return ""
+        r = raw.strip()
+        if "985" in r:
+            return "985 院校"
+        if "211" in r:
+            return "211 / 双一流 院校"
+        if "港澳" in r or "海外" in r:
+            return "港澳及海外院校"
+        if "一本" in r:
+            return "一本院校"
+        if "二本" in r:
+            return "二本院校"
+        return ""
+
     for school_name, school_cases in schools.items():
         all_tags = set()
         all_cities = set()
+        # 收集该学校第一个有效的 level
+        school_level = ""
         for c in school_cases:
             all_tags.update(c["tags"])
             if c.get("city"):
                 all_cities.add(c["city"])
+            if not school_level and c.get("level", "").strip():
+                school_level = c["level"].strip()
 
         def _has_overseas_signal() -> bool:
             """检查标签/学校名/城市是否含港澳或海外信号。"""
-            # 标签匹配
             for t in all_tags:
                 if any(kw in t for kw in ("港澳", "海外")):
                     return True
-            # 学校名匹配
             for kw in OVERSEAS_SCHOOL_KEYWORDS:
                 if kw in school_name:
                     return True
-            # 城市匹配
             for city in all_cities:
                 for kw in OVERSEAS_CITY_KEYWORDS:
                     if kw in city:
                         return True
             return False
 
-        # 分类优先级：985 > 211 > 一本 > 二本 > 港澳/海外 > 其他
-        if any("985" in t for t in all_tags):
+        # 分类：优先用 frontmatter level，其次海外信号，最后标签兜底
+        resolved = _resolve_level(school_level)
+        if resolved:
+            cats[resolved].append(school_name)
+        elif _has_overseas_signal():
+            cats["港澳及海外院校"].append(school_name)
+        elif any("985" in t for t in all_tags):
             cats["985 院校"].append(school_name)
         elif any("211" in t for t in all_tags):
             cats["211 / 双一流 院校"].append(school_name)
@@ -264,8 +291,6 @@ def classify_universities(cases: list) -> list:
             cats["一本院校"].append(school_name)
         elif any("二本" in t for t in all_tags):
             cats["二本院校"].append(school_name)
-        elif _has_overseas_signal():
-            cats["港澳及海外院校"].append(school_name)
         else:
             cats["其他院校"].append(school_name)
 
@@ -317,6 +342,8 @@ def generate_cases_yml(cases: list, universities: list) -> str:
         lines.append(f"    rank: {c['rank']}")
         lines.append(f'    city: {yaml_str(c["city"])}')
         lines.append(f'    type: {c["type"]}')
+        if c.get("level"):
+            lines.append(f'    level: {yaml_str(c["level"])}')
         tags_str = ", ".join(yaml_str(t) for t in c["tags"])
         lines.append(f"    tags: [{tags_str}]")
         lines.append(f'    quote: {yaml_str(c["quote"])}')

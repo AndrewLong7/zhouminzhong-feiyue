@@ -17,6 +17,7 @@ cases:
     rank: 12000
     city: "北京"
     type: real
+    level: "211"
     tags: ["理科", "商科", "跨省", "北京", "少数民族预科班", "211/双一流"]
     quote: "有凹陷，就会有高山相连。大家一定不要被困于当下的逆境中，你的人生不会因为一场考试的失败而变得糟糕，要永远相信你还有无限的可能！"
     file: cases/2025/Ivy-对外经济贸易大学.md
@@ -32,6 +33,7 @@ cases:
     rank: 3700
     city: "东北"
     type: real
+    level: "985"
     tags: ["工科", "跨省", "东北", "储能科学与工程", "985"]
     quote: "你是你自己人生的负责人，选择摆在面前的时候大胆去选，坑是一定有的，但是你能做出这个选择就意味着你是能承担这个后果的，不要畏惧，勇敢向前"
     file: cases/2025/Ruby-大连理工大学.md
@@ -47,24 +49,10 @@ cases:
     rank: 482
     city: "北京"
     type: real
+    level: "985"
     tags: ["985", "文科", "跨省", "北京"]
     quote: "不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了。接下来，只需要保持那份勇敢，继续往前走。"
     file: cases/2025/xiaoxi-pku.md
-
-  - id: "张智豪-华东师范大学"
-    name: "张智豪"
-    avatar: "张"
-    year: 2025
-    group: "物理类"
-    school: "华东师范大学"
-    major: "微电子科学与工程"
-    score: 617
-    rank: 1000
-    city: "上海"
-    type: real
-    tags: ["理科", "上海", "微电子科学与工程", "985"]
-    quote: "道路是曲折的，人生并没有固定答案，找到你想做的，并在上面花时间，才能过得快乐"
-    file: cases/2025/张智豪-华东师范大学.md
 
   - id: "张智豪-香港科技大学"
     name: "张智豪"
@@ -77,9 +65,26 @@ cases:
     rank: 1000
     city: "珠三角"
     type: real
+    level: "港澳"
     tags: ["理科", "珠三角", "TIE", "港澳台及海外"]
     quote: "对自己要求严格，不人云亦云，选择大于努力，努力也很重要"
     file: cases/2025/张智豪-香港科技大学.md
+
+  - id: "小e-北京化工大学"
+    name: "小e"
+    avatar: "小"
+    year: 2024
+    group: "物理类"
+    school: "北京化工大学"
+    major: "材料"
+    score: 590
+    rank: 17000
+    city: "北京"
+    type: real
+    level: "211/双一流"
+    tags: ["理科", "工科", "跨省", "北京", "材料", "211/双一流"]
+    quote: "加油，永远保持学习的积极性，不一定是学业，是个人多方面能力"
+    file: cases/2024/小e-北京化工大学.md
 
   - id: "彭子恒-北京师范大学（珠海）"
     name: "彭子恒"
@@ -92,9 +97,42 @@ cases:
     rank: 7800
     city: "珠三角"
     type: real
+    level: "985"
     tags: ["理科", "跨省", "珠三角", "数学与应用数学", "985"]
     quote: "有个好睡眠真的很重要"
     file: cases/2024/彭子恒-北京师范大学（珠海）.md
+
+  - id: "罗欣悦-北京科技大学"
+    name: "罗欣悦"
+    avatar: "罗"
+    year: 2024
+    group: "历史类"
+    school: "北京科技大学"
+    major: "行政管理"
+    score: 597
+    rank: 2100
+    city: "北京"
+    type: real
+    level: "211/双一流"
+    tags: ["文科", "北京", "行政管理", "211/双一流"]
+    quote: "可以慢下来，但是千万不能停下来，未来是无限的"
+    file: cases/2024/罗欣悦-北京科技大学.md
+
+  - id: "雯棋-中央财经大学"
+    name: "雯棋"
+    avatar: "雯"
+    year: 2024
+    group: "物理类"
+    school: "中央财经大学"
+    major: "财税"
+    score: 630
+    rank: 5000
+    city: "北京"
+    type: real
+    level: "211/双一流"
+    tags: ["文科", "理科", "商科", "跨省", "海外", "北京", "财税", "211/双一流"]
+    quote: "有自己的想法，别被网络或者大环境带节奏"
+    file: cases/2024/雯棋-中央财经大学.md
 
   - id: "GL-电子科技大学"
     name: "GL"
@@ -107,6 +145,7 @@ cases:
     rank: 2600
     city: "西南"
     type: real
+    level: "985"
     tags: ["工科", "西南", "电子信息工程", "985"]
     quote: "世界那么大，我却只是路过，周边那么小，但那确是我的人生。"
     file: cases/2023/GL-电子科技大学.md
@@ -122,9 +161,26 @@ cases:
     rank: 61
     city: "北京"
     type: real
+    level: "985"
     tags: ["985", "理工", "跨省", "北京"]
     quote: "不要怕走弯路，但在做决定之前，请先把能看的路都认真看一遍。选择之后，也不要反复美化那些没有走上的路；把脚下这条路走深、走稳，本身就是一种很重要的能力。"
     file: cases/2023/k1v-清华大学.md
+
+  - id: "李政润-中山大学"
+    name: "李政润"
+    avatar: "李"
+    year: 2023
+    group: "物理类"
+    school: "中山大学"
+    major: "数学与应用数学"
+    score: 654
+    rank: 1500
+    city: "珠三角"
+    type: real
+    level: "985"
+    tags: ["理科", "跨省", "珠三角", "数学与应用数学", "985"]
+    quote: "享受十八岁的夏天吧"
+    file: cases/2023/李政润-中山大学.md
 
   - id: "Sophie-复旦大学"
     name: "Sophie"
@@ -137,9 +193,170 @@ cases:
     rank: 54
     city: "上海"
     type: real
+    level: "985"
     tags: ["文科", "跨省", "上海", "广播电视学", "985"]
     quote: "世界有浮力 放松 就能被托举"
     file: cases/earlier/Sophie-复旦大学.md
+
+  - id: "w27-中央美术学院"
+    name: "w27"
+    avatar: "w"
+    year: 2022
+    group: "历史类"
+    school: "中央美术学院"
+    major: "艺术管理"
+    score: 482
+    rank: 25421
+    city: "上海"
+    type: real
+    level: "211/双一流"
+    tags: ["文科", "跨省", "海外", "上海", "艺术管理", "211/双一流"]
+    quote: "自由、肆意、快乐地生活吧"
+    file: cases/earlier/w27-中央美术学院.md
+
+  - id: "北长尾山雀-西南民族大学"
+    name: "北长尾山雀"
+    avatar: "北"
+    year: 2022
+    group: "历史类"
+    school: "西南民族大学"
+    major: "日语"
+    score: 531
+    rank: 1
+    city: "西南"
+    type: real
+    level: "一本"
+    tags: ["文科", "跨省", "西南", "日语"]
+    quote: "好好生活，保持愉快心情ˆ ˆ"
+    file: cases/earlier/北长尾山雀-西南民族大学.md
+
+  - id: "大豆-中央财经大学"
+    name: "大豆"
+    avatar: "大"
+    year: 2022
+    group: "历史类"
+    school: "中央财经大学"
+    major: "贸易经济"
+    score: 612
+    rank: 450
+    city: "北京"
+    type: real
+    level: "211/双一流"
+    tags: ["商科", "跨省", "北京", "贸易经济", "211/双一流"]
+    quote: "好好学习，天天向上"
+    file: cases/earlier/大豆-中央财经大学.md
+
+  - id: "张智豪-华东师范大学"
+    name: "张智豪"
+    avatar: "张"
+    year: 2022
+    group: "物理类"
+    school: "华东师范大学"
+    major: "微电子科学与工程"
+    score: 617
+    rank: 1000
+    city: "上海"
+    type: real
+    level: "985"
+    tags: ["理科", "上海", "微电子科学与工程", "985"]
+    quote: "道路是曲折的，人生并没有固定答案，找到你想做的，并在上面花时间，才能过得快乐"
+    file: cases/earlier/张智豪-华东师范大学.md
+
+  - id: "月-吉首大学"
+    name: "月"
+    avatar: "月"
+    year: 2022
+    group: "历史类"
+    school: "吉首大学"
+    major: "法学"
+    score: 505
+    rank: 0
+    city: "其他（可以填写省份）〖湖南〗"
+    type: real
+    level: "一本"
+    tags: ["文科", "其他（可以填写省份）〖湖南〗", "法学"]
+    quote: "希望各位前程似锦，能在喜欢的专业发光发热。"
+    file: cases/earlier/月-吉首大学.md
+
+  - id: "木哇-北京工业大学"
+    name: "木哇"
+    avatar: "木"
+    year: 2022
+    group: "历史类"
+    school: "北京工业大学"
+    major: "数字媒体艺术"
+    score: 469
+    rank: 0
+    city: "北京"
+    type: real
+    level: "211/双一流"
+    tags: ["文科", "跨省", "北京", "数字媒体艺术", "211/双一流"]
+    quote: "热爱会比将就走的更远，爱与梦想都要棋逢对手。"
+    file: cases/earlier/木哇-北京工业大学.md
+
+  - id: "泡面桶-华中师范大学"
+    name: "泡面桶"
+    avatar: "泡"
+    year: 2022
+    group: "历史类"
+    school: "华中师范大学"
+    major: "思想政治教育"
+    score: 600
+    rank: 900
+    city: "华中"
+    type: real
+    level: "211/双一流"
+    tags: ["文科", "跨省", "华中", "思想政治教育", "211/双一流"]
+    quote: "“道路也许是曲折的，前途一定是光明的。”"
+    file: cases/earlier/泡面桶-华中师范大学.md
+
+  - id: "洗洁精-湖南工业大学"
+    name: "洗洁精"
+    avatar: "洗"
+    year: 2022
+    group: "历史类"
+    school: "湖南工业大学"
+    major: "英语"
+    score: 520
+    rank: 10000
+    city: "其他（可以填写省份）〖湖南〗"
+    type: real
+    level: "一本"
+    tags: ["文科", "本省", "其他（可以填写省份）〖湖南〗", "英语"]
+    quote: "不要在岔路口犹豫不决。选的不对顶多被一个方向的车撞，在路口一直犹豫的话，就会被两个方向的车撞。"
+    file: cases/earlier/洗洁精-湖南工业大学.md
+
+  - id: "铅笔鼠-中国劳动关系学院"
+    name: "铅笔鼠"
+    avatar: "铅"
+    year: 2022
+    group: "历史类"
+    school: "中国劳动关系学院"
+    major: "新闻学"
+    score: 523
+    rank: 15000
+    city: "北京"
+    type: real
+    level: "二本"
+    tags: ["文科", "跨省", "北京", "新闻学"]
+    quote: "人生真的是旷野，大学可以算是自由人生的起点。在大学成绩也不是最重要的，但是成绩好的话可以拿奖学金，还是挺好的呀。高考没考好也不用担心，很多人本科不是好学校但是考研都考到了特别好的学校给自己的履历又添彩的。好好享受青春吧！"
+    file: cases/earlier/铅笔鼠-中国劳动关系学院.md
+
+  - id: "阿药-湖南科技大学"
+    name: "阿药"
+    avatar: "阿"
+    year: 2022
+    group: "历史类"
+    school: "湖南科技大学"
+    major: "汉语国际教育"
+    score: 536
+    rank: 11000
+    city: "华中"
+    type: real
+    level: "一本"
+    tags: ["文科", "本省", "湖南", "汉语国际教育"]
+    quote: "不要定义自己，你可以成为任何你想成为的自己。"
+    file: cases/earlier/阿药-湖南科技大学.md
 
   - id: "Andrew-哈尔滨工业大学（深圳）"
     name: "Andrew"
@@ -152,6 +369,7 @@ cases:
     rank: 1254
     city: "珠三角"
     type: real
+    level: "985"
     tags: ["985", "理工", "跨省", "深圳"]
     quote: "不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了；你能来到这里和全国各地的优秀青年齐聚一堂，说明你的能力获得了认可。接下来，只需要保持那份勇敢，继续往前走。"
     file: cases/earlier/Andrew-哈尔滨工业大学（深圳）.md
@@ -167,6 +385,7 @@ cases:
     rank: 95771
     city: "墨尔本"
     type: real
+    level: "海外"
     tags: ["港澳台及海外", "商科", "墨尔本"]
     quote: "不要瞻前顾后，不要顾此失彼，不要畏手畏脚，脚踏实地往前走，未来一定会握在自己的手里。"
     file: cases/earlier/George-莫纳什大学（Monash University）.md
@@ -182,6 +401,7 @@ cases:
     rank: 1
     city: "长三角"
     type: real
+    level: "211"
     tags: ["工科", "长三角", "能源动力", "211/双一流"]
     quote: "好好享受你在大学的一分一秒吧，学弟学妹们，往后当你回想起大学的某一刻，青春年少的你总是站在那儿衡量着过去到现在的距离"
     file: cases/earlier/John-中国矿业大学.md
@@ -197,6 +417,7 @@ cases:
     rank: 14000
     city: "长三角"
     type: real
+    level: "一本"
     tags: ["工科", "跨省", "长三角", "电子信息", "一本"]
     quote: "请珍惜所剩无几的高中时光，以后会一直回忆的，真是人生中最美好的日子，无忧无虑"
     file: cases/earlier/Taylor-杭州电子科技大学.md
@@ -212,6 +433,7 @@ cases:
     rank: 1260
     city: "珠三角"
     type: real
+    level: "985"
     tags: ["985", "理工", "深圳"]
     quote: "—— adj"
     file: cases/earlier/adj-哈尔滨工业大学（深圳）.md
@@ -227,6 +449,7 @@ cases:
     rank: 9300
     city: "珠三角"
     type: real
+    level: "211"
     tags: ["理科", "跨省", "珠三角", "数学/基础数学/算术几何和代数几何", "211/双一流"]
     quote: "希望后来的你们也都找到了自己喜欢的专业，在各自的领域闪闪发光。请大家无论在什么时候都要对自己保持信心，都要毫无条件地，无所保留地相信你自己。然后去成为想成为的人，走出大山，走的更远，去看到这个世界的每一面。"
     file: cases/earlier/嗯嗯不知道-西南交通大学.md
@@ -242,6 +465,7 @@ cases:
     rank: 1500
     city: "北京"
     type: real
+    level: "985"
     tags: ["文科", "跨省", "北京", "少数民族预科班/中国史", "985"]
     quote: "加油，再坚持一下。走出这座屋子，外面就是属于你的广阔天空。"
     file: cases/earlier/宋泽熙-中央民族大学.md
@@ -257,9 +481,26 @@ cases:
     rank: 1200
     city: "长三角"
     type: real
+    level: "一本"
     tags: ["文科", "商科", "一本", "跨省", "长三角", "审计"]
     quote: "做好自己的抉择，明白自己究竟想要什么，选择了就不要后悔，人要为自己的选择负责。也要珍惜自己的大学生活，平时的成绩不是生活的全部，多去交际交一些知心朋友，多去实习提升自己的实操经验。大学整体来讲比较松散，要有一些自制力，劳逸结合，玩累了之后还是要多计划计划未来。"
     file: cases/earlier/花果山污染-南京审计大学.md
+
+  - id: "陈彬-西南大学"
+    name: "陈彬"
+    avatar: "陈"
+    year: 2015
+    group: "历史类"
+    school: "西南大学"
+    major: "历史学（公费师范）"
+    score: 565
+    rank: 3000
+    city: "西南"
+    type: real
+    level: "211/双一流"
+    tags: ["文科", "西南", "历史学（公费师范）", "211/双一流"]
+    quote: "永远不要低估一颗想考上理想大学的心。"
+    file: cases/earlier/陈彬-西南大学.md
 
   - id: "浩哥-清华大学"
     name: "浩哥"
@@ -272,6 +513,7 @@ cases:
     rank: 100
     city: "北京"
     type: real
+    level: "985"
     tags: ["理科", "工科", "商科", "跨省", "北京", "电气工程及自动化", "985"]
     quote: "选择大于努力！开放心态，多试错，多接触，找到自己真正喜欢的方向，形成适合自己的方法论！"
     file: cases/earlier/浩哥-清华大学.md
@@ -285,6 +527,7 @@ universities:
   - category: "985 院校"
     schools:
       - "中央民族大学"
+      - "中山大学"
       - "北京大学"
       - "北京师范大学（珠海）"
       - "华东师范大学"
@@ -298,14 +541,27 @@ universities:
   - category: "211 / 双一流 院校"
     schools:
       - "中国矿业大学"
+      - "中央美术学院"
+      - name: "中央财经大学"
+        slug: "中央财经大学"
+      - "北京化工大学"
+      - "北京工业大学"
+      - "北京科技大学"
+      - "华中师范大学"
       - "对外经济贸易大学"
       - "西南交通大学"
+      - "西南大学"
   - category: "一本院校"
     schools:
       - "南京审计大学"
+      - "吉首大学"
       - "杭州电子科技大学"
+      - "湖南工业大学"
+      - "湖南科技大学"
+      - "西南民族大学"
   - category: "二本院校"
-    schools: []
+    schools:
+      - "中国劳动关系学院"
   - category: "港澳及海外院校"
     schools:
       - "莫纳什大学（Monash University）"
