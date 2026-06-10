@@ -48,7 +48,7 @@ description: 2023 届之前州民中校友升学经验分享。
     </div>
   </div>
   <div class="fy-case-card-tags">
-    <span class="fy-tag">港澳台及海外</span>
+    <span class="fy-tag">海外</span>
     <span class="fy-tag">商科</span>
     <span class="fy-tag">墨尔本</span>
   </div>
@@ -363,6 +363,29 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">s</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">summer</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 华中科技大学 · 电子信息工程</div>
+    <div class="fy-case-card-major-score">高考 657 分 · 全省第 1700 名</div>
+    <div class="fy-case-card-summary">
+      "请永远相信自己，不要因为一时的困难而气馁，流水不争先。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">电子信息工程</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="summer-华中科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">浩</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">浩哥</span>
@@ -519,6 +542,7 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 
 </div>
+
 
 
 

@@ -54,6 +54,22 @@ cases:
     quote: "不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了。接下来，只需要保持那份勇敢，继续往前走。"
     file: cases/2025/xiaoxi-pku.md
 
+  - id: "yuan-山东大学"
+    name: "yuan"
+    avatar: "y"
+    year: 2025
+    group: "物理类"
+    school: "山东大学"
+    major: "智能建造与智慧交通转到自动化"
+    score: 617
+    rank: 9424
+    city: "山东"
+    type: real
+    level: "985"
+    tags: ["工科", "跨省", "山东", "智能建造与智慧交通转到自动化", "985"]
+    quote: "加油"
+    file: cases/2025/yuan-山东大学.md
+
   - id: "张智豪-香港科技大学"
     name: "张智豪"
     avatar: "张"
@@ -69,6 +85,22 @@ cases:
     tags: ["理科", "珠三角", "TIE", "港澳台及海外"]
     quote: "对自己要求严格，不人云亦云，选择大于努力，努力也很重要"
     file: cases/2025/张智豪-香港科技大学.md
+
+  - id: "溯suu-西南大学"
+    name: "溯suu"
+    avatar: "溯"
+    year: 2025
+    group: "物理类"
+    school: "西南大学"
+    major: "地理（免费师范生）"
+    score: 618
+    rank: 9100
+    city: "西南"
+    type: real
+    level: "211/双一流"
+    tags: ["理科", "跨省", "西南", "地理（免费师范生）", "211/双一流"]
+    quote: "“向着光，追寻光，成为光”"
+    file: cases/2025/溯suu-西南大学.md
 
   - id: "小e-北京化工大学"
     name: "小e"
@@ -181,6 +213,38 @@ cases:
     tags: ["理科", "跨省", "珠三角", "数学与应用数学", "985"]
     quote: "享受十八岁的夏天吧"
     file: cases/2023/李政润-中山大学.md
+
+  - id: "李昕峰-重庆交通大学"
+    name: "李昕峰"
+    avatar: "李"
+    year: 2023
+    group: "物理类"
+    school: "重庆交通大学"
+    major: "机械设计制造及其自动化（卓越工程师班）"
+    score: 563
+    rank: 33492
+    city: "西南"
+    type: real
+    level: "一本"
+    tags: ["工科", "跨省", "西南", "机械", "自动化"]
+    quote: "\"不要畏惧新世界，去体验，去拼搏"
+    file: cases/2023/李昕峰-重庆交通大学.md
+
+  - id: "杜崇乾-西安交通大学"
+    name: "杜崇乾"
+    avatar: "杜"
+    year: 2023
+    group: "物理类"
+    school: "西安交通大学"
+    major: "人工智能"
+    score: 0
+    rank: 0
+    city: "西北"
+    type: real
+    level: "985"
+    tags: ["文科", "理科", "工科", "医学", "商科", "跨省", "西北", "人工智能", "985"]
+    quote: "活在当下，造福大家，实现理想！"
+    file: cases/2023/杜崇乾-西安交通大学.md
 
   - id: "Sophie-复旦大学"
     name: "Sophie"
@@ -386,7 +450,7 @@ cases:
     city: "墨尔本"
     type: real
     level: "海外"
-    tags: ["港澳台及海外", "商科", "墨尔本"]
+    tags: ["海外", "商科", "墨尔本"]
     quote: "不要瞻前顾后，不要顾此失彼，不要畏手畏脚，脚踏实地往前走，未来一定会握在自己的手里。"
     file: cases/earlier/George-莫纳什大学（Monash University）.md
 
@@ -437,6 +501,22 @@ cases:
     tags: ["985", "理工", "深圳"]
     quote: "—— adj"
     file: cases/earlier/adj-哈尔滨工业大学（深圳）.md
+
+  - id: "summer-华中科技大学"
+    name: "summer"
+    avatar: "s"
+    year: 2020
+    group: "物理类"
+    school: "华中科技大学"
+    major: "电子信息工程"
+    score: 657
+    rank: 1700
+    city: "华中"
+    type: real
+    level: "985"
+    tags: ["工科", "华中", "电子信息工程", "985"]
+    quote: "请永远相信自己，不要因为一时的困难而气馁，流水不争先。"
+    file: cases/earlier/summer-华中科技大学.md
 
   - id: "嗯嗯不知道-西南交通大学"
     name: "嗯嗯不知道"
@@ -531,13 +611,16 @@ universities:
       - "北京大学"
       - "北京师范大学（珠海）"
       - "华东师范大学"
+      - "华中科技大学"
       - name: "哈尔滨工业大学（深圳）"
         slug: "哈尔滨工业大学-深圳"
       - "复旦大学"
       - "大连理工大学"
+      - "山东大学"
       - name: "清华大学"
         slug: "清华大学"
       - "电子科技大学"
+      - "西安交通大学"
   - category: "211 / 双一流 院校"
     schools:
       - "中国矿业大学"
@@ -550,7 +633,8 @@ universities:
       - "华中师范大学"
       - "对外经济贸易大学"
       - "西南交通大学"
-      - "西南大学"
+      - name: "西南大学"
+        slug: "西南大学"
   - category: "一本院校"
     schools:
       - "南京审计大学"
@@ -559,6 +643,7 @@ universities:
       - "湖南工业大学"
       - "湖南科技大学"
       - "西南民族大学"
+      - "重庆交通大学"
   - category: "二本院校"
     schools:
       - "中国劳动关系学院"

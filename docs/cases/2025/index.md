@@ -58,6 +58,30 @@ description: 2025 届州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">y</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">yuan</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 山东大学 · 智能建造与智慧交通转到自动化</div>
+    <div class="fy-case-card-major-score">高考 617 分 · 全省第 9424 名</div>
+    <div class="fy-case-card-summary">
+      "加油"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">山东</span>
+    <span class="fy-tag">智能建造与智慧交通转到自动化</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="yuan-山东大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">R</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">Ruby</span>
@@ -79,6 +103,30 @@ description: 2025 届州民中校友升学经验分享。
     <span class="fy-tag">985</span>
   </div>
   <a href="Ruby-大连理工大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">溯</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">溯suu</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">🏫 西南大学 · 地理（免费师范生）</div>
+    <div class="fy-case-card-major-score">高考 618 分 · 全省第 9100 名</div>
+    <div class="fy-case-card-summary">
+      "“向着光，追寻光，成为光”"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">地理（免费师范生）</span>
+    <span class="fy-tag">211/双一流</span>
+  </div>
+  <a href="溯suu-西南大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -106,6 +154,7 @@ description: 2025 届州民中校友升学经验分享。
 <!-- /AUTO-GEN: CASE_CARDS -->
 
 </div>
+
 
 
 
