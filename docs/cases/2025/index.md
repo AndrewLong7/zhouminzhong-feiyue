@@ -29,7 +29,7 @@ description: 2025 届州民中校友升学经验分享。
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">北京</span>
   </div>
-  <a href="xiaoxi-pku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="xiaoxi-pku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -54,7 +54,7 @@ description: 2025 届州民中校友升学经验分享。
     <span class="fy-tag">少数民族预科班</span>
     <span class="fy-tag">211/双一流</span>
   </div>
-  <a href="Ivy-对外经济贸易大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="Ivy-对外经济贸易大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -78,7 +78,7 @@ description: 2025 届州民中校友升学经验分享。
     <span class="fy-tag">智能建造与智慧交通转到自动化</span>
     <span class="fy-tag">985</span>
   </div>
-  <a href="yuan-山东大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="yuan-山东大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -102,7 +102,7 @@ description: 2025 届州民中校友升学经验分享。
     <span class="fy-tag">储能科学与工程</span>
     <span class="fy-tag">985</span>
   </div>
-  <a href="Ruby-大连理工大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="Ruby-大连理工大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -126,7 +126,7 @@ description: 2025 届州民中校友升学经验分享。
     <span class="fy-tag">地理（免费师范生）</span>
     <span class="fy-tag">211/双一流</span>
   </div>
-  <a href="溯suu-西南大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="溯suu-西南大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -149,11 +149,15 @@ description: 2025 届州民中校友升学经验分享。
     <span class="fy-tag">TIE</span>
     <span class="fy-tag">港澳台及海外</span>
   </div>
-  <a href="张智豪-香港科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="张智豪-香港科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: CASE_CARDS -->
 
 </div>
+
+
+
+
 
 
 

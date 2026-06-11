@@ -48,13 +48,13 @@ description: 浏览所有州民中校友升学案例。
 
 <div class="fy-school-card" style="cursor: pointer;" onclick="location.href='2023/'">
   <span class="fy-school-card-name">2023 届</span>
-  <span class="fy-school-card-count">5 个案例</span>
+  <span class="fy-school-card-count">6 个案例</span>
   <span class="fy-school-card-major">往届毕业生</span>
 </div>
 
 <div class="fy-school-card" style="cursor: pointer;" onclick="location.href='earlier/'">
   <span class="fy-school-card-name">更早的案例</span>
-  <span class="fy-school-card-count">22 个案例</span>
+  <span class="fy-school-card-count">33 个案例</span>
   <span class="fy-school-card-major">往届毕业生</span>
 </div>
 <!-- /AUTO-GEN: YEAR_CARDS -->
@@ -90,7 +90,7 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">北京</span>
   </div>
-  <a href="2023/k1v-清华大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="2023/k1v-清华大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -113,7 +113,7 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">电子信息工程</span>
     <span class="fy-tag">985</span>
   </div>
-  <a href="2023/GL-电子科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="2023/GL-电子科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -137,7 +137,7 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">少数民族预科班/中国史</span>
     <span class="fy-tag">985</span>
   </div>
-  <a href="earlier/宋泽熙-中央民族大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="earlier/宋泽熙-中央民族大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -159,7 +159,7 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">商科</span>
     <span class="fy-tag">墨尔本</span>
   </div>
-  <a href="earlier/George-莫纳什大学（Monash University）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="earlier/George-莫纳什大学（Monash University）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -183,7 +183,7 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">数学/基础数学/算术几何和代数几何</span>
     <span class="fy-tag">211/双一流</span>
   </div>
-  <a href="earlier/嗯嗯不知道-西南交通大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="earlier/嗯嗯不知道-西南交通大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -206,7 +206,7 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">深圳</span>
   </div>
-  <a href="earlier/Andrew-哈尔滨工业大学（深圳）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="earlier/Andrew-哈尔滨工业大学（深圳）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: LATEST_CASES -->
 
@@ -215,6 +215,10 @@ description: 浏览所有州民中校友升学案例。
 ---
 
 > 📢 **你是州民中校友？** [分享你的故事 →](../contribute.md)
+
+
+
+
 
 
 

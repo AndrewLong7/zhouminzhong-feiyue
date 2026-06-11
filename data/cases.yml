@@ -246,6 +246,22 @@ cases:
     quote: "活在当下，造福大家，实现理想！"
     file: cases/2023/杜崇乾-西安交通大学.md
 
+  - id: "青-南京医科大学"
+    name: "青"
+    avatar: "青"
+    year: 2023
+    group: "物理类"
+    school: "南京医科大学"
+    major: "临床医学"
+    score: 642
+    rank: 3400
+    city: "长三角"
+    type: real
+    level: "211/双一流"
+    tags: ["理科", "医学", "跨省", "长三角", "临床医学", "211/双一流"]
+    quote: "临床医学毁了我的985梦。但也赋予了我新生。"
+    file: cases/2023/青-南京医科大学.md
+
   - id: "Sophie-复旦大学"
     name: "Sophie"
     avatar: "S"
@@ -422,6 +438,22 @@ cases:
     quote: "不要定义自己，你可以成为任何你想成为的自己。"
     file: cases/earlier/阿药-湖南科技大学.md
 
+  - id: "苏三三-西北民族大学"
+    name: "苏三三"
+    avatar: "苏"
+    year: 2021
+    group: "历史类"
+    school: "西北民族大学"
+    major: "汉语言文学"
+    score: 533
+    rank: 13000
+    city: "西北"
+    type: real
+    level: "一本"
+    tags: ["文科", "西北", "汉语言文学"]
+    quote: "如果感到迷茫，不用管前面的道路上有什么，先勇敢的迈出第一步你就已经很棒了。"
+    file: cases/earlier/苏三三-西北民族大学.md
+
   - id: "Andrew-哈尔滨工业大学（深圳）"
     name: "Andrew"
     avatar: "A"
@@ -502,6 +534,22 @@ cases:
     quote: "—— adj"
     file: cases/earlier/adj-哈尔滨工业大学（深圳）.md
 
+  - id: "chen-华北电力大学"
+    name: "chen"
+    avatar: "c"
+    year: 2020
+    group: "物理类"
+    school: "华北电力大学"
+    major: "电气工程及其自动化"
+    score: 633
+    rank: 6000
+    city: "北京"
+    type: real
+    level: "211/双一流"
+    tags: ["理科", "工科", "跨省", "北京", "电气工程及其自动化", "211/双一流"]
+    quote: "加油是自己的就是最适合自己的，沉得住气做大事，时间会改变一切。"
+    file: cases/earlier/chen-华北电力大学.md
+
   - id: "summer-华中科技大学"
     name: "summer"
     avatar: "s"
@@ -517,6 +565,70 @@ cases:
     tags: ["工科", "华中", "电子信息工程", "985"]
     quote: "请永远相信自己，不要因为一时的困难而气馁，流水不争先。"
     file: cases/earlier/summer-华中科技大学.md
+
+  - id: "tsl-大连海事大学"
+    name: "tsl"
+    avatar: "t"
+    year: 2020
+    group: "物理类"
+    school: "大连海事大学"
+    major: "地理信息科学"
+    score: 592
+    rank: 15000
+    city: "东北"
+    type: real
+    level: "211/双一流"
+    tags: ["理科", "跨省", "东北", "地理信息科学", "211/双一流"]
+    quote: "最近看到的很喜欢的一句话:Tomorrow is a new day.不管当下如何，明天又会是新的一天。"
+    file: cases/earlier/tsl-大连海事大学.md
+
+  - id: "二白-湖南中医药大学"
+    name: "二白"
+    avatar: "二"
+    year: 2020
+    group: "历史类"
+    school: "湖南中医药大学"
+    major: "中医学"
+    score: 568
+    rank: 0
+    city: "湖南"
+    type: real
+    level: "一本"
+    tags: ["文科", "医学", "湖南", "中医学"]
+    quote: "未来可期，人生的选择还有很多，不要着眼一时成败得是，保持快乐"
+    file: cases/earlier/二白-湖南中医药大学.md
+
+  - id: "向柒霖-吉首大学"
+    name: "向柒霖"
+    avatar: "向"
+    year: 2020
+    group: "历史类"
+    school: "吉首大学"
+    major: "新闻学"
+    score: 553
+    rank: 16000
+    city: "湖南"
+    type: real
+    level: "一本"
+    tags: ["文科", "本省", "湖南", "新闻学"]
+    quote: "加油吧！"
+    file: cases/earlier/向柒霖-吉首大学.md
+
+  - id: "呃嗯同学-北华大学"
+    name: "呃嗯同学"
+    avatar: "呃"
+    year: 2020
+    group: "物理类"
+    school: "北华大学"
+    major: "康复"
+    score: 497
+    rank: 80000
+    city: "东北"
+    type: real
+    level: "二本"
+    tags: ["理科", "东北", "康复"]
+    quote: "好好享受大学时光吧，上班了真的想死"
+    file: cases/earlier/呃嗯同学-北华大学.md
 
   - id: "嗯嗯不知道-西南交通大学"
     name: "嗯嗯不知道"
@@ -550,6 +662,54 @@ cases:
     quote: "加油，再坚持一下。走出这座屋子，外面就是属于你的广阔天空。"
     file: cases/earlier/宋泽熙-中央民族大学.md
 
+  - id: "挽风-湘西民族职业技术学院"
+    name: "挽风"
+    avatar: "挽"
+    year: 2020
+    group: "物理类"
+    school: "湘西民族职业技术学院"
+    major: "畜牧兽医"
+    score: 439
+    rank: 0
+    city: "湖南湘西"
+    type: real
+    level: "其他"
+    tags: ["理科", "本省", "湖南湘西", "畜牧兽医"]
+    quote: "\"人生或许有遗憾，但奋斗过的青春一定是最美的。"
+    file: cases/earlier/挽风-湘西民族职业技术学院.md
+
+  - id: "方正小标宋简体-中南民族大学"
+    name: "方正小标宋简体"
+    avatar: "方"
+    year: 2020
+    group: "历史类"
+    school: "中南民族大学"
+    major: "法学"
+    score: 585
+    rank: 0
+    city: "华中"
+    type: real
+    level: "一本"
+    tags: ["文科", "跨省", "华中", "法学"]
+    quote: "你已经很努力了，因上努力果上随缘，每个人都有无限可能，当下不必太过焦虑，走的每一步都算数ˆ_ˆ"
+    file: cases/earlier/方正小标宋简体-中南民族大学.md
+
+  - id: "芭乐乐茶-湖南工学院"
+    name: "芭乐乐茶"
+    avatar: "芭"
+    year: 2020
+    group: "历史类"
+    school: "湖南工学院"
+    major: "国际经济与贸易"
+    score: 543
+    rank: 23000
+    city: "湖南衡阳"
+    type: real
+    level: "二本"
+    tags: ["文科", "商科", "本省", "湖南衡阳", "国际经济与贸易"]
+    quote: "曾经总是听前辈们说“选择大于努力”，自己不以为然，觉得几个字轻飘飘。如今我也成了前人，只希望自己的又一遍强调能让这句话传到后辈的耳朵时增加一点重量。"
+    file: cases/earlier/芭乐乐茶-湖南工学院.md
+
   - id: "花果山污染-南京审计大学"
     name: "花果山污染"
     avatar: "花"
@@ -565,6 +725,38 @@ cases:
     tags: ["文科", "商科", "一本", "跨省", "长三角", "审计"]
     quote: "做好自己的抉择，明白自己究竟想要什么，选择了就不要后悔，人要为自己的选择负责。也要珍惜自己的大学生活，平时的成绩不是生活的全部，多去交际交一些知心朋友，多去实习提升自己的实操经验。大学整体来讲比较松散，要有一些自制力，劳逸结合，玩累了之后还是要多计划计划未来。"
     file: cases/earlier/花果山污染-南京审计大学.md
+
+  - id: "薯条-湖南女子学院"
+    name: "薯条"
+    avatar: "薯"
+    year: 2020
+    group: "历史类"
+    school: "湖南女子学院"
+    major: "网新"
+    score: 500
+    rank: 0
+    city: "华中"
+    type: real
+    level: "二本"
+    tags: ["文科", "华中", "网新"]
+    quote: "学好英语，非常非常非常重要"
+    file: cases/earlier/薯条-湖南女子学院.md
+
+  - id: "ddd-南华大学"
+    name: "ddd"
+    avatar: "d"
+    year: 2018
+    group: "历史类"
+    school: "南华大学"
+    major: "法学"
+    score: 583
+    rank: 1
+    city: "华中"
+    type: real
+    level: "一本"
+    tags: ["文科", "本省", "华中", "法学"]
+    quote: "趁年轻有时间赶紧出去玩"
+    file: cases/earlier/ddd-南华大学.md
 
   - id: "陈彬-西南大学"
     name: "陈彬"
@@ -631,25 +823,37 @@ universities:
       - "北京工业大学"
       - "北京科技大学"
       - "华中师范大学"
+      - "华北电力大学"
+      - "南京医科大学"
+      - "大连海事大学"
       - "对外经济贸易大学"
       - "西南交通大学"
       - name: "西南大学"
         slug: "西南大学"
   - category: "一本院校"
     schools:
+      - "中南民族大学"
       - "南京审计大学"
-      - "吉首大学"
+      - "南华大学"
+      - name: "吉首大学"
+        slug: "吉首大学"
       - "杭州电子科技大学"
+      - "湖南中医药大学"
       - "湖南工业大学"
       - "湖南科技大学"
+      - "西北民族大学"
       - "西南民族大学"
       - "重庆交通大学"
   - category: "二本院校"
     schools:
       - "中国劳动关系学院"
+      - "北华大学"
+      - "湖南女子学院"
+      - "湖南工学院"
   - category: "港澳及海外院校"
     schools:
       - "莫纳什大学（Monash University）"
       - "香港科技大学"
   - category: "其他院校"
-    schools: []
+    schools:
+      - "湘西民族职业技术学院"

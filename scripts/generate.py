@@ -117,7 +117,7 @@ def case_card(c: dict, href: str) -> str:
   </div>
   <div class="fy-case-card-tags">{type_badge}{tags_html}
   </div>
-  <a href="{href}" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="{href}" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>"""
 
 

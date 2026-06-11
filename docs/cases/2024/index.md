@@ -33,7 +33,7 @@ description: 2024 届州民中校友升学经验分享。
     <span class="fy-tag">财税</span>
     <span class="fy-tag">211/双一流</span>
   </div>
-  <a href="雯棋-中央财经大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="雯棋-中央财经大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -57,7 +57,7 @@ description: 2024 届州民中校友升学经验分享。
     <span class="fy-tag">数学与应用数学</span>
     <span class="fy-tag">985</span>
   </div>
-  <a href="彭子恒-北京师范大学（珠海）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="彭子恒-北京师范大学（珠海）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -82,7 +82,7 @@ description: 2024 届州民中校友升学经验分享。
     <span class="fy-tag">材料</span>
     <span class="fy-tag">211/双一流</span>
   </div>
-  <a href="小e-北京化工大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="小e-北京化工大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -105,7 +105,7 @@ description: 2024 届州民中校友升学经验分享。
     <span class="fy-tag">行政管理</span>
     <span class="fy-tag">211/双一流</span>
   </div>
-  <a href="罗欣悦-北京科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="罗欣悦-北京科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: CASE_CARDS -->
 
@@ -114,6 +114,10 @@ description: 2024 届州民中校友升学经验分享。
 <div style="text-align: center; margin-top: 32px;">
   <a href="/contribute/" class="fy-btn fy-btn-primary">📝 分享你的故事</a>
 </div>
+
+
+
+
 
 
 

@@ -114,10 +114,22 @@ hide:
   <span class="fy-school-card-major">电子信息</span>
 </a>
 
+<a href="cases/2023/青-南京医科大学/" class="fy-school-card">
+  <span class="fy-school-card-name">南京医科大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">临床医学</span>
+</a>
+
 <a href="cases/earlier/泡面桶-华中师范大学/" class="fy-school-card">
   <span class="fy-school-card-name">华中师范大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">思想政治教育</span>
+</a>
+
+<a href="cases/earlier/芭乐乐茶-湖南工学院/" class="fy-school-card">
+  <span class="fy-school-card-name">湖南工学院</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">国际经济与贸易</span>
 </a>
 
 <a href="cases/2025/Ivy-对外经济贸易大学/" class="fy-school-card">
@@ -150,28 +162,16 @@ hide:
   <span class="fy-school-card-major">艺术管理</span>
 </a>
 
+<a href="cases/earlier/方正小标宋简体-中南民族大学/" class="fy-school-card">
+  <span class="fy-school-card-name">中南民族大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">法学</span>
+</a>
+
 <a href="cases/earlier/花果山污染-南京审计大学/" class="fy-school-card">
   <span class="fy-school-card-name">南京审计大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">审计</span>
-</a>
-
-<a href="cases/earlier/洗洁精-湖南工业大学/" class="fy-school-card">
-  <span class="fy-school-card-name">湖南工业大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">英语</span>
-</a>
-
-<a href="cases/earlier/铅笔鼠-中国劳动关系学院/" class="fy-school-card">
-  <span class="fy-school-card-name">中国劳动关系学院</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">新闻学</span>
-</a>
-
-<a href="cases/earlier/北长尾山雀-西南民族大学/" class="fy-school-card">
-  <span class="fy-school-card-name">西南民族大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">日语</span>
 </a>
 <!-- /AUTO-GEN: HOMEPAGE_UNIVERSITIES -->
 
@@ -218,7 +218,7 @@ hide:
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">北京</span>
   </div>
-  <a href="cases/2023/k1v-清华大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="cases/2023/k1v-清华大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -241,7 +241,7 @@ hide:
     <span class="fy-tag">电子信息工程</span>
     <span class="fy-tag">985</span>
   </div>
-  <a href="cases/2023/GL-电子科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="cases/2023/GL-电子科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -265,7 +265,7 @@ hide:
     <span class="fy-tag">少数民族预科班/中国史</span>
     <span class="fy-tag">985</span>
   </div>
-  <a href="cases/earlier/宋泽熙-中央民族大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="cases/earlier/宋泽熙-中央民族大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -287,7 +287,7 @@ hide:
     <span class="fy-tag">商科</span>
     <span class="fy-tag">墨尔本</span>
   </div>
-  <a href="cases/earlier/George-莫纳什大学（Monash University）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="cases/earlier/George-莫纳什大学（Monash University）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -311,7 +311,7 @@ hide:
     <span class="fy-tag">数学/基础数学/算术几何和代数几何</span>
     <span class="fy-tag">211/双一流</span>
   </div>
-  <a href="cases/earlier/嗯嗯不知道-西南交通大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="cases/earlier/嗯嗯不知道-西南交通大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -334,7 +334,7 @@ hide:
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">深圳</span>
   </div>
-  <a href="cases/earlier/Andrew-哈尔滨工业大学（深圳）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="cases/earlier/Andrew-哈尔滨工业大学（深圳）/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: LATEST_CASES -->
 
@@ -451,6 +451,10 @@ QQ 群号：793634202
 </div>
 
 </div>
+
+
+
+
 
 
 
