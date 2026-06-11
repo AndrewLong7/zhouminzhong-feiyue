@@ -304,7 +304,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .fy-school-card-major {
   font-size: 0.78rem;
-  color: var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color-dark);
   font-weight: 500;
 }
 
@@ -347,7 +347,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   font-weight: 700;
   font-size: 0.9rem;
-  color: var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color-dark);
   flex-shrink: 0;
 }
 
@@ -580,7 +580,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   font-size: 1.3rem;
   font-weight: 700;
-  color: var(--md-primary-fg-color);
+  color: var(--md-primary-fg-color-dark);
   margin: 0 auto 12px;
 }
 
@@ -664,8 +664,8 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding: 10px 24px;
   background: var(--feiyue-card-bg);
-  border: 1px solid var(--md-primary-fg-color);
-  color: var(--md-primary-fg-color);
+  border: 1px solid var(--md-primary-fg-color-dark);
+  color: var(--md-primary-fg-color-dark);
   border-radius: 24px;
   font-size: 0.9rem;
   font-weight: 500;
@@ -674,20 +674,34 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
 }
 
-.fy-btn:hover {
-  background: var(--md-primary-fg-color);
-  color: white;
+.md-typeset .fy-btn {
+  color: var(--md-primary-fg-color-dark) !important;
 }
 
-.fy-btn-primary {
+.md-typeset .fy-btn:hover {
   background: var(--md-primary-fg-color);
-  color: white;
+  color: #FFFFFF !important;
+}
+
+.md-typeset .fy-btn-primary {
+  background: var(--md-primary-fg-color);
+  color: #FFFFFF !important;
   border: 1px solid var(--md-primary-fg-color);
 }
 
-.fy-btn-primary:hover {
+.md-typeset .fy-btn-primary:hover {
   background: var(--md-primary-fg-color-dark);
   border-color: var(--md-primary-fg-color-dark);
+  color: #FFFFFF !important;
+}
+
+/* Material 主题的 md-button--primary 也被 .md-typeset 覆盖，强制白色文字 */
+.md-typeset .md-button--primary {
+  color: #FFFFFF !important;
+}
+
+.md-typeset .md-button--primary:hover {
+  color: #FFFFFF !important;
 }
 
 .fy-text-center {
