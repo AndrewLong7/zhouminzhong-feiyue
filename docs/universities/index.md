@@ -69,6 +69,24 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">广播电视学</span>
 </a>
 
+<a href="../cases/2023/杜崇乾-西安交通大学/" class="fy-school-card">
+  <span class="fy-school-card-name">西安交通大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">人工智能</span>
+</a>
+
+<a href="../cases/2025/yuan-山东大学/" class="fy-school-card">
+  <span class="fy-school-card-name">山东大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">智能建造与智慧交通转到自动化</span>
+</a>
+
+<a href="../cases/earlier/summer-华中科技大学/" class="fy-school-card">
+  <span class="fy-school-card-name">华中科技大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">电子信息工程</span>
+</a>
+
 <a href="../cases/2025/Ruby-大连理工大学/" class="fy-school-card">
   <span class="fy-school-card-name">大连理工大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
@@ -147,10 +165,10 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">材料</span>
 </a>
 
-<a href="../cases/earlier/陈彬-西南大学/" class="fy-school-card">
+<a href="../universities/西南大学/" class="fy-school-card">
   <span class="fy-school-card-name">西南大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">历史学（公费师范）</span>
+  <span class="fy-school-card-count">已收录 2 人</span>
+  <span class="fy-school-card-major">地理（免费师范生） · 历史学（公费师范）</span>
 </a>
 
 <a href="../cases/2024/罗欣悦-北京科技大学/" class="fy-school-card">
@@ -193,6 +211,12 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-name">西南民族大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">日语</span>
+</a>
+
+<a href="../cases/2023/李昕峰-重庆交通大学/" class="fy-school-card">
+  <span class="fy-school-card-name">重庆交通大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">机械设计制造及其自动化（卓越工程师班）</span>
 </a>
 
 <a href="../cases/earlier/月-吉首大学/" class="fy-school-card">
@@ -245,6 +269,7 @@ description: 按大学浏览州民中校友的升学案例。
 ---
 
 > 📢 **你去的大学不在这里？** 欢迎投稿，让更多学弟学妹看到你的学校！[立即投稿 →](../contribute.md)
+
 
 
 

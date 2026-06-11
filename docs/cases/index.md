@@ -36,7 +36,7 @@ description: 浏览所有州民中校友升学案例。
 <!-- AUTO-GEN: YEAR_CARDS -->
 <div class="fy-school-card" style="cursor: pointer;" onclick="location.href='2025/'">
   <span class="fy-school-card-name">2025 届</span>
-  <span class="fy-school-card-count">4 个案例</span>
+  <span class="fy-school-card-count">6 个案例</span>
   <span class="fy-school-card-major">往届毕业生</span>
 </div>
 
@@ -48,13 +48,13 @@ description: 浏览所有州民中校友升学案例。
 
 <div class="fy-school-card" style="cursor: pointer;" onclick="location.href='2023/'">
   <span class="fy-school-card-name">2023 届</span>
-  <span class="fy-school-card-count">3 个案例</span>
+  <span class="fy-school-card-count">5 个案例</span>
   <span class="fy-school-card-major">往届毕业生</span>
 </div>
 
 <div class="fy-school-card" style="cursor: pointer;" onclick="location.href='earlier/'">
   <span class="fy-school-card-name">更早的案例</span>
-  <span class="fy-school-card-count">21 个案例</span>
+  <span class="fy-school-card-count">22 个案例</span>
   <span class="fy-school-card-major">往届毕业生</span>
 </div>
 <!-- /AUTO-GEN: YEAR_CARDS -->
@@ -155,7 +155,7 @@ description: 浏览所有州民中校友升学案例。
     </div>
   </div>
   <div class="fy-case-card-tags">
-    <span class="fy-tag">港澳台及海外</span>
+    <span class="fy-tag">海外</span>
     <span class="fy-tag">商科</span>
     <span class="fy-tag">墨尔本</span>
   </div>
@@ -215,6 +215,7 @@ description: 浏览所有州民中校友升学案例。
 ---
 
 > 📢 **你是州民中校友？** [分享你的故事 →](../contribute.md)
+
 
 
 
