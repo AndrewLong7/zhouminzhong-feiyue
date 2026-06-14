@@ -49,11 +49,13 @@
 
 </div>
 
-<iframe 
+<iframe
   src="https://docs.qq.com/sheet/DYW9DSFJSaFZ6Yk5M?tab=BB08J2"
-  width="100%" 
-  height="700px" 
+  title="州民中升学提问箱（腾讯文档）"
+  width="100%"
+  height="700px"
   frameborder="0"
+  loading="lazy"
   style="border: 1px solid var(--feiyue-card-border); border-radius: 12px; background: var(--feiyue-card-bg);">
 </iframe>
 
