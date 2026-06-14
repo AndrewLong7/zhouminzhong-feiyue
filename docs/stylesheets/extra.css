@@ -128,19 +128,54 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   padding: 80px 24px 64px;
   text-align: center;
-  background: linear-gradient(
-    175deg,
-    #F0F9F7 0%,
-    #FEFDF9 30%,
-    #F8F7F2 60%,
-    #ECF8F5 100%
-  );
+  /* 双层背景:半透明米白蒙版 + 校园照(webp 优先, jpg 兜底).
+     校园照仅作"母校感"隐约存在,不抢标题视觉.
+     background-position 上偏 30% 让右下角水印藏在 hero 圆角之外 */
+  background:
+    linear-gradient(
+      175deg,
+      rgba(240,249,247,0.92) 0%,
+      rgba(254,253,249,0.88) 30%,
+      rgba(248,247,242,0.90) 60%,
+      rgba(236,248,245,0.93) 100%
+    ),
+    image-set(
+      url('../assets/images/campus-hero.webp') type('image/webp'),
+      url('../assets/images/campus-hero.jpg') type('image/jpeg')
+    ) center 30% / cover no-repeat;
   border-radius: 0 0 40px 40px;
   margin: 0 -24px 48px;
   overflow: hidden;
 }
 
-/* 背景装饰圆 */
+/* 次级页面 hero (案例库/大学分类/投稿/关于) 不挂校园背景,
+   避免"四个页面同一张照片"稀释州民中独特感 */
+.fy-hero.fy-hero--compact {
+  background:
+    linear-gradient(
+      175deg,
+      #F0F9F7 0%,
+      #FEFDF9 30%,
+      #F8F7F2 60%,
+      #ECF8F5 100%
+    );
+}
+
+/* 移动端关掉背景图,省流量且小屏图片细节看不清 */
+@media (max-width: 768px) {
+  .fy-hero {
+    background:
+      linear-gradient(
+        175deg,
+        #F0F9F7 0%,
+        #FEFDF9 30%,
+        #F8F7F2 60%,
+        #ECF8F5 100%
+      );
+  }
+}
+
+/* 背景装饰圆(透明度调淡,避免与校园照混色) */
 .fy-hero::before {
   content: "";
   position: absolute;
@@ -149,7 +184,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 360px;
   height: 360px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(13,148,136,0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(13,148,136,0.04) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -161,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(14,165,233,0.05) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(14,165,233,0.03) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -205,14 +240,32 @@ h1, h2, h3, h4, h5, h6 {
 .fy-hero-quote {
   position: relative;
   display: inline-block;
-  padding: 10px 28px;
-  background: rgba(255,255,255,0.7);
-  border: 1px solid var(--feiyue-card-border);
-  border-radius: 24px;
-  font-size: 0.95rem;
+  padding-bottom: 12px;
+  font-size: 1.15rem;
   font-weight: 500;
+  font-style: italic;
   color: var(--feiyue-text-warm);
-  line-height: 1.6;
+  line-height: 1.7;
+  letter-spacing: 0.02em;
+}
+
+/* 品牌色短下划线,替代原圆角胶囊背景 */
+.fy-hero-quote::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 2px;
+  background: var(--md-primary-fg-color);
+  border-radius: 1px;
+}
+
+@media (max-width: 768px) {
+  .fy-hero-quote {
+    font-size: 1rem;
+  }
 }
 
 /* ---------- 5.5 首页统计数字带 ---------- */
