@@ -1,0 +1,49 @@
+---
+title: 莫纳什大学（Monash University）
+not_in_nav: true
+---
+
+# 莫纳什大学（Monash University）
+
+<!-- AUTO-GEN: SCHOOL_INFO -->
+<div class="fy-school-info-card">
+  <div class="fy-school-info-meta">
+    <span class="fy-school-info-city"><svg class="fy-school-info-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg><span>澳大利亚 · 墨尔本</span></span>
+    <span class="fy-school-info-cases">已收录 1 位校友</span>
+  </div>
+  <div class="fy-school-info-tags"><span class="fy-school-info-chip">澳洲八大 (G8)</span></div>
+  <div class="fy-school-info-actions">
+    <a href="https://www.monash.edu" target="_blank" rel="noopener noreferrer" class="fy-school-info-link"><span>访问 莫纳什大学（Monash University） 官网</span><span class="fy-school-info-link-arrow" aria-hidden="true">→</span></a>
+  </div>
+</div>
+<!-- /AUTO-GEN: SCHOOL_INFO -->
+
+<div class="fy-case-grid">
+
+<!-- AUTO-GEN: SCHOOL_CASE_CARDS -->
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">G</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">George</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">莫纳什大学（Monash University） · 经济与金融</div>
+    <div class="fy-case-card-major-score">高考 492 分 · 全省第 95771 名</div>
+    <div class="fy-case-card-summary">
+      "不要瞻前顾后，不要顾此失彼，不要畏手畏脚，脚踏实地往前走，未来一定会握在自己的手里。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">海外</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">墨尔本</span>
+  </div>
+  <a href="../../cases/earlier/George-莫纳什大学（Monash University）/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<!-- /AUTO-GEN: SCHOOL_CASE_CARDS -->
+
+</div>
+

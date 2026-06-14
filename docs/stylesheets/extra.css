@@ -930,6 +930,131 @@ h1, h2, h3, h4, h5, h6 {
   margin: 48px 0;
 }
 
+/* ---------- 18.5 学校信息卡(学校专属页顶部) ---------- */
+.fy-school-info-card {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    "meta actions"
+    "tags actions";
+  gap: 12px 24px;
+  align-items: center;
+  padding: 20px 24px;
+  margin: 0 0 32px;
+  background: linear-gradient(135deg, #F5FAF9 0%, #FEFDF9 100%);
+  border: 1px solid var(--feiyue-card-border);
+  border-radius: 16px;
+  box-shadow: var(--feiyue-card-shadow);
+}
+
+.fy-school-info-meta {
+  grid-area: meta;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  font-size: 0.9rem;
+  color: var(--feiyue-text-secondary);
+}
+
+.fy-school-info-city {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--feiyue-text-primary);
+  font-weight: 500;
+}
+
+.fy-school-info-pin {
+  width: 14px;
+  height: 14px;
+  color: var(--md-primary-fg-color);
+  flex-shrink: 0;
+}
+
+.fy-school-info-cases {
+  color: var(--feiyue-text-muted);
+}
+
+.fy-school-info-tags {
+  grid-area: tags;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.fy-school-info-chip {
+  display: inline-block;
+  padding: 2px 10px;
+  background: var(--feiyue-green-light);
+  color: var(--md-primary-fg-color-dark);
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 12px;
+  white-space: nowrap;
+}
+
+.fy-school-info-actions {
+  grid-area: actions;
+}
+
+.fy-school-info-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 18px;
+  background: var(--md-primary-fg-color);
+  color: #fff !important;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: background 0.2s, transform 0.2s;
+  white-space: nowrap;
+}
+
+.fy-school-info-link:hover {
+  background: var(--md-primary-fg-color-dark);
+}
+
+.fy-school-info-link:hover .fy-school-info-link-arrow {
+  transform: translateX(3px);
+}
+
+.fy-school-info-link-arrow {
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.fy-school-info-link--disabled {
+  display: inline-flex;
+  padding: 8px 16px;
+  background: transparent;
+  color: var(--feiyue-text-muted) !important;
+  font-size: 0.82rem;
+  border: 1px dashed var(--feiyue-card-border);
+  border-radius: 999px;
+}
+
+.fy-school-info-link--disabled a {
+  color: var(--md-primary-fg-color) !important;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 640px) {
+  .fy-school-info-card {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "meta"
+      "tags"
+      "actions";
+    padding: 18px 18px;
+  }
+  .fy-school-info-actions {
+    text-align: center;
+  }
+}
+
 /* ---------- 19. 案例详情高亮框 ---------- */
 .fy-highlight-box {
   padding: 24px 28px;

@@ -1,0 +1,247 @@
+# ============================================================
+# 州民中飞跃手册 - 学校结构化元数据
+#
+# 此文件需手动维护(不被 sync.py 覆盖)。
+# generate.py 读取该文件,在每个学校专属页注入"学校信息卡"。
+#
+# 字段说明:
+#   official: 学校官网 URL(留空字符串则不渲染该行)
+#   city:     所在城市(任意自然语言,如 "北京"/"湘西吉首"/"墨尔本")
+#   type:     标签数组,如 ["985", "211", "双一流"];会渲染成 chip
+#
+# 数据来源说明:
+#   官网/城市/类型 均为公开稳定信息,由初始填充时基于通识知识录入。
+#   标记 "# 待核实" 的请优先校对;official 留空表示未确认,
+#   后续可手动补全后重跑 generate.py 即可生效。
+# ============================================================
+
+# ---------- 985 院校 ----------
+"中央民族大学":
+  official: "https://www.muc.edu.cn"
+  city: "北京"
+  type: ["985", "211", "双一流", "民委直属"]
+
+"中山大学":
+  official: "https://www.sysu.edu.cn"
+  city: "广州"
+  type: ["985", "211", "双一流"]
+
+"北京大学":
+  official: "https://www.pku.edu.cn"
+  city: "北京"
+  type: ["985", "211", "双一流", "C9"]
+
+"北京师范大学(珠海)":  # cases.yml 中是全角括号,见下方别名
+  official: "https://bnuz.bnu.edu.cn"
+  city: "珠海"
+  type: ["985", "211", "双一流"]
+
+"北京师范大学（珠海）":
+  official: "https://bnuz.bnu.edu.cn"
+  city: "珠海"
+  type: ["985", "211", "双一流"]
+
+"华东师范大学":
+  official: "https://www.ecnu.edu.cn"
+  city: "上海"
+  type: ["985", "211", "双一流", "教育部直属"]
+
+"华中科技大学":
+  official: "https://www.hust.edu.cn"
+  city: "武汉"
+  type: ["985", "211", "双一流"]
+
+"哈尔滨工业大学（深圳）":
+  official: "https://www.hitsz.edu.cn"
+  city: "深圳"
+  type: ["985", "211", "双一流"]
+
+"复旦大学":
+  official: "https://www.fudan.edu.cn"
+  city: "上海"
+  type: ["985", "211", "双一流", "C9"]
+
+"大连理工大学":
+  official: "https://www.dlut.edu.cn"
+  city: "大连"
+  type: ["985", "211", "双一流"]
+
+"山东大学":
+  official: "https://www.sdu.edu.cn"
+  city: "济南"
+  type: ["985", "211", "双一流"]
+
+"清华大学":
+  official: "https://www.tsinghua.edu.cn"
+  city: "北京"
+  type: ["985", "211", "双一流", "C9"]
+
+"电子科技大学":
+  official: "https://www.uestc.edu.cn"
+  city: "成都"
+  type: ["985", "211", "双一流"]
+
+"西安交通大学":
+  official: "http://www.xjtu.edu.cn"
+  city: "西安"
+  type: ["985", "211", "双一流", "C9"]
+
+# ---------- 211 / 双一流 ----------
+"中国矿业大学":
+  official: "https://www.cumt.edu.cn"
+  city: "徐州"
+  type: ["211", "双一流"]
+
+"中央美术学院":
+  official: "https://www.cafa.edu.cn"
+  city: "北京"
+  type: ["双一流", "八大美院"]
+
+"中央财经大学":
+  official: "https://www.cufe.edu.cn"
+  city: "北京"
+  type: ["211", "双一流", "教育部直属"]
+
+"北京化工大学":
+  official: "https://www.buct.edu.cn"
+  city: "北京"
+  type: ["211", "双一流"]
+
+"北京工业大学":
+  official: "https://www.bjut.edu.cn"
+  city: "北京"
+  type: ["211", "双一流"]
+
+"北京科技大学":
+  official: "https://www.ustb.edu.cn"
+  city: "北京"
+  type: ["211", "双一流"]
+
+"华中师范大学":
+  official: "https://www.ccnu.edu.cn"
+  city: "武汉"
+  type: ["211", "双一流", "教育部直属"]
+
+"华北电力大学":
+  official: "https://www.ncepu.edu.cn"
+  city: "北京 / 保定"
+  type: ["211", "双一流"]
+
+"南京医科大学":
+  official: "https://www.njmu.edu.cn"
+  city: "南京"
+  type: ["双一流"]
+
+"大连海事大学":
+  official: "https://www.dlmu.edu.cn"
+  city: "大连"
+  type: ["211", "双一流", "交通部直属"]
+
+"对外经济贸易大学":
+  official: "https://www.uibe.edu.cn"
+  city: "北京"
+  type: ["211", "双一流"]
+
+"西南交通大学":
+  official: "https://www.swjtu.edu.cn"
+  city: "成都"
+  type: ["211", "双一流"]
+
+"西南大学":
+  official: "https://www.swu.edu.cn"
+  city: "重庆"
+  type: ["211", "双一流", "教育部直属"]
+
+# ---------- 一本院校 ----------
+"中南民族大学":
+  official: "https://www.scuec.edu.cn"
+  city: "武汉"
+  type: ["民委直属", "一本"]
+
+"南京审计大学":
+  official: "https://www.nau.edu.cn"
+  city: "南京"
+  type: ["省属重点", "一本"]
+
+"南华大学":
+  official: "https://www.usc.edu.cn"
+  city: "湖南衡阳"
+  type: ["省属重点", "一本"]
+
+"吉首大学":
+  official: "https://www.jsu.edu.cn"
+  city: "湘西吉首"
+  type: ["省属", "一本"]
+
+"杭州电子科技大学":
+  official: "https://www.hdu.edu.cn"
+  city: "杭州"
+  type: ["省属重点", "一本"]
+
+"湖南中医药大学":
+  official: "https://www.hnucm.edu.cn"
+  city: "长沙"
+  type: ["省属", "一本"]
+
+"湖南工业大学":
+  official: "https://www.hut.edu.cn"
+  city: "湖南株洲"
+  type: ["省属", "一本"]
+
+"湖南科技大学":
+  official: "https://www.hnust.edu.cn"
+  city: "湖南湘潭"
+  type: ["省属", "一本"]
+
+"西北民族大学":
+  official: "https://www.xbmu.edu.cn"
+  city: "兰州"
+  type: ["民委直属", "一本"]
+
+"西南民族大学":
+  official: "https://www.swun.edu.cn"
+  city: "成都"
+  type: ["民委直属", "一本"]
+
+"重庆交通大学":
+  official: "https://www.cqjtu.edu.cn"
+  city: "重庆"
+  type: ["省属", "一本"]
+
+# ---------- 二本院校 ----------
+"中国劳动关系学院":
+  official: "https://www.culr.edu.cn"
+  city: "北京"
+  type: ["中华全国总工会直属"]
+
+"北华大学":
+  official: "https://www.beihua.edu.cn"
+  city: "吉林"
+  type: ["省属"]
+
+"湖南女子学院":  # 待核实官网
+  official: ""
+  city: "长沙"
+  type: ["省属", "女子高校"]
+
+"湖南工学院":
+  official: "https://www.hnit.edu.cn"
+  city: "湖南衡阳"
+  type: ["省属"]
+
+# ---------- 港澳及海外 ----------
+"莫纳什大学（Monash University）":
+  official: "https://www.monash.edu"
+  city: "澳大利亚 · 墨尔本"
+  type: ["澳洲八大 (G8)"]
+
+"香港科技大学":
+  official: "https://www.hkust.edu.hk"
+  city: "香港"
+  type: ["港校", "QS Top"]
+
+# ---------- 其他院校 ----------
+"湘西民族职业技术学院":  # 待核实官网
+  official: ""
+  city: "湘西吉首"
+  type: ["高职"]

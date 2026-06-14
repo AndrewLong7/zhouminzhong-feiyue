@@ -80,25 +80,25 @@ hide:
   <span class="fy-school-card-major">机械工程 -> 自动化（转专业） · 电气工程及自动化</span>
 </a>
 
-<a href="cases/2023/GL-电子科技大学/" class="fy-school-card">
+<a href="universities/电子科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">电子科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">电子信息工程</span>
 </a>
 
-<a href="cases/earlier/宋泽熙-中央民族大学/" class="fy-school-card">
+<a href="universities/中央民族大学/" class="fy-school-card">
   <span class="fy-school-card-name">中央民族大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">少数民族预科班/中国史</span>
 </a>
 
-<a href="cases/earlier/George-莫纳什大学（Monash University）/" class="fy-school-card">
+<a href="universities/莫纳什大学-monash-university/" class="fy-school-card">
   <span class="fy-school-card-name">莫纳什大学（Monash University）</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">经济与金融</span>
 </a>
 
-<a href="cases/earlier/嗯嗯不知道-西南交通大学/" class="fy-school-card">
+<a href="universities/西南交通大学/" class="fy-school-card">
   <span class="fy-school-card-name">西南交通大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">数学/基础数学/算术几何和代数几何</span>
@@ -110,85 +110,85 @@ hide:
   <span class="fy-school-card-major">计算机科学</span>
 </a>
 
-<a href="cases/earlier/阿药-湖南科技大学/" class="fy-school-card">
+<a href="universities/湖南科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">湖南科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">汉语国际教育</span>
 </a>
 
-<a href="cases/2025/xiaoxi-pku/" class="fy-school-card">
+<a href="universities/北京大学/" class="fy-school-card">
   <span class="fy-school-card-name">北京大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">法学</span>
 </a>
 
-<a href="cases/earlier/Sophie-复旦大学/" class="fy-school-card">
+<a href="universities/复旦大学/" class="fy-school-card">
   <span class="fy-school-card-name">复旦大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">广播电视学</span>
 </a>
 
-<a href="cases/earlier/Taylor-杭州电子科技大学/" class="fy-school-card">
+<a href="universities/杭州电子科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">杭州电子科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">电子信息</span>
 </a>
 
-<a href="cases/2023/青-南京医科大学/" class="fy-school-card">
+<a href="universities/南京医科大学/" class="fy-school-card">
   <span class="fy-school-card-name">南京医科大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">临床医学</span>
 </a>
 
-<a href="cases/earlier/泡面桶-华中师范大学/" class="fy-school-card">
+<a href="universities/华中师范大学/" class="fy-school-card">
   <span class="fy-school-card-name">华中师范大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">思想政治教育</span>
 </a>
 
-<a href="cases/earlier/芭乐乐茶-湖南工学院/" class="fy-school-card">
+<a href="universities/湖南工学院/" class="fy-school-card">
   <span class="fy-school-card-name">湖南工学院</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">国际经济与贸易</span>
 </a>
 
-<a href="cases/2025/Ivy-对外经济贸易大学/" class="fy-school-card">
+<a href="universities/对外经济贸易大学/" class="fy-school-card">
   <span class="fy-school-card-name">对外经济贸易大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">少数民族预科班</span>
 </a>
 
-<a href="cases/2023/杜崇乾-西安交通大学/" class="fy-school-card">
+<a href="universities/西安交通大学/" class="fy-school-card">
   <span class="fy-school-card-name">西安交通大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">人工智能</span>
 </a>
 
-<a href="cases/2025/yuan-山东大学/" class="fy-school-card">
+<a href="universities/山东大学/" class="fy-school-card">
   <span class="fy-school-card-name">山东大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">智能建造与智慧交通转到自动化</span>
 </a>
 
-<a href="cases/earlier/木哇-北京工业大学/" class="fy-school-card">
+<a href="universities/北京工业大学/" class="fy-school-card">
   <span class="fy-school-card-name">北京工业大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">数字媒体艺术</span>
 </a>
 
-<a href="cases/earlier/w27-中央美术学院/" class="fy-school-card">
+<a href="universities/中央美术学院/" class="fy-school-card">
   <span class="fy-school-card-name">中央美术学院</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">艺术管理</span>
 </a>
 
-<a href="cases/earlier/方正小标宋简体-中南民族大学/" class="fy-school-card">
+<a href="universities/中南民族大学/" class="fy-school-card">
   <span class="fy-school-card-name">中南民族大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">法学</span>
 </a>
 
-<a href="cases/earlier/花果山污染-南京审计大学/" class="fy-school-card">
+<a href="universities/南京审计大学/" class="fy-school-card">
   <span class="fy-school-card-name">南京审计大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">审计</span>
@@ -471,6 +471,7 @@ QQ 群号：793634202
 </div>
 
 </div>
+
 
 
 

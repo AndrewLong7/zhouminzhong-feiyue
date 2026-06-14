@@ -39,13 +39,13 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">机械工程 -> 自动化（转专业） · 电气工程及自动化</span>
 </a>
 
-<a href="../cases/2023/GL-电子科技大学/" class="fy-school-card">
+<a href="../universities/电子科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">电子科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">电子信息工程</span>
 </a>
 
-<a href="../cases/earlier/宋泽熙-中央民族大学/" class="fy-school-card">
+<a href="../universities/中央民族大学/" class="fy-school-card">
   <span class="fy-school-card-name">中央民族大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">少数民族预科班/中国史</span>
@@ -57,55 +57,55 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">计算机科学</span>
 </a>
 
-<a href="../cases/2025/xiaoxi-pku/" class="fy-school-card">
+<a href="../universities/北京大学/" class="fy-school-card">
   <span class="fy-school-card-name">北京大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">法学</span>
 </a>
 
-<a href="../cases/earlier/Sophie-复旦大学/" class="fy-school-card">
+<a href="../universities/复旦大学/" class="fy-school-card">
   <span class="fy-school-card-name">复旦大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">广播电视学</span>
 </a>
 
-<a href="../cases/2023/杜崇乾-西安交通大学/" class="fy-school-card">
+<a href="../universities/西安交通大学/" class="fy-school-card">
   <span class="fy-school-card-name">西安交通大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">人工智能</span>
 </a>
 
-<a href="../cases/2025/yuan-山东大学/" class="fy-school-card">
+<a href="../universities/山东大学/" class="fy-school-card">
   <span class="fy-school-card-name">山东大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">智能建造与智慧交通转到自动化</span>
 </a>
 
-<a href="../cases/earlier/summer-华中科技大学/" class="fy-school-card">
+<a href="../universities/华中科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">华中科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">电子信息工程</span>
 </a>
 
-<a href="../cases/2025/Ruby-大连理工大学/" class="fy-school-card">
+<a href="../universities/大连理工大学/" class="fy-school-card">
   <span class="fy-school-card-name">大连理工大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">储能科学与工程</span>
 </a>
 
-<a href="../cases/2024/彭子恒-北京师范大学（珠海）/" class="fy-school-card">
+<a href="../universities/北京师范大学-珠海/" class="fy-school-card">
   <span class="fy-school-card-name">北京师范大学（珠海）</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">数学与应用数学</span>
 </a>
 
-<a href="../cases/earlier/张智豪-华东师范大学/" class="fy-school-card">
+<a href="../universities/华东师范大学/" class="fy-school-card">
   <span class="fy-school-card-name">华东师范大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">微电子科学与工程</span>
 </a>
 
-<a href="../cases/2023/李政润-中山大学/" class="fy-school-card">
+<a href="../universities/中山大学/" class="fy-school-card">
   <span class="fy-school-card-name">中山大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">数学与应用数学</span>
@@ -117,43 +117,43 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
-<a href="../cases/earlier/嗯嗯不知道-西南交通大学/" class="fy-school-card">
+<a href="../universities/西南交通大学/" class="fy-school-card">
   <span class="fy-school-card-name">西南交通大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">数学/基础数学/算术几何和代数几何</span>
 </a>
 
-<a href="../cases/2023/青-南京医科大学/" class="fy-school-card">
+<a href="../universities/南京医科大学/" class="fy-school-card">
   <span class="fy-school-card-name">南京医科大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">临床医学</span>
 </a>
 
-<a href="../cases/earlier/泡面桶-华中师范大学/" class="fy-school-card">
+<a href="../universities/华中师范大学/" class="fy-school-card">
   <span class="fy-school-card-name">华中师范大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">思想政治教育</span>
 </a>
 
-<a href="../cases/2025/Ivy-对外经济贸易大学/" class="fy-school-card">
+<a href="../universities/对外经济贸易大学/" class="fy-school-card">
   <span class="fy-school-card-name">对外经济贸易大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">少数民族预科班</span>
 </a>
 
-<a href="../cases/earlier/木哇-北京工业大学/" class="fy-school-card">
+<a href="../universities/北京工业大学/" class="fy-school-card">
   <span class="fy-school-card-name">北京工业大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">数字媒体艺术</span>
 </a>
 
-<a href="../cases/earlier/w27-中央美术学院/" class="fy-school-card">
+<a href="../universities/中央美术学院/" class="fy-school-card">
   <span class="fy-school-card-name">中央美术学院</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">艺术管理</span>
 </a>
 
-<a href="../cases/earlier/tsl-大连海事大学/" class="fy-school-card">
+<a href="../universities/大连海事大学/" class="fy-school-card">
   <span class="fy-school-card-name">大连海事大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">地理信息科学</span>
@@ -165,19 +165,19 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">财税 · 贸易经济</span>
 </a>
 
-<a href="../cases/earlier/chen-华北电力大学/" class="fy-school-card">
+<a href="../universities/华北电力大学/" class="fy-school-card">
   <span class="fy-school-card-name">华北电力大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">电气工程及其自动化</span>
 </a>
 
-<a href="../cases/earlier/John-中国矿业大学/" class="fy-school-card">
+<a href="../universities/中国矿业大学/" class="fy-school-card">
   <span class="fy-school-card-name">中国矿业大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">能源动力</span>
 </a>
 
-<a href="../cases/2024/小e-北京化工大学/" class="fy-school-card">
+<a href="../universities/北京化工大学/" class="fy-school-card">
   <span class="fy-school-card-name">北京化工大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">材料</span>
@@ -189,7 +189,7 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">地理（免费师范生） · 历史学（公费师范）</span>
 </a>
 
-<a href="../cases/2024/罗欣悦-北京科技大学/" class="fy-school-card">
+<a href="../universities/北京科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">北京科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">行政管理</span>
@@ -201,43 +201,43 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
-<a href="../cases/earlier/阿药-湖南科技大学/" class="fy-school-card">
+<a href="../universities/湖南科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">湖南科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">汉语国际教育</span>
 </a>
 
-<a href="../cases/earlier/Taylor-杭州电子科技大学/" class="fy-school-card">
+<a href="../universities/杭州电子科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">杭州电子科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">电子信息</span>
 </a>
 
-<a href="../cases/earlier/方正小标宋简体-中南民族大学/" class="fy-school-card">
+<a href="../universities/中南民族大学/" class="fy-school-card">
   <span class="fy-school-card-name">中南民族大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">法学</span>
 </a>
 
-<a href="../cases/earlier/花果山污染-南京审计大学/" class="fy-school-card">
+<a href="../universities/南京审计大学/" class="fy-school-card">
   <span class="fy-school-card-name">南京审计大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">审计</span>
 </a>
 
-<a href="../cases/earlier/洗洁精-湖南工业大学/" class="fy-school-card">
+<a href="../universities/湖南工业大学/" class="fy-school-card">
   <span class="fy-school-card-name">湖南工业大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">英语</span>
 </a>
 
-<a href="../cases/earlier/北长尾山雀-西南民族大学/" class="fy-school-card">
+<a href="../universities/西南民族大学/" class="fy-school-card">
   <span class="fy-school-card-name">西南民族大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">日语</span>
 </a>
 
-<a href="../cases/2023/李昕峰-重庆交通大学/" class="fy-school-card">
+<a href="../universities/重庆交通大学/" class="fy-school-card">
   <span class="fy-school-card-name">重庆交通大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">机械设计制造及其自动化（卓越工程师班）</span>
@@ -249,19 +249,19 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">法学 · 新闻学</span>
 </a>
 
-<a href="../cases/earlier/苏三三-西北民族大学/" class="fy-school-card">
+<a href="../universities/西北民族大学/" class="fy-school-card">
   <span class="fy-school-card-name">西北民族大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">汉语言文学</span>
 </a>
 
-<a href="../cases/earlier/二白-湖南中医药大学/" class="fy-school-card">
+<a href="../universities/湖南中医药大学/" class="fy-school-card">
   <span class="fy-school-card-name">湖南中医药大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">中医学</span>
 </a>
 
-<a href="../cases/earlier/ddd-南华大学/" class="fy-school-card">
+<a href="../universities/南华大学/" class="fy-school-card">
   <span class="fy-school-card-name">南华大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">法学</span>
@@ -273,25 +273,25 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
-<a href="../cases/earlier/芭乐乐茶-湖南工学院/" class="fy-school-card">
+<a href="../universities/湖南工学院/" class="fy-school-card">
   <span class="fy-school-card-name">湖南工学院</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">国际经济与贸易</span>
 </a>
 
-<a href="../cases/earlier/铅笔鼠-中国劳动关系学院/" class="fy-school-card">
+<a href="../universities/中国劳动关系学院/" class="fy-school-card">
   <span class="fy-school-card-name">中国劳动关系学院</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">新闻学</span>
 </a>
 
-<a href="../cases/earlier/呃嗯同学-北华大学/" class="fy-school-card">
+<a href="../universities/北华大学/" class="fy-school-card">
   <span class="fy-school-card-name">北华大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">康复</span>
 </a>
 
-<a href="../cases/earlier/薯条-湖南女子学院/" class="fy-school-card">
+<a href="../universities/湖南女子学院/" class="fy-school-card">
   <span class="fy-school-card-name">湖南女子学院</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">网新</span>
@@ -303,13 +303,13 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
-<a href="../cases/earlier/George-莫纳什大学（Monash University）/" class="fy-school-card">
+<a href="../universities/莫纳什大学-monash-university/" class="fy-school-card">
   <span class="fy-school-card-name">莫纳什大学（Monash University）</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">经济与金融</span>
 </a>
 
-<a href="../cases/2025/张智豪-香港科技大学/" class="fy-school-card">
+<a href="../universities/香港科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">香港科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">TIE</span>
@@ -321,7 +321,7 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
-<a href="../cases/earlier/挽风-湘西民族职业技术学院/" class="fy-school-card">
+<a href="../universities/湘西民族职业技术学院/" class="fy-school-card">
   <span class="fy-school-card-name">湘西民族职业技术学院</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">畜牧兽医</span>
@@ -333,6 +333,7 @@ description: 按大学浏览州民中校友的升学案例。
 ---
 
 > 📢 **你去的大学不在这里？** 欢迎投稿，让更多学弟学妹看到你的学校！[立即投稿 →](../contribute.md)
+
 
 
 

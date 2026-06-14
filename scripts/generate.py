@@ -13,6 +13,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA_FILE = ROOT / "data" / "cases.yml"
+SCHOOLS_FILE = ROOT / "data" / "schools.yml"
 DOCS = ROOT / "docs"
 
 # ============================================================
@@ -23,6 +24,13 @@ with open(DATA_FILE, encoding="utf-8") as f:
 
 cases = data["cases"]
 universities = data["universities"]
+
+# 学校结构化元数据(官网/城市/类型),独立文件以免被 sync.py 覆盖
+if SCHOOLS_FILE.exists():
+    with open(SCHOOLS_FILE, encoding="utf-8") as f:
+        SCHOOL_INFO = yaml.safe_load(f) or {}
+else:
+    SCHOOL_INFO = {}
 
 # 预计算：案例内容长度（用于排序）
 _case_length_cache = {}
@@ -67,6 +75,12 @@ for c in cases:
 school_slug = {}
 
 
+def _slugify(text: str) -> str:
+    """与 sync.py 保持一致的 URL slug 规则"""
+    s = re.sub(r"[^\w一-龥]+", "-", text).strip("-").lower()
+    return s or "school"
+
+
 def _school_name(entry) -> str:
     """归一化：学校条目可以是字符串或 {name, slug} 对象"""
     if isinstance(entry, dict):
@@ -84,9 +98,9 @@ def _iter_schools():
             yield _school_name(s)
 
 
-# 初始化 school_slug 映射
-for _ in _iter_schools():
-    pass
+# 初始化 school_slug 映射(显式 slug 优先,其余自动 slugify)
+for _name in _iter_schools():
+    school_slug.setdefault(_name, _slugify(_name))
 
 
 # ============================================================
@@ -162,14 +176,11 @@ def university_card(school: str, base: str = "") -> str:
     else:
         majors_str = " · ".join(majors[:3])
 
-    # 链接：多案例（≥2）→ 学校专属页面；单案例 → 直接跳到案例
-    slug = school_slug.get(school)
-    if school_cases and total >= 2 and slug:
+    # 链接：所有有案例的学校都走学校专属页(含信息卡 + 案例列表)
+    # 无案例(敬请期待)的学校引导到投稿页
+    slug = school_slug.get(school) or _slugify(school)
+    if school_cases:
         link = f"{base}universities/{slug}/"
-    elif school_cases:
-        first_case = school_cases[0]
-        case_slug = first_case["file"].replace("cases/", "").replace(".md", "/")
-        link = f"{base}cases/{case_slug}"
     else:
         link = f"{base}contribute/"
 
@@ -291,6 +302,88 @@ def gen_homepage_university_cards() -> str:
         all_schools.extend(cat["schools"])
     cards = [university_card(_school_name(s), "") for s in _sorted_schools(all_schools)[:20]]
     return "\n\n".join(cards)
+
+
+_SCHOOL_INFO_MARK_RE = re.compile(r'<!--\s*AUTO-GEN:\s*SCHOOL_INFO\s*-->')
+
+
+def _ensure_school_info_marker(filepath: Path, school_name: str) -> None:
+    """老的学校 md 文件可能不含 SCHOOL_INFO 区块,自动在 `# {学校}` 标题下方注入空占位"""
+    text = filepath.read_text(encoding="utf-8")
+    if _SCHOOL_INFO_MARK_RE.search(text):
+        return
+    title_re = re.compile(rf'^(# {re.escape(school_name)})\s*$', re.MULTILINE)
+    m = title_re.search(text)
+    if not m:
+        return  # 找不到主标题,保守不动
+    insert_at = m.end()
+    insert = (
+        '\n\n<!-- AUTO-GEN: SCHOOL_INFO -->\n'
+        '<!-- /AUTO-GEN: SCHOOL_INFO -->'
+    )
+    filepath.write_text(text[:insert_at] + insert + text[insert_at:], encoding="utf-8")
+
+
+def gen_school_info_card(school: str) -> str:
+    """生成学校专属页顶部的"学校信息卡"HTML
+    数据源 data/schools.yml,未注册的学校返回空串(模板里区块自动留空)
+    """
+    info = SCHOOL_INFO.get(school)
+    case_count = sum(1 for c in cases_by_school.get(school, []) if c["type"] == "real")
+
+    if not info:
+        return ""
+
+    types = info.get("type") or []
+    tags_html = "".join(
+        f'<span class="fy-school-info-chip">{t}</span>' for t in types
+    )
+
+    official = (info.get("official") or "").strip()
+    if official:
+        official_html = (
+            f'<a href="{official}" target="_blank" rel="noopener noreferrer" '
+            f'class="fy-school-info-link">'
+            f'<span>访问 {school} 官网</span>'
+            f'<span class="fy-school-info-link-arrow" aria-hidden="true">→</span>'
+            f'</a>'
+        )
+    else:
+        official_html = (
+            '<span class="fy-school-info-link fy-school-info-link--disabled">'
+            '官网链接待补充 · <a href="../../contribute/">提交一份</a>'
+            '</span>'
+        )
+
+    city = (info.get("city") or "").strip()
+    pin_svg = (
+        '<svg class="fy-school-info-pin" viewBox="0 0 24 24" fill="none" '
+        'stroke="currentColor" stroke-width="2" stroke-linecap="round" '
+        'stroke-linejoin="round" aria-hidden="true">'
+        '<path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0'
+        'C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0Z"/>'
+        '<circle cx="12" cy="10" r="3"/></svg>'
+    )
+    city_html = (
+        f'<span class="fy-school-info-city">{pin_svg}<span>{city}</span></span>'
+        if city else ""
+    )
+
+    case_html = (
+        f'<span class="fy-school-info-cases">已收录 {case_count} 位校友</span>'
+        if case_count > 0 else ""
+    )
+
+    return f"""<div class="fy-school-info-card">
+  <div class="fy-school-info-meta">
+    {city_html}
+    {case_html}
+  </div>
+  <div class="fy-school-info-tags">{tags_html}</div>
+  <div class="fy-school-info-actions">
+    {official_html}
+  </div>
+</div>"""
 
 
 def gen_school_case_cards(school: str) -> str:
@@ -455,20 +548,25 @@ def main():
         {"FOOTER_STATS": gen_footer_stats},
     )
 
-    # 学校专属页面（多案例学校）
+    # 学校专属页面(所有有案例的学校都建专属页:学校信息卡 + 校友案例列表)
     for school_name, slug in school_slug.items():
         school_cases = cases_by_school.get(school_name, [])
-        if len(school_cases) >= 2:
-            print(f"[学校页: {slug}]")
-            school_page = DOCS / "universities" / f"{slug}.md"
-            if not school_page.exists():
-                school_page.write_text(
-                    f"""---
+        if not school_cases:
+            continue  # 暂无案例的学校不建空页
+
+        print(f"[学校页: {slug}]")
+        school_page = DOCS / "universities" / f"{slug}.md"
+        if not school_page.exists():
+            school_page.write_text(
+                f"""---
 title: {school_name}
 not_in_nav: true
 ---
 
 # {school_name}
+
+<!-- AUTO-GEN: SCHOOL_INFO -->
+<!-- /AUTO-GEN: SCHOOL_INFO -->
 
 <div class="fy-case-grid">
 
@@ -477,12 +575,19 @@ not_in_nav: true
 
 </div>
 """,
-                    encoding="utf-8",
-                )
-            process_page(
-                school_page,
-                {"SCHOOL_CASE_CARDS": lambda s=school_name: gen_school_case_cards(s)},
+                encoding="utf-8",
             )
+        else:
+            # 老 md 缺少 SCHOOL_INFO 区块时,自动在标题下方插入
+            _ensure_school_info_marker(school_page, school_name)
+
+        process_page(
+            school_page,
+            {
+                "SCHOOL_INFO": lambda s=school_name: gen_school_info_card(s),
+                "SCHOOL_CASE_CARDS": lambda s=school_name: gen_school_case_cards(s),
+            },
+        )
 
     if all_ok:
         print("\n==> 全部完成（校验通过）")
