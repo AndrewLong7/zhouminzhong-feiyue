@@ -5,6 +5,7 @@
 """
 
 import re
+from datetime import date
 from pathlib import Path
 from collections import defaultdict
 
@@ -109,7 +110,7 @@ def case_card(c: dict, href: str) -> str:
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 {c['school']} · {c['major']}</div>
+    <div class="fy-case-card-school">{c['school']} · {c['major']}</div>
     <div class="fy-case-card-major-score">高考 {c['score']} 分 · 全省第 {c['rank']} 名</div>
     <div class="fy-case-card-summary">
       "{c['quote']}"
@@ -117,7 +118,7 @@ def case_card(c: dict, href: str) -> str:
   </div>
   <div class="fy-case-card-tags">{type_badge}{tags_html}
   </div>
-  <a href="{href}" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="{href}" class="fy-case-card-link">阅读全文 →</a>
 </div>"""
 
 
@@ -130,11 +131,11 @@ def year_card(year: int, count: int, is_template: bool = False) -> str:
     else:
         count_text = f"{count} 个案例"
         major_text = "模板案例" if is_template else "往届毕业生"
-    return f"""<div class="fy-school-card" style="cursor: pointer;" onclick="location.href='{slug}/'">
+    return f"""<a href="{slug}/" class="fy-school-card">
   <span class="fy-school-card-name">{year} 届</span>
   <span class="fy-school-card-count">{count_text}</span>
   <span class="fy-school-card-major">{major_text}</span>
-</div>"""
+</a>"""
 
 
 def university_card(school: str, base: str = "") -> str:
@@ -201,11 +202,11 @@ def gen_year_cards() -> str:
     else:
         earlier_count_text = f"{earlier_count} 个案例"
         earlier_major_text = "往届毕业生"
-    lines.append(f"""<div class="fy-school-card" style="cursor: pointer;" onclick="location.href='earlier/'">
+    lines.append(f"""<a href="earlier/" class="fy-school-card">
   <span class="fy-school-card-name">更早的案例</span>
   <span class="fy-school-card-count">{earlier_count_text}</span>
   <span class="fy-school-card-major">{earlier_major_text}</span>
-</div>""")
+</a>""")
 
     return "\n\n".join(lines)
 
@@ -248,6 +249,39 @@ def _sorted_schools(schools: list) -> list:
         len(cases_by_school.get(_school_name(s), [])) == 0,
         -_school_content_len(_school_name(s)),
     ))
+
+
+def gen_footer_stats() -> str:
+    """生成页脚的"最近更新+案例总数"行,体现活跃维护"""
+    case_count = len(cases)
+    school_count = len({c["school"] for c in cases})
+    today = date.today().isoformat()
+    return (
+        f'<span class="fy-footer-stats-item">最近更新于 {today}</span>'
+        f'<span class="fy-footer-stats-sep">·</span>'
+        f'<span class="fy-footer-stats-item">已收录 {case_count} 位校友 / {school_count} 所大学</span>'
+    )
+
+
+def gen_homepage_stats() -> str:
+    """生成首页 hero 下方的统计数字带（社会证明）"""
+    case_count = len(cases)
+    school_count = len({c["school"] for c in cases})
+    year_count = len({c["year"] for c in cases})
+    return f"""<div class="fy-stats">
+  <div class="fy-stats-item">
+    <span class="fy-stats-num">{case_count}</span>
+    <span class="fy-stats-label">位校友故事</span>
+  </div>
+  <div class="fy-stats-item">
+    <span class="fy-stats-num">{school_count}</span>
+    <span class="fy-stats-label">所大学</span>
+  </div>
+  <div class="fy-stats-item">
+    <span class="fy-stats-num">{year_count}</span>
+    <span class="fy-stats-label">届毕业生</span>
+  </div>
+</div>"""
 
 
 def gen_homepage_university_cards() -> str:
@@ -401,6 +435,7 @@ def main():
     process_page(
         DOCS / "index.md",
         {
+            "HOMEPAGE_STATS": gen_homepage_stats,
             "HOMEPAGE_UNIVERSITIES": gen_homepage_university_cards,
             "LATEST_CASES": lambda: gen_latest_cases(for_index=False),
         },
@@ -411,6 +446,13 @@ def main():
     process_page(
         DOCS / "universities" / "index.md",
         {"UNIVERSITY_CARDS": gen_university_cards},
+    )
+
+    # 页脚 (main.html 注入)
+    print("[页脚]")
+    process_page(
+        DOCS / "overrides" / "main.html",
+        {"FOOTER_STATS": gen_footer_stats},
     )
 
     # 学校专属页面（多案例学校）

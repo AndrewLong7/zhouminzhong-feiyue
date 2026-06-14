@@ -4,9 +4,9 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 ---
 
 <!-- Hero -->
-<div class="fy-hero" style="padding: 56px 24px 48px;" markdown="1">
+<div class="fy-hero fy-hero--compact" markdown="1">
 
-# <span class="fy-hero-title" style="font-size: 2.6rem !important;">投稿指南</span>
+# <span class="fy-hero-title">投稿指南</span>
 
 <p class="fy-hero-subtitle">
 你的经验，是后来者最珍贵的礼物。<br>
@@ -59,7 +59,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 
 <div class="fy-case-card" markdown="1">
 
-### 📋 方式一：问卷星问卷（推荐）
+### :material-clipboard-text-outline: 方式一：问卷星问卷（推荐）
 
 **最推荐的方式，无需任何技术操作。**
 
@@ -73,7 +73,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 
 <div class="fy-case-card" markdown="1">
 
-### 📧 方式二：邮箱投稿
+### :material-email-outline: 方式二：邮箱投稿
 
 不想填问卷？直接发邮件即可。
 
@@ -91,7 +91,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 
 <div class="fy-case-card" markdown="1">
 
-### 🐙 方式三：GitHub PR
+### :material-github: 方式三：GitHub PR
 
 熟悉 GitHub？直接提交 Pull Request。
 
@@ -112,7 +112,7 @@ description: 如何向州民中飞跃手册投稿，分享你的升学经验与�
 <hr class="fy-divider">
 
 <!-- 投稿模板 -->
-## 📝 投稿模板 {#template}
+## :material-file-document-edit-outline: 投稿模板 {#template}
 
 > **不用担心格式！** 把以下内容复制下来，用纯文字填写后发送即可。排版和格式由我们来处理。
 

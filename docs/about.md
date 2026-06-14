@@ -4,9 +4,9 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 ---
 
 <!-- Hero -->
-<div class="fy-hero" style="padding: 56px 24px 48px;" markdown="1">
+<div class="fy-hero fy-hero--compact" markdown="1">
 
-# <span class="fy-hero-title" style="font-size: 2.6rem !important;">关于我们</span>
+# <span class="fy-hero-title">关于我们</span>
 
 <p class="fy-hero-subtitle">
 一个由州民中校友自发创建的<br>
@@ -63,19 +63,19 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 
 <div class="fy-case-card" style="text-align: center;" markdown="1">
 
-**📧 邮箱投稿 / 联系**
+**:material-email-outline: 邮箱投稿 / 联系**
 
 [u3638259@connect.hku.hk](mailto:u3638259@connect.hku.hk)
 
 ---
 
-**🐙 GitHub**
+**:material-github: GitHub**
 
 [github.com/AndrewLong7/zhouminzhong-feiyue](https://github.com/AndrewLong7/zhouminzhong-feiyue)
 
 ---
 
-**👤 联系人**
+**:material-account-circle-outline: 联系人**
 
 龙熙予
 

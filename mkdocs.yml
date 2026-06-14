@@ -11,6 +11,11 @@ site_description: >-
 site_author: 州民中飞跃手册
 site_url: https://andrewlong7.github.io/zhouminzhong-feiyue/
 
+# ---------- 仓库信息（用于"在 GitHub 编辑此页"链接）----------
+repo_url: https://github.com/AndrewLong7/zhouminzhong-feiyue
+repo_name: AndrewLong7/zhouminzhong-feiyue
+edit_uri: edit/dev/docs/
+
 # ---------- 主题配置 ----------
 theme:
   name: material
@@ -46,9 +51,8 @@ theme:
     - navigation.tabs
     # 导航栏粘性固定
     - navigation.sticky
-    # 自动展开侧边栏章节
+    # 侧边栏按章节分组（不默认全部展开，避免案例增多后侧边栏过长）
     - navigation.sections
-    - navigation.expand
     # 返回顶部按钮
     - navigation.top
     # 导航路径面包屑
@@ -71,6 +75,10 @@ theme:
 # ---------- 额外 CSS ----------
 extra_css:
   - stylesheets/extra.css
+
+# ---------- 额外 JS ----------
+extra_javascript:
+  - javascripts/search-proxy.js
 
 # ---------- 插件 ----------
 plugins:
@@ -110,6 +118,10 @@ markdown_extensions:
       title: 本页目录
   # 表格增强
   - tables
+  # Material 图标 / Emoji (`:material-school:` 之类) - 跨平台渲染一致
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 # ---------- 导航栏 ----------
 nav:
