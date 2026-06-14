@@ -89,38 +89,143 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ---------- 5. 顶部导航栏 ---------- */
+/* Header & Tabs 共用品牌色,通过细节(短线/字重/搜索框)制造层次 */
 .md-header {
-  background-color: rgba(255,255,255,0.92) !important;
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--feiyue-divider);
+  background: linear-gradient(
+    180deg,
+    var(--md-primary-fg-color) 0%,
+    var(--md-primary-fg-color-dark) 100%
+  );
   box-shadow: none;
+  transition: box-shadow 0.25s;
 }
 
+.md-header[data-md-state="shadow"] {
+  box-shadow: 0 0 .4rem rgba(0,0,0,.1), 0 .25rem .5rem rgba(0,0,0,.1);
+}
+
+/* logo + 站点标题 */
 .md-header__title {
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.08em;
+  margin-left: 0.4rem;
 }
 
-/* 导航栏文字颜色 */
 .md-header__title .md-ellipsis {
-  color: var(--feiyue-text-primary);
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 1.6rem;
+  border-radius: 6px;
+}
+
+/* tabs bar:沿用 primary 色,不再用更暗的 dark 渐变(保持纯净) */
+.md-tabs {
+  background-color: var(--md-primary-fg-color-dark);
+  border-top: 1px solid rgba(255,255,255,0.08);
+}
+
+.md-tabs__list {
+  gap: 4px;
+}
+
+.md-tabs__item {
+  height: 44px;
 }
 
 .md-tabs__link {
-  font-size: 0.95rem;
+  position: relative;
+  margin-top: 0;
+  padding: 12px 6px;
+  font-size: 0.92rem;
   font-weight: 400;
-  color: #FFFFFF !important;
+  letter-spacing: 0.05em;
+  color: rgba(255,255,255,0.82) !important;
   opacity: 1 !important;
+  transition: color 0.2s;
 }
 
-.md-tabs__link--active {
-  color: #FFFFFF !important;
-  font-weight: 500;
+/* tab 底部高亮短线:hover 半展开, active 全展开 */
+.md-tabs__link::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 2px;
+  transform: translateX(-50%) scaleX(0);
+  width: 70%;
+  height: 2px;
+  background: #ffffff;
+  border-radius: 2px;
+  transform-origin: center;
+  transition: transform 0.25s ease, background 0.25s;
 }
 
 .md-tabs__link:hover {
-  color: #FFFFFF !important;
+  color: #ffffff !important;
+}
+
+.md-tabs__link:hover::after {
+  transform: translateX(-50%) scaleX(0.5);
+  background: rgba(255,255,255,0.55);
+}
+
+/* Material 9.x: active 类挂在 .md-tabs__item--active 上 */
+.md-tabs__item--active .md-tabs__link {
+  color: #ffffff !important;
+  font-weight: 600;
+}
+
+.md-tabs__item--active .md-tabs__link::after {
+  transform: translateX(-50%) scaleX(1);
+  background: #ffffff;
+}
+
+/* ---------- 5.1 搜索框 (顶部右侧) ---------- */
+.md-search__form {
+  background-color: rgba(255,255,255,0.16) !important;
+  border-radius: 999px;
+  height: 36px;
+  transition: background-color 0.2s, box-shadow 0.2s;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.md-search__form:hover {
+  background-color: rgba(255,255,255,0.26) !important;
+}
+
+[data-md-toggle="search"]:checked ~ .md-header .md-search__form {
+  background-color: #ffffff !important;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+.md-search__input {
+  font-size: 0.85rem;
+  color: #ffffff;
+}
+
+.md-search__input::placeholder {
+  color: rgba(255,255,255,0.7);
+  font-weight: 400;
+}
+
+[data-md-toggle="search"]:checked ~ .md-header .md-search__input {
+  color: var(--feiyue-text-primary);
+}
+
+[data-md-toggle="search"]:checked ~ .md-header .md-search__input::placeholder {
+  color: var(--feiyue-text-muted);
+}
+
+.md-search__icon {
+  color: rgba(255,255,255,0.85) !important;
+}
+
+[data-md-toggle="search"]:checked ~ .md-header .md-search__icon {
+  color: var(--feiyue-text-muted) !important;
 }
 
 /* ---------- 5. Hero Banner ---------- */
