@@ -4,9 +4,9 @@ description: 按大学浏览州民中校友的升学案例。
 ---
 
 <!-- Hero -->
-<div class="fy-hero" style="padding: 56px 24px 48px;" markdown="1">
+<div class="fy-hero fy-hero--compact" markdown="1">
 
-# <span class="fy-hero-title" style="font-size: 2.6rem !important;">大学分类</span>
+# <span class="fy-hero-title">大学分类</span>
 
 <p class="fy-hero-subtitle">
 按大学浏览校友案例，了解各个学校的真实体验。
@@ -17,13 +17,13 @@ description: 按大学浏览州民中校友的升学案例。
 <!-- 搜索 -->
 <div class="fy-search-wrapper">
   <div class="fy-search">
-    <span class="fy-search-icon">🔍</span>
+    <span class="fy-search-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span>
     <input
       class="fy-search-input"
       type="text"
       placeholder="搜索大学名称……"
       id="uni-search"
-      onkeydown="if(event.key==='Enter'){let q=document.getElementById('uni-search').value.trim();if(q){let s=document.querySelector('.md-search__input');if(s){let l=document.querySelector('[for=__search]');if(l)l.click();s.value=q;s.focus();s.dispatchEvent(new KeyboardEvent('keyup',{bubbles:true}));}}}"
+      data-fy-search-proxy
     />
   </div>
 </div>
@@ -333,8 +333,6 @@ description: 按大学浏览州民中校友的升学案例。
 ---
 
 > 📢 **你去的大学不在这里？** 欢迎投稿，让更多学弟学妹看到你的学校！[立即投稿 →](../contribute.md)
-
-
 
 
 

@@ -12,9 +12,20 @@
   {% if page.url and page.url.startswith('cases/') %}
   <hr style="margin-top: 48px;">
   <div style="text-align: center; padding: 24px 0;">
-    <p style="font-size: 1.1em;">💬 <strong>看了这个案例还有疑问？</strong></p>
+    <p style="font-size: 1.1em;"><strong>看了这个案例还有疑问？</strong></p>
     <p>去信息门户提问，或者加入 QQ 群和学长学姐交流。</p>
     <a href="{{ base_url }}/portal/" class="md-button md-button--primary">进入信息门户</a>
   </div>
   {% endif %}
 {% endblock %}
+
+{% block footer %}
+  {{ super() }}
+  <div class="fy-footer-stats">
+    <!-- AUTO-GEN: FOOTER_STATS -->
+<span class="fy-footer-stats-item">最近更新于 2026-06-14</span><span class="fy-footer-stats-sep">·</span><span class="fy-footer-stats-item">已收录 49 位校友 / 44 所大学</span>
+    <!-- /AUTO-GEN: FOOTER_STATS -->
+  </div>
+{% endblock %}
+
+

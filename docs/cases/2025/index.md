@@ -17,7 +17,7 @@ description: 2025 届州民中校友升学经验分享。
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 北京大学 · 法学</div>
+    <div class="fy-case-card-school">北京大学 · 法学</div>
     <div class="fy-case-card-major-score">高考 665 分 · 全省第 482 名</div>
     <div class="fy-case-card-summary">
       "不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了。接下来，只需要保持那份勇敢，继续往前走。"
@@ -29,7 +29,7 @@ description: 2025 届州民中校友升学经验分享。
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">北京</span>
   </div>
-  <a href="xiaoxi-pku/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="xiaoxi-pku/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -40,7 +40,7 @@ description: 2025 届州民中校友升学经验分享。
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 对外经济贸易大学 · 少数民族预科班</div>
+    <div class="fy-case-card-school">对外经济贸易大学 · 少数民族预科班</div>
     <div class="fy-case-card-major-score">高考 607 分 · 全省第 12000 名</div>
     <div class="fy-case-card-summary">
       "有凹陷，就会有高山相连。大家一定不要被困于当下的逆境中，你的人生不会因为一场考试的失败而变得糟糕，要永远相信你还有无限的可能！"
@@ -54,7 +54,7 @@ description: 2025 届州民中校友升学经验分享。
     <span class="fy-tag">少数民族预科班</span>
     <span class="fy-tag">211/双一流</span>
   </div>
-  <a href="Ivy-对外经济贸易大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="Ivy-对外经济贸易大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -65,7 +65,7 @@ description: 2025 届州民中校友升学经验分享。
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 山东大学 · 智能建造与智慧交通转到自动化</div>
+    <div class="fy-case-card-school">山东大学 · 智能建造与智慧交通转到自动化</div>
     <div class="fy-case-card-major-score">高考 617 分 · 全省第 9424 名</div>
     <div class="fy-case-card-summary">
       "加油"
@@ -78,7 +78,7 @@ description: 2025 届州民中校友升学经验分享。
     <span class="fy-tag">智能建造与智慧交通转到自动化</span>
     <span class="fy-tag">985</span>
   </div>
-  <a href="yuan-山东大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="yuan-山东大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -89,7 +89,7 @@ description: 2025 届州民中校友升学经验分享。
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 大连理工大学 · 储能科学与工程</div>
+    <div class="fy-case-card-school">大连理工大学 · 储能科学与工程</div>
     <div class="fy-case-card-major-score">高考 640 分 · 全省第 3700 名</div>
     <div class="fy-case-card-summary">
       "你是你自己人生的负责人，选择摆在面前的时候大胆去选，坑是一定有的，但是你能做出这个选择就意味着你是能承担这个后果的，不要畏惧，勇敢向前"
@@ -102,7 +102,7 @@ description: 2025 届州民中校友升学经验分享。
     <span class="fy-tag">储能科学与工程</span>
     <span class="fy-tag">985</span>
   </div>
-  <a href="Ruby-大连理工大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="Ruby-大连理工大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -113,7 +113,7 @@ description: 2025 届州民中校友升学经验分享。
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 西南大学 · 地理（免费师范生）</div>
+    <div class="fy-case-card-school">西南大学 · 地理（免费师范生）</div>
     <div class="fy-case-card-major-score">高考 618 分 · 全省第 9100 名</div>
     <div class="fy-case-card-summary">
       "“向着光，追寻光，成为光”"
@@ -126,7 +126,7 @@ description: 2025 届州民中校友升学经验分享。
     <span class="fy-tag">地理（免费师范生）</span>
     <span class="fy-tag">211/双一流</span>
   </div>
-  <a href="溯suu-西南大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="溯suu-西南大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -137,7 +137,7 @@ description: 2025 届州民中校友升学经验分享。
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">🏫 香港科技大学 · TIE</div>
+    <div class="fy-case-card-school">香港科技大学 · TIE</div>
     <div class="fy-case-card-major-score">高考 614 分 · 全省第 1000 名</div>
     <div class="fy-case-card-summary">
       "对自己要求严格，不人云亦云，选择大于努力，努力也很重要"
@@ -149,13 +149,11 @@ description: 2025 届州民中校友升学经验分享。
     <span class="fy-tag">TIE</span>
     <span class="fy-tag">港澳台及海外</span>
   </div>
-  <a href="张智豪-香港科技大学/" style="display: block; margin-top: 12px; color: var(--md-primary-fg-color-dark); font-weight: 500; text-decoration: none;">阅读全文 →</a>
+  <a href="张智豪-香港科技大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: CASE_CARDS -->
 
 </div>
-
-
 
 
 
