@@ -558,22 +558,14 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   margin-bottom: 8px;
   letter-spacing: 0.03em;
-  /* 长校名单行截断,避免 "莫纳什大学（Monash University）" 类换行破坏对齐 */
-  display: block;
-  width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.3;
 }
 
-/* 多专业字符串同样限制单行,避免不同卡片高度参差 */
 .fy-school-card-count,
 .fy-school-card-major {
   display: block;
   width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.3;
 }
 
 .fy-school-card-count {

@@ -25,37 +25,17 @@ hide:
 </div>
 
 <!-- ============================================================ -->
-<!-- 统计数字带 -->
-<!-- ============================================================ -->
-<!-- AUTO-GEN: HOMEPAGE_STATS -->
-<div class="fy-stats">
-  <div class="fy-stats-item">
-    <span class="fy-stats-num">49</span>
-    <span class="fy-stats-label">位校友故事</span>
-  </div>
-  <div class="fy-stats-item">
-    <span class="fy-stats-num">44</span>
-    <span class="fy-stats-label">所大学</span>
-  </div>
-  <div class="fy-stats-item">
-    <span class="fy-stats-num">9</span>
-    <span class="fy-stats-label">届毕业生</span>
-  </div>
-</div>
-<!-- /AUTO-GEN: HOMEPAGE_STATS -->
-
-<!-- ============================================================ -->
 <!-- 搜索栏 -->
 <!-- ============================================================ -->
 <div class="fy-search-wrapper">
   <div class="fy-search">
-    <span class="fy-search-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span>
+    <span class="fy-search-icon">🔍</span>
     <input
       class="fy-search-input"
       type="text"
       placeholder="搜索学校、专业、城市、关键词……"
       id="fy-global-search"
-      data-fy-search-proxy
+      onkeydown="if(event.key==='Enter'){let q=document.getElementById('fy-global-search').value.trim();if(q){let s=document.querySelector('.md-search__input');if(s){let l=document.querySelector('[for=__search]');if(l)l.click();s.value=q;s.focus();s.dispatchEvent(new KeyboardEvent('keyup',{bubbles:true}));}}}"
     />
   </div>
 </div>
@@ -413,7 +393,7 @@ hide:
 
 <div class="fy-case-card" markdown="1">
 
-### :material-account-group: 交流群
+### 💬 交流群
 
 **州民中升学交流群**
 
@@ -427,7 +407,7 @@ QQ 群号：793634202
 
 <div class="fy-case-card" markdown="1">
 
-### :material-link-variant: 志愿填报工具
+### 🔗 志愿填报工具
 
 - [**阳光高考网**](https://gaokao.chsi.com.cn/) — 教育部官方志愿填报平台
 - [**湖南省教育考试院**](http://jyt.hunan.gov.cn/sjyt/hnsjyksy/) — 查分、查位次、查录取
@@ -438,7 +418,7 @@ QQ 群号：793634202
 
 <div class="fy-case-card" markdown="1">
 
-### :material-book-open-page-variant: 推荐阅读
+### 📚 推荐阅读
 
 - [**州民中飞跃手册 · 投稿指南**](contribute.md) — 如何分享你的故事
 - [**案例库**](cases/index.md) — 浏览所有校友案例
@@ -471,6 +451,47 @@ QQ 群号：793634202
 </div>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
