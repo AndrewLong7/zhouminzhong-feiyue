@@ -36,25 +36,25 @@ description: 浏览所有州民中校友升学案例。
 <!-- AUTO-GEN: YEAR_CARDS -->
 <a href="2025/" class="fy-school-card">
   <span class="fy-school-card-name">2025 届</span>
-  <span class="fy-school-card-count">6 个案例</span>
+  <span class="fy-school-card-count">8 个案例</span>
   <span class="fy-school-card-major">往届毕业生</span>
 </a>
 
 <a href="2024/" class="fy-school-card">
   <span class="fy-school-card-name">2024 届</span>
-  <span class="fy-school-card-count">4 个案例</span>
+  <span class="fy-school-card-count">6 个案例</span>
   <span class="fy-school-card-major">往届毕业生</span>
 </a>
 
 <a href="2023/" class="fy-school-card">
   <span class="fy-school-card-name">2023 届</span>
-  <span class="fy-school-card-count">6 个案例</span>
+  <span class="fy-school-card-count">10 个案例</span>
   <span class="fy-school-card-major">往届毕业生</span>
 </a>
 
 <a href="earlier/" class="fy-school-card">
   <span class="fy-school-card-name">更早的案例</span>
-  <span class="fy-school-card-count">33 个案例</span>
+  <span class="fy-school-card-count">47 个案例</span>
   <span class="fy-school-card-major">往届毕业生</span>
 </a>
 <!-- /AUTO-GEN: YEAR_CARDS -->
@@ -187,26 +187,27 @@ description: 浏览所有州民中校友升学案例。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">A</div>
+    <div class="fy-case-card-avatar">小</div>
     <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">Andrew</span>
+      <span class="fy-case-card-name">小飞机</span>
       <span class="fy-case-card-year">2020 届 · 物理类</span>
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">哈尔滨工业大学（深圳） · 计算机科学</div>
-    <div class="fy-case-card-major-score">高考 662 分 · 全省第 1254 名</div>
+    <div class="fy-case-card-school">湖南大学 · 预科到电气工程及其自动化</div>
+    <div class="fy-case-card-major-score">高考 595 分 · 全省第 9000 名</div>
     <div class="fy-case-card-summary">
-      "不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了；你能来到这里和全国各地的优秀青年齐聚一堂，说明你的能力获得了认可。接下来，只需要保持那份勇敢，继续往前走。"
+      "人就是这样，想来想去，犹豫来犹豫去，觉得自己还没有准备好，勇气没有攒够，其实只要迈出去第一步，你就会发现一切早就已经准备好了。"
     </div>
   </div>
   <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">预科到电气工程及其自动化</span>
     <span class="fy-tag">985</span>
-    <span class="fy-tag">理工</span>
-    <span class="fy-tag">跨省</span>
-    <span class="fy-tag">深圳</span>
   </div>
-  <a href="earlier/Andrew-哈尔滨工业大学（深圳）/" class="fy-case-card-link">阅读全文 →</a>
+  <a href="earlier/小飞机-湖南大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: LATEST_CASES -->
 
@@ -215,6 +216,12 @@ description: 浏览所有州民中校友升学案例。
 ---
 
 > 📢 **你是州民中校友？** [分享你的故事 →](../contribute.md)
+
+
+
+
+
+
 
 
 

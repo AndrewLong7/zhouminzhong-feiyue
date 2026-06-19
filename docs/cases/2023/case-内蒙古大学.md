@@ -1,5 +1,5 @@
 ---
-title: 🥱 - 内蒙古大学
+title:  - 内蒙古大学
 city: 西北
 major: 物理类（理科）
 level: 一本
@@ -22,7 +22,7 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">化名</div>
-  <div class="fy-case-info-value">🥱</div>
+  <div class="fy-case-info-value">笑脸</div>
 </div>
 
 <div class="fy-case-info-item">
@@ -32,12 +32,12 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">高考分数</div>
-  <div class="fy-case-info-value">忘了 分</div>
+  <div class="fy-case-info-value">null分</div>
 </div>
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">全省位次</div>
-  <div class="fy-case-info-value">全省第 真忘了 名</div>
+  <div class="fy-case-info-value">全省第null名</div>
 </div>
 
 <div class="fy-case-info-item">
@@ -113,7 +113,7 @@ boring
 就业：北方稀土，中国稀土，中国有色等等
 其实这个破专业本科蛮好就业的，我也就是纯懒，不太想熬资历啥的。
 其实本科阶段就已经接到譬如包钢，中国冶金集团，鞍钢，首钢唐山，北方稀土，中能的实习offer了，我接了中二冶的项目还是有所收获的。
-其实工科到最后就是看你想走哪条路了，想搞科研进科研岗就去学硕，要磨练自己论文文笔（当然我写的是💩；老师原话），论文和学术会议经历就很重要，想找工作进企业，就要侧重实习。
+其实工科到最后就是看你想走哪条路了，想搞科研进科研岗就去学硕，要磨练自己论文文笔（当然我写的是；老师原话），论文和学术会议经历就很重要，想找工作进企业，就要侧重实习。
 日本留学教授不看你第一出生，你只要会日语+比赛等资历够格就会要你的
 
 ---
@@ -151,7 +151,7 @@ boring
 
 > "珍惜青春，珍惜头发"
 >
-> —— 🥱
+> —— 
 
 ---
 

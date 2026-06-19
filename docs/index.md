@@ -84,6 +84,12 @@ hide:
   <span class="fy-school-card-major">数学/基础数学/算术几何和代数几何</span>
 </a>
 
+<a href="universities/湖南大学/" class="fy-school-card">
+  <span class="fy-school-card-name">湖南大学</span>
+  <span class="fy-school-card-count">已收录 3 人</span>
+  <span class="fy-school-card-major">电气工程及其自动化（转专业前为金融） · 预科到电气工程及其自动化 · 土木工程</span>
+</a>
+
 <a href="universities/哈尔滨工业大学-深圳/" class="fy-school-card">
   <span class="fy-school-card-name">哈尔滨工业大学（深圳）</span>
   <span class="fy-school-card-count">已收录 2 人</span>
@@ -104,8 +110,14 @@ hide:
 
 <a href="universities/复旦大学/" class="fy-school-card">
   <span class="fy-school-card-name">复旦大学</span>
+  <span class="fy-school-card-count">已收录 2 人</span>
+  <span class="fy-school-card-major">数学与应用数学 · 广播电视学</span>
+</a>
+
+<a href="universities/湖南师范大学/" class="fy-school-card">
+  <span class="fy-school-card-name">湖南师范大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">广播电视学</span>
+  <span class="fy-school-card-major">临床医学</span>
 </a>
 
 <a href="universities/杭州电子科技大学/" class="fy-school-card">
@@ -120,6 +132,12 @@ hide:
   <span class="fy-school-card-major">临床医学</span>
 </a>
 
+<a href="universities/上海立信会计金融学院/" class="fy-school-card">
+  <span class="fy-school-card-name">上海立信会计金融学院</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">商科</span>
+</a>
+
 <a href="universities/华中师范大学/" class="fy-school-card">
   <span class="fy-school-card-name">华中师范大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
@@ -132,6 +150,18 @@ hide:
   <span class="fy-school-card-major">国际经济与贸易</span>
 </a>
 
+<a href="universities/中南民族大学/" class="fy-school-card">
+  <span class="fy-school-card-name">中南民族大学</span>
+  <span class="fy-school-card-count">已收录 4 人</span>
+  <span class="fy-school-card-major">财务管理 · 法学 · 会计学</span>
+</a>
+
+<a href="universities/南京财经大学/" class="fy-school-card">
+  <span class="fy-school-card-name">南京财经大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">会计学</span>
+</a>
+
 <a href="universities/对外经济贸易大学/" class="fy-school-card">
   <span class="fy-school-card-name">对外经济贸易大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
@@ -142,36 +172,6 @@ hide:
   <span class="fy-school-card-name">西安交通大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">人工智能</span>
-</a>
-
-<a href="universities/山东大学/" class="fy-school-card">
-  <span class="fy-school-card-name">山东大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">智能建造与智慧交通转到自动化</span>
-</a>
-
-<a href="universities/北京工业大学/" class="fy-school-card">
-  <span class="fy-school-card-name">北京工业大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">数字媒体艺术</span>
-</a>
-
-<a href="universities/中央美术学院/" class="fy-school-card">
-  <span class="fy-school-card-name">中央美术学院</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">艺术管理</span>
-</a>
-
-<a href="universities/中南民族大学/" class="fy-school-card">
-  <span class="fy-school-card-name">中南民族大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">法学</span>
-</a>
-
-<a href="universities/南京审计大学/" class="fy-school-card">
-  <span class="fy-school-card-name">南京审计大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">审计</span>
 </a>
 <!-- /AUTO-GEN: HOMEPAGE_UNIVERSITIES -->
 
@@ -315,26 +315,27 @@ hide:
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">A</div>
+    <div class="fy-case-card-avatar">小</div>
     <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">Andrew</span>
+      <span class="fy-case-card-name">小飞机</span>
       <span class="fy-case-card-year">2020 届 · 物理类</span>
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">哈尔滨工业大学（深圳） · 计算机科学</div>
-    <div class="fy-case-card-major-score">高考 662 分 · 全省第 1254 名</div>
+    <div class="fy-case-card-school">湖南大学 · 预科到电气工程及其自动化</div>
+    <div class="fy-case-card-major-score">高考 595 分 · 全省第 9000 名</div>
     <div class="fy-case-card-summary">
-      "不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了；你能来到这里和全国各地的优秀青年齐聚一堂，说明你的能力获得了认可。接下来，只需要保持那份勇敢，继续往前走。"
+      "人就是这样，想来想去，犹豫来犹豫去，觉得自己还没有准备好，勇气没有攒够，其实只要迈出去第一步，你就会发现一切早就已经准备好了。"
     </div>
   </div>
   <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">预科到电气工程及其自动化</span>
     <span class="fy-tag">985</span>
-    <span class="fy-tag">理工</span>
-    <span class="fy-tag">跨省</span>
-    <span class="fy-tag">深圳</span>
   </div>
-  <a href="cases/earlier/Andrew-哈尔滨工业大学（深圳）/" class="fy-case-card-link">阅读全文 →</a>
+  <a href="cases/earlier/小飞机-湖南大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: LATEST_CASES -->
 
@@ -451,6 +452,12 @@ QQ 群号：793634202
 </div>
 
 </div>
+
+
+
+
+
+
 
 
 

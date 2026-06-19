@@ -86,6 +86,22 @@ cases:
     quote: "对自己要求严格，不人云亦云，选择大于努力，努力也很重要"
     file: cases/2025/张智豪-香港科技大学.md
 
+  - id: "徐一宁-北方民族大学"
+    name: "徐一宁"
+    avatar: "徐"
+    year: 2025
+    group: "物理类"
+    school: "北方民族大学"
+    major: "金融学"
+    score: 0
+    rank: 0
+    city: "宁夏"
+    type: real
+    level: "一本"
+    tags: ["理科", "宁夏", "金融学"]
+    quote: "大学期间多学习多拓宽自己的眼界"
+    file: cases/2025/徐一宁-北方民族大学.md
+
   - id: "溯suu-西南大学"
     name: "溯suu"
     avatar: "溯"
@@ -101,6 +117,54 @@ cases:
     tags: ["理科", "跨省", "西南", "地理（免费师范生）", "211/双一流"]
     quote: "“向着光，追寻光，成为光”"
     file: cases/2025/溯suu-西南大学.md
+
+  - id: "行走的鱼-长沙科技学院"
+    name: "行走的鱼"
+    avatar: "行"
+    year: 2025
+    group: "物理类"
+    school: "长沙科技学院"
+    major: "档案学"
+    score: 405
+    rank: 0
+    city: "华中"
+    type: real
+    level: "二本"
+    tags: ["文科", "本省", "华中", "档案学"]
+    quote: "没有什么不能的，只是你不想。鼓起勇气吧"
+    file: cases/2025/行走的鱼-长沙科技学院.md
+
+  - id: "Q-西北农林科技大学"
+    name: "Q"
+    avatar: "Q"
+    year: 2024
+    group: "物理类"
+    school: "西北农林科技大学"
+    major: "植物科学与技术"
+    score: 598
+    rank: 16000
+    city: "西北"
+    type: real
+    level: "985"
+    tags: ["理科", "跨省", "西北", "植物科学与技术", "985"]
+    quote: "如果你高考不理想或者对生物有浓厚兴趣可以考虑这所性价比最高的985，大学也只是新的求学开始，并不是学习的结束，加油૧(●´৺`●)૭"
+    file: cases/2024/Q-西北农林科技大学.md
+
+  - id: "TUTU-华北电力大学（保定）"
+    name: "TUTU"
+    avatar: "T"
+    year: 2024
+    group: "物理类"
+    school: "华北电力大学（保定）"
+    major: "氢能科学与工程"
+    score: 616
+    rank: 8800
+    city: "河北省"
+    type: real
+    level: "211/双一流"
+    tags: ["工科", "跨省", "河北省", "氢能科学与工程", "211/双一流"]
+    quote: "保持乐观，多去尝试"
+    file: cases/2024/TUTU-华北电力大学（保定）.md
 
   - id: "小e-北京化工大学"
     name: "小e"
@@ -182,6 +246,21 @@ cases:
     quote: "世界那么大，我却只是路过，周边那么小，但那确是我的人生。"
     file: cases/2023/GL-电子科技大学.md
 
+  - id: "case-内蒙古大学"
+    name: "笑脸"
+    avatar: "笑"
+    year: 2023
+    group: "物理类"
+    school: "内蒙古大学"
+    major: "稀土材料工程"
+    score: 0
+    rank: 0
+    city: "西北"
+    type: real
+    tags: ["理科", "工科", "跨省", "西北", "稀土材料工程"]
+    quote: "珍惜青春，珍惜头发"
+    file: cases/2023/case-内蒙古大学.md
+
   - id: "k1v-清华大学"
     name: "k1v"
     avatar: "k"
@@ -197,6 +276,54 @@ cases:
     tags: ["985", "理工", "跨省", "北京"]
     quote: "不要怕走弯路，但在做决定之前，请先把能看的路都认真看一遍。选择之后，也不要反复美化那些没有走上的路；把脚下这条路走深、走稳，本身就是一种很重要的能力。"
     file: cases/2023/k1v-清华大学.md
+
+  - id: "全昌正-复旦大学"
+    name: "全昌正"
+    avatar: "全"
+    year: 2023
+    group: "物理类"
+    school: "复旦大学"
+    major: "数学与应用数学"
+    score: 680
+    rank: 100
+    city: "上海"
+    type: real
+    level: "985"
+    tags: ["理科", "海外", "上海", "数学与应用数学", "985"]
+    quote: "这个人很懒，不知道写什么"
+    file: cases/2023/全昌正-复旦大学.md
+
+  - id: "冯军-湖南师范大学"
+    name: "冯军"
+    avatar: "冯"
+    year: 2023
+    group: "物理类"
+    school: "湖南师范大学"
+    major: "临床医学"
+    score: 590
+    rank: 19000
+    city: "华中"
+    type: real
+    level: "211/双一流"
+    tags: ["医学", "本省", "华中", "临床医学", "211/双一流"]
+    quote: "太阳次日照常升起"
+    file: cases/2023/冯军-湖南师范大学.md
+
+  - id: "唐-湖南大学"
+    name: "唐"
+    avatar: "唐"
+    year: 2023
+    group: "物理类"
+    school: "湖南大学"
+    major: "电气工程及其自动化（转专业前为金融）"
+    score: 623
+    rank: 7000
+    city: "华中"
+    type: real
+    level: "985"
+    tags: ["工科", "本省", "华中", "电气工程及其自动化（转专业前为金融）", "985"]
+    quote: "越过山丘，却发现无人守候"
+    file: cases/2023/唐-湖南大学.md
 
   - id: "李政润-中山大学"
     name: "李政润"
@@ -325,6 +452,22 @@ cases:
     tags: ["商科", "跨省", "北京", "贸易经济", "211/双一流"]
     quote: "好好学习，天天向上"
     file: cases/earlier/大豆-中央财经大学.md
+
+  - id: "张张-华南理工大学"
+    name: "张张"
+    avatar: "张"
+    year: 2022
+    group: "历史类"
+    school: "华南理工大学"
+    major: "经济学"
+    score: 597
+    rank: 1104
+    city: "珠三角"
+    type: real
+    level: "985"
+    tags: ["文科", "跨省", "珠三角", "经济学", "985"]
+    quote: "相信自己，未来可期～"
+    file: cases/earlier/张张-华南理工大学.md
 
   - id: "张智豪-华东师范大学"
     name: "张智豪"
@@ -518,6 +661,22 @@ cases:
     quote: "请珍惜所剩无几的高中时光，以后会一直回忆的，真是人生中最美好的日子，无忧无虑"
     file: cases/earlier/Taylor-杭州电子科技大学.md
 
+  - id: "XX-吉首大学"
+    name: "XX"
+    avatar: "X"
+    year: 2020
+    group: "物理类"
+    school: "吉首大学"
+    major: "会计学"
+    score: 560
+    rank: 0
+    city: "湖南省吉首市"
+    type: real
+    level: "一本"
+    tags: ["商科", "本省", "湖南省吉首市", "会计学"]
+    quote: "高中加油学习多考点分，去理想的大学学理想的专业，感受精彩的人生"
+    file: cases/earlier/XX-吉首大学.md
+
   - id: "adj-哈尔滨工业大学（深圳）"
     name: "adj"
     avatar: "a"
@@ -582,6 +741,38 @@ cases:
     quote: "最近看到的很喜欢的一句话:Tomorrow is a new day.不管当下如何，明天又会是新的一天。"
     file: cases/earlier/tsl-大连海事大学.md
 
+  - id: "vv-上海立信会计金融学院"
+    name: "vv"
+    avatar: "v"
+    year: 2020
+    group: "历史类"
+    school: "上海立信会计金融学院"
+    major: "商科"
+    score: 590
+    rank: 5000
+    city: "上海"
+    type: real
+    level: "一本"
+    tags: ["文科", "商科", "跨省", "上海"]
+    quote: "冷静权衡、充分斟酌后所选的路，便是最好的路，不美化自己没走过的路，follow your heart每条路都能走出繁花。"
+    file: cases/earlier/vv-上海立信会计金融学院.md
+
+  - id: "三分高手-西南财经大学"
+    name: "三分高手"
+    avatar: "三"
+    year: 2020
+    group: "物理类"
+    school: "西南财经大学"
+    major: "金融数学（中美双学位）"
+    score: 614
+    rank: 0
+    city: "四川"
+    type: real
+    level: "211/双一流"
+    tags: ["理科", "商科", "海外", "跨省", "四川", "金融数学（中美双学位）", "211/双一流"]
+    quote: "\"多接触，多感悟。"
+    file: cases/earlier/三分高手-西南财经大学.md
+
   - id: "二白-湖南中医药大学"
     name: "二白"
     avatar: "二"
@@ -597,6 +788,22 @@ cases:
     tags: ["文科", "医学", "湖南", "中医学"]
     quote: "未来可期，人生的选择还有很多，不要着眼一时成败得是，保持快乐"
     file: cases/earlier/二白-湖南中医药大学.md
+
+  - id: "匿名-中南民族大学"
+    name: "匿名"
+    avatar: "匿"
+    year: 2020
+    group: "物理类"
+    school: "中南民族大学"
+    major: "财务管理"
+    score: 509
+    rank: 30000
+    city: "华中"
+    type: real
+    level: "一本"
+    tags: ["文科", "理科", "医学", "商科", "跨省", "华中", "财务管理"]
+    quote: "大学好好玩的同时也依旧要好好学哦"
+    file: cases/earlier/匿名-中南民族大学.md
 
   - id: "向柒霖-吉首大学"
     name: "向柒霖"
@@ -646,6 +853,22 @@ cases:
     quote: "希望后来的你们也都找到了自己喜欢的专业，在各自的领域闪闪发光。请大家无论在什么时候都要对自己保持信心，都要毫无条件地，无所保留地相信你自己。然后去成为想成为的人，走出大山，走的更远，去看到这个世界的每一面。"
     file: cases/earlier/嗯嗯不知道-西南交通大学.md
 
+  - id: "大学浪子-中南财经政法大学"
+    name: "大学浪子"
+    avatar: "大"
+    year: 2020
+    group: "物理类"
+    school: "中南财经政法大学"
+    major: "会计"
+    score: 597
+    rank: 15000
+    city: "长三角"
+    type: real
+    level: "211/双一流"
+    tags: ["商科", "长三角", "会计", "211/双一流"]
+    quote: "加油"
+    file: cases/earlier/大学浪子-中南财经政法大学.md
+
   - id: "宋泽熙-中央民族大学"
     name: "宋泽熙"
     avatar: "宋"
@@ -661,6 +884,22 @@ cases:
     tags: ["文科", "跨省", "北京", "少数民族预科班/中国史", "985"]
     quote: "加油，再坚持一下。走出这座屋子，外面就是属于你的广阔天空。"
     file: cases/earlier/宋泽熙-中央民族大学.md
+
+  - id: "小飞机-湖南大学"
+    name: "小飞机"
+    avatar: "小"
+    year: 2020
+    group: "物理类"
+    school: "湖南大学"
+    major: "预科到电气工程及其自动化"
+    score: 595
+    rank: 9000
+    city: "华中"
+    type: real
+    level: "985"
+    tags: ["工科", "本省", "华中", "预科到电气工程及其自动化", "985"]
+    quote: "人就是这样，想来想去，犹豫来犹豫去，觉得自己还没有准备好，勇气没有攒够，其实只要迈出去第一步，你就会发现一切早就已经准备好了。"
+    file: cases/earlier/小飞机-湖南大学.md
 
   - id: "挽风-湘西民族职业技术学院"
     name: "挽风"
@@ -678,6 +917,22 @@ cases:
     quote: "\"人生或许有遗憾，但奋斗过的青春一定是最美的。"
     file: cases/earlier/挽风-湘西民族职业技术学院.md
 
+  - id: "探险家小田-南京财经大学"
+    name: "探险家小田"
+    avatar: "探"
+    year: 2020
+    group: "历史类"
+    school: "南京财经大学"
+    major: "会计学"
+    score: 614
+    rank: 0
+    city: "长三角"
+    type: real
+    level: "一本"
+    tags: ["文科", "商科", "艺术", "长三角", "会计学"]
+    quote: "不用太在意每一次的得失，所有的经历都有意义，人生一直都是进行时。但无论如何，请永远不要放弃学习。"
+    file: cases/earlier/探险家小田-南京财经大学.md
+
   - id: "方正小标宋简体-中南民族大学"
     name: "方正小标宋简体"
     avatar: "方"
@@ -693,6 +948,38 @@ cases:
     tags: ["文科", "跨省", "华中", "法学"]
     quote: "你已经很努力了，因上努力果上随缘，每个人都有无限可能，当下不必太过焦虑，走的每一步都算数ˆ_ˆ"
     file: cases/earlier/方正小标宋简体-中南民族大学.md
+
+  - id: "李颖曦-中南民族大学"
+    name: "李颖曦"
+    avatar: "李"
+    year: 2020
+    group: "物理类"
+    school: "中南民族大学"
+    major: "会计学"
+    score: 574
+    rank: 20000
+    city: "华中"
+    type: real
+    level: "一本"
+    tags: ["理科", "商科", "跨省", "华中", "会计学"]
+    quote: "不知道要去哪先出发就对了"
+    file: cases/earlier/李颖曦-中南民族大学.md
+
+  - id: "泠月-吉首大学"
+    name: "泠月"
+    avatar: "泠"
+    year: 2020
+    group: "历史类"
+    school: "吉首大学"
+    major: "公共事业管理"
+    score: 560
+    rank: 0
+    city: "西南"
+    type: real
+    level: "一本"
+    tags: ["文科", "本省", "西南", "公共事业管理"]
+    quote: "路很长，他们都说一件事不能决定漫长的人生，但是每一个阶段的事都会决定你命运的走向。"
+    file: cases/earlier/泠月-吉首大学.md
 
   - id: "芭乐乐茶-湖南工学院"
     name: "芭乐乐茶"
@@ -726,6 +1013,22 @@ cases:
     quote: "做好自己的抉择，明白自己究竟想要什么，选择了就不要后悔，人要为自己的选择负责。也要珍惜自己的大学生活，平时的成绩不是生活的全部，多去交际交一些知心朋友，多去实习提升自己的实操经验。大学整体来讲比较松散，要有一些自制力，劳逸结合，玩累了之后还是要多计划计划未来。"
     file: cases/earlier/花果山污染-南京审计大学.md
 
+  - id: "菜-西北政法大学"
+    name: "菜"
+    avatar: "菜"
+    year: 2020
+    group: "历史类"
+    school: "西北政法大学"
+    major: "法学"
+    score: 607
+    rank: 0
+    city: "西北"
+    type: real
+    level: "一本"
+    tags: ["文科", "艺术", "西北", "法学"]
+    quote: "大学确实是人生最美好的年华之一，祝愿学弟学妹们保持自信，保持思考，自由自在地探索吧！"
+    file: cases/earlier/菜-西北政法大学.md
+
   - id: "薯条-湖南女子学院"
     name: "薯条"
     avatar: "薯"
@@ -741,6 +1044,38 @@ cases:
     tags: ["文科", "华中", "网新"]
     quote: "学好英语，非常非常非常重要"
     file: cases/earlier/薯条-湖南女子学院.md
+
+  - id: "一丁点-中南民族大学"
+    name: "一丁点"
+    avatar: "一"
+    year: 2019
+    group: "历史类"
+    school: "中南民族大学"
+    major: "新闻学"
+    score: 561
+    rank: 1
+    city: "华中"
+    type: real
+    level: "一本"
+    tags: ["文科", "艺术", "华中", "新闻学"]
+    quote: "一切都是最好的安排"
+    file: cases/earlier/一丁点-中南民族大学.md
+
+  - id: "厂工人-广东工业大学"
+    name: "厂工人"
+    avatar: "厂"
+    year: 2019
+    group: "物理类"
+    school: "广东工业大学"
+    major: "电子信息类-信息工程"
+    score: 577
+    rank: 1
+    city: "珠三角"
+    type: real
+    level: "一本"
+    tags: ["工科", "跨省", "珠三角", "电子信息类-信息工程"]
+    quote: "请记住，一切发生皆有利于自己。"
+    file: cases/earlier/厂工人-广东工业大学.md
 
   - id: "ddd-南华大学"
     name: "ddd"
@@ -774,6 +1109,22 @@ cases:
     quote: "永远不要低估一颗想考上理想大学的心。"
     file: cases/earlier/陈彬-西南大学.md
 
+  - id: "张三-湖南大学"
+    name: "张三"
+    avatar: "张"
+    year: 2014
+    group: "物理类"
+    school: "湖南大学"
+    major: "土木工程"
+    score: 557
+    rank: 1
+    city: "湖南"
+    type: real
+    level: "985"
+    tags: ["理科", "工科", "本省", "湖南", "土木工程", "985"]
+    quote: "好好学习，天天向上，享受人生。"
+    file: cases/earlier/张三-湖南大学.md
+
   - id: "浩哥-清华大学"
     name: "浩哥"
     avatar: "浩"
@@ -804,17 +1155,23 @@ universities:
       - "北京师范大学（珠海）"
       - "华东师范大学"
       - "华中科技大学"
+      - "华南理工大学"
       - name: "哈尔滨工业大学（深圳）"
         slug: "哈尔滨工业大学-深圳"
-      - "复旦大学"
+      - name: "复旦大学"
+        slug: "复旦大学"
       - "大连理工大学"
       - "山东大学"
       - name: "清华大学"
         slug: "清华大学"
+      - name: "湖南大学"
+        slug: "湖南大学"
       - "电子科技大学"
+      - "西北农林科技大学"
       - "西安交通大学"
   - category: "211 / 双一流 院校"
     schools:
+      - "中南财经政法大学"
       - "中国矿业大学"
       - "中央美术学院"
       - name: "中央财经大学"
@@ -824,23 +1181,32 @@ universities:
       - "北京科技大学"
       - "华中师范大学"
       - "华北电力大学"
+      - "华北电力大学（保定）"
       - "南京医科大学"
       - "大连海事大学"
       - "对外经济贸易大学"
+      - "湖南师范大学"
       - "西南交通大学"
       - name: "西南大学"
         slug: "西南大学"
+      - "西南财经大学"
   - category: "一本院校"
     schools:
-      - "中南民族大学"
+      - "上海立信会计金融学院"
+      - name: "中南民族大学"
+        slug: "中南民族大学"
+      - "北方民族大学"
       - "南京审计大学"
+      - "南京财经大学"
       - "南华大学"
       - name: "吉首大学"
         slug: "吉首大学"
+      - "广东工业大学"
       - "杭州电子科技大学"
       - "湖南中医药大学"
       - "湖南工业大学"
       - "湖南科技大学"
+      - "西北政法大学"
       - "西北民族大学"
       - "西南民族大学"
       - "重庆交通大学"
@@ -850,10 +1216,12 @@ universities:
       - "北华大学"
       - "湖南女子学院"
       - "湖南工学院"
+      - "长沙科技学院"
   - category: "港澳及海外院校"
     schools:
       - "莫纳什大学（Monash University）"
       - "香港科技大学"
   - category: "其他院校"
     schools:
+      - "内蒙古大学"
       - "湘西民族职业技术学院"

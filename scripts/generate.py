@@ -125,7 +125,7 @@ def case_card(c: dict, href: str) -> str:
   </div>
   <div class="fy-case-card-body">
     <div class="fy-case-card-school">{c['school']} · {c['major']}</div>
-    <div class="fy-case-card-major-score">高考 {c['score']} 分 · 全省第 {c['rank']} 名</div>
+    <div class="fy-case-card-major-score">高考 {c['score']} 分 · 全省第 {c['rank'] if c['rank'] > 1 else 'n'} 名</div>
     <div class="fy-case-card-summary">
       "{c['quote']}"
     </div>

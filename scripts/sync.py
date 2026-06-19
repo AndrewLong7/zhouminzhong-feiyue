@@ -60,21 +60,25 @@ def parse_info_items(content: str) -> dict:
     return info
 
 
+def sanitize_text(s: str) -> str:
+    """移除 Non-BMP 字符（emoji 等，PyYAML 不兼容），应用于所有写入 YAML 的字段。"""
+    result = []
+    for ch in s:
+        if ord(ch) <= 0xFFFF:
+            result.append(ch)
+    return "".join(result)
+
+
 def clean_quote(s: str) -> str:
     """清洗引用语：去引号、移除 non-BMP 字符。"""
-    s = s.strip()
+    s = sanitize_text(s).strip()
     if s.startswith('"') and s.endswith('"'):
         s = s[1:-1].strip()
     if s.startswith('"') and s.endswith('"'):
         s = s[1:-1].strip()
     if s.startswith("'") and s.endswith("'"):
         s = s[1:-1].strip()
-    # 移除 Non-BMP 字符（emoji 等，PyYAML 不兼容）
-    result = []
-    for ch in s:
-        if ord(ch) <= 0xFFFF:
-            result.append(ch)
-    return "".join(result)
+    return s
 
 
 def extract_quote(content: str) -> str:
@@ -168,17 +172,17 @@ def parse_case_file(md_path: Path) -> dict | None:
 
     return {
         "id": case_id,
-        "name": name,
-        "avatar": name[0],
+        "name": sanitize_text(name),
+        "avatar": sanitize_text(name)[0] if name else "?",
         "year": year,
-        "group": parse_group(info.get("选科组合", "")),
-        "school": school,
-        "major": info.get("录取专业", ""),
+        "group": sanitize_text(parse_group(info.get("选科组合", ""))),
+        "school": sanitize_text(school),
+        "major": sanitize_text(info.get("录取专业", "")),
         "score": parse_number(info.get("高考分数", "")),
         "rank": parse_number(info.get("全省位次", "")),
-        "city": info.get("所在城市", ""),
+        "city": sanitize_text(info.get("所在城市", "")),
         "type": case_type,
-        "tags": tags,
+        "tags": [sanitize_text(t) for t in tags],
         "level": level,
         "quote": quote,
         "file": rel_path,
