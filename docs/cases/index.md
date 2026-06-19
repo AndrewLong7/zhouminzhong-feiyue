@@ -4,9 +4,9 @@ description: 浏览所有州民中校友升学案例。
 ---
 
 <!-- Hero -->
-<div class="fy-hero fy-hero--compact" markdown="1">
+<div class="fy-hero" style="padding: 56px 24px 48px;" markdown="1">
 
-# <span class="fy-hero-title">案例库</span>
+# <span class="fy-hero-title" style="font-size: 2.6rem !important;">案例库</span>
 
 <p class="fy-hero-subtitle">
 每一份案例，都是一个真实的成长故事。
@@ -17,13 +17,13 @@ description: 浏览所有州民中校友升学案例。
 <!-- 搜索 -->
 <div class="fy-search-wrapper">
   <div class="fy-search">
-    <span class="fy-search-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></span>
+    <span class="fy-search-icon">🔍</span>
     <input
       class="fy-search-input"
       type="text"
       placeholder="按学校、专业、标签搜索案例……"
       id="case-search"
-      data-fy-search-proxy
+      onkeydown="if(event.key==='Enter'){let q=document.getElementById('case-search').value.trim();if(q){let s=document.querySelector('.md-search__input');if(s){let l=document.querySelector('[for=__search]');if(l)l.click();s.value=q;s.focus();s.dispatchEvent(new KeyboardEvent('keyup',{bubbles:true}));}}}"
     />
   </div>
 </div>
@@ -215,6 +215,51 @@ description: 浏览所有州民中校友升学案例。
 ---
 
 > 📢 **你是州民中校友？** [分享你的故事 →](../contribute.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
