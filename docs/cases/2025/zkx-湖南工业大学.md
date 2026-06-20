@@ -37,7 +37,7 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">全省位次</div>
-  <div class="fy-case-info-value">全省第 大概6、7万 名</div>
+  <div class="fy-case-info-value">全省第 60000+ 名</div>
 </div>
 
 <div class="fy-case-info-item">
