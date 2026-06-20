@@ -398,9 +398,16 @@ hide:
 
 **州民中升学交流群**
 
-QQ 群号：793634202
-
-微信群：[待补充]
+<div style="display: flex; gap: 12px; margin: 12px 0; flex-wrap: wrap;">
+  <div style="text-align: center;">
+    <img src="assets/images/qq-group-qrcode.jpg" alt="QQ 群二维码" style="width: 100px; border-radius: 8px; border: 1px solid var(--feiyue-card-border);">
+    <p style="font-size: 0.78rem; color: var(--feiyue-text-muted); margin-top: 4px;">QQ 群：793634202</p>
+  </div>
+  <div style="text-align: center;">
+    <img src="assets/images/wechat-group-qrcode.jpg" alt="微信群二维码" style="width: 100px; border-radius: 8px; border: 1px solid var(--feiyue-card-border);">
+    <p style="font-size: 0.78rem; color: var(--feiyue-text-muted); margin-top: 4px;">微信群</p>
+  </div>
+</div>
 
 > 加入请备注「州民中 + 届数 + 姓名」，方便管理员审核。
 
