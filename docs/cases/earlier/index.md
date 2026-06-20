@@ -269,6 +269,29 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">向</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">向星汝</span>
+      <span class="fy-case-card-year">2015 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">西南民族大学 · 生物技术</div>
+    <div class="fy-case-card-major-score">高考 494 分 · 全省第 5 名</div>
+    <div class="fy-case-card-summary">
+      ""亲爱的学弟学妹们：你们好！高中是非常累的一个时期，毕业11年来，多少次午夜梦回间，梦到我在高考考场，或做不出来题目，或考试迟到。。。有遗憾，有泪水，也有收获。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">生物技术</span>
+  </div>
+  <a href="向星汝-西南民族大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">匿</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">匿名</span>
@@ -437,6 +460,30 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">小</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">小丁</span>
+      <span class="fy-case-card-year">2022 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">江汉大学 · 药学</div>
+    <div class="fy-case-card-major-score">高考 528 分 · 全省第 32000 名</div>
+    <div class="fy-case-card-summary">
+      "关关难过关关过"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">药学</span>
+  </div>
+  <a href="小丁-江汉大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">花</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">花果山污染</span>
@@ -459,6 +506,30 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">审计</span>
   </div>
   <a href="花果山污染-南京审计大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">艾</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">艾莉芬特</span>
+      <span class="fy-case-card-year">2019 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">吉首大学 · 临床医学（农村定向）</div>
+    <div class="fy-case-card-major-score">高考 499 分 · 全省第 8 名</div>
+    <div class="fy-case-card-summary">
+      "州民中给我留了很多美好的回忆，校园的环境和宿舍条件都很好（宿舍真的要比90%的大学好），有很好的老师，遇到了陪伴了我很久的朋友（直到现在），高中阶段有压力，也有对未来的美好期待。我的大学将近尾声，这四五年的社会化经历让我成长，但是我会无数次想起高中的经历，雨后的民中，早上跑操是晨光从树叶间隙透过照的人闪闪发光，还有被大雪覆盖所有人都在操场打闹的画面...民中是一个很好的地方，希望学弟学妹们能好好感受，给自己留下一些宝贵的回忆"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">湖南</span>
+    <span class="fy-tag">临床医学（农村定向）</span>
+  </div>
+  <a href="艾莉芬特-吉首大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -578,6 +649,30 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">211/双一流</span>
   </div>
   <a href="三分高手-西南财经大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">总</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">总在雨天喂鸡</span>
+      <span class="fy-case-card-year">2022 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">吉林大学 · 临床医学</div>
+    <div class="fy-case-card-major-score">高考 579 分 · 全省第 n 名</div>
+    <div class="fy-case-card-summary">
+      "好好享受自己的大学生活吧"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">东北</span>
+    <span class="fy-tag">临床医学</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="总在雨天喂鸡-吉林大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -1000,6 +1095,30 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">y</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">yyt</span>
+      <span class="fy-case-card-year">2022 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">四川大学 · 电气工程及其自动化</div>
+    <div class="fy-case-card-major-score">高考 615 分 · 全省第 4500 名</div>
+    <div class="fy-case-card-summary">
+      "加油，好好享受本科生活，这是你人生最美好的四年"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">电气工程及其自动化</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="yyt-四川大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">薯</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">薯条</span>
@@ -1130,6 +1249,7 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 
 </div>
+
 
 
 

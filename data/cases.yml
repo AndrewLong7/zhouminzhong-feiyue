@@ -70,6 +70,22 @@ cases:
     quote: "加油"
     file: cases/2025/yuan-山东大学.md
 
+  - id: "zkx-湖南工业大学"
+    name: "zkx"
+    avatar: "z"
+    year: 2025
+    group: "物理类"
+    school: "湖南工业大学"
+    major: "计算机"
+    score: 558
+    rank: 6
+    city: "长三角"
+    type: real
+    level: "一本"
+    tags: ["理科", "工科", "本省", "长三角", "计算机"]
+    quote: "没有人可以代替你去选择，因为结果是你在承担"
+    file: cases/2025/zkx-湖南工业大学.md
+
   - id: "张智豪-香港科技大学"
     name: "张智豪"
     avatar: "张"
@@ -133,6 +149,22 @@ cases:
     tags: ["文科", "本省", "华中", "档案学"]
     quote: "没有什么不能的，只是你不想。鼓起勇气吧"
     file: cases/2025/行走的鱼-长沙科技学院.md
+
+  - id: "3x-哈尔滨医科大学"
+    name: "3x"
+    avatar: "3"
+    year: 2024
+    group: "物理类"
+    school: "哈尔滨医科大学"
+    major: "临床医学"
+    score: 595
+    rank: 0
+    city: "东北"
+    type: real
+    level: "一本"
+    tags: ["理科", "医学", "跨省", "东北", "临床医学"]
+    quote: "\"一定不要把自己的心气磨灭掉 虽然我经历了许多失败和挫折"
+    file: cases/2024/3x-哈尔滨医科大学.md
 
   - id: "Q-西北农林科技大学"
     name: "Q"
@@ -421,6 +453,22 @@ cases:
     quote: "自由、肆意、快乐地生活吧"
     file: cases/earlier/w27-中央美术学院.md
 
+  - id: "yyt-四川大学"
+    name: "yyt"
+    avatar: "y"
+    year: 2022
+    group: "物理类"
+    school: "四川大学"
+    major: "电气工程及其自动化"
+    score: 615
+    rank: 4500
+    city: "西南"
+    type: real
+    level: "985"
+    tags: ["工科", "跨省", "西南", "电气工程及其自动化", "985"]
+    quote: "加油，好好享受本科生活，这是你人生最美好的四年"
+    file: cases/earlier/yyt-四川大学.md
+
   - id: "北长尾山雀-西南民族大学"
     name: "北长尾山雀"
     avatar: "北"
@@ -453,6 +501,22 @@ cases:
     quote: "好好学习，天天向上"
     file: cases/earlier/大豆-中央财经大学.md
 
+  - id: "小丁-江汉大学"
+    name: "小丁"
+    avatar: "小"
+    year: 2022
+    group: "物理类"
+    school: "江汉大学"
+    major: "药学"
+    score: 528
+    rank: 32000
+    city: "华中"
+    type: real
+    level: "一本"
+    tags: ["理科", "医学", "跨省", "华中", "药学"]
+    quote: "关关难过关关过"
+    file: cases/earlier/小丁-江汉大学.md
+
   - id: "张张-华南理工大学"
     name: "张张"
     avatar: "张"
@@ -484,6 +548,22 @@ cases:
     tags: ["理科", "上海", "微电子科学与工程", "985"]
     quote: "道路是曲折的，人生并没有固定答案，找到你想做的，并在上面花时间，才能过得快乐"
     file: cases/earlier/张智豪-华东师范大学.md
+
+  - id: "总在雨天喂鸡-吉林大学"
+    name: "总在雨天喂鸡"
+    avatar: "总"
+    year: 2022
+    group: "物理类"
+    school: "吉林大学"
+    major: "临床医学"
+    score: 579
+    rank: 0
+    city: "东北"
+    type: real
+    level: "985"
+    tags: ["医学", "跨省", "东北", "临床医学", "985"]
+    quote: "好好享受自己的大学生活吧"
+    file: cases/earlier/总在雨天喂鸡-吉林大学.md
 
   - id: "月-吉首大学"
     name: "月"
@@ -1077,6 +1157,22 @@ cases:
     quote: "请记住，一切发生皆有利于自己。"
     file: cases/earlier/厂工人-广东工业大学.md
 
+  - id: "艾莉芬特-吉首大学"
+    name: "艾莉芬特"
+    avatar: "艾"
+    year: 2019
+    group: "物理类"
+    school: "吉首大学"
+    major: "临床医学（农村定向）"
+    score: 499
+    rank: 8
+    city: "湖南"
+    type: real
+    level: "一本"
+    tags: ["理科", "医学", "本省", "湖南", "临床医学（农村定向）"]
+    quote: "州民中给我留了很多美好的回忆，校园的环境和宿舍条件都很好（宿舍真的要比90%的大学好），有很好的老师，遇到了陪伴了我很久的朋友（直到现在），高中阶段有压力，也有对未来的美好期待。我的大学将近尾声，这四五年的社会化经历让我成长，但是我会无数次想起高中的经历，雨后的民中，早上跑操是晨光从树叶间隙透过照的人闪闪发光，还有被大雪覆盖所有人都在操场打闹的画面...民中是一个很好的地方，希望学弟学妹们能好好感受，给自己留下一些宝贵的回忆"
+    file: cases/earlier/艾莉芬特-吉首大学.md
+
   - id: "ddd-南华大学"
     name: "ddd"
     avatar: "d"
@@ -1092,6 +1188,22 @@ cases:
     tags: ["文科", "本省", "华中", "法学"]
     quote: "趁年轻有时间赶紧出去玩"
     file: cases/earlier/ddd-南华大学.md
+
+  - id: "向星汝-西南民族大学"
+    name: "向星汝"
+    avatar: "向"
+    year: 2015
+    group: "物理类"
+    school: "西南民族大学"
+    major: "生物技术"
+    score: 494
+    rank: 5
+    city: "西南"
+    type: real
+    level: "二本"
+    tags: ["理科", "本省", "西南", "生物技术"]
+    quote: "\"亲爱的学弟学妹们：你们好！高中是非常累的一个时期，毕业11年来，多少次午夜梦回间，梦到我在高考考场，或做不出来题目，或考试迟到。。。有遗憾，有泪水，也有收获。"
+    file: cases/earlier/向星汝-西南民族大学.md
 
   - id: "陈彬-西南大学"
     name: "陈彬"
@@ -1156,8 +1268,10 @@ universities:
       - "华东师范大学"
       - "华中科技大学"
       - "华南理工大学"
+      - "吉林大学"
       - name: "哈尔滨工业大学（深圳）"
         slug: "哈尔滨工业大学-深圳"
+      - "四川大学"
       - name: "复旦大学"
         slug: "复旦大学"
       - "大连理工大学"
@@ -1201,14 +1315,18 @@ universities:
       - "南华大学"
       - name: "吉首大学"
         slug: "吉首大学"
+      - "哈尔滨医科大学"
       - "广东工业大学"
       - "杭州电子科技大学"
+      - "江汉大学"
       - "湖南中医药大学"
-      - "湖南工业大学"
+      - name: "湖南工业大学"
+        slug: "湖南工业大学"
       - "湖南科技大学"
       - "西北政法大学"
       - "西北民族大学"
-      - "西南民族大学"
+      - name: "西南民族大学"
+        slug: "西南民族大学"
       - "重庆交通大学"
   - category: "二本院校"
     schools:

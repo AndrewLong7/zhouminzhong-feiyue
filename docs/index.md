@@ -150,6 +150,12 @@ hide:
   <span class="fy-school-card-major">国际经济与贸易</span>
 </a>
 
+<a href="universities/西南民族大学/" class="fy-school-card">
+  <span class="fy-school-card-name">西南民族大学</span>
+  <span class="fy-school-card-count">已收录 2 人</span>
+  <span class="fy-school-card-major">日语 · 生物技术</span>
+</a>
+
 <a href="universities/中南民族大学/" class="fy-school-card">
   <span class="fy-school-card-name">中南民族大学</span>
   <span class="fy-school-card-count">已收录 4 人</span>
@@ -166,12 +172,6 @@ hide:
   <span class="fy-school-card-name">对外经济贸易大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">少数民族预科班</span>
-</a>
-
-<a href="universities/西安交通大学/" class="fy-school-card">
-  <span class="fy-school-card-name">西安交通大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">人工智能</span>
 </a>
 <!-- /AUTO-GEN: HOMEPAGE_UNIVERSITIES -->
 
@@ -457,6 +457,7 @@ hide:
 </div>
 
 </div>
+
 
 
 
