@@ -626,32 +626,6 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">三</div>
-    <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">三分高手</span>
-      <span class="fy-case-card-year">2020 届 · 物理类</span>
-    </div>
-  </div>
-  <div class="fy-case-card-body">
-    <div class="fy-case-card-school">西南财经大学 · 金融数学（中美双学位）</div>
-    <div class="fy-case-card-major-score">高考 614 分 · 全省第 n 名</div>
-    <div class="fy-case-card-summary">
-      ""多接触，多感悟。"
-    </div>
-  </div>
-  <div class="fy-case-card-tags">
-    <span class="fy-tag">理科</span>
-    <span class="fy-tag">商科</span>
-    <span class="fy-tag">海外</span>
-    <span class="fy-tag">跨省</span>
-    <span class="fy-tag">四川</span>
-    <span class="fy-tag">金融数学（中美双学位）</span>
-    <span class="fy-tag">211/双一流</span>
-  </div>
-  <a href="三分高手-西南财经大学/" class="fy-case-card-link">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
-  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">总</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">总在雨天喂鸡</span>
@@ -673,6 +647,32 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">985</span>
   </div>
   <a href="总在雨天喂鸡-吉林大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">三</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">三分高手</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">西南财经大学 · 金融数学（中美双学位）</div>
+    <div class="fy-case-card-major-score">高考 614 分 · 全省第 n 名</div>
+    <div class="fy-case-card-summary">
+      "多接触，多感悟。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">海外</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">四川</span>
+    <span class="fy-tag">金融数学（中美双学位）</span>
+    <span class="fy-tag">211/双一流</span>
+  </div>
+  <a href="三分高手-西南财经大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -1249,6 +1249,7 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 
 </div>
+
 
 
 
