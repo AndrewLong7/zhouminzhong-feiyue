@@ -25,20 +25,9 @@ theme:
 
   # 调色板：浅色模式 + 深色模式
   palette:
-    # 浅色模式 - 温暖米白底 + 青绿色主色调
-    - scheme: default
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/weather-night
-        name: 切换到深色模式
-    # 深色模式
-    - scheme: slate
-      primary: teal
-      accent: teal
-      toggle:
-        icon: material/weather-sunny
-        name: 切换到浅色模式
+    scheme: default
+    primary: teal
+    accent: teal
 
   # 字体配置
   font:
