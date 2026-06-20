@@ -102,8 +102,25 @@ def parse_year(raw: str) -> int:
 
 
 def parse_number(raw: str) -> int:
-    """'687 分' -> 687，'全省第 61 名' -> 61，容错返回 0。"""
-    m = re.search(r"(\d+)", raw)
+    """解析数值：兼容 50000 / 5w / 5万 / 1w3 / 1.3万 等格式。"""
+    if not raw:
+        return 0
+    s = raw.strip().replace(",", "").replace("，", "")
+
+    # 1. "1w3" / "1w" / "1.3w" 等英文简写
+    m = re.search(r"(\d+(?:\.\d+)?)w(\d*)\s*名?", s, re.IGNORECASE)
+    if m:
+        base = int(float(m.group(1)) * 10000)
+        extra = int(m.group(2)) * 1000 if m.group(2) else 0
+        return base + extra
+
+    # 2. "1.3万" / "5万" 等中文单位
+    m = re.search(r"(\d+(?:\.\d+)?)\s*万", s)
+    if m:
+        return int(float(m.group(1)) * 10000)
+
+    # 3. 普通数字：50000 / 61 / 全省第 61 名
+    m = re.search(r"(\d+)", s)
     return int(m.group(1)) if m else 0
 
 

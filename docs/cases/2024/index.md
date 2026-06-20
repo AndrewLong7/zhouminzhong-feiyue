@@ -117,7 +117,7 @@ description: 2024 届州民中校友升学经验分享。
   </div>
   <div class="fy-case-card-body">
     <div class="fy-case-card-school">哈尔滨医科大学 · 临床医学</div>
-    <div class="fy-case-card-major-score">高考 595 分 · 全省第 n 名</div>
+    <div class="fy-case-card-major-score">高考 595 分 · 全省第 15000 名</div>
     <div class="fy-case-card-summary">
       ""一定不要把自己的心气磨灭掉 虽然我经历了许多失败和挫折"
     </div>
@@ -186,6 +186,9 @@ description: 2024 届州民中校友升学经验分享。
 <div style="text-align: center; margin-top: 32px;">
   <a href="/contribute/" class="fy-btn fy-btn-primary">📝 分享你的故事</a>
 </div>
+
+
+
 
 
 

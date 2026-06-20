@@ -137,7 +137,7 @@ description: 2025 届州民中校友升学经验分享。
   </div>
   <div class="fy-case-card-body">
     <div class="fy-case-card-school">湖南工业大学 · 计算机</div>
-    <div class="fy-case-card-major-score">高考 558 分 · 全省第 6 名</div>
+    <div class="fy-case-card-major-score">高考 558 分 · 全省第 60000 名</div>
     <div class="fy-case-card-summary">
       "没有人可以代替你去选择，因为结果是你在承担"
     </div>
@@ -223,6 +223,9 @@ description: 2025 届州民中校友升学经验分享。
 <!-- /AUTO-GEN: CASE_CARDS -->
 
 </div>
+
+
+
 
 
 

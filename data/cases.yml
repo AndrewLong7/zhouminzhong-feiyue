@@ -78,7 +78,7 @@ cases:
     school: "湖南工业大学"
     major: "计算机"
     score: 558
-    rank: 6
+    rank: 60000
     city: "长三角"
     type: real
     level: "一本"
@@ -158,7 +158,7 @@ cases:
     school: "哈尔滨医科大学"
     major: "临床医学"
     score: 595
-    rank: 0
+    rank: 15000
     city: "东北"
     type: real
     level: "一本"
@@ -477,7 +477,7 @@ cases:
     school: "西南民族大学"
     major: "日语"
     score: 531
-    rank: 1
+    rank: 10000
     city: "西南"
     type: real
     level: "一本"
@@ -557,7 +557,7 @@ cases:
     school: "吉林大学"
     major: "临床医学"
     score: 579
-    rank: 0
+    rank: 16000
     city: "东北"
     type: real
     level: "985"
@@ -717,7 +717,7 @@ cases:
     school: "中国矿业大学"
     major: "能源动力"
     score: 604
-    rank: 1
+    rank: 13000
     city: "长三角"
     type: real
     level: "211"
@@ -1133,7 +1133,7 @@ cases:
     school: "中南民族大学"
     major: "新闻学"
     score: 561
-    rank: 1
+    rank: 10000
     city: "华中"
     type: real
     level: "一本"
@@ -1149,7 +1149,7 @@ cases:
     school: "广东工业大学"
     major: "电子信息类-信息工程"
     score: 577
-    rank: 1
+    rank: 14000
     city: "珠三角"
     type: real
     level: "一本"
@@ -1165,7 +1165,7 @@ cases:
     school: "吉首大学"
     major: "临床医学（农村定向）"
     score: 499
-    rank: 8
+    rank: 80000
     city: "湖南"
     type: real
     level: "一本"
@@ -1181,7 +1181,7 @@ cases:
     school: "南华大学"
     major: "法学"
     score: 583
-    rank: 1
+    rank: 10000
     city: "华中"
     type: real
     level: "一本"
@@ -1197,7 +1197,7 @@ cases:
     school: "西南民族大学"
     major: "生物技术"
     score: 494
-    rank: 5
+    rank: 50000
     city: "西南"
     type: real
     level: "二本"
@@ -1229,7 +1229,7 @@ cases:
     school: "湖南大学"
     major: "土木工程"
     score: 557
-    rank: 1
+    rank: 13000
     city: "湖南"
     type: real
     level: "985"
