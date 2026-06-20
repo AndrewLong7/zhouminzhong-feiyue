@@ -278,21 +278,6 @@ cases:
     quote: "世界那么大，我却只是路过，周边那么小，但那确是我的人生。"
     file: cases/2023/GL-电子科技大学.md
 
-  - id: "case-内蒙古大学"
-    name: "笑脸"
-    avatar: "笑"
-    year: 2023
-    group: "物理类"
-    school: "内蒙古大学"
-    major: "稀土材料工程"
-    score: 0
-    rank: 0
-    city: "西北"
-    type: real
-    tags: ["理科", "工科", "跨省", "西北", "稀土材料工程"]
-    quote: "珍惜青春，珍惜头发"
-    file: cases/2023/case-内蒙古大学.md
-
   - id: "k1v-清华大学"
     name: "k1v"
     avatar: "k"
@@ -1341,5 +1326,4 @@ universities:
       - "香港科技大学"
   - category: "其他院校"
     schools:
-      - "内蒙古大学"
       - "湘西民族职业技术学院"
