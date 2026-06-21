@@ -1,4 +1,4 @@
----
+﻿---
 title: 州民中飞跃手册
 description: 来自学长学姐的真实经验，写给正在寻找方向的后来者。
 hide:
@@ -144,6 +144,12 @@ hide:
   <span class="fy-school-card-major">思想政治教育</span>
 </a>
 
+<a href="universities/西南民族大学/" class="fy-school-card">
+  <span class="fy-school-card-name">西南民族大学</span>
+  <span class="fy-school-card-count">已收录 2 人</span>
+  <span class="fy-school-card-major">日语 · 生物技术</span>
+</a>
+
 <a href="universities/湖南工学院/" class="fy-school-card">
   <span class="fy-school-card-name">湖南工学院</span>
   <span class="fy-school-card-count">已收录 1 人</span>
@@ -166,12 +172,6 @@ hide:
   <span class="fy-school-card-name">对外经济贸易大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">少数民族预科班</span>
-</a>
-
-<a href="universities/西安交通大学/" class="fy-school-card">
-  <span class="fy-school-card-name">西安交通大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">人工智能</span>
 </a>
 <!-- /AUTO-GEN: HOMEPAGE_UNIVERSITIES -->
 
@@ -400,11 +400,11 @@ hide:
 
 <div style="display: flex; gap: 12px; margin: 12px 0; flex-wrap: wrap;">
   <div style="text-align: center;">
-    <img src="assets/images/qq-group-qrcode.jpg" alt="QQ 群二维码" style="width: 130px; border-radius: 8px; border: 1px solid var(--feiyue-card-border);">
-    <p style="font-size: 0.8rem; color: var(--feiyue-text-muted); margin-top: 4px;">QQ 群：793634202</p>
+    <img src="assets/images/qq-group-qrcode.jpg" alt="QQ 群二维码" style="width: 180px; border-radius: 8px; border: 1px solid var(--feiyue-card-border);">
+    <p style="font-size: 0.8rem; color: var(--feiyue-text-muted); margin-top: 4px;">QQ 群</p>
   </div>
   <div style="text-align: center;">
-    <img src="assets/images/wechat-group-qrcode.jpg" alt="微信群二维码" style="width: 130px; border-radius: 8px; border: 1px solid var(--feiyue-card-border);">
+    <img src="assets/images/wechat-group-qrcode.jpg" alt="微信群二维码" style="width: 180px; border-radius: 8px; border: 1px solid var(--feiyue-card-border);">
     <p style="font-size: 0.8rem; color: var(--feiyue-text-muted); margin-top: 4px;">微信群</p>
   </div>
 </div>
@@ -457,6 +457,16 @@ hide:
 </div>
 
 </div>
+
+
+
+
+
+
+
+
+
+
 
 
 
