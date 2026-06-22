@@ -72,6 +72,18 @@ hide:
   <span class="fy-school-card-major">少数民族预科班/中国史</span>
 </a>
 
+<a href="universities/西北民族大学/" class="fy-school-card">
+  <span class="fy-school-card-name">西北民族大学</span>
+  <span class="fy-school-card-count">已收录 2 人</span>
+  <span class="fy-school-card-major">自动化 · 汉语言文学</span>
+</a>
+
+<a href="universities/中国刑事警察学院/" class="fy-school-card">
+  <span class="fy-school-card-name">中国刑事警察学院</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">刑事科学技术</span>
+</a>
+
 <a href="universities/莫纳什大学-monash-university/" class="fy-school-card">
   <span class="fy-school-card-name">莫纳什大学（Monash University）</span>
   <span class="fy-school-card-count">已收录 1 人</span>
@@ -156,22 +168,10 @@ hide:
   <span class="fy-school-card-major">国际经济与贸易</span>
 </a>
 
-<a href="universities/中南民族大学/" class="fy-school-card">
-  <span class="fy-school-card-name">中南民族大学</span>
-  <span class="fy-school-card-count">已收录 4 人</span>
-  <span class="fy-school-card-major">财务管理 · 法学 · 会计学</span>
-</a>
-
-<a href="universities/南京财经大学/" class="fy-school-card">
-  <span class="fy-school-card-name">南京财经大学</span>
+<a href="universities/武汉大学/" class="fy-school-card">
+  <span class="fy-school-card-name">武汉大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">会计学</span>
-</a>
-
-<a href="universities/对外经济贸易大学/" class="fy-school-card">
-  <span class="fy-school-card-name">对外经济贸易大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">少数民族预科班</span>
+  <span class="fy-school-card-major">生物科学类</span>
 </a>
 <!-- /AUTO-GEN: HOMEPAGE_UNIVERSITIES -->
 
@@ -269,6 +269,52 @@ hide:
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">y</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">y</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">西北民族大学 · 自动化</div>
+    <div class="fy-case-card-major-score">高考 0 分 · 全省第 n 名</div>
+    <div class="fy-case-card-summary">
+      "恭喜你们进入人生的新阶段，未来的日子就在自己的手中，你想怎么过，你想得到什么，真的全靠自己的安排和想法了。希望大家永远都能保持上进努力的心态。不要自己放弃自己。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">西北</span>
+    <span class="fy-tag">自动化</span>
+  </div>
+  <a href="cases/2023/y-西北民族大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">司</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">司蠡</span>
+      <span class="fy-case-card-year">2021 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">中国刑事警察学院 · 刑事科学技术</div>
+    <div class="fy-case-card-major-score">高考 590 分 · 全省第 n 名</div>
+    <div class="fy-case-card-summary">
+      ""亲爱的学弟学妹们："
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">东北</span>
+    <span class="fy-tag">刑事科学技术</span>
+  </div>
+  <a href="cases/earlier/司蠡-中国刑事警察学院/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">G</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">George</span>
@@ -288,54 +334,6 @@ hide:
     <span class="fy-tag">墨尔本</span>
   </div>
   <a href="cases/earlier/George-莫纳什大学（Monash University）/" class="fy-case-card-link">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
-  <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">嗯</div>
-    <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">嗯嗯不知道</span>
-      <span class="fy-case-card-year">2020 届 · 物理类</span>
-    </div>
-  </div>
-  <div class="fy-case-card-body">
-    <div class="fy-case-card-school">西南交通大学 · 数学/基础数学/算术几何和代数几何</div>
-    <div class="fy-case-card-major-score">高考 599 分 · 全省第 9300 名</div>
-    <div class="fy-case-card-summary">
-      "希望后来的你们也都找到了自己喜欢的专业，在各自的领域闪闪发光。请大家无论在什么时候都要对自己保持信心，都要毫无条件地，无所保留地相信你自己。然后去成为想成为的人，走出大山，走的更远，去看到这个世界的每一面。"
-    </div>
-  </div>
-  <div class="fy-case-card-tags">
-    <span class="fy-tag">理科</span>
-    <span class="fy-tag">跨省</span>
-    <span class="fy-tag">珠三角</span>
-    <span class="fy-tag">数学/基础数学/算术几何和代数几何</span>
-    <span class="fy-tag">211/双一流</span>
-  </div>
-  <a href="cases/earlier/嗯嗯不知道-西南交通大学/" class="fy-case-card-link">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
-  <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">小</div>
-    <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">小飞机</span>
-      <span class="fy-case-card-year">2020 届 · 物理类</span>
-    </div>
-  </div>
-  <div class="fy-case-card-body">
-    <div class="fy-case-card-school">湖南大学 · 预科到电气工程及其自动化</div>
-    <div class="fy-case-card-major-score">高考 595 分 · 全省第 9000 名</div>
-    <div class="fy-case-card-summary">
-      "人就是这样，想来想去，犹豫来犹豫去，觉得自己还没有准备好，勇气没有攒够，其实只要迈出去第一步，你就会发现一切早就已经准备好了。"
-    </div>
-  </div>
-  <div class="fy-case-card-tags">
-    <span class="fy-tag">工科</span>
-    <span class="fy-tag">本省</span>
-    <span class="fy-tag">华中</span>
-    <span class="fy-tag">预科到电气工程及其自动化</span>
-    <span class="fy-tag">985</span>
-  </div>
-  <a href="cases/earlier/小飞机-湖南大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <!-- /AUTO-GEN: LATEST_CASES -->
 
@@ -457,6 +455,7 @@ hide:
 </div>
 
 </div>
+
 
 
 

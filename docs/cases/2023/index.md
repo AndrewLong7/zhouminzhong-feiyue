@@ -56,6 +56,29 @@ description: 2023 届州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">y</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">y</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">西北民族大学 · 自动化</div>
+    <div class="fy-case-card-major-score">高考 0 分 · 全省第 n 名</div>
+    <div class="fy-case-card-summary">
+      "恭喜你们进入人生的新阶段，未来的日子就在自己的手中，你想怎么过，你想得到什么，真的全靠自己的安排和想法了。希望大家永远都能保持上进努力的心态。不要自己放弃自己。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">西北</span>
+    <span class="fy-tag">自动化</span>
+  </div>
+  <a href="y-西北民族大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">冯</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">冯军</span>
@@ -102,6 +125,29 @@ description: 2023 届州民中校友升学经验分享。
     <span class="fy-tag">211/双一流</span>
   </div>
   <a href="青-南京医科大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">张</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">张少堃</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">武汉大学 · 生物科学类</div>
+    <div class="fy-case-card-major-score">高考 649 分 · 全省第 2000 名</div>
+    <div class="fy-case-card-summary">
+      "进入大学是进入了一个人生的新阶段，做好这个阶段你认为该做好的事，这就够了（要有一个大致的规划，或长或短）"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">生物科学类</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="张少堃-武汉大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -157,6 +203,53 @@ description: 2023 届州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">H</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">Hpc</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">内蒙古科技大学 · 冶金工程（稀土材料工程）</div>
+    <div class="fy-case-card-major-score">高考 0 分 · 全省第 50000 名</div>
+    <div class="fy-case-card-summary">
+      "路怎么走还是要自己说了算"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">内蒙古</span>
+    <span class="fy-tag">冶金工程（稀土材料工程）</span>
+  </div>
+  <a href="Hpc-内蒙古科技大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">小</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">小羊</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">北京师范大学 · 地理科学（优师）</div>
+    <div class="fy-case-card-major-score">高考 606 分 · 全省第 13000 名</div>
+    <div class="fy-case-card-summary">
+      "做到自己能做的最好，不要担心没有发生的意外！要对自己有信心，每一个人都有自己应该走的路"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">珠三角</span>
+    <span class="fy-tag">地理科学（优师）</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="小羊-北京师范大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">李</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">李昕峰</span>
@@ -178,6 +271,51 @@ description: 2023 届州民中校友升学经验分享。
     <span class="fy-tag">自动化</span>
   </div>
   <a href="李昕峰-重庆交通大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">s</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">sato</span>
+      <span class="fy-case-card-year">2023 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">四川美术学院 · 中国画</div>
+    <div class="fy-case-card-major-score">高考 419 分 · 全省第 n 名</div>
+    <div class="fy-case-card-summary">
+      "不要在意一时的好坏，说不定你的潜力还在后面。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">重庆</span>
+    <span class="fy-tag">中国画</span>
+  </div>
+  <a href="sato-四川美术学院/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">田</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">田辉</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">长沙理工大学 · 电气工程及其自动化</div>
+    <div class="fy-case-card-major-score">高考 604 分 · 全省第 13000 名</div>
+    <div class="fy-case-card-summary">
+      "别浪费时间就好"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">电气工程及其自动化</span>
+  </div>
+  <a href="田辉-长沙理工大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -234,6 +372,7 @@ description: 2023 届州民中校友升学经验分享。
 <div style="text-align: center; margin-top: 32px;">
   <a href="/contribute/" class="fy-btn fy-btn-primary">📝 分享你的故事</a>
 </div>
+
 
 
 

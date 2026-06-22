@@ -75,6 +75,12 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">数学与应用数学 · 广播电视学</span>
 </a>
 
+<a href="../universities/武汉大学/" class="fy-school-card">
+  <span class="fy-school-card-name">武汉大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">生物科学类</span>
+</a>
+
 <a href="../universities/西安交通大学/" class="fy-school-card">
   <span class="fy-school-card-name">西安交通大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
@@ -93,6 +99,12 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">临床医学</span>
 </a>
 
+<a href="../universities/北京师范大学/" class="fy-school-card">
+  <span class="fy-school-card-name">北京师范大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">地理科学（优师）</span>
+</a>
+
 <a href="../universities/西北农林科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">西北农林科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
@@ -101,8 +113,8 @@ description: 按大学浏览州民中校友的升学案例。
 
 <a href="../universities/华中科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">华中科技大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">电子信息工程</span>
+  <span class="fy-school-card-count">已收录 2 人</span>
+  <span class="fy-school-card-major">电子信息工程 · 工程力学</span>
 </a>
 
 <a href="../universities/大连理工大学/" class="fy-school-card">
@@ -189,6 +201,12 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">艺术管理</span>
 </a>
 
+<a href="../universities/陕西师范大学/" class="fy-school-card">
+  <span class="fy-school-card-name">陕西师范大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">计算机科学与技术</span>
+</a>
+
 <a href="../universities/大连海事大学/" class="fy-school-card">
   <span class="fy-school-card-name">大连海事大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
@@ -255,6 +273,18 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
+<a href="../universities/西北民族大学/" class="fy-school-card">
+  <span class="fy-school-card-name">西北民族大学</span>
+  <span class="fy-school-card-count">已收录 2 人</span>
+  <span class="fy-school-card-major">自动化 · 汉语言文学</span>
+</a>
+
+<a href="../universities/中国刑事警察学院/" class="fy-school-card">
+  <span class="fy-school-card-name">中国刑事警察学院</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">刑事科学技术</span>
+</a>
+
 <a href="../universities/湖南科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">湖南科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
@@ -303,6 +333,12 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">审计</span>
 </a>
 
+<a href="../universities/内蒙古科技大学/" class="fy-school-card">
+  <span class="fy-school-card-name">内蒙古科技大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">冶金工程（稀土材料工程）</span>
+</a>
+
 <a href="../universities/吉首大学/" class="fy-school-card">
   <span class="fy-school-card-name">吉首大学</span>
   <span class="fy-school-card-count">已收录 5 人</span>
@@ -311,14 +347,20 @@ description: 按大学浏览州民中校友的升学案例。
 
 <a href="../universities/湖南工业大学/" class="fy-school-card">
   <span class="fy-school-card-name">湖南工业大学</span>
-  <span class="fy-school-card-count">已收录 2 人</span>
-  <span class="fy-school-card-major">计算机 · 英语</span>
+  <span class="fy-school-card-count">已收录 3 人</span>
+  <span class="fy-school-card-major">计算机 · 英语 · 新闻学</span>
 </a>
 
 <a href="../universities/西北政法大学/" class="fy-school-card">
   <span class="fy-school-card-name">西北政法大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">法学</span>
+</a>
+
+<a href="../universities/湖南第一师范学院/" class="fy-school-card">
+  <span class="fy-school-card-name">湖南第一师范学院</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">数学与应用数学（公费师范生）</span>
 </a>
 
 <a href="../universities/广东工业大学/" class="fy-school-card">
@@ -333,22 +375,28 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">机械设计制造及其自动化（卓越工程师班）</span>
 </a>
 
+<a href="../universities/中国人民警察大学/" class="fy-school-card">
+  <span class="fy-school-card-name">中国人民警察大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">公安情报学</span>
+</a>
+
 <a href="../universities/哈尔滨医科大学/" class="fy-school-card">
   <span class="fy-school-card-name">哈尔滨医科大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">临床医学</span>
 </a>
 
-<a href="../universities/西北民族大学/" class="fy-school-card">
-  <span class="fy-school-card-name">西北民族大学</span>
+<a href="../universities/长沙理工大学/" class="fy-school-card">
+  <span class="fy-school-card-name">长沙理工大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">汉语言文学</span>
+  <span class="fy-school-card-major">电气工程及其自动化</span>
 </a>
 
 <a href="../universities/湖南中医药大学/" class="fy-school-card">
   <span class="fy-school-card-name">湖南中医药大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">中医学</span>
+  <span class="fy-school-card-count">已收录 2 人</span>
+  <span class="fy-school-card-major">中医学 · 医学影像学</span>
 </a>
 
 <a href="../universities/北方民族大学/" class="fy-school-card">
@@ -393,6 +441,12 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">康复</span>
 </a>
 
+<a href="../universities/吉林建筑大学/" class="fy-school-card">
+  <span class="fy-school-card-name">吉林建筑大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">电气工程及其自动化</span>
+</a>
+
 <a href="../universities/湖南女子学院/" class="fy-school-card">
   <span class="fy-school-card-name">湖南女子学院</span>
   <span class="fy-school-card-count">已收录 1 人</span>
@@ -429,12 +483,19 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">畜牧兽医</span>
 </a>
 
+<a href="../universities/四川美术学院/" class="fy-school-card">
+  <span class="fy-school-card-name">四川美术学院</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">中国画</span>
+</a>
+
 </div>
 <!-- /AUTO-GEN: UNIVERSITY_CARDS -->
 
 ---
 
 > 📢 **你去的大学不在这里？** 欢迎投稿，让更多学弟学妹看到你的学校！[立即投稿 →](../contribute.md)
+
 
 
 

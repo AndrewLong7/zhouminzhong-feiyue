@@ -85,6 +85,29 @@ description: 2024 届州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">z</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">zrx</span>
+      <span class="fy-case-card-year">2024 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">湖南第一师范学院 · 数学与应用数学（公费师范生）</div>
+    <div class="fy-case-card-major-score">高考 589 分 · 全省第 18000 名</div>
+    <div class="fy-case-card-summary">
+      "祝学弟学妹们前程似锦"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">数学与应用数学（公费师范生）</span>
+  </div>
+  <a href="zrx-湖南第一师范学院/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">彭</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">彭子恒</span>
@@ -186,6 +209,7 @@ description: 2024 届州民中校友升学经验分享。
 <div style="text-align: center; margin-top: 32px;">
   <a href="/contribute/" class="fy-btn fy-btn-primary">📝 分享你的故事</a>
 </div>
+
 
 
 
