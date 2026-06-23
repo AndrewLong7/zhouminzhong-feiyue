@@ -9,7 +9,7 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 # <span class="fy-hero-title">关于我们</span>
 
 <p class="fy-hero-subtitle">
-一个由州民中校友自发创建的<br>
+一个由州民中校友自发创建的非官方的<br>
 经验分享与成长互助社区。
 </p>
 

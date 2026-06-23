@@ -20,7 +20,7 @@ edit_uri: edit/dev/docs/
 theme:
   name: material
   language: zh
-  logo: assets/images/logo.jpg
+  logo: assets/images/logo.svg
   favicon: assets/images/favicon.svg
 
   # 调色板：浅色模式 + 深色模式
