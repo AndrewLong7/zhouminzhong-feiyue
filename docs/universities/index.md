@@ -147,6 +147,12 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-major">电气工程及其自动化</span>
 </a>
 
+<a href="../universities/中南大学/" class="fy-school-card">
+  <span class="fy-school-card-name">中南大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">地球物理</span>
+</a>
+
 <a href="../universities/中山大学/" class="fy-school-card">
   <span class="fy-school-card-name">中山大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
@@ -287,8 +293,14 @@ description: 按大学浏览州民中校友的升学案例。
 
 <a href="../universities/湖南科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">湖南科技大学</span>
+  <span class="fy-school-card-count">已收录 2 人</span>
+  <span class="fy-school-card-major">经济学 · 汉语国际教育</span>
+</a>
+
+<a href="../universities/中南林业科技大学/" class="fy-school-card">
+  <span class="fy-school-card-name">中南林业科技大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">汉语国际教育</span>
+  <span class="fy-school-card-major">通信工程</span>
 </a>
 
 <a href="../universities/杭州电子科技大学/" class="fy-school-card">
@@ -341,14 +353,14 @@ description: 按大学浏览州民中校友的升学案例。
 
 <a href="../universities/吉首大学/" class="fy-school-card">
   <span class="fy-school-card-name">吉首大学</span>
-  <span class="fy-school-card-count">已收录 5 人</span>
+  <span class="fy-school-card-count">已收录 6 人</span>
   <span class="fy-school-card-major">法学 · 会计学 · 新闻学</span>
 </a>
 
 <a href="../universities/湖南工业大学/" class="fy-school-card">
   <span class="fy-school-card-name">湖南工业大学</span>
-  <span class="fy-school-card-count">已收录 3 人</span>
-  <span class="fy-school-card-major">计算机 · 英语 · 新闻学</span>
+  <span class="fy-school-card-count">已收录 4 人</span>
+  <span class="fy-school-card-major">计算机 · 英语 · 计算机科学与技术</span>
 </a>
 
 <a href="../universities/西北政法大学/" class="fy-school-card">
@@ -409,6 +421,12 @@ description: 按大学浏览州民中校友的升学案例。
   <span class="fy-school-card-name">南华大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">法学</span>
+</a>
+
+<a href="../universities/湖南财政经济学院/" class="fy-school-card">
+  <span class="fy-school-card-name">湖南财政经济学院</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">金融学</span>
 </a>
 
 </div>
@@ -495,6 +513,7 @@ description: 按大学浏览州民中校友的升学案例。
 ---
 
 > 📢 **你去的大学不在这里？** 欢迎投稿，让更多学弟学妹看到你的学校！[立即投稿 →](../contribute.md)
+
 
 
 

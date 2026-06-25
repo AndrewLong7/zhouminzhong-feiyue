@@ -816,6 +816,30 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">荔</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">荔枝</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">湖南工业大学 · 计算机科学与技术</div>
+    <div class="fy-case-card-major-score">高考 508 分 · 全省第 n 名</div>
+    <div class="fy-case-card-summary">
+      "勇敢一点"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">长三角</span>
+    <span class="fy-tag">计算机科学与技术</span>
+  </div>
+  <a href="荔枝-湖南工业大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">s</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">summer</span>
@@ -859,6 +883,30 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">电子信息类-信息工程</span>
   </div>
   <a href="厂工人-广东工业大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">晞</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">晞</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">吉首大学 · 会计学</div>
+    <div class="fy-case-card-major-score">高考 539 分 · 全省第 n 名</div>
+    <div class="fy-case-card-summary">
+      "人生是一段长跑，暂时失利并不代表什么。祝愿学弟学妹们金榜题名。长风破浪会有时，直挂云帆济沧海！"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">海外</span>
+    <span class="fy-tag">湖南</span>
+    <span class="fy-tag">会计学</span>
+  </div>
+  <a href="晞-吉首大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -953,6 +1001,29 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">法学</span>
   </div>
   <a href="月-吉首大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">詹</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">詹童舒</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">湖南科技大学 · 经济学</div>
+    <div class="fy-case-card-major-score">高考 541 分 · 全省第 n 名</div>
+    <div class="fy-case-card-summary">
+      "一切都是最好的安排"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">湖南</span>
+    <span class="fy-tag">经济学</span>
+  </div>
+  <a href="詹童舒-湖南科技大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -1397,6 +1468,28 @@ description: 2023 届之前州民中校友升学经验分享。
   </div>
   <a href="大学浪子-中南财经政法大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">1</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">11</span>
+      <span class="fy-case-card-year">2020 届 · 艺术类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">湖南财政经济学院 · 金融学</div>
+    <div class="fy-case-card-major-score">高考 529 分 · 全省第 70000 名</div>
+    <div class="fy-case-card-summary">
+      "现在的困难在将来看不值一提，永远不要因为困难而害怕，也别害怕老师"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">金融学</span>
+  </div>
+  <a href="11-湖南财政经济学院/" class="fy-case-card-link">阅读全文 →</a>
+</div>
 <!-- /AUTO-GEN: CASE_CARDS -->
 
 </div>
@@ -1414,6 +1507,7 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 
 </div>
+
 
 
 
