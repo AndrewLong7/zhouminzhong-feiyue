@@ -110,14 +110,20 @@ hide:
 
 <a href="universities/湖南科技大学/" class="fy-school-card">
   <span class="fy-school-card-name">湖南科技大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">汉语国际教育</span>
+  <span class="fy-school-card-count">已收录 2 人</span>
+  <span class="fy-school-card-major">经济学 · 汉语国际教育</span>
 </a>
 
 <a href="universities/北京大学/" class="fy-school-card">
   <span class="fy-school-card-name">北京大学</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">法学</span>
+</a>
+
+<a href="universities/中南林业科技大学/" class="fy-school-card">
+  <span class="fy-school-card-name">中南林业科技大学</span>
+  <span class="fy-school-card-count">已收录 1 人</span>
+  <span class="fy-school-card-major">通信工程</span>
 </a>
 
 <a href="universities/复旦大学/" class="fy-school-card">
@@ -166,12 +172,6 @@ hide:
   <span class="fy-school-card-name">湖南工学院</span>
   <span class="fy-school-card-count">已收录 1 人</span>
   <span class="fy-school-card-major">国际经济与贸易</span>
-</a>
-
-<a href="universities/武汉大学/" class="fy-school-card">
-  <span class="fy-school-card-name">武汉大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">生物科学类</span>
 </a>
 <!-- /AUTO-GEN: HOMEPAGE_UNIVERSITIES -->
 
@@ -455,6 +455,7 @@ hide:
 </div>
 
 </div>
+
 
 
 

@@ -33,6 +33,30 @@ description: 2025 届州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">粟</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">粟ss</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">中南林业科技大学 · 通信工程</div>
+    <div class="fy-case-card-major-score">高考 518 分 · 全省第 71384 名</div>
+    <div class="fy-case-card-summary">
+      "Let’s go ！"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">长三角</span>
+    <span class="fy-tag">通信工程</span>
+  </div>
+  <a href="粟ss-中南林业科技大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">I</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">Ivy</span>
@@ -177,6 +201,30 @@ description: 2025 届州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">逗</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">逗比儿头目</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">中南大学 · 地球物理</div>
+    <div class="fy-case-card-major-score">高考 616 分 · 全省第 8000 名</div>
+    <div class="fy-case-card-summary">
+      "好好学习"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">地球物理</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="逗比儿头目-中南大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">徐</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">徐一宁</span>
@@ -223,6 +271,7 @@ description: 2025 届州民中校友升学经验分享。
 <!-- /AUTO-GEN: CASE_CARDS -->
 
 </div>
+
 
 
 
