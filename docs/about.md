@@ -124,6 +124,16 @@ description: 了解州民中飞跃手册的初衷、团队与愿景。
 
 </div>
 
+<div class="fy-case-card" style="text-align: center;" markdown="1">
+
+**内容编辑**
+
+杨瑶
+
+项目日常工作的协作和内容文案编辑
+
+</div>
+
 </div>
 
 <!-- 致谢 -->
