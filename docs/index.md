@@ -1,6 +1,6 @@
 ﻿---
 title: 州民中飞跃手册
-description: 来自学长学姐的真实经验，写给正在寻找方向的后来者。
+description: 来自学长学姐高考后的真实升学经验，写给正在寻找方向的后来者。
 hide:
   - navigation
   - toc
@@ -14,7 +14,7 @@ hide:
 # <span class="fy-hero-title">州民中飞跃手册</span>
 
 <p class="fy-hero-subtitle">
-来自学长学姐的真实经验，<br>
+来自学长学姐高考后的真实升学经验，<br>
 写给正在寻找方向的后来者。
 </p>
 
@@ -455,6 +455,8 @@ hide:
 </div>
 
 </div>
+
+
 
 
 
