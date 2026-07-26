@@ -525,12 +525,6 @@ description: 按大学浏览州民中校友的升学案例。
 
 <div class="fy-card-grid">
 
-<a href="../universities/内蒙古大学/" class="fy-school-card">
-  <span class="fy-school-card-name">内蒙古大学</span>
-  <span class="fy-school-card-count">已收录 1 人</span>
-  <span class="fy-school-card-major">稀土材料工程</span>
-</a>
-
 <a href="../universities/湘西民族职业技术学院/" class="fy-school-card">
   <span class="fy-school-card-name">湘西民族职业技术学院</span>
   <span class="fy-school-card-count">已收录 1 人</span>
@@ -549,6 +543,7 @@ description: 按大学浏览州民中校友的升学案例。
 ---
 
 > 📢 **你去的大学不在这里？** 欢迎投稿，让更多学弟学妹看到你的学校！[立即投稿 →](../contribute.md)
+
 
 
 

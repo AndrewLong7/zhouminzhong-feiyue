@@ -203,30 +203,6 @@ description: 2023 届州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">笑</div>
-    <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">笑脸</span>
-      <span class="fy-case-card-year">2023 届 · 物理类</span>
-    </div>
-  </div>
-  <div class="fy-case-card-body">
-    <div class="fy-case-card-school">内蒙古大学 · 稀土材料工程</div>
-    <div class="fy-case-card-major-score">高考 0 分 · 全省第 n 名</div>
-    <div class="fy-case-card-summary">
-      "珍惜青春，珍惜头发"
-    </div>
-  </div>
-  <div class="fy-case-card-tags">
-    <span class="fy-tag">理科</span>
-    <span class="fy-tag">工科</span>
-    <span class="fy-tag">跨省</span>
-    <span class="fy-tag">西北</span>
-    <span class="fy-tag">稀土材料工程</span>
-  </div>
-  <a href="case-内蒙古大学/" class="fy-case-card-link">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
-  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">H</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">Hpc</span>
@@ -469,6 +445,7 @@ description: 2023 届州民中校友升学经验分享。
 <div style="text-align: center; margin-top: 32px;">
   <a href="/contribute/" class="fy-btn fy-btn-primary">📝 分享你的故事</a>
 </div>
+
 
 
 
