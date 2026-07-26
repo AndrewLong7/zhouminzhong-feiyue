@@ -863,6 +863,29 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">石</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">石路平</span>
+      <span class="fy-case-card-year">2018 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">中国人民大学 · 哲学</div>
+    <div class="fy-case-card-major-score">高考 673 分 · 全省第 56 名</div>
+    <div class="fy-case-card-summary">
+      "以另一种方式思考和生活，既是乐趣，也是责任。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">北京</span>
+    <span class="fy-tag">哲学</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="石路平-中国人民大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">厂</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">厂工人</span>
@@ -1307,6 +1330,29 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">L</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">LXY</span>
+      <span class="fy-case-card-year">0 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">南华大学 · 汉语言文学</div>
+    <div class="fy-case-card-major-score">高考 548 分 · 全省第 11000 名</div>
+    <div class="fy-case-card-summary">
+      "一定要对自己有规划 分中长期的目标制定 自律时自律 玩乐时玩乐 未来有很多种活法 一定要一直相信自己"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">体育</span>
+    <span class="fy-tag">湖南</span>
+    <span class="fy-tag">汉语言文学</span>
+  </div>
+  <a href="LXY-南华大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">y</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">yyt</span>
@@ -1424,6 +1470,29 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">刘</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">刘高慧</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">怀化学院 · 法学</div>
+    <div class="fy-case-card-major-score">高考 536 分 · 全省第 110000 名</div>
+    <div class="fy-case-card-summary">
+      "进入大学也不能放松学习"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">体育</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">法学</span>
+  </div>
+  <a href="刘高慧-怀化学院/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">d</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">ddd</span>
@@ -1444,6 +1513,29 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">法学</span>
   </div>
   <a href="ddd-南华大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">李</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">李三</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">北方民族大学 · 行政管理</div>
+    <div class="fy-case-card-major-score">高考 551 分 · 全省第 19446 名</div>
+    <div class="fy-case-card-summary">
+      "未来皆可期"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">宁夏</span>
+    <span class="fy-tag">行政管理</span>
+  </div>
+  <a href="李三-北方民族大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -1490,6 +1582,29 @@ description: 2023 届之前州民中校友升学经验分享。
   </div>
   <a href="11-湖南财政经济学院/" class="fy-case-card-link">阅读全文 →</a>
 </div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">李</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">李博依</span>
+      <span class="fy-case-card-year">0 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">湖南财政经济学院 · 金融学</div>
+    <div class="fy-case-card-major-score">高考 530 分 · 全省第 70000 名</div>
+    <div class="fy-case-card-summary">
+      "加油"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">金融学</span>
+  </div>
+  <a href="李博依-湖南财政经济学院/" class="fy-case-card-link">阅读全文 →</a>
+</div>
 <!-- /AUTO-GEN: CASE_CARDS -->
 
 </div>
@@ -1507,8 +1622,6 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 
 </div>
-
-
 
 
 

@@ -203,6 +203,30 @@ description: 2023 届州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">?</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name"></span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">内蒙古大学 · 稀土材料工程</div>
+    <div class="fy-case-card-major-score">高考 0 分 · 全省第 n 名</div>
+    <div class="fy-case-card-summary">
+      "珍惜青春，珍惜头发"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">西北</span>
+    <span class="fy-tag">稀土材料工程</span>
+  </div>
+  <a href="case-内蒙古大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">H</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">Hpc</span>
@@ -365,6 +389,79 @@ description: 2023 届州民中校友升学经验分享。
   </div>
   <a href="李政润-中山大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">覃</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">覃哥</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">西安交通大学 · 人工智能</div>
+    <div class="fy-case-card-major-score">高考 0 分 · 全省第 n 名</div>
+    <div class="fy-case-card-summary">
+      "加油！"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">西北</span>
+    <span class="fy-tag">人工智能</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="覃哥-西安交通大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">1</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">1</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">哈尔滨工业大学 · 土木工程</div>
+    <div class="fy-case-card-major-score">高考 0 分 · 全省第 n 名</div>
+    <div class="fy-case-card-summary">
+      "加油"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">其他（可以填写省份）</span>
+    <span class="fy-tag">土木工程</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="1-哈尔滨工业大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">s</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">susu</span>
+      <span class="fy-case-card-year">2023 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">中南财经政法大学 · 会计</div>
+    <div class="fy-case-card-major-score">高考 584 分 · 全省第 2000 名</div>
+    <div class="fy-case-card-summary">
+      "珍惜高中生活"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">会计</span>
+    <span class="fy-tag">211/双一流</span>
+  </div>
+  <a href="susu-中南财经政法大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
 <!-- /AUTO-GEN: CASE_CARDS -->
 
 </div>
@@ -372,8 +469,6 @@ description: 2023 届州民中校友升学经验分享。
 <div style="text-align: center; margin-top: 32px;">
   <a href="/contribute/" class="fy-btn fy-btn-primary">📝 分享你的故事</a>
 </div>
-
-
 
 
 

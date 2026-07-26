@@ -130,6 +130,56 @@ description: 2025 届州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">石</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">石一涵</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">华中农业大学 · 预科</div>
+    <div class="fy-case-card-major-score">高考 598 分 · 全省第 16000 名</div>
+    <div class="fy-case-card-summary">
+      "祝你祝我，山高水长"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">预科</span>
+    <span class="fy-tag">211/双一流</span>
+  </div>
+  <a href="石一涵-华中农业大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">田</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">田JP</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">东北大学➕英国邓迪大学 · 生物医学工程</div>
+    <div class="fy-case-card-major-score">高考 590 分 · 全省第 n 名</div>
+    <div class="fy-case-card-summary">
+      "如果你来自湘西，能和其他地方的人来到同一个学校，那你已经很厉害了"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">海外</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">东北➕英国</span>
+    <span class="fy-tag">生物医学工程</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="田JP-东北大学➕英国邓迪大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">行</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">行走的鱼</span>
@@ -225,6 +275,54 @@ description: 2025 届州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">小</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">小牛</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">华北电力大学 · 预科</div>
+    <div class="fy-case-card-major-score">高考 598 分 · 全省第 17000 名</div>
+    <div class="fy-case-card-summary">
+      "好好读书"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">预科</span>
+    <span class="fy-tag">211/双一流</span>
+  </div>
+  <a href="小牛-华北电力大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">丁</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">丁文景</span>
+      <span class="fy-case-card-year">2025 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">中山大学 · 国际政治</div>
+    <div class="fy-case-card-major-score">高考 630 分 · 全省第 500 名</div>
+    <div class="fy-case-card-summary">
+      "攒劲搞，加油吧。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">珠三角</span>
+    <span class="fy-tag">国际政治</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="丁文景-中山大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">徐</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">徐一宁</span>
@@ -268,11 +366,31 @@ description: 2025 届州民中校友升学经验分享。
   </div>
   <a href="张智豪-香港科技大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">w</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">wjwjj</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">吉首大学 · 土木工程</div>
+    <div class="fy-case-card-major-score">高考 509 分 · 全省第 80000 名</div>
+    <div class="fy-case-card-summary">
+      "无"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">土木工程</span>
+  </div>
+  <a href="wjwjj-吉首大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
 <!-- /AUTO-GEN: CASE_CARDS -->
 
 </div>
-
-
 
 
 

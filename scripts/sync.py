@@ -190,7 +190,7 @@ def parse_case_file(md_path: Path) -> dict | None:
     return {
         "id": case_id,
         "name": sanitize_text(name),
-        "avatar": sanitize_text(name)[0] if name else "?",
+        "avatar": sanitize_text(name)[0] if sanitize_text(name) else "?",
         "year": year,
         "group": sanitize_text(parse_group(info.get("选科组合", ""))),
         "school": sanitize_text(school),
@@ -215,7 +215,10 @@ def scan_cases() -> list:
     for md_file in sorted(CASES_DIR.rglob("*.md")):
         if md_file.name == "index.md":
             continue
-        print(f"  解析: {md_file.relative_to(ROOT)}")
+        try:
+            print(f"  解析: {md_file.relative_to(ROOT)}")
+        except UnicodeEncodeError:
+            print(f"  解析: (文件名含特殊字符)")
         entry = parse_case_file(md_file)
         if entry:
             cases.append(entry)

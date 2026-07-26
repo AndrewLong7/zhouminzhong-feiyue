@@ -38,6 +38,22 @@ cases:
     quote: "你是你自己人生的负责人，选择摆在面前的时候大胆去选，坑是一定有的，但是你能做出这个选择就意味着你是能承担这个后果的，不要畏惧，勇敢向前"
     file: cases/2025/Ruby-大连理工大学.md
 
+  - id: "wjwjj-吉首大学"
+    name: "wjwjj"
+    avatar: "w"
+    year: 2025
+    group: "物理类"
+    school: "吉首大学"
+    major: "土木工程"
+    score: 509
+    rank: 80000
+    city: "西南"
+    type: real
+    level: "一本"
+    tags: ["艺术", "西南", "土木工程"]
+    quote: "无"
+    file: cases/2025/wjwjj-吉首大学.md
+
   - id: "xiaoxi-pku"
     name: "小溪"
     avatar: "小"
@@ -86,6 +102,38 @@ cases:
     quote: "没有人可以代替你去选择，因为结果是你在承担"
     file: cases/2025/zkx-湖南工业大学.md
 
+  - id: "丁文景-中山大学"
+    name: "丁文景"
+    avatar: "丁"
+    year: 2025
+    group: "历史类"
+    school: "中山大学"
+    major: "国际政治"
+    score: 630
+    rank: 500
+    city: "珠三角"
+    type: real
+    level: "985"
+    tags: ["文科", "艺术", "珠三角", "国际政治", "985"]
+    quote: "攒劲搞，加油吧。"
+    file: cases/2025/丁文景-中山大学.md
+
+  - id: "小牛-华北电力大学"
+    name: "小牛"
+    avatar: "小"
+    year: 2025
+    group: "物理类"
+    school: "华北电力大学"
+    major: "预科"
+    score: 598
+    rank: 17000
+    city: "华中"
+    type: real
+    level: "211/双一流"
+    tags: ["工科", "艺术", "华中", "预科", "211/双一流"]
+    quote: "好好读书"
+    file: cases/2025/小牛-华北电力大学.md
+
   - id: "张智豪-香港科技大学"
     name: "张智豪"
     avatar: "张"
@@ -133,6 +181,38 @@ cases:
     tags: ["理科", "跨省", "西南", "地理（免费师范生）", "211/双一流"]
     quote: "“向着光，追寻光，成为光”"
     file: cases/2025/溯suu-西南大学.md
+
+  - id: "田JP-东北大学➕英国邓迪大学"
+    name: "田JP"
+    avatar: "田"
+    year: 2025
+    group: "物理类"
+    school: "东北大学➕英国邓迪大学"
+    major: "生物医学工程"
+    score: 590
+    rank: 0
+    city: "东北➕英国"
+    type: real
+    level: "985"
+    tags: ["工科", "医学", "海外", "跨省", "东北➕英国", "生物医学工程", "985"]
+    quote: "如果你来自湘西，能和其他地方的人来到同一个学校，那你已经很厉害了"
+    file: cases/2025/田JP-东北大学➕英国邓迪大学.md
+
+  - id: "石一涵-华中农业大学"
+    name: "石一涵"
+    avatar: "石"
+    year: 2025
+    group: "物理类"
+    school: "华中农业大学"
+    major: "预科"
+    score: 598
+    rank: 16000
+    city: "华中"
+    type: real
+    level: "211/双一流"
+    tags: ["理科", "本省", "华中", "预科", "211/双一流"]
+    quote: "祝你祝我，山高水长"
+    file: cases/2025/石一涵-华中农业大学.md
 
   - id: "粟ss-中南林业科技大学"
     name: "粟ss"
@@ -230,6 +310,22 @@ cases:
     quote: "保持乐观，多去尝试"
     file: cases/2024/TUTU-华北电力大学（保定）.md
 
+  - id: "X-中国人民警察大学"
+    name: "X"
+    avatar: "X"
+    year: 2024
+    group: "物理类"
+    school: "中国人民警察大学"
+    major: "警务指挥与战术（无人驾驶航空器警务应用方向）（现在叫低空安全管理）"
+    score: 606
+    rank: 11896
+    city: "河北和广州"
+    type: real
+    level: "一本"
+    tags: ["理科", "跨省", "河北和广州", "警务指挥与战术（无人驾驶航空器警务应用方向）（现在叫低空安全管理）"]
+    quote: "欢迎有志青年报考警察大学"
+    file: cases/2024/X-中国人民警察大学.md
+
   - id: "zrx-湖南第一师范学院"
     name: "zrx"
     avatar: "z"
@@ -310,6 +406,22 @@ cases:
     quote: "有自己的想法，别被网络或者大环境带节奏"
     file: cases/2024/雯棋-中央财经大学.md
 
+  - id: "1-哈尔滨工业大学"
+    name: "1"
+    avatar: "1"
+    year: 2023
+    group: "物理类"
+    school: "哈尔滨工业大学"
+    major: "土木工程"
+    score: 0
+    rank: 0
+    city: "其他（可以填写省份）"
+    type: real
+    level: "985"
+    tags: ["理科", "工科", "其他（可以填写省份）", "土木工程", "985"]
+    quote: "加油"
+    file: cases/2023/1-哈尔滨工业大学.md
+
   - id: "GL-电子科技大学"
     name: "GL"
     avatar: "G"
@@ -342,6 +454,21 @@ cases:
     quote: "路怎么走还是要自己说了算"
     file: cases/2023/Hpc-内蒙古科技大学.md
 
+  - id: "case-内蒙古大学"
+    name: ""
+    avatar: "?"
+    year: 2023
+    group: "物理类"
+    school: "内蒙古大学"
+    major: "稀土材料工程"
+    score: 0
+    rank: 0
+    city: "西北"
+    type: real
+    tags: ["理科", "工科", "跨省", "西北", "稀土材料工程"]
+    quote: "珍惜青春，珍惜头发"
+    file: cases/2023/case-内蒙古大学.md
+
   - id: "k1v-清华大学"
     name: "k1v"
     avatar: "k"
@@ -373,6 +500,22 @@ cases:
     tags: ["艺术", "重庆", "中国画"]
     quote: "不要在意一时的好坏，说不定你的潜力还在后面。"
     file: cases/2023/sato-四川美术学院.md
+
+  - id: "susu-中南财经政法大学"
+    name: "susu"
+    avatar: "s"
+    year: 2023
+    group: "历史类"
+    school: "中南财经政法大学"
+    major: "会计"
+    score: 584
+    rank: 2000
+    city: "华中"
+    type: real
+    level: "211/双一流"
+    tags: ["文科", "华中", "会计", "211/双一流"]
+    quote: "珍惜高中生活"
+    file: cases/2023/susu-中南财经政法大学.md
 
   - id: "y-西北民族大学"
     name: "y"
@@ -533,6 +676,22 @@ cases:
     tags: ["工科", "本省", "华中", "电气工程及其自动化"]
     quote: "别浪费时间就好"
     file: cases/2023/田辉-长沙理工大学.md
+
+  - id: "覃哥-西安交通大学"
+    name: "覃哥"
+    avatar: "覃"
+    year: 2023
+    group: "物理类"
+    school: "西安交通大学"
+    major: "人工智能"
+    score: 0
+    rank: 0
+    city: "西北"
+    type: real
+    level: "985"
+    tags: ["文科", "理科", "工科", "艺术", "西北", "人工智能", "985"]
+    quote: "加油！"
+    file: cases/2023/覃哥-西安交通大学.md
 
   - id: "青-南京医科大学"
     name: "青"
@@ -1094,6 +1253,22 @@ cases:
     quote: "未来可期，人生的选择还有很多，不要着眼一时成败得是，保持快乐"
     file: cases/earlier/二白-湖南中医药大学.md
 
+  - id: "刘高慧-怀化学院"
+    name: "刘高慧"
+    avatar: "刘"
+    year: 2020
+    group: "历史类"
+    school: "怀化学院"
+    major: "法学"
+    score: 536
+    rank: 110000
+    city: "华中"
+    type: real
+    level: "二本"
+    tags: ["文科", "体育", "华中", "法学"]
+    quote: "进入大学也不能放松学习"
+    file: cases/earlier/刘高慧-怀化学院.md
+
   - id: "匿名-中南民族大学"
     name: "匿名"
     avatar: "匿"
@@ -1269,6 +1444,22 @@ cases:
     tags: ["理科", "商科", "海外", "湖南", "会计学"]
     quote: "人生是一段长跑，暂时失利并不代表什么。祝愿学弟学妹们金榜题名。长风破浪会有时，直挂云帆济沧海！"
     file: cases/earlier/晞-吉首大学.md
+
+  - id: "李三-北方民族大学"
+    name: "李三"
+    avatar: "李"
+    year: 2020
+    group: "历史类"
+    school: "北方民族大学"
+    major: "行政管理"
+    score: 551
+    rank: 19446
+    city: "宁夏"
+    type: real
+    level: "一本"
+    tags: ["文科", "艺术", "宁夏", "行政管理"]
+    quote: "未来皆可期"
+    file: cases/earlier/李三-北方民族大学.md
 
   - id: "李颖曦-中南民族大学"
     name: "李颖曦"
@@ -1462,6 +1653,22 @@ cases:
     quote: "趁年轻有时间赶紧出去玩"
     file: cases/earlier/ddd-南华大学.md
 
+  - id: "石路平-中国人民大学"
+    name: "石路平"
+    avatar: "石"
+    year: 2018
+    group: "历史类"
+    school: "中国人民大学"
+    major: "哲学"
+    score: 673
+    rank: 56
+    city: "北京"
+    type: real
+    level: "985"
+    tags: ["文科", "北京", "哲学", "985"]
+    quote: "以另一种方式思考和生活，既是乐趣，也是责任。"
+    file: cases/earlier/石路平-中国人民大学.md
+
   - id: "向星汝-西南民族大学"
     name: "向星汝"
     avatar: "向"
@@ -1558,6 +1765,38 @@ cases:
     quote: "选择大于努力！开放心态，多试错，多接触，找到自己真正喜欢的方向，形成适合自己的方法论！"
     file: cases/earlier/浩哥-清华大学.md
 
+  - id: "LXY-南华大学"
+    name: "LXY"
+    avatar: "L"
+    year: 0
+    group: "历史类"
+    school: "南华大学"
+    major: "汉语言文学"
+    score: 548
+    rank: 11000
+    city: "湖南"
+    type: real
+    level: "一本"
+    tags: ["文科", "体育", "湖南", "汉语言文学"]
+    quote: "一定要对自己有规划 分中长期的目标制定 自律时自律 玩乐时玩乐 未来有很多种活法 一定要一直相信自己"
+    file: cases/earlier/LXY-南华大学.md
+
+  - id: "李博依-湖南财政经济学院"
+    name: "李博依"
+    avatar: "李"
+    year: 0
+    group: "物理类"
+    school: "湖南财政经济学院"
+    major: "金融学"
+    score: 530
+    rank: 70000
+    city: "华中"
+    type: real
+    level: "一本"
+    tags: ["理科", "商科", "华中", "金融学"]
+    quote: "加油"
+    file: cases/earlier/李博依-湖南财政经济学院.md
+
 
 # ============================================================
 # 大学分类 - 由 sync.py 自动分类
@@ -1566,9 +1805,12 @@ cases:
 universities:
   - category: "985 院校"
     schools:
+      - "东北大学➕英国邓迪大学"
       - "中南大学"
+      - "中国人民大学"
       - "中央民族大学"
-      - "中山大学"
+      - name: "中山大学"
+        slug: "中山大学"
       - "北京大学"
       - "北京师范大学"
       - "北京师范大学（珠海）"
@@ -1577,6 +1819,7 @@ universities:
         slug: "华中科技大学"
       - "华南理工大学"
       - "吉林大学"
+      - "哈尔滨工业大学"
       - name: "哈尔滨工业大学（深圳）"
         slug: "哈尔滨工业大学-深圳"
       - "四川大学"
@@ -1591,10 +1834,12 @@ universities:
         slug: "湖南大学"
       - "电子科技大学"
       - "西北农林科技大学"
-      - "西安交通大学"
+      - name: "西安交通大学"
+        slug: "西安交通大学"
   - category: "211 / 双一流 院校"
     schools:
-      - "中南财经政法大学"
+      - name: "中南财经政法大学"
+        slug: "中南财经政法大学"
       - "中国矿业大学"
       - "中央美术学院"
       - name: "中央财经大学"
@@ -1602,8 +1847,10 @@ universities:
       - "北京化工大学"
       - "北京工业大学"
       - "北京科技大学"
+      - "华中农业大学"
       - "华中师范大学"
-      - "华北电力大学"
+      - name: "华北电力大学"
+        slug: "华北电力大学"
       - "华北电力大学（保定）"
       - "南京医科大学"
       - "大连海事大学"
@@ -1620,13 +1867,16 @@ universities:
       - "中南林业科技大学"
       - name: "中南民族大学"
         slug: "中南民族大学"
-      - "中国人民警察大学"
+      - name: "中国人民警察大学"
+        slug: "中国人民警察大学"
       - "中国刑事警察学院"
       - "内蒙古科技大学"
-      - "北方民族大学"
+      - name: "北方民族大学"
+        slug: "北方民族大学"
       - "南京审计大学"
       - "南京财经大学"
-      - "南华大学"
+      - name: "南华大学"
+        slug: "南华大学"
       - name: "吉首大学"
         slug: "吉首大学"
       - "哈尔滨医科大学"
@@ -1640,7 +1890,8 @@ universities:
       - name: "湖南科技大学"
         slug: "湖南科技大学"
       - "湖南第一师范学院"
-      - "湖南财政经济学院"
+      - name: "湖南财政经济学院"
+        slug: "湖南财政经济学院"
       - "西北政法大学"
       - name: "西北民族大学"
         slug: "西北民族大学"
@@ -1653,6 +1904,7 @@ universities:
       - "中国劳动关系学院"
       - "北华大学"
       - "吉林建筑大学"
+      - "怀化学院"
       - "湖南女子学院"
       - "湖南工学院"
       - "长沙科技学院"
@@ -1662,5 +1914,6 @@ universities:
       - "香港科技大学"
   - category: "其他院校"
     schools:
+      - "内蒙古大学"
       - "四川美术学院"
       - "湘西民族职业技术学院"
