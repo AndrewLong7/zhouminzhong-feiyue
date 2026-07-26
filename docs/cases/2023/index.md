@@ -203,9 +203,9 @@ description: 2023 届州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">?</div>
+    <div class="fy-case-card-avatar">笑</div>
     <div class="fy-case-card-meta">
-      <span class="fy-case-card-name"></span>
+      <span class="fy-case-card-name">笑脸</span>
       <span class="fy-case-card-year">2023 届 · 物理类</span>
     </div>
   </div>
@@ -469,6 +469,8 @@ description: 2023 届州民中校友升学经验分享。
 <div style="text-align: center; margin-top: 32px;">
   <a href="/contribute/" class="fy-btn fy-btn-primary">📝 分享你的故事</a>
 </div>
+
+
 
 
 

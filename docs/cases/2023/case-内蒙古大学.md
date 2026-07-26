@@ -22,7 +22,7 @@ tags:
 
 <div class="fy-case-info-item">
   <div class="fy-case-info-label">化名</div>
-  <div class="fy-case-info-value">🥱</div>
+  <div class="fy-case-info-value">笑脸</div>
 </div>
 
 <div class="fy-case-info-item">

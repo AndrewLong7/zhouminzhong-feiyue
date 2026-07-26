@@ -1308,28 +1308,6 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">苏</div>
-    <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">苏三三</span>
-      <span class="fy-case-card-year">2021 届 · 历史类</span>
-    </div>
-  </div>
-  <div class="fy-case-card-body">
-    <div class="fy-case-card-school">西北民族大学 · 汉语言文学</div>
-    <div class="fy-case-card-major-score">高考 533 分 · 全省第 13000 名</div>
-    <div class="fy-case-card-summary">
-      "如果感到迷茫，不用管前面的道路上有什么，先勇敢的迈出第一步你就已经很棒了。"
-    </div>
-  </div>
-  <div class="fy-case-card-tags">
-    <span class="fy-tag">文科</span>
-    <span class="fy-tag">西北</span>
-    <span class="fy-tag">汉语言文学</span>
-  </div>
-  <a href="苏三三-西北民族大学/" class="fy-case-card-link">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
-  <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">L</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">LXY</span>
@@ -1350,6 +1328,28 @@ description: 2023 届之前州民中校友升学经验分享。
     <span class="fy-tag">汉语言文学</span>
   </div>
   <a href="LXY-南华大学/" class="fy-case-card-link">阅读全文 →</a>
+</div>
+<div class="fy-case-card">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">苏</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">苏三三</span>
+      <span class="fy-case-card-year">2021 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <div class="fy-case-card-school">西北民族大学 · 汉语言文学</div>
+    <div class="fy-case-card-major-score">高考 533 分 · 全省第 13000 名</div>
+    <div class="fy-case-card-summary">
+      "如果感到迷茫，不用管前面的道路上有什么，先勇敢的迈出第一步你就已经很棒了。"
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">西北</span>
+    <span class="fy-tag">汉语言文学</span>
+  </div>
+  <a href="苏三三-西北民族大学/" class="fy-case-card-link">阅读全文 →</a>
 </div>
 <div class="fy-case-card">
   <div class="fy-case-card-header">
@@ -1622,6 +1622,8 @@ description: 2023 届之前州民中校友升学经验分享。
 </div>
 
 </div>
+
+
 
 
 
