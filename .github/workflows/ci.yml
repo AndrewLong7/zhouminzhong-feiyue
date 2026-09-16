@@ -10,15 +10,22 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
       - name: Build site
+        env:
+          FEIYUE_ANALYTICS_SCRIPT: ${{ vars.FEIYUE_ANALYTICS_SCRIPT }}
+          FEIYUE_ANALYTICS_WEBSITE_ID: ${{ vars.FEIYUE_ANALYTICS_WEBSITE_ID }}
+          FEIYUE_ANALYTICS_DASHBOARD: ${{ vars.FEIYUE_ANALYTICS_DASHBOARD }}
         run: |
-          pip install mkdocs-material
-          mkdocs build
+          pip install -r requirements.txt
+          python scripts/generate.py
+          mkdocs build --strict
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4

@@ -5,7 +5,9 @@
 """
 
 import re
-from datetime import date
+import html
+import hashlib
+import subprocess
 from pathlib import Path
 from collections import defaultdict
 
@@ -108,32 +110,46 @@ for _name in _iter_schools():
 # ============================================================
 def case_card(c: dict, href: str) -> str:
     """生成单个案例卡片 HTML"""
+    esc = lambda value: html.escape(str(value), quote=True)
+    original = c
+    search_text = " ".join(str(c.get(k, "")) for k in ("name", "school", "major", "city", "group"))
+    search_text += " " + " ".join(c["tags"])
+    case_id = hashlib.sha256(c["file"].encode()).hexdigest()[:16]
+    score_parts = []
+    if isinstance(c.get("score"), (int, float)) and c["score"] > 0:
+        score_parts.append(f"高考 {c['score']} 分")
+    if isinstance(c.get("rank"), (int, float)) and c["rank"] > 0:
+        score_parts.append(f"全省第 {c['rank']} 名")
+    score_text = " · ".join(score_parts) or "成绩信息未提供"
+    year_text = f"{c['year']} 届" if c.get("year", 0) > 0 else "届数未提供"
+    c = {key: esc(value) if isinstance(value, str) else value for key, value in c.items()}
     type_badge = (
         '\n    <span class="fy-tag fy-tag-amber">模板案例</span>'
         if c["type"] == "template"
         else ""
     )
-    tags_html = "".join(f'\n    <span class="fy-tag">{t}</span>' for t in c["tags"])
+    tags_html = "".join(f'\n    <span class="fy-tag">{esc(t)}</span>' for t in c["tags"][:4])
 
-    return f"""<div class="fy-case-card">
+    return f"""<article class="fy-case-card" data-case-id="{case_id}" data-case-search="{esc(search_text)}" data-case-year="{original['year']}" data-case-group="{c['group']}">
   <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">{c['avatar']}</div>
     <div class="fy-case-card-meta">
       <span class="fy-case-card-name">{c['name']}</span>
-      <span class="fy-case-card-year">{c['year']} 届 · {c['group']}</span>
+      <span class="fy-case-card-year">{year_text} · {c['group']}</span>
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">{c['school']} · {c['major']}</div>
-    <div class="fy-case-card-major-score">高考 {c['score']} 分 · 全省第 {c['rank'] if c['rank'] > 1 else 'n'} 名</div>
+    <h3 class="fy-case-card-school">{c['school']}</h3>
+    <div class="fy-case-card-major">{c['major']}</div>
+    <div class="fy-case-card-major-score">{score_text}</div>
     <div class="fy-case-card-summary">
-      "{c['quote']}"
+      {c['quote'] or '看看这位校友的大学选择与真实体验。'}
     </div>
   </div>
   <div class="fy-case-card-tags">{type_badge}{tags_html}
   </div>
-  <a href="{href}" class="fy-case-card-link">阅读全文 →</a>
-</div>"""
+  <a href="{esc(href)}" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="{case_id}" aria-label="阅读{c['name']}的{c['school']}案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>"""
 
 
 def year_card(year: int, count: int, is_template: bool = False) -> str:
@@ -223,8 +239,10 @@ def gen_year_cards() -> str:
 
 
 def gen_latest_cases(for_index: bool = False) -> str:
-    """生成最新案例列表（按内容长度降序取前 6 条，优先展示丰富案例）"""
-    latest = sorted(cases, key=_case_content_len, reverse=True)[:6]
+    """按明确的编辑精选列表展示案例，不把内容长度标为发布时间。"""
+    selected = yaml.safe_load((ROOT / "data" / "featured.yml").read_text(encoding="utf-8"))
+    by_id = {c["id"]: c for c in cases}
+    latest = [by_id[case_id] for case_id in selected["case_ids"] if case_id in by_id]
     cards = []
     for c in latest:
         file_path = c["file"]
@@ -236,6 +254,11 @@ def gen_latest_cases(for_index: bool = False) -> str:
             href = file_path.replace(".md", "/")
         cards.append(case_card(c, href))
     return "\n".join(cards)
+
+
+def gen_all_cases() -> str:
+    """静态输出完整案例，浏览器只负责筛选与分页；关闭 JS 仍可阅读。"""
+    return "\n".join(case_card(c, c["file"].removeprefix("cases/").replace(".md", "/")) for c in cases)
 
 
 def gen_year_case_cards(year_dir: str) -> str:
@@ -266,11 +289,17 @@ def gen_footer_stats() -> str:
     """生成页脚的"最近更新+案例总数"行,体现活跃维护"""
     case_count = len(cases)
     school_count = len({c["school"] for c in cases})
-    today = date.today().isoformat()
+    try:
+        today = subprocess.check_output(
+            ["git", "log", "-1", "--format=%cs", "--", "docs/cases", "data/cases.yml"],
+            cwd=ROOT, text=True, stderr=subprocess.DEVNULL,
+        ).strip() or "待确认"
+    except (OSError, subprocess.CalledProcessError):
+        today = "待确认"
     return (
         f'<span class="fy-footer-stats-item">最近更新于 {today}</span>'
         f'<span class="fy-footer-stats-sep">·</span>'
-        f'<span class="fy-footer-stats-item">已收录 {case_count} 位校友 / {school_count} 所大学</span>'
+        f'<span class="fy-footer-stats-item">已收录 {case_count} 份案例 / {school_count} 所大学</span>'
     )
 
 
@@ -278,11 +307,11 @@ def gen_homepage_stats() -> str:
     """生成首页 hero 下方的统计数字带（社会证明）"""
     case_count = len(cases)
     school_count = len({c["school"] for c in cases})
-    year_count = len({c["year"] for c in cases})
+    year_count = len({c["year"] for c in cases if c["year"] > 0})
     return f"""<div class="fy-stats">
   <div class="fy-stats-item">
     <span class="fy-stats-num">{case_count}</span>
-    <span class="fy-stats-label">位校友故事</span>
+    <span class="fy-stats-label">份真实案例</span>
   </div>
   <div class="fy-stats-item">
     <span class="fy-stats-num">{school_count}</span>
@@ -300,7 +329,7 @@ def gen_homepage_university_cards() -> str:
     all_schools = []
     for cat in universities:
         all_schools.extend(cat["schools"])
-    cards = [university_card(_school_name(s), "") for s in _sorted_schools(all_schools)[:20]]
+    cards = [university_card(_school_name(s), "") for s in _sorted_schools(all_schools)[:8]]
     return "\n\n".join(cards)
 
 
@@ -431,7 +460,7 @@ def process_page(filepath: Path, generators: dict) -> bool:
         content = f.read()
 
     modified = False
-    lines = content.split("\n")
+    lines = content.splitlines()
     new_lines = []
     i = 0
     while i < len(lines):
@@ -460,7 +489,7 @@ def process_page(filepath: Path, generators: dict) -> bool:
 
     if modified:
         with open(filepath, "w", encoding="utf-8") as f:
-            f.write("\n".join(new_lines) + "\n" if new_lines else "\n".join(new_lines))
+            f.write("\n".join(new_lines).rstrip() + "\n")
         print(f"  [OK] 已更新: {filepath.relative_to(ROOT)}")
     else:
         print(f"  - 无标记: {filepath.relative_to(ROOT)}")
@@ -504,6 +533,8 @@ def main():
 
     # 0. 先做覆盖校验
     all_ok = validate_coverage()
+    if not all_ok:
+        raise SystemExit("案例元数据校验失败，已停止生成。")
 
     # 案例总览页
     print("[案例总览]")
@@ -512,6 +543,7 @@ def main():
         {
             "YEAR_CARDS": gen_year_cards,
             "LATEST_CASES": lambda: gen_latest_cases(for_index=True),
+            "ALL_CASES": gen_all_cases,
         },
     )
 
