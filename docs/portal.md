@@ -17,14 +17,16 @@
 <p><strong>州民中升学交流群</strong></p>
 
 <div style="display: flex; gap: 16px; margin: 12px 0; flex-wrap: wrap;">
-  <div style="text-align: center;">
+  <details data-fy-qr="qq" class="fy-qr-details">
+    <summary>查看 QQ 群二维码</summary>
     <img src="../assets/images/qq-group-qrcode.jpg" alt="QQ 群二维码" style="width: 180px; border-radius: 8px; border: 1px solid var(--feiyue-card-border);">
     <p style="font-size: 0.8rem; color: var(--feiyue-text-muted); margin-top: 4px;">QQ 群</p>
-  </div>
-  <div style="text-align: center;">
+  </details>
+  <details data-fy-qr="wechat" class="fy-qr-details">
+    <summary>查看微信群二维码</summary>
     <img src="../assets/images/wechat-group-qrcode.jpg" alt="微信群二维码" style="width: 180px; border-radius: 8px; border: 1px solid var(--feiyue-card-border);">
     <p style="font-size: 0.8rem; color: var(--feiyue-text-muted); margin-top: 4px;">微信群</p>
-  </div>
+  </details>
 </div>
 
 </div>

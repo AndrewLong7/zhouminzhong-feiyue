@@ -1,98 +1,650 @@
 ---
-title: 案例库
-description: 浏览所有州民中校友升学案例。
+title: 探索校友案例
+description: 按学校、专业、毕业届数和科类，寻找与你有关的州民中校友升学经历。
+hide:
+  - navigation
+  - toc
 ---
 
-<!-- Hero -->
-<div class="fy-hero" style="padding: 56px 24px 48px;" markdown="1">
+<div class="fy-page-intro"><p class="fy-eyebrow">每一份案例，都是一个真实的成长故事</p><h1>寻找属于你的参考</h1><p>可以从想去的学校、感兴趣的专业，或与你相近的经历开始。</p></div>
 
-# <span class="fy-hero-title" style="font-size: 2.6rem !important;">案例库</span>
-
-<p class="fy-hero-subtitle">
-每一份案例，都是一个真实的成长故事。
-</p>
-
-</div>
-
-<!-- 搜索 -->
-<div class="fy-search-wrapper">
-  <div class="fy-search">
-    <span class="fy-search-icon">🔍</span>
-    <input
-      class="fy-search-input"
-      type="text"
-      placeholder="按学校、专业、标签搜索案例……"
-      id="case-search"
-      onkeydown="if(event.key==='Enter'){let q=document.getElementById('case-search').value.trim();if(q){let s=document.querySelector('.md-search__input');if(s){let l=document.querySelector('[for=__search]');if(l)l.click();s.value=q;s.focus();s.dispatchEvent(new KeyboardEvent('keyup',{bubbles:true}));}}}"
-    />
+<section class="fy-explorer" data-fy-explorer aria-label="校友案例库">
+  <form class="fy-explorer-search" action="./" method="get" role="search">
+    <label for="fy-case-query" class="fy-sr-only">搜索学校、专业、校友或关键词</label>
+    <input id="fy-case-query" type="search" name="q" placeholder="搜索学校、专业、校友或关键词…" autocomplete="off">
+    <button type="submit">搜索案例</button>
+  </form>
+  <div class="fy-explorer-filters" data-fy-js-controls hidden>
+    <label>毕业届数 <select id="fy-case-year"><option value="">全部届数</option></select></label>
+    <label>科类 <select id="fy-case-group"><option value="">全部科类</option></select></label>
+    <button type="button" id="fy-case-reset">清除筛选</button>
   </div>
-</div>
-
-<!-- 按年份 -->
-## 按年份浏览
-
-<div class="fy-card-grid" markdown="1">
-
-<!-- AUTO-GEN: YEAR_CARDS -->
-<a href="2025/" class="fy-school-card">
-  <span class="fy-school-card-name">2025 届</span>
-  <span class="fy-school-card-count">16 个案例</span>
-  <span class="fy-school-card-major">往届毕业生</span>
-</a>
-
-<a href="2024/" class="fy-school-card">
-  <span class="fy-school-card-name">2024 届</span>
-  <span class="fy-school-card-count">9 个案例</span>
-  <span class="fy-school-card-major">往届毕业生</span>
-</a>
-
-<a href="2023/" class="fy-school-card">
-  <span class="fy-school-card-name">2023 届</span>
-  <span class="fy-school-card-count">18 个案例</span>
-  <span class="fy-school-card-major">往届毕业生</span>
-</a>
-
-<a href="earlier/" class="fy-school-card">
-  <span class="fy-school-card-name">更早的案例</span>
-  <span class="fy-school-card-count">68 个案例</span>
-  <span class="fy-school-card-major">往届毕业生</span>
-</a>
-<!-- /AUTO-GEN: YEAR_CARDS -->
-
-</div>
-
-<hr class="fy-divider">
-
-<!-- 最新案例列表 -->
-## 最新案例
-
-<div class="fy-case-grid">
-
-<!-- AUTO-GEN: LATEST_CASES -->
-<div class="fy-case-card">
+  <p class="fy-results-count" id="fy-case-count" role="status" aria-live="polite">全部校友案例</p>
+  <div class="fy-case-grid" data-fy-case-list>
+  <!-- AUTO-GEN: ALL_CASES -->
+<article class="fy-case-card" data-case-id="043c04e913ca8013" data-case-search="Ivy 对外经济贸易大学 少数民族预科班 北京 物理类 理科 商科 跨省 北京 少数民族预科班 211/双一流" data-case-year="2025" data-case-group="物理类">
   <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">k</div>
+    <div class="fy-case-card-avatar">I</div>
     <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">k1v</span>
-      <span class="fy-case-card-year">2023 届 · 物理类</span>
+      <span class="fy-case-card-name">Ivy</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">清华大学 · 机械工程 -> 自动化（转专业）</div>
-    <div class="fy-case-card-major-score">高考 687 分 · 全省第 61 名</div>
+    <h3 class="fy-case-card-school">对外经济贸易大学</h3>
+    <div class="fy-case-card-major">少数民族预科班</div>
+    <div class="fy-case-card-major-score">高考 607 分 · 全省第 12000 名</div>
     <div class="fy-case-card-summary">
-      "不要怕走弯路，但在做决定之前，请先把能看的路都认真看一遍。选择之后，也不要反复美化那些没有走上的路；把脚下这条路走深、走稳，本身就是一种很重要的能力。"
+      有凹陷，就会有高山相连。大家一定不要被困于当下的逆境中，你的人生不会因为一场考试的失败而变得糟糕，要永远相信你还有无限的可能！
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">北京</span>
+  </div>
+  <a href="2025/Ivy-对外经济贸易大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="043c04e913ca8013" aria-label="阅读Ivy的对外经济贸易大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="b5a7587dc178a6f7" data-case-search="Ruby 大连理工大学 储能科学与工程 东北 物理类 工科 跨省 东北 储能科学与工程 985" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">R</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">Ruby</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">大连理工大学</h3>
+    <div class="fy-case-card-major">储能科学与工程</div>
+    <div class="fy-case-card-major-score">高考 640 分 · 全省第 3700 名</div>
+    <div class="fy-case-card-summary">
+      你是你自己人生的负责人，选择摆在面前的时候大胆去选，坑是一定有的，但是你能做出这个选择就意味着你是能承担这个后果的，不要畏惧，勇敢向前
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">东北</span>
+    <span class="fy-tag">储能科学与工程</span>
+  </div>
+  <a href="2025/Ruby-大连理工大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="b5a7587dc178a6f7" aria-label="阅读Ruby的大连理工大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="13a91002b07c18bb" data-case-search="wjwjj 吉首大学 土木工程 西南 物理类 艺术 西南 土木工程" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">w</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">wjwjj</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">吉首大学</h3>
+    <div class="fy-case-card-major">土木工程</div>
+    <div class="fy-case-card-major-score">高考 509 分 · 全省第 80000 名</div>
+    <div class="fy-case-card-summary">
+      无
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">土木工程</span>
+  </div>
+  <a href="2025/wjwjj-吉首大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="13a91002b07c18bb" aria-label="阅读wjwjj的吉首大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="2baf523b228a374d" data-case-search="小溪 北京大学 法学 北京 物理类 985 文科 跨省 北京" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">小</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">小溪</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">北京大学</h3>
+    <div class="fy-case-card-major">法学</div>
+    <div class="fy-case-card-major-score">高考 665 分 · 全省第 482 名</div>
+    <div class="fy-case-card-summary">
+      不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了。接下来，只需要保持那份勇敢，继续往前走。
     </div>
   </div>
   <div class="fy-case-card-tags">
     <span class="fy-tag">985</span>
-    <span class="fy-tag">理工</span>
+    <span class="fy-tag">文科</span>
     <span class="fy-tag">跨省</span>
     <span class="fy-tag">北京</span>
   </div>
-  <a href="2023/k1v-清华大学/" class="fy-case-card-link">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
+  <a href="2025/xiaoxi-pku/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="2baf523b228a374d" aria-label="阅读小溪的北京大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="42b777846caa81d9" data-case-search="yuan 山东大学 智能建造与智慧交通转到自动化 山东 物理类 工科 跨省 山东 智能建造与智慧交通转到自动化 985" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">y</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">yuan</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">山东大学</h3>
+    <div class="fy-case-card-major">智能建造与智慧交通转到自动化</div>
+    <div class="fy-case-card-major-score">高考 617 分 · 全省第 9424 名</div>
+    <div class="fy-case-card-summary">
+      加油
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">山东</span>
+    <span class="fy-tag">智能建造与智慧交通转到自动化</span>
+  </div>
+  <a href="2025/yuan-山东大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="42b777846caa81d9" aria-label="阅读yuan的山东大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="0e00dd287a6c9b84" data-case-search="zkx 湖南工业大学 计算机 长三角 物理类 理科 工科 本省 长三角 计算机" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">z</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">zkx</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南工业大学</h3>
+    <div class="fy-case-card-major">计算机</div>
+    <div class="fy-case-card-major-score">高考 558 分 · 全省第 60000 名</div>
+    <div class="fy-case-card-summary">
+      没有人可以代替你去选择，因为结果是你在承担
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">长三角</span>
+  </div>
+  <a href="2025/zkx-湖南工业大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="0e00dd287a6c9b84" aria-label="阅读zkx的湖南工业大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="eeb3b710e22eb537" data-case-search="丁文景 中山大学 国际政治 珠三角 历史类 文科 艺术 珠三角 国际政治 985" data-case-year="2025" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">丁</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">丁文景</span>
+      <span class="fy-case-card-year">2025 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中山大学</h3>
+    <div class="fy-case-card-major">国际政治</div>
+    <div class="fy-case-card-major-score">高考 630 分 · 全省第 500 名</div>
+    <div class="fy-case-card-summary">
+      攒劲搞，加油吧。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">珠三角</span>
+    <span class="fy-tag">国际政治</span>
+  </div>
+  <a href="2025/丁文景-中山大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="eeb3b710e22eb537" aria-label="阅读丁文景的中山大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="936a555fcadb46c7" data-case-search="小牛 华北电力大学 预科 华中 物理类 工科 艺术 华中 预科 211/双一流" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">小</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">小牛</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">华北电力大学</h3>
+    <div class="fy-case-card-major">预科</div>
+    <div class="fy-case-card-major-score">高考 598 分 · 全省第 17000 名</div>
+    <div class="fy-case-card-summary">
+      好好读书
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">预科</span>
+  </div>
+  <a href="2025/小牛-华北电力大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="936a555fcadb46c7" aria-label="阅读小牛的华北电力大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="4857d9249095110c" data-case-search="张智豪 香港科技大学 TIE 珠三角 物理类 理科 珠三角 TIE 港澳台及海外" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">张</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">张智豪</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">香港科技大学</h3>
+    <div class="fy-case-card-major">TIE</div>
+    <div class="fy-case-card-major-score">高考 614 分 · 全省第 1000 名</div>
+    <div class="fy-case-card-summary">
+      对自己要求严格，不人云亦云，选择大于努力，努力也很重要
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">珠三角</span>
+    <span class="fy-tag">TIE</span>
+    <span class="fy-tag">港澳台及海外</span>
+  </div>
+  <a href="2025/张智豪-香港科技大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="4857d9249095110c" aria-label="阅读张智豪的香港科技大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="4775366bb25b1d7e" data-case-search="徐一宁 北方民族大学 金融学 宁夏 物理类 理科 宁夏 金融学" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">徐</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">徐一宁</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">北方民族大学</h3>
+    <div class="fy-case-card-major">金融学</div>
+    <div class="fy-case-card-major-score">成绩信息未提供</div>
+    <div class="fy-case-card-summary">
+      大学期间多学习多拓宽自己的眼界
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">宁夏</span>
+    <span class="fy-tag">金融学</span>
+  </div>
+  <a href="2025/徐一宁-北方民族大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="4775366bb25b1d7e" aria-label="阅读徐一宁的北方民族大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="5c213d8461dfa859" data-case-search="溯suu 西南大学 地理（免费师范生） 西南 物理类 理科 跨省 西南 地理（免费师范生） 211/双一流" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">溯</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">溯suu</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">西南大学</h3>
+    <div class="fy-case-card-major">地理（免费师范生）</div>
+    <div class="fy-case-card-major-score">高考 618 分 · 全省第 9100 名</div>
+    <div class="fy-case-card-summary">
+      “向着光，追寻光，成为光”
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">地理（免费师范生）</span>
+  </div>
+  <a href="2025/溯suu-西南大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="5c213d8461dfa859" aria-label="阅读溯suu的西南大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="27f12b564067d7ba" data-case-search="田JP 东北大学➕英国邓迪大学 生物医学工程 东北➕英国 物理类 工科 医学 海外 跨省 东北➕英国 生物医学工程 985" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">田</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">田JP</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">东北大学➕英国邓迪大学</h3>
+    <div class="fy-case-card-major">生物医学工程</div>
+    <div class="fy-case-card-major-score">高考 590 分</div>
+    <div class="fy-case-card-summary">
+      如果你来自湘西，能和其他地方的人来到同一个学校，那你已经很厉害了
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">海外</span>
+    <span class="fy-tag">跨省</span>
+  </div>
+  <a href="2025/田JP-东北大学➕英国邓迪大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="27f12b564067d7ba" aria-label="阅读田JP的东北大学➕英国邓迪大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="3344a2a00a0995b7" data-case-search="石一涵 华中农业大学 预科 华中 物理类 理科 本省 华中 预科 211/双一流" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">石</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">石一涵</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">华中农业大学</h3>
+    <div class="fy-case-card-major">预科</div>
+    <div class="fy-case-card-major-score">高考 598 分 · 全省第 16000 名</div>
+    <div class="fy-case-card-summary">
+      祝你祝我，山高水长
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">预科</span>
+  </div>
+  <a href="2025/石一涵-华中农业大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="3344a2a00a0995b7" aria-label="阅读石一涵的华中农业大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="88685a18dd02e3ea" data-case-search="粟ss 中南林业科技大学 通信工程 长三角 物理类 理科 工科 本省 长三角 通信工程" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">粟</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">粟ss</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中南林业科技大学</h3>
+    <div class="fy-case-card-major">通信工程</div>
+    <div class="fy-case-card-major-score">高考 518 分 · 全省第 71384 名</div>
+    <div class="fy-case-card-summary">
+      Let’s go ！
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">长三角</span>
+  </div>
+  <a href="2025/粟ss-中南林业科技大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="88685a18dd02e3ea" aria-label="阅读粟ss的中南林业科技大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="f3d1384400fa47d3" data-case-search="行走的鱼 长沙科技学院 档案学 华中 物理类 文科 本省 华中 档案学" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">行</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">行走的鱼</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">长沙科技学院</h3>
+    <div class="fy-case-card-major">档案学</div>
+    <div class="fy-case-card-major-score">高考 405 分</div>
+    <div class="fy-case-card-summary">
+      没有什么不能的，只是你不想。鼓起勇气吧
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">档案学</span>
+  </div>
+  <a href="2025/行走的鱼-长沙科技学院/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="f3d1384400fa47d3" aria-label="阅读行走的鱼的长沙科技学院案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="48f7ceec7543dd1a" data-case-search="逗比儿头目 中南大学 地球物理 华中 物理类 理科 本省 华中 地球物理 985" data-case-year="2025" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">逗</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">逗比儿头目</span>
+      <span class="fy-case-card-year">2025 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中南大学</h3>
+    <div class="fy-case-card-major">地球物理</div>
+    <div class="fy-case-card-major-score">高考 616 分 · 全省第 8000 名</div>
+    <div class="fy-case-card-summary">
+      好好学习
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">地球物理</span>
+  </div>
+  <a href="2025/逗比儿头目-中南大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="48f7ceec7543dd1a" aria-label="阅读逗比儿头目的中南大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="4d1700f19546774d" data-case-search="3x 哈尔滨医科大学 临床医学 东北 物理类 理科 医学 跨省 东北 临床医学" data-case-year="2024" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">3</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">3x</span>
+      <span class="fy-case-card-year">2024 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">哈尔滨医科大学</h3>
+    <div class="fy-case-card-major">临床医学</div>
+    <div class="fy-case-card-major-score">高考 595 分 · 全省第 15000 名</div>
+    <div class="fy-case-card-summary">
+      &quot;一定不要把自己的心气磨灭掉 虽然我经历了许多失败和挫折
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">东北</span>
+  </div>
+  <a href="2024/3x-哈尔滨医科大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="4d1700f19546774d" aria-label="阅读3x的哈尔滨医科大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="4f83d3c3efdee74c" data-case-search="Q 西北农林科技大学 植物科学与技术 西北 物理类 理科 跨省 西北 植物科学与技术 985" data-case-year="2024" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">Q</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">Q</span>
+      <span class="fy-case-card-year">2024 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">西北农林科技大学</h3>
+    <div class="fy-case-card-major">植物科学与技术</div>
+    <div class="fy-case-card-major-score">高考 598 分 · 全省第 16000 名</div>
+    <div class="fy-case-card-summary">
+      如果你高考不理想或者对生物有浓厚兴趣可以考虑这所性价比最高的985，大学也只是新的求学开始，并不是学习的结束，加油૧(●´৺`●)૭
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">西北</span>
+    <span class="fy-tag">植物科学与技术</span>
+  </div>
+  <a href="2024/Q-西北农林科技大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="4f83d3c3efdee74c" aria-label="阅读Q的西北农林科技大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="ab80948c33eaf7d3" data-case-search="TUTU 华北电力大学（保定） 氢能科学与工程 河北省 物理类 工科 跨省 河北省 氢能科学与工程 211/双一流" data-case-year="2024" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">T</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">TUTU</span>
+      <span class="fy-case-card-year">2024 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">华北电力大学（保定）</h3>
+    <div class="fy-case-card-major">氢能科学与工程</div>
+    <div class="fy-case-card-major-score">高考 616 分 · 全省第 8800 名</div>
+    <div class="fy-case-card-summary">
+      保持乐观，多去尝试
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">河北省</span>
+    <span class="fy-tag">氢能科学与工程</span>
+  </div>
+  <a href="2024/TUTU-华北电力大学（保定）/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="ab80948c33eaf7d3" aria-label="阅读TUTU的华北电力大学（保定）案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="48b8175462194638" data-case-search="X 中国人民警察大学 警务指挥与战术（无人驾驶航空器警务应用方向）（现在叫低空安全管理） 河北和广州 物理类 理科 跨省 河北和广州 警务指挥与战术（无人驾驶航空器警务应用方向）（现在叫低空安全管理）" data-case-year="2024" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">X</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">X</span>
+      <span class="fy-case-card-year">2024 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中国人民警察大学</h3>
+    <div class="fy-case-card-major">警务指挥与战术（无人驾驶航空器警务应用方向）（现在叫低空安全管理）</div>
+    <div class="fy-case-card-major-score">高考 606 分 · 全省第 11896 名</div>
+    <div class="fy-case-card-summary">
+      欢迎有志青年报考警察大学
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">河北和广州</span>
+    <span class="fy-tag">警务指挥与战术（无人驾驶航空器警务应用方向）（现在叫低空安全管理）</span>
+  </div>
+  <a href="2024/X-中国人民警察大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="48b8175462194638" aria-label="阅读X的中国人民警察大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="0ea62a1ad0159eef" data-case-search="zrx 湖南第一师范学院 数学与应用数学（公费师范生） 华中 物理类 理科 本省 华中 数学与应用数学（公费师范生）" data-case-year="2024" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">z</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">zrx</span>
+      <span class="fy-case-card-year">2024 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南第一师范学院</h3>
+    <div class="fy-case-card-major">数学与应用数学（公费师范生）</div>
+    <div class="fy-case-card-major-score">高考 589 分 · 全省第 18000 名</div>
+    <div class="fy-case-card-summary">
+      祝学弟学妹们前程似锦
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">数学与应用数学（公费师范生）</span>
+  </div>
+  <a href="2024/zrx-湖南第一师范学院/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="0ea62a1ad0159eef" aria-label="阅读zrx的湖南第一师范学院案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="14e63bc137fa54ec" data-case-search="小e 北京化工大学 材料 北京 物理类 理科 工科 跨省 北京 材料 211/双一流" data-case-year="2024" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">小</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">小e</span>
+      <span class="fy-case-card-year">2024 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">北京化工大学</h3>
+    <div class="fy-case-card-major">材料</div>
+    <div class="fy-case-card-major-score">高考 590 分 · 全省第 17000 名</div>
+    <div class="fy-case-card-summary">
+      加油，永远保持学习的积极性，不一定是学业，是个人多方面能力
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">北京</span>
+  </div>
+  <a href="2024/小e-北京化工大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="14e63bc137fa54ec" aria-label="阅读小e的北京化工大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="34bf73f451e3adb3" data-case-search="彭子恒 北京师范大学（珠海） 数学与应用数学 珠三角 物理类 理科 跨省 珠三角 数学与应用数学 985" data-case-year="2024" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">彭</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">彭子恒</span>
+      <span class="fy-case-card-year">2024 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">北京师范大学（珠海）</h3>
+    <div class="fy-case-card-major">数学与应用数学</div>
+    <div class="fy-case-card-major-score">高考 619 分 · 全省第 7800 名</div>
+    <div class="fy-case-card-summary">
+      有个好睡眠真的很重要
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">珠三角</span>
+    <span class="fy-tag">数学与应用数学</span>
+  </div>
+  <a href="2024/彭子恒-北京师范大学（珠海）/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="34bf73f451e3adb3" aria-label="阅读彭子恒的北京师范大学（珠海）案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="3b3cda90f90363bd" data-case-search="罗欣悦 北京科技大学 行政管理 北京 历史类 文科 北京 行政管理 211/双一流" data-case-year="2024" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">罗</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">罗欣悦</span>
+      <span class="fy-case-card-year">2024 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">北京科技大学</h3>
+    <div class="fy-case-card-major">行政管理</div>
+    <div class="fy-case-card-major-score">高考 597 分 · 全省第 2100 名</div>
+    <div class="fy-case-card-summary">
+      可以慢下来，但是千万不能停下来，未来是无限的
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">北京</span>
+    <span class="fy-tag">行政管理</span>
+    <span class="fy-tag">211/双一流</span>
+  </div>
+  <a href="2024/罗欣悦-北京科技大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="3b3cda90f90363bd" aria-label="阅读罗欣悦的北京科技大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="28b516ed9cbe1772" data-case-search="雯棋 中央财经大学 财税 北京 物理类 文科 理科 商科 跨省 海外 北京 财税 211/双一流" data-case-year="2024" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">雯</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">雯棋</span>
+      <span class="fy-case-card-year">2024 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中央财经大学</h3>
+    <div class="fy-case-card-major">财税</div>
+    <div class="fy-case-card-major-score">高考 630 分 · 全省第 5000 名</div>
+    <div class="fy-case-card-summary">
+      有自己的想法，别被网络或者大环境带节奏
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">跨省</span>
+  </div>
+  <a href="2024/雯棋-中央财经大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="28b516ed9cbe1772" aria-label="阅读雯棋的中央财经大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="738ea43fcbe5d1eb" data-case-search="1 哈尔滨工业大学 土木工程 其他（可以填写省份） 物理类 理科 工科 其他（可以填写省份） 土木工程 985" data-case-year="2023" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">1</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">1</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">哈尔滨工业大学</h3>
+    <div class="fy-case-card-major">土木工程</div>
+    <div class="fy-case-card-major-score">成绩信息未提供</div>
+    <div class="fy-case-card-summary">
+      加油
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">其他（可以填写省份）</span>
+    <span class="fy-tag">土木工程</span>
+  </div>
+  <a href="2023/1-哈尔滨工业大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="738ea43fcbe5d1eb" aria-label="阅读1的哈尔滨工业大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="5fd70b7687f4259c" data-case-search="GL 电子科技大学 电子信息工程 西南 物理类 工科 西南 电子信息工程 985" data-case-year="2023" data-case-group="物理类">
   <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">G</div>
     <div class="fy-case-card-meta">
@@ -101,10 +653,11 @@ description: 浏览所有州民中校友升学案例。
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">电子科技大学 · 电子信息工程</div>
+    <h3 class="fy-case-card-school">电子科技大学</h3>
+    <div class="fy-case-card-major">电子信息工程</div>
     <div class="fy-case-card-major-score">高考 647 分 · 全省第 2600 名</div>
     <div class="fy-case-card-summary">
-      "世界那么大，我却只是路过，周边那么小，但那确是我的人生。"
+      世界那么大，我却只是路过，周边那么小，但那确是我的人生。
     </div>
   </div>
   <div class="fy-case-card-tags">
@@ -113,33 +666,104 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">电子信息工程</span>
     <span class="fy-tag">985</span>
   </div>
-  <a href="2023/GL-电子科技大学/" class="fy-case-card-link">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
+  <a href="2023/GL-电子科技大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="5fd70b7687f4259c" aria-label="阅读GL的电子科技大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="6a41d02282e758f3" data-case-search="Hpc 内蒙古科技大学 冶金工程（稀土材料工程） 内蒙古 物理类 工科 跨省 内蒙古 冶金工程（稀土材料工程）" data-case-year="2023" data-case-group="物理类">
   <div class="fy-case-card-header">
-    <div class="fy-case-card-avatar">宋</div>
+    <div class="fy-case-card-avatar">H</div>
     <div class="fy-case-card-meta">
-      <span class="fy-case-card-name">宋泽熙</span>
-      <span class="fy-case-card-year">2020 届 · 历史类</span>
+      <span class="fy-case-card-name">Hpc</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">中央民族大学 · 少数民族预科班/中国史</div>
-    <div class="fy-case-card-major-score">高考 603 分 · 全省第 1500 名</div>
+    <h3 class="fy-case-card-school">内蒙古科技大学</h3>
+    <div class="fy-case-card-major">冶金工程（稀土材料工程）</div>
+    <div class="fy-case-card-major-score">全省第 50000 名</div>
     <div class="fy-case-card-summary">
-      "加油，再坚持一下。走出这座屋子，外面就是属于你的广阔天空。"
+      路怎么走还是要自己说了算
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">内蒙古</span>
+    <span class="fy-tag">冶金工程（稀土材料工程）</span>
+  </div>
+  <a href="2023/Hpc-内蒙古科技大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="6a41d02282e758f3" aria-label="阅读Hpc的内蒙古科技大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="bc2af4e167535cdd" data-case-search="k1v 清华大学 机械工程 -&gt; 自动化（转专业） 北京 物理类 985 理工 跨省 北京" data-case-year="2023" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">k</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">k1v</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">清华大学</h3>
+    <div class="fy-case-card-major">机械工程 -&gt; 自动化（转专业）</div>
+    <div class="fy-case-card-major-score">高考 687 分 · 全省第 61 名</div>
+    <div class="fy-case-card-summary">
+      不要怕走弯路，但在做决定之前，请先把能看的路都认真看一遍。选择之后，也不要反复美化那些没有走上的路；把脚下这条路走深、走稳，本身就是一种很重要的能力。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">985</span>
+    <span class="fy-tag">理工</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">北京</span>
+  </div>
+  <a href="2023/k1v-清华大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="bc2af4e167535cdd" aria-label="阅读k1v的清华大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="104fbe1d8d77bec2" data-case-search="sato 四川美术学院 中国画 重庆 历史类 艺术 重庆 中国画" data-case-year="2023" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">s</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">sato</span>
+      <span class="fy-case-card-year">2023 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">四川美术学院</h3>
+    <div class="fy-case-card-major">中国画</div>
+    <div class="fy-case-card-major-score">高考 419 分</div>
+    <div class="fy-case-card-summary">
+      不要在意一时的好坏，说不定你的潜力还在后面。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">重庆</span>
+    <span class="fy-tag">中国画</span>
+  </div>
+  <a href="2023/sato-四川美术学院/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="104fbe1d8d77bec2" aria-label="阅读sato的四川美术学院案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="d1cdff730c2498bc" data-case-search="susu 中南财经政法大学 会计 华中 历史类 文科 华中 会计 211/双一流" data-case-year="2023" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">s</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">susu</span>
+      <span class="fy-case-card-year">2023 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中南财经政法大学</h3>
+    <div class="fy-case-card-major">会计</div>
+    <div class="fy-case-card-major-score">高考 584 分 · 全省第 2000 名</div>
+    <div class="fy-case-card-summary">
+      珍惜高中生活
     </div>
   </div>
   <div class="fy-case-card-tags">
     <span class="fy-tag">文科</span>
-    <span class="fy-tag">跨省</span>
-    <span class="fy-tag">北京</span>
-    <span class="fy-tag">少数民族预科班/中国史</span>
-    <span class="fy-tag">985</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">会计</span>
+    <span class="fy-tag">211/双一流</span>
   </div>
-  <a href="earlier/宋泽熙-中央民族大学/" class="fy-case-card-link">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
+  <a href="2023/susu-中南财经政法大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="d1cdff730c2498bc" aria-label="阅读susu的中南财经政法大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="fe75d94ab8007bba" data-case-search="y 西北民族大学 自动化 西北 物理类 工科 跨省 西北 自动化" data-case-year="2023" data-case-group="物理类">
   <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">y</div>
     <div class="fy-case-card-meta">
@@ -148,10 +772,11 @@ description: 浏览所有州民中校友升学案例。
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">西北民族大学 · 自动化</div>
-    <div class="fy-case-card-major-score">高考 0 分 · 全省第 n 名</div>
+    <h3 class="fy-case-card-school">西北民族大学</h3>
+    <div class="fy-case-card-major">自动化</div>
+    <div class="fy-case-card-major-score">成绩信息未提供</div>
     <div class="fy-case-card-summary">
-      "恭喜你们进入人生的新阶段，未来的日子就在自己的手中，你想怎么过，你想得到什么，真的全靠自己的安排和想法了。希望大家永远都能保持上进努力的心态。不要自己放弃自己。"
+      恭喜你们进入人生的新阶段，未来的日子就在自己的手中，你想怎么过，你想得到什么，真的全靠自己的安排和想法了。希望大家永远都能保持上进努力的心态。不要自己放弃自己。
     </div>
   </div>
   <div class="fy-case-card-tags">
@@ -160,9 +785,704 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">西北</span>
     <span class="fy-tag">自动化</span>
   </div>
-  <a href="2023/y-西北民族大学/" class="fy-case-card-link">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
+  <a href="2023/y-西北民族大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="fe75d94ab8007bba" aria-label="阅读y的西北民族大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="eca7f1945854a351" data-case-search="全昌正 复旦大学 数学与应用数学 上海 物理类 理科 海外 上海 数学与应用数学 985" data-case-year="2023" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">全</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">全昌正</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">复旦大学</h3>
+    <div class="fy-case-card-major">数学与应用数学</div>
+    <div class="fy-case-card-major-score">高考 680 分 · 全省第 100 名</div>
+    <div class="fy-case-card-summary">
+      这个人很懒，不知道写什么
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">海外</span>
+    <span class="fy-tag">上海</span>
+    <span class="fy-tag">数学与应用数学</span>
+  </div>
+  <a href="2023/全昌正-复旦大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="eca7f1945854a351" aria-label="阅读全昌正的复旦大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="a3878c5b0d33e5d8" data-case-search="冯军 湖南师范大学 临床医学 华中 物理类 医学 本省 华中 临床医学 211/双一流" data-case-year="2023" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">冯</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">冯军</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南师范大学</h3>
+    <div class="fy-case-card-major">临床医学</div>
+    <div class="fy-case-card-major-score">高考 590 分 · 全省第 19000 名</div>
+    <div class="fy-case-card-summary">
+      太阳次日照常升起
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">临床医学</span>
+  </div>
+  <a href="2023/冯军-湖南师范大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="a3878c5b0d33e5d8" aria-label="阅读冯军的湖南师范大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="eed1f3f7badf150d" data-case-search="唐 湖南大学 电气工程及其自动化（转专业前为金融） 华中 物理类 工科 本省 华中 电气工程及其自动化（转专业前为金融） 985" data-case-year="2023" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">唐</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">唐</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南大学</h3>
+    <div class="fy-case-card-major">电气工程及其自动化（转专业前为金融）</div>
+    <div class="fy-case-card-major-score">高考 623 分 · 全省第 7000 名</div>
+    <div class="fy-case-card-summary">
+      越过山丘，却发现无人守候
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">电气工程及其自动化（转专业前为金融）</span>
+  </div>
+  <a href="2023/唐-湖南大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="eed1f3f7badf150d" aria-label="阅读唐的湖南大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="2dc54299b00321f1" data-case-search="小羊 北京师范大学 地理科学（优师） 珠三角 物理类 理科 跨省 珠三角 地理科学（优师） 985" data-case-year="2023" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">小</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">小羊</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">北京师范大学</h3>
+    <div class="fy-case-card-major">地理科学（优师）</div>
+    <div class="fy-case-card-major-score">高考 606 分 · 全省第 13000 名</div>
+    <div class="fy-case-card-summary">
+      做到自己能做的最好，不要担心没有发生的意外！要对自己有信心，每一个人都有自己应该走的路
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">珠三角</span>
+    <span class="fy-tag">地理科学（优师）</span>
+  </div>
+  <a href="2023/小羊-北京师范大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="2dc54299b00321f1" aria-label="阅读小羊的北京师范大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="f5be8b0cda2f32a8" data-case-search="张少堃 武汉大学 生物科学类 华中 物理类 理科 华中 生物科学类 985" data-case-year="2023" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">张</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">张少堃</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">武汉大学</h3>
+    <div class="fy-case-card-major">生物科学类</div>
+    <div class="fy-case-card-major-score">高考 649 分 · 全省第 2000 名</div>
+    <div class="fy-case-card-summary">
+      进入大学是进入了一个人生的新阶段，做好这个阶段你认为该做好的事，这就够了（要有一个大致的规划，或长或短）
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">生物科学类</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="2023/张少堃-武汉大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="f5be8b0cda2f32a8" aria-label="阅读张少堃的武汉大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="1274713539b26512" data-case-search="李政润 中山大学 数学与应用数学 珠三角 物理类 理科 跨省 珠三角 数学与应用数学 985" data-case-year="2023" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">李</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">李政润</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中山大学</h3>
+    <div class="fy-case-card-major">数学与应用数学</div>
+    <div class="fy-case-card-major-score">高考 654 分 · 全省第 1500 名</div>
+    <div class="fy-case-card-summary">
+      享受十八岁的夏天吧
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">珠三角</span>
+    <span class="fy-tag">数学与应用数学</span>
+  </div>
+  <a href="2023/李政润-中山大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="1274713539b26512" aria-label="阅读李政润的中山大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="b6d0fe78d46174ad" data-case-search="李昕峰 重庆交通大学 机械设计制造及其自动化（卓越工程师班） 西南 物理类 工科 跨省 西南 机械 自动化" data-case-year="2023" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">李</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">李昕峰</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">重庆交通大学</h3>
+    <div class="fy-case-card-major">机械设计制造及其自动化（卓越工程师班）</div>
+    <div class="fy-case-card-major-score">高考 563 分 · 全省第 33492 名</div>
+    <div class="fy-case-card-summary">
+      &quot;不要畏惧新世界，去体验，去拼搏
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">机械</span>
+  </div>
+  <a href="2023/李昕峰-重庆交通大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="b6d0fe78d46174ad" aria-label="阅读李昕峰的重庆交通大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="cbc0d797695907a9" data-case-search="杜崇乾 西安交通大学 人工智能 西北 物理类 文科 理科 工科 医学 商科 跨省 西北 人工智能 985" data-case-year="2023" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">杜</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">杜崇乾</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">西安交通大学</h3>
+    <div class="fy-case-card-major">人工智能</div>
+    <div class="fy-case-card-major-score">成绩信息未提供</div>
+    <div class="fy-case-card-summary">
+      活在当下，造福大家，实现理想！
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">医学</span>
+  </div>
+  <a href="2023/杜崇乾-西安交通大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="cbc0d797695907a9" aria-label="阅读杜崇乾的西安交通大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="8999de2a50230a79" data-case-search="田辉 长沙理工大学 电气工程及其自动化 华中 物理类 工科 本省 华中 电气工程及其自动化" data-case-year="2023" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">田</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">田辉</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">长沙理工大学</h3>
+    <div class="fy-case-card-major">电气工程及其自动化</div>
+    <div class="fy-case-card-major-score">高考 604 分 · 全省第 13000 名</div>
+    <div class="fy-case-card-summary">
+      别浪费时间就好
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">电气工程及其自动化</span>
+  </div>
+  <a href="2023/田辉-长沙理工大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="8999de2a50230a79" aria-label="阅读田辉的长沙理工大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="352d2af3ac825d64" data-case-search="覃哥 西安交通大学 人工智能 西北 物理类 文科 理科 工科 艺术 西北 人工智能 985" data-case-year="2023" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">覃</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">覃哥</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">西安交通大学</h3>
+    <div class="fy-case-card-major">人工智能</div>
+    <div class="fy-case-card-major-score">成绩信息未提供</div>
+    <div class="fy-case-card-summary">
+      加油！
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">艺术</span>
+  </div>
+  <a href="2023/覃哥-西安交通大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="352d2af3ac825d64" aria-label="阅读覃哥的西安交通大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="74d1d69b126ff3ff" data-case-search="青 南京医科大学 临床医学 长三角 物理类 理科 医学 跨省 长三角 临床医学 211/双一流" data-case-year="2023" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">青</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">青</span>
+      <span class="fy-case-card-year">2023 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">南京医科大学</h3>
+    <div class="fy-case-card-major">临床医学</div>
+    <div class="fy-case-card-major-score">高考 642 分 · 全省第 3400 名</div>
+    <div class="fy-case-card-summary">
+      临床医学毁了我的985梦。但也赋予了我新生。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">长三角</span>
+  </div>
+  <a href="2023/青-南京医科大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="74d1d69b126ff3ff" aria-label="阅读青的南京医科大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="fedcc6e1e22aeff0" data-case-search="Sophie 复旦大学 广播电视学 上海 历史类 文科 跨省 上海 广播电视学 985" data-case-year="2022" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">S</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">Sophie</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">复旦大学</h3>
+    <div class="fy-case-card-major">广播电视学</div>
+    <div class="fy-case-card-major-score">高考 638 分 · 全省第 54 名</div>
+    <div class="fy-case-card-summary">
+      世界有浮力 放松 就能被托举
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">上海</span>
+    <span class="fy-tag">广播电视学</span>
+  </div>
+  <a href="earlier/Sophie-复旦大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="fedcc6e1e22aeff0" aria-label="阅读Sophie的复旦大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="c7f4564da8cb5186" data-case-search="w27 中央美术学院 艺术管理 上海 历史类 文科 跨省 海外 上海 艺术管理 211/双一流" data-case-year="2022" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">w</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">w27</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中央美术学院</h3>
+    <div class="fy-case-card-major">艺术管理</div>
+    <div class="fy-case-card-major-score">高考 482 分 · 全省第 25421 名</div>
+    <div class="fy-case-card-summary">
+      自由、肆意、快乐地生活吧
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">海外</span>
+    <span class="fy-tag">上海</span>
+  </div>
+  <a href="earlier/w27-中央美术学院/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="c7f4564da8cb5186" aria-label="阅读w27的中央美术学院案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="d48150a28730dea0" data-case-search="yyt 四川大学 电气工程及其自动化 西南 物理类 工科 跨省 西南 电气工程及其自动化 985" data-case-year="2022" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">y</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">yyt</span>
+      <span class="fy-case-card-year">2022 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">四川大学</h3>
+    <div class="fy-case-card-major">电气工程及其自动化</div>
+    <div class="fy-case-card-major-score">高考 615 分 · 全省第 4500 名</div>
+    <div class="fy-case-card-summary">
+      加油，好好享受本科生活，这是你人生最美好的四年
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">电气工程及其自动化</span>
+  </div>
+  <a href="earlier/yyt-四川大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="d48150a28730dea0" aria-label="阅读yyt的四川大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="be8599123df2d2d9" data-case-search="北长尾山雀 西南民族大学 日语 西南 历史类 文科 跨省 西南 日语" data-case-year="2022" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">北</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">北长尾山雀</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">西南民族大学</h3>
+    <div class="fy-case-card-major">日语</div>
+    <div class="fy-case-card-major-score">高考 531 分 · 全省第 10000 名</div>
+    <div class="fy-case-card-summary">
+      好好生活，保持愉快心情ˆ ˆ
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">日语</span>
+  </div>
+  <a href="earlier/北长尾山雀-西南民族大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="be8599123df2d2d9" aria-label="阅读北长尾山雀的西南民族大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="2d3b78f68a23a911" data-case-search="大豆 中央财经大学 贸易经济 北京 历史类 商科 跨省 北京 贸易经济 211/双一流" data-case-year="2022" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">大</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">大豆</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中央财经大学</h3>
+    <div class="fy-case-card-major">贸易经济</div>
+    <div class="fy-case-card-major-score">高考 612 分 · 全省第 450 名</div>
+    <div class="fy-case-card-summary">
+      好好学习，天天向上
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">北京</span>
+    <span class="fy-tag">贸易经济</span>
+  </div>
+  <a href="earlier/大豆-中央财经大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="2d3b78f68a23a911" aria-label="阅读大豆的中央财经大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="5ee459bc087f93b2" data-case-search="小丁 江汉大学 药学 华中 物理类 理科 医学 跨省 华中 药学" data-case-year="2022" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">小</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">小丁</span>
+      <span class="fy-case-card-year">2022 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">江汉大学</h3>
+    <div class="fy-case-card-major">药学</div>
+    <div class="fy-case-card-major-score">高考 528 分 · 全省第 32000 名</div>
+    <div class="fy-case-card-summary">
+      关关难过关关过
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">华中</span>
+  </div>
+  <a href="earlier/小丁-江汉大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="5ee459bc087f93b2" aria-label="阅读小丁的江汉大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="fc9ba443dc39fc0e" data-case-search="张张 华南理工大学 经济学 珠三角 历史类 文科 跨省 珠三角 经济学 985" data-case-year="2022" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">张</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">张张</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">华南理工大学</h3>
+    <div class="fy-case-card-major">经济学</div>
+    <div class="fy-case-card-major-score">高考 597 分 · 全省第 1104 名</div>
+    <div class="fy-case-card-summary">
+      相信自己，未来可期～
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">珠三角</span>
+    <span class="fy-tag">经济学</span>
+  </div>
+  <a href="earlier/张张-华南理工大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="fc9ba443dc39fc0e" aria-label="阅读张张的华南理工大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="bd1a750df2cf531a" data-case-search="张智豪 华东师范大学 微电子科学与工程 上海 物理类 理科 上海 微电子科学与工程 985" data-case-year="2022" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">张</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">张智豪</span>
+      <span class="fy-case-card-year">2022 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">华东师范大学</h3>
+    <div class="fy-case-card-major">微电子科学与工程</div>
+    <div class="fy-case-card-major-score">高考 617 分 · 全省第 1000 名</div>
+    <div class="fy-case-card-summary">
+      道路是曲折的，人生并没有固定答案，找到你想做的，并在上面花时间，才能过得快乐
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">上海</span>
+    <span class="fy-tag">微电子科学与工程</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="earlier/张智豪-华东师范大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="bd1a750df2cf531a" aria-label="阅读张智豪的华东师范大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="a85d90d94b4f433c" data-case-search="总在雨天喂鸡 吉林大学 临床医学 东北 物理类 医学 跨省 东北 临床医学 985" data-case-year="2022" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">总</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">总在雨天喂鸡</span>
+      <span class="fy-case-card-year">2022 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">吉林大学</h3>
+    <div class="fy-case-card-major">临床医学</div>
+    <div class="fy-case-card-major-score">高考 579 分 · 全省第 16000 名</div>
+    <div class="fy-case-card-summary">
+      好好享受自己的大学生活吧
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">东北</span>
+    <span class="fy-tag">临床医学</span>
+  </div>
+  <a href="earlier/总在雨天喂鸡-吉林大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="a85d90d94b4f433c" aria-label="阅读总在雨天喂鸡的吉林大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="c2841d7733b2e10b" data-case-search="月 吉首大学 法学 湖南 历史类 文科 湖南 法学" data-case-year="2022" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">月</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">月</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">吉首大学</h3>
+    <div class="fy-case-card-major">法学</div>
+    <div class="fy-case-card-major-score">高考 505 分</div>
+    <div class="fy-case-card-summary">
+      希望各位前程似锦，能在喜欢的专业发光发热。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">湖南</span>
+    <span class="fy-tag">法学</span>
+  </div>
+  <a href="earlier/月-吉首大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="c2841d7733b2e10b" aria-label="阅读月的吉首大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="b260f6ad02438aa2" data-case-search="木哇 北京工业大学 数字媒体艺术 北京 历史类 文科 跨省 北京 数字媒体艺术 211/双一流" data-case-year="2022" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">木</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">木哇</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">北京工业大学</h3>
+    <div class="fy-case-card-major">数字媒体艺术</div>
+    <div class="fy-case-card-major-score">高考 469 分</div>
+    <div class="fy-case-card-summary">
+      热爱会比将就走的更远，爱与梦想都要棋逢对手。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">北京</span>
+    <span class="fy-tag">数字媒体艺术</span>
+  </div>
+  <a href="earlier/木哇-北京工业大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="b260f6ad02438aa2" aria-label="阅读木哇的北京工业大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="992d2ee3bbd6f44a" data-case-search="泡面桶 华中师范大学 思想政治教育 华中 历史类 文科 跨省 华中 思想政治教育 211/双一流" data-case-year="2022" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">泡</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">泡面桶</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">华中师范大学</h3>
+    <div class="fy-case-card-major">思想政治教育</div>
+    <div class="fy-case-card-major-score">高考 600 分 · 全省第 900 名</div>
+    <div class="fy-case-card-summary">
+      “道路也许是曲折的，前途一定是光明的。”
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">思想政治教育</span>
+  </div>
+  <a href="earlier/泡面桶-华中师范大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="992d2ee3bbd6f44a" aria-label="阅读泡面桶的华中师范大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="f1d4969d2fac5aca" data-case-search="洗洁精 湖南工业大学 英语 湖南 历史类 文科 本省 湖南 英语" data-case-year="2022" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">洗</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">洗洁精</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南工业大学</h3>
+    <div class="fy-case-card-major">英语</div>
+    <div class="fy-case-card-major-score">高考 520 分 · 全省第 10000 名</div>
+    <div class="fy-case-card-summary">
+      不要在岔路口犹豫不决。选的不对顶多被一个方向的车撞，在路口一直犹豫的话，就会被两个方向的车撞。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">湖南</span>
+    <span class="fy-tag">英语</span>
+  </div>
+  <a href="earlier/洗洁精-湖南工业大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="f1d4969d2fac5aca" aria-label="阅读洗洁精的湖南工业大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="c4659169555b78cd" data-case-search="洪 中国人民警察大学 公安情报学 河北 历史类 文科 跨省 河北 公安情报学" data-case-year="2022" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">洪</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">洪</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中国人民警察大学</h3>
+    <div class="fy-case-card-major">公安情报学</div>
+    <div class="fy-case-card-major-score">高考 576 分 · 全省第 2800 名</div>
+    <div class="fy-case-card-summary">
+      带着民中那些日常细碎的温暖，去新地方好好生活，去见识更大世界，永远做自在踏实的自己。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">河北</span>
+    <span class="fy-tag">公安情报学</span>
+  </div>
+  <a href="earlier/洪-中国人民警察大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="c4659169555b78cd" aria-label="阅读洪的中国人民警察大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="903740f53134d559" data-case-search="詹童舒 湖南科技大学 经济学 湖南 历史类 商科 本省 湖南 经济学" data-case-year="2022" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">詹</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">詹童舒</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南科技大学</h3>
+    <div class="fy-case-card-major">经济学</div>
+    <div class="fy-case-card-major-score">高考 541 分</div>
+    <div class="fy-case-card-summary">
+      一切都是最好的安排
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">湖南</span>
+    <span class="fy-tag">经济学</span>
+  </div>
+  <a href="earlier/詹童舒-湖南科技大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="903740f53134d559" aria-label="阅读詹童舒的湖南科技大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="ba8701ae50ef3dac" data-case-search="铅笔鼠 中国劳动关系学院 新闻学 北京 历史类 文科 跨省 北京 新闻学" data-case-year="2022" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">铅</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">铅笔鼠</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中国劳动关系学院</h3>
+    <div class="fy-case-card-major">新闻学</div>
+    <div class="fy-case-card-major-score">高考 523 分 · 全省第 15000 名</div>
+    <div class="fy-case-card-summary">
+      人生真的是旷野，大学可以算是自由人生的起点。在大学成绩也不是最重要的，但是成绩好的话可以拿奖学金，还是挺好的呀。高考没考好也不用担心，很多人本科不是好学校但是考研都考到了特别好的学校给自己的履历又添彩的。好好享受青春吧！
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">北京</span>
+    <span class="fy-tag">新闻学</span>
+  </div>
+  <a href="earlier/铅笔鼠-中国劳动关系学院/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="ba8701ae50ef3dac" aria-label="阅读铅笔鼠的中国劳动关系学院案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="a6af4be1194860e3" data-case-search="阿药 湖南科技大学 汉语国际教育 华中 历史类 文科 本省 湖南 汉语国际教育" data-case-year="2022" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">阿</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">阿药</span>
+      <span class="fy-case-card-year">2022 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南科技大学</h3>
+    <div class="fy-case-card-major">汉语国际教育</div>
+    <div class="fy-case-card-major-score">高考 536 分 · 全省第 11000 名</div>
+    <div class="fy-case-card-summary">
+      不要定义自己，你可以成为任何你想成为的自己。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">湖南</span>
+    <span class="fy-tag">汉语国际教育</span>
+  </div>
+  <a href="earlier/阿药-湖南科技大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="a6af4be1194860e3" aria-label="阅读阿药的湖南科技大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="44b4268aeb5d47ce" data-case-search="余白 陕西师范大学 计算机科学与技术 西北 历史类 文科 理科 跨省 西北 计算机科学与技术 211/双一流" data-case-year="2021" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">余</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">余白</span>
+      <span class="fy-case-card-year">2021 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">陕西师范大学</h3>
+    <div class="fy-case-card-major">计算机科学与技术</div>
+    <div class="fy-case-card-major-score">高考 586 分 · 全省第 3000 名</div>
+    <div class="fy-case-card-summary">
+      人生的路很长 不要因为几步慢了就停滞不前
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">西北</span>
+  </div>
+  <a href="earlier/余白-陕西师范大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="44b4268aeb5d47ce" aria-label="阅读余白的陕西师范大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="c0bbc1769a2f4f7a" data-case-search="司蠡 中国刑事警察学院 刑事科学技术 东北 物理类 理科 跨省 东北 刑事科学技术" data-case-year="2021" data-case-group="物理类">
   <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">司</div>
     <div class="fy-case-card-meta">
@@ -171,10 +1491,11 @@ description: 浏览所有州民中校友升学案例。
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">中国刑事警察学院 · 刑事科学技术</div>
-    <div class="fy-case-card-major-score">高考 590 分 · 全省第 n 名</div>
+    <h3 class="fy-case-card-school">中国刑事警察学院</h3>
+    <div class="fy-case-card-major">刑事科学技术</div>
+    <div class="fy-case-card-major-score">高考 590 分</div>
     <div class="fy-case-card-summary">
-      ""亲爱的学弟学妹们："
+      &quot;亲爱的学弟学妹们：
     </div>
   </div>
   <div class="fy-case-card-tags">
@@ -183,9 +1504,79 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">东北</span>
     <span class="fy-tag">刑事科学技术</span>
   </div>
-  <a href="earlier/司蠡-中国刑事警察学院/" class="fy-case-card-link">阅读全文 →</a>
-</div>
-<div class="fy-case-card">
+  <a href="earlier/司蠡-中国刑事警察学院/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="c0bbc1769a2f4f7a" aria-label="阅读司蠡的中国刑事警察学院案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="dde5e963300457f9" data-case-search="苏三三 西北民族大学 汉语言文学 西北 历史类 文科 西北 汉语言文学" data-case-year="2021" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">苏</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">苏三三</span>
+      <span class="fy-case-card-year">2021 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">西北民族大学</h3>
+    <div class="fy-case-card-major">汉语言文学</div>
+    <div class="fy-case-card-major-score">高考 533 分 · 全省第 13000 名</div>
+    <div class="fy-case-card-summary">
+      如果感到迷茫，不用管前面的道路上有什么，先勇敢的迈出第一步你就已经很棒了。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">西北</span>
+    <span class="fy-tag">汉语言文学</span>
+  </div>
+  <a href="earlier/苏三三-西北民族大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="dde5e963300457f9" aria-label="阅读苏三三的西北民族大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="eb02822a6cf39ef9" data-case-search="11 湖南财政经济学院 金融学 华中 艺术类 理科 华中 金融学" data-case-year="2020" data-case-group="艺术类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">1</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">11</span>
+      <span class="fy-case-card-year">2020 届 · 艺术类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南财政经济学院</h3>
+    <div class="fy-case-card-major">金融学</div>
+    <div class="fy-case-card-major-score">高考 529 分 · 全省第 70000 名</div>
+    <div class="fy-case-card-summary">
+      现在的困难在将来看不值一提，永远不要因为困难而害怕，也别害怕老师
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">金融学</span>
+  </div>
+  <a href="earlier/11-湖南财政经济学院/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="eb02822a6cf39ef9" aria-label="阅读11的湖南财政经济学院案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="d2793ca5af44611e" data-case-search="Andrew 哈尔滨工业大学（深圳） 计算机科学 珠三角 物理类 985 理工 跨省 深圳" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">A</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">Andrew</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">哈尔滨工业大学（深圳）</h3>
+    <div class="fy-case-card-major">计算机科学</div>
+    <div class="fy-case-card-major-score">高考 662 分 · 全省第 1254 名</div>
+    <div class="fy-case-card-summary">
+      不要因为来自小地方，就默认自己看不到更大的世界。你能来到这里，说明你已经比很多人勇敢了；你能来到这里和全国各地的优秀青年齐聚一堂，说明你的能力获得了认可。接下来，只需要保持那份勇敢，继续往前走。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">985</span>
+    <span class="fy-tag">理工</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">深圳</span>
+  </div>
+  <a href="earlier/Andrew-哈尔滨工业大学（深圳）/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="d2793ca5af44611e" aria-label="阅读Andrew的哈尔滨工业大学（深圳）案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="df244f81e59c75fe" data-case-search="George 莫纳什大学（Monash University） 经济与金融 墨尔本 物理类 海外 商科 墨尔本" data-case-year="2020" data-case-group="物理类">
   <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">G</div>
     <div class="fy-case-card-meta">
@@ -194,10 +1585,11 @@ description: 浏览所有州民中校友升学案例。
     </div>
   </div>
   <div class="fy-case-card-body">
-    <div class="fy-case-card-school">莫纳什大学（Monash University） · 经济与金融</div>
+    <h3 class="fy-case-card-school">莫纳什大学（Monash University）</h3>
+    <div class="fy-case-card-major">经济与金融</div>
     <div class="fy-case-card-major-score">高考 492 分 · 全省第 95771 名</div>
     <div class="fy-case-card-summary">
-      "不要瞻前顾后，不要顾此失彼，不要畏手畏脚，脚踏实地往前走，未来一定会握在自己的手里。"
+      不要瞻前顾后，不要顾此失彼，不要畏手畏脚，脚踏实地往前走，未来一定会握在自己的手里。
     </div>
   </div>
   <div class="fy-case-card-tags">
@@ -205,86 +1597,1089 @@ description: 浏览所有州民中校友升学案例。
     <span class="fy-tag">商科</span>
     <span class="fy-tag">墨尔本</span>
   </div>
-  <a href="earlier/George-莫纳什大学（Monash University）/" class="fy-case-card-link">阅读全文 →</a>
-</div>
-<!-- /AUTO-GEN: LATEST_CASES -->
-
-</div>
-
----
-
-> 📢 **你是州民中校友？** [分享你的故事 →](../contribute.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <a href="earlier/George-莫纳什大学（Monash University）/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="df244f81e59c75fe" aria-label="阅读George的莫纳什大学（Monash University）案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="952f9ed7a50a0aa1" data-case-search="John 中国矿业大学 能源动力 长三角 物理类 工科 长三角 能源动力 211/双一流" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">J</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">John</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中国矿业大学</h3>
+    <div class="fy-case-card-major">能源动力</div>
+    <div class="fy-case-card-major-score">高考 604 分 · 全省第 13000 名</div>
+    <div class="fy-case-card-summary">
+      好好享受你在大学的一分一秒吧，学弟学妹们，往后当你回想起大学的某一刻，青春年少的你总是站在那儿衡量着过去到现在的距离
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">长三角</span>
+    <span class="fy-tag">能源动力</span>
+    <span class="fy-tag">211/双一流</span>
+  </div>
+  <a href="earlier/John-中国矿业大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="952f9ed7a50a0aa1" aria-label="阅读John的中国矿业大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="c278eb77398c870a" data-case-search="Taylor 杭州电子科技大学 电子信息 长三角 物理类 工科 跨省 长三角 电子信息 一本" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">T</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">Taylor</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">杭州电子科技大学</h3>
+    <div class="fy-case-card-major">电子信息</div>
+    <div class="fy-case-card-major-score">高考 614 分 · 全省第 14000 名</div>
+    <div class="fy-case-card-summary">
+      请珍惜所剩无几的高中时光，以后会一直回忆的，真是人生中最美好的日子，无忧无虑
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">长三角</span>
+    <span class="fy-tag">电子信息</span>
+  </div>
+  <a href="earlier/Taylor-杭州电子科技大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="c278eb77398c870a" aria-label="阅读Taylor的杭州电子科技大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="6aa1dcade8f0efdb" data-case-search="XX 吉首大学 会计学 湖南省吉首市 物理类 商科 本省 湖南省吉首市 会计学" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">X</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">XX</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">吉首大学</h3>
+    <div class="fy-case-card-major">会计学</div>
+    <div class="fy-case-card-major-score">高考 560 分</div>
+    <div class="fy-case-card-summary">
+      高中加油学习多考点分，去理想的大学学理想的专业，感受精彩的人生
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">湖南省吉首市</span>
+    <span class="fy-tag">会计学</span>
+  </div>
+  <a href="earlier/XX-吉首大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="6aa1dcade8f0efdb" aria-label="阅读XX的吉首大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="6d4f7a36cdfba34d" data-case-search="adj 哈尔滨工业大学（深圳） 计算机科学 珠三角 物理类 985 理工 深圳" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">a</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">adj</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">哈尔滨工业大学（深圳）</h3>
+    <div class="fy-case-card-major">计算机科学</div>
+    <div class="fy-case-card-major-score">高考 661 分 · 全省第 1260 名</div>
+    <div class="fy-case-card-summary">
+      —— adj
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">985</span>
+    <span class="fy-tag">理工</span>
+    <span class="fy-tag">深圳</span>
+  </div>
+  <a href="earlier/adj-哈尔滨工业大学（深圳）/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="6d4f7a36cdfba34d" aria-label="阅读adj的哈尔滨工业大学（深圳）案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="06c7a10912ea97d5" data-case-search="chen 华北电力大学 电气工程及其自动化 北京 物理类 理科 工科 跨省 北京 电气工程及其自动化 211/双一流" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">c</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">chen</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">华北电力大学</h3>
+    <div class="fy-case-card-major">电气工程及其自动化</div>
+    <div class="fy-case-card-major-score">高考 633 分 · 全省第 6000 名</div>
+    <div class="fy-case-card-summary">
+      加油是自己的就是最适合自己的，沉得住气做大事，时间会改变一切。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">北京</span>
+  </div>
+  <a href="earlier/chen-华北电力大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="06c7a10912ea97d5" aria-label="阅读chen的华北电力大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="a9927ba6625ab348" data-case-search="summer 华中科技大学 电子信息工程 华中 物理类 工科 华中 电子信息工程 985" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">s</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">summer</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">华中科技大学</h3>
+    <div class="fy-case-card-major">电子信息工程</div>
+    <div class="fy-case-card-major-score">高考 657 分 · 全省第 1700 名</div>
+    <div class="fy-case-card-summary">
+      请永远相信自己，不要因为一时的困难而气馁，流水不争先。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">电子信息工程</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="earlier/summer-华中科技大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="a9927ba6625ab348" aria-label="阅读summer的华中科技大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="ab273391b118679d" data-case-search="thyme 华中科技大学 工程力学 华中 物理类 理科 跨省 华中 工程力学 985" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">t</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">thyme</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">华中科技大学</h3>
+    <div class="fy-case-card-major">工程力学</div>
+    <div class="fy-case-card-major-score">高考 631 分 · 全省第 2000 名</div>
+    <div class="fy-case-card-summary">
+      慢慢来，未来可期
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">工程力学</span>
+  </div>
+  <a href="earlier/thyme-华中科技大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="ab273391b118679d" aria-label="阅读thyme的华中科技大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="eb3931a97eb113e3" data-case-search="tsl 大连海事大学 地理信息科学 东北 物理类 理科 跨省 东北 地理信息科学 211/双一流" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">t</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">tsl</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">大连海事大学</h3>
+    <div class="fy-case-card-major">地理信息科学</div>
+    <div class="fy-case-card-major-score">高考 592 分 · 全省第 15000 名</div>
+    <div class="fy-case-card-summary">
+      最近看到的很喜欢的一句话:Tomorrow is a new day.不管当下如何，明天又会是新的一天。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">东北</span>
+    <span class="fy-tag">地理信息科学</span>
+  </div>
+  <a href="earlier/tsl-大连海事大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="eb3931a97eb113e3" aria-label="阅读tsl的大连海事大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="e03525a4da5a9516" data-case-search="vv 上海立信会计金融学院 商科 上海 历史类 文科 商科 跨省 上海" data-case-year="2020" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">v</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">vv</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">上海立信会计金融学院</h3>
+    <div class="fy-case-card-major">商科</div>
+    <div class="fy-case-card-major-score">高考 590 分 · 全省第 5000 名</div>
+    <div class="fy-case-card-summary">
+      冷静权衡、充分斟酌后所选的路，便是最好的路，不美化自己没走过的路，follow your heart每条路都能走出繁花。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">上海</span>
+  </div>
+  <a href="earlier/vv-上海立信会计金融学院/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="e03525a4da5a9516" aria-label="阅读vv的上海立信会计金融学院案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="c5e596d2c05de24e" data-case-search="三分高手 西南财经大学 金融数学（中美双学位） 四川 物理类 理科 商科 海外 跨省 四川 金融数学（中美双学位） 211/双一流" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">三</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">三分高手</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">西南财经大学</h3>
+    <div class="fy-case-card-major">金融数学（中美双学位）</div>
+    <div class="fy-case-card-major-score">高考 614 分</div>
+    <div class="fy-case-card-summary">
+      多接触，多感悟。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">海外</span>
+    <span class="fy-tag">跨省</span>
+  </div>
+  <a href="earlier/三分高手-西南财经大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="c5e596d2c05de24e" aria-label="阅读三分高手的西南财经大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="0ec2718dcc9b31c5" data-case-search="二白 湖南中医药大学 中医学 湖南 历史类 文科 医学 湖南 中医学" data-case-year="2020" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">二</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">二白</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南中医药大学</h3>
+    <div class="fy-case-card-major">中医学</div>
+    <div class="fy-case-card-major-score">高考 568 分</div>
+    <div class="fy-case-card-summary">
+      未来可期，人生的选择还有很多，不要着眼一时成败得是，保持快乐
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">湖南</span>
+    <span class="fy-tag">中医学</span>
+  </div>
+  <a href="earlier/二白-湖南中医药大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="0ec2718dcc9b31c5" aria-label="阅读二白的湖南中医药大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="70c539838cd37913" data-case-search="刘高慧 怀化学院 法学 华中 历史类 文科 体育 华中 法学" data-case-year="2020" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">刘</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">刘高慧</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">怀化学院</h3>
+    <div class="fy-case-card-major">法学</div>
+    <div class="fy-case-card-major-score">高考 536 分 · 全省第 110000 名</div>
+    <div class="fy-case-card-summary">
+      进入大学也不能放松学习
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">体育</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">法学</span>
+  </div>
+  <a href="earlier/刘高慧-怀化学院/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="70c539838cd37913" aria-label="阅读刘高慧的怀化学院案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="a4d8b78fa40dce47" data-case-search="匿名 中南民族大学 财务管理 华中 物理类 文科 理科 医学 商科 跨省 华中 财务管理" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">匿</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">匿名</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中南民族大学</h3>
+    <div class="fy-case-card-major">财务管理</div>
+    <div class="fy-case-card-major-score">高考 509 分 · 全省第 30000 名</div>
+    <div class="fy-case-card-summary">
+      大学好好玩的同时也依旧要好好学哦
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">商科</span>
+  </div>
+  <a href="earlier/匿名-中南民族大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="a4d8b78fa40dce47" aria-label="阅读匿名的中南民族大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="e984a02faf515796" data-case-search="向柒霖 吉首大学 新闻学 湖南 历史类 文科 本省 湖南 新闻学" data-case-year="2020" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">向</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">向柒霖</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">吉首大学</h3>
+    <div class="fy-case-card-major">新闻学</div>
+    <div class="fy-case-card-major-score">高考 553 分 · 全省第 16000 名</div>
+    <div class="fy-case-card-summary">
+      加油吧！
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">湖南</span>
+    <span class="fy-tag">新闻学</span>
+  </div>
+  <a href="earlier/向柒霖-吉首大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="e984a02faf515796" aria-label="阅读向柒霖的吉首大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="97e53b9260c58e5e" data-case-search="呃嗯同学 北华大学 康复 东北 物理类 理科 东北 康复" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">呃</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">呃嗯同学</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">北华大学</h3>
+    <div class="fy-case-card-major">康复</div>
+    <div class="fy-case-card-major-score">高考 497 分 · 全省第 80000 名</div>
+    <div class="fy-case-card-summary">
+      好好享受大学时光吧，上班了真的想死
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">东北</span>
+    <span class="fy-tag">康复</span>
+  </div>
+  <a href="earlier/呃嗯同学-北华大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="97e53b9260c58e5e" aria-label="阅读呃嗯同学的北华大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="b8015920bf7d8810" data-case-search="嗯嗯不知道 西南交通大学 数学/基础数学/算术几何和代数几何 珠三角 物理类 理科 跨省 珠三角 数学/基础数学/算术几何和代数几何 211/双一流" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">嗯</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">嗯嗯不知道</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">西南交通大学</h3>
+    <div class="fy-case-card-major">数学/基础数学/算术几何和代数几何</div>
+    <div class="fy-case-card-major-score">高考 599 分 · 全省第 9300 名</div>
+    <div class="fy-case-card-summary">
+      希望后来的你们也都找到了自己喜欢的专业，在各自的领域闪闪发光。请大家无论在什么时候都要对自己保持信心，都要毫无条件地，无所保留地相信你自己。然后去成为想成为的人，走出大山，走的更远，去看到这个世界的每一面。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">珠三角</span>
+    <span class="fy-tag">数学/基础数学/算术几何和代数几何</span>
+  </div>
+  <a href="earlier/嗯嗯不知道-西南交通大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="b8015920bf7d8810" aria-label="阅读嗯嗯不知道的西南交通大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="b8aca812cdf2d4b2" data-case-search="大学浪子 中南财经政法大学 会计 长三角 物理类 商科 长三角 会计 211/双一流" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">大</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">大学浪子</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中南财经政法大学</h3>
+    <div class="fy-case-card-major">会计</div>
+    <div class="fy-case-card-major-score">高考 597 分 · 全省第 15000 名</div>
+    <div class="fy-case-card-summary">
+      加油
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">长三角</span>
+    <span class="fy-tag">会计</span>
+    <span class="fy-tag">211/双一流</span>
+  </div>
+  <a href="earlier/大学浪子-中南财经政法大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="b8aca812cdf2d4b2" aria-label="阅读大学浪子的中南财经政法大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="ad3c34ad041ec9fd" data-case-search="宋泽熙 中央民族大学 少数民族预科班/中国史 北京 历史类 文科 跨省 北京 少数民族预科班/中国史 985" data-case-year="2020" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">宋</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">宋泽熙</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中央民族大学</h3>
+    <div class="fy-case-card-major">少数民族预科班/中国史</div>
+    <div class="fy-case-card-major-score">高考 603 分 · 全省第 1500 名</div>
+    <div class="fy-case-card-summary">
+      加油，再坚持一下。走出这座屋子，外面就是属于你的广阔天空。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">北京</span>
+    <span class="fy-tag">少数民族预科班/中国史</span>
+  </div>
+  <a href="earlier/宋泽熙-中央民族大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="ad3c34ad041ec9fd" aria-label="阅读宋泽熙的中央民族大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="8ca1c6ed53ccef71" data-case-search="小飞机 湖南大学 预科到电气工程及其自动化 华中 物理类 工科 本省 华中 预科到电气工程及其自动化 985" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">小</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">小飞机</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南大学</h3>
+    <div class="fy-case-card-major">预科到电气工程及其自动化</div>
+    <div class="fy-case-card-major-score">高考 595 分 · 全省第 9000 名</div>
+    <div class="fy-case-card-summary">
+      人就是这样，想来想去，犹豫来犹豫去，觉得自己还没有准备好，勇气没有攒够，其实只要迈出去第一步，你就会发现一切早就已经准备好了。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">预科到电气工程及其自动化</span>
+  </div>
+  <a href="earlier/小飞机-湖南大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="8ca1c6ed53ccef71" aria-label="阅读小飞机的湖南大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="581434c0c5e8d325" data-case-search="挽风 湘西民族职业技术学院 畜牧兽医 湖南湘西 物理类 理科 本省 湖南湘西 畜牧兽医" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">挽</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">挽风</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湘西民族职业技术学院</h3>
+    <div class="fy-case-card-major">畜牧兽医</div>
+    <div class="fy-case-card-major-score">高考 439 分</div>
+    <div class="fy-case-card-summary">
+      &quot;人生或许有遗憾，但奋斗过的青春一定是最美的。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">湖南湘西</span>
+    <span class="fy-tag">畜牧兽医</span>
+  </div>
+  <a href="earlier/挽风-湘西民族职业技术学院/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="581434c0c5e8d325" aria-label="阅读挽风的湘西民族职业技术学院案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="bd42d70e33d15885" data-case-search="探险家小田 南京财经大学 会计学 长三角 历史类 文科 商科 艺术 长三角 会计学" data-case-year="2020" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">探</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">探险家小田</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">南京财经大学</h3>
+    <div class="fy-case-card-major">会计学</div>
+    <div class="fy-case-card-major-score">高考 614 分</div>
+    <div class="fy-case-card-summary">
+      不用太在意每一次的得失，所有的经历都有意义，人生一直都是进行时。但无论如何，请永远不要放弃学习。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">长三角</span>
+  </div>
+  <a href="earlier/探险家小田-南京财经大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="bd42d70e33d15885" aria-label="阅读探险家小田的南京财经大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="1ace0c0b80b5a5f5" data-case-search="方正小标宋简体 中南民族大学 法学 华中 历史类 文科 跨省 华中 法学" data-case-year="2020" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">方</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">方正小标宋简体</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中南民族大学</h3>
+    <div class="fy-case-card-major">法学</div>
+    <div class="fy-case-card-major-score">高考 585 分</div>
+    <div class="fy-case-card-summary">
+      你已经很努力了，因上努力果上随缘，每个人都有无限可能，当下不必太过焦虑，走的每一步都算数ˆ_ˆ
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">法学</span>
+  </div>
+  <a href="earlier/方正小标宋简体-中南民族大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="1ace0c0b80b5a5f5" aria-label="阅读方正小标宋简体的中南民族大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="ec3d060043f95003" data-case-search="晞 吉首大学 会计学 湖南 物理类 理科 商科 海外 湖南 会计学" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">晞</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">晞</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">吉首大学</h3>
+    <div class="fy-case-card-major">会计学</div>
+    <div class="fy-case-card-major-score">高考 539 分</div>
+    <div class="fy-case-card-summary">
+      人生是一段长跑，暂时失利并不代表什么。祝愿学弟学妹们金榜题名。长风破浪会有时，直挂云帆济沧海！
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">海外</span>
+    <span class="fy-tag">湖南</span>
+  </div>
+  <a href="earlier/晞-吉首大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="ec3d060043f95003" aria-label="阅读晞的吉首大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="f907e2ccf800d6e3" data-case-search="李三 北方民族大学 行政管理 宁夏 历史类 文科 艺术 宁夏 行政管理" data-case-year="2020" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">李</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">李三</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">北方民族大学</h3>
+    <div class="fy-case-card-major">行政管理</div>
+    <div class="fy-case-card-major-score">高考 551 分 · 全省第 19446 名</div>
+    <div class="fy-case-card-summary">
+      未来皆可期
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">宁夏</span>
+    <span class="fy-tag">行政管理</span>
+  </div>
+  <a href="earlier/李三-北方民族大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="f907e2ccf800d6e3" aria-label="阅读李三的北方民族大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="ba6ee95c6f7df8fc" data-case-search="李颖曦 中南民族大学 会计学 华中 物理类 理科 商科 跨省 华中 会计学" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">李</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">李颖曦</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中南民族大学</h3>
+    <div class="fy-case-card-major">会计学</div>
+    <div class="fy-case-card-major-score">高考 574 分 · 全省第 20000 名</div>
+    <div class="fy-case-card-summary">
+      不知道要去哪先出发就对了
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">华中</span>
+  </div>
+  <a href="earlier/李颖曦-中南民族大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="ba6ee95c6f7df8fc" aria-label="阅读李颖曦的中南民族大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="2d7672514594e156" data-case-search="泠月 吉首大学 公共事业管理 西南 历史类 文科 本省 西南 公共事业管理" data-case-year="2020" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">泠</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">泠月</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">吉首大学</h3>
+    <div class="fy-case-card-major">公共事业管理</div>
+    <div class="fy-case-card-major-score">高考 560 分</div>
+    <div class="fy-case-card-summary">
+      路很长，他们都说一件事不能决定漫长的人生，但是每一个阶段的事都会决定你命运的走向。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">公共事业管理</span>
+  </div>
+  <a href="earlier/泠月-吉首大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="2d7672514594e156" aria-label="阅读泠月的吉首大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="027b43742e521610" data-case-search="芭乐乐茶 湖南工学院 国际经济与贸易 湖南衡阳 历史类 文科 商科 本省 湖南衡阳 国际经济与贸易" data-case-year="2020" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">芭</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">芭乐乐茶</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南工学院</h3>
+    <div class="fy-case-card-major">国际经济与贸易</div>
+    <div class="fy-case-card-major-score">高考 543 分 · 全省第 23000 名</div>
+    <div class="fy-case-card-summary">
+      曾经总是听前辈们说“选择大于努力”，自己不以为然，觉得几个字轻飘飘。如今我也成了前人，只希望自己的又一遍强调能让这句话传到后辈的耳朵时增加一点重量。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">湖南衡阳</span>
+  </div>
+  <a href="earlier/芭乐乐茶-湖南工学院/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="027b43742e521610" aria-label="阅读芭乐乐茶的湖南工学院案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="c8aa71ef2adb7a79" data-case-search="花果山污染 南京审计大学 审计 长三角 历史类 文科 商科 一本 跨省 长三角 审计" data-case-year="2020" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">花</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">花果山污染</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">南京审计大学</h3>
+    <div class="fy-case-card-major">审计</div>
+    <div class="fy-case-card-major-score">高考 625 分 · 全省第 1200 名</div>
+    <div class="fy-case-card-summary">
+      做好自己的抉择，明白自己究竟想要什么，选择了就不要后悔，人要为自己的选择负责。也要珍惜自己的大学生活，平时的成绩不是生活的全部，多去交际交一些知心朋友，多去实习提升自己的实操经验。大学整体来讲比较松散，要有一些自制力，劳逸结合，玩累了之后还是要多计划计划未来。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">一本</span>
+    <span class="fy-tag">跨省</span>
+  </div>
+  <a href="earlier/花果山污染-南京审计大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="c8aa71ef2adb7a79" aria-label="阅读花果山污染的南京审计大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="4643043ffc37d6a9" data-case-search="荔枝 湖南工业大学 计算机科学与技术 长三角 物理类 理科 工科 本省 长三角 计算机科学与技术" data-case-year="2020" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">荔</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">荔枝</span>
+      <span class="fy-case-card-year">2020 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南工业大学</h3>
+    <div class="fy-case-card-major">计算机科学与技术</div>
+    <div class="fy-case-card-major-score">高考 508 分</div>
+    <div class="fy-case-card-summary">
+      勇敢一点
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">长三角</span>
+  </div>
+  <a href="earlier/荔枝-湖南工业大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="4643043ffc37d6a9" aria-label="阅读荔枝的湖南工业大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="d9c0e94dc0bbccbf" data-case-search="菜 西北政法大学 法学 西北 历史类 文科 艺术 西北 法学" data-case-year="2020" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">菜</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">菜</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">西北政法大学</h3>
+    <div class="fy-case-card-major">法学</div>
+    <div class="fy-case-card-major-score">高考 607 分</div>
+    <div class="fy-case-card-summary">
+      大学确实是人生最美好的年华之一，祝愿学弟学妹们保持自信，保持思考，自由自在地探索吧！
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">西北</span>
+    <span class="fy-tag">法学</span>
+  </div>
+  <a href="earlier/菜-西北政法大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="d9c0e94dc0bbccbf" aria-label="阅读菜的西北政法大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="4302199646756708" data-case-search="薯条 湖南女子学院 网新 华中 历史类 文科 华中 网新" data-case-year="2020" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">薯</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">薯条</span>
+      <span class="fy-case-card-year">2020 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南女子学院</h3>
+    <div class="fy-case-card-major">网新</div>
+    <div class="fy-case-card-major-score">高考 500 分</div>
+    <div class="fy-case-card-summary">
+      学好英语，非常非常非常重要
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">网新</span>
+  </div>
+  <a href="earlier/薯条-湖南女子学院/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="4302199646756708" aria-label="阅读薯条的湖南女子学院案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="488918c8841fa1a5" data-case-search="一丁点 中南民族大学 新闻学 华中 历史类 文科 艺术 华中 新闻学" data-case-year="2019" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">一</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">一丁点</span>
+      <span class="fy-case-card-year">2019 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中南民族大学</h3>
+    <div class="fy-case-card-major">新闻学</div>
+    <div class="fy-case-card-major-score">高考 561 分 · 全省第 10000 名</div>
+    <div class="fy-case-card-summary">
+      一切都是最好的安排
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">艺术</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">新闻学</span>
+  </div>
+  <a href="earlier/一丁点-中南民族大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="488918c8841fa1a5" aria-label="阅读一丁点的中南民族大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="3aa73c5c2cc1b3fa" data-case-search="厂工人 广东工业大学 电子信息类-信息工程 珠三角 物理类 工科 跨省 珠三角 电子信息类-信息工程" data-case-year="2019" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">厂</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">厂工人</span>
+      <span class="fy-case-card-year">2019 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">广东工业大学</h3>
+    <div class="fy-case-card-major">电子信息类-信息工程</div>
+    <div class="fy-case-card-major-score">高考 577 分 · 全省第 14000 名</div>
+    <div class="fy-case-card-summary">
+      请记住，一切发生皆有利于自己。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">跨省</span>
+    <span class="fy-tag">珠三角</span>
+    <span class="fy-tag">电子信息类-信息工程</span>
+  </div>
+  <a href="earlier/厂工人-广东工业大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="3aa73c5c2cc1b3fa" aria-label="阅读厂工人的广东工业大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="524073f68d1bc503" data-case-search="李翰林 吉林建筑大学 电气工程及其自动化 东北 物理类 工科 本省 东北 电气工程及其自动化" data-case-year="2019" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">李</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">李翰林</span>
+      <span class="fy-case-card-year">2019 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">吉林建筑大学</h3>
+    <div class="fy-case-card-major">电气工程及其自动化</div>
+    <div class="fy-case-card-major-score">高考 500 分 · 全省第 80000 名</div>
+    <div class="fy-case-card-summary">
+      世界是我们的，也是你们的，但终究是你们的！
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">东北</span>
+    <span class="fy-tag">电气工程及其自动化</span>
+  </div>
+  <a href="earlier/李翰林-吉林建筑大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="524073f68d1bc503" aria-label="阅读李翰林的吉林建筑大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="1a9d7f30987266b9" data-case-search="艾莉芬特 吉首大学 临床医学（农村定向） 湖南 物理类 理科 医学 本省 湖南 临床医学（农村定向）" data-case-year="2019" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">艾</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">艾莉芬特</span>
+      <span class="fy-case-card-year">2019 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">吉首大学</h3>
+    <div class="fy-case-card-major">临床医学（农村定向）</div>
+    <div class="fy-case-card-major-score">高考 499 分 · 全省第 80000 名</div>
+    <div class="fy-case-card-summary">
+      州民中给我留了很多美好的回忆，校园的环境和宿舍条件都很好（宿舍真的要比90%的大学好），有很好的老师，遇到了陪伴了我很久的朋友（直到现在），高中阶段有压力，也有对未来的美好期待。我的大学将近尾声，这四五年的社会化经历让我成长，但是我会无数次想起高中的经历，雨后的民中，早上跑操是晨光从树叶间隙透过照的人闪闪发光，还有被大雪覆盖所有人都在操场打闹的画面...民中是一个很好的地方，希望学弟学妹们能好好感受，给自己留下一些宝贵的回忆
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">湖南</span>
+  </div>
+  <a href="earlier/艾莉芬特-吉首大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="1a9d7f30987266b9" aria-label="阅读艾莉芬特的吉首大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="72fb36c4446d7cd9" data-case-search="ddd 南华大学 法学 华中 历史类 文科 本省 华中 法学" data-case-year="2018" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">d</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">ddd</span>
+      <span class="fy-case-card-year">2018 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">南华大学</h3>
+    <div class="fy-case-card-major">法学</div>
+    <div class="fy-case-card-major-score">高考 583 分 · 全省第 10000 名</div>
+    <div class="fy-case-card-summary">
+      趁年轻有时间赶紧出去玩
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">法学</span>
+  </div>
+  <a href="earlier/ddd-南华大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="72fb36c4446d7cd9" aria-label="阅读ddd的南华大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="887e4dc230ee23a2" data-case-search="石路平 中国人民大学 哲学 北京 历史类 文科 北京 哲学 985" data-case-year="2018" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">石</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">石路平</span>
+      <span class="fy-case-card-year">2018 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">中国人民大学</h3>
+    <div class="fy-case-card-major">哲学</div>
+    <div class="fy-case-card-major-score">高考 673 分 · 全省第 56 名</div>
+    <div class="fy-case-card-summary">
+      以另一种方式思考和生活，既是乐趣，也是责任。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">北京</span>
+    <span class="fy-tag">哲学</span>
+    <span class="fy-tag">985</span>
+  </div>
+  <a href="earlier/石路平-中国人民大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="887e4dc230ee23a2" aria-label="阅读石路平的中国人民大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="f9c5a0657a7d4c08" data-case-search="向星汝 西南民族大学 生物技术 西南 物理类 理科 本省 西南 生物技术" data-case-year="2015" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">向</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">向星汝</span>
+      <span class="fy-case-card-year">2015 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">西南民族大学</h3>
+    <div class="fy-case-card-major">生物技术</div>
+    <div class="fy-case-card-major-score">高考 494 分 · 全省第 50000 名</div>
+    <div class="fy-case-card-summary">
+      &quot;亲爱的学弟学妹们：你们好！高中是非常累的一个时期，毕业11年来，多少次午夜梦回间，梦到我在高考考场，或做不出来题目，或考试迟到。。。有遗憾，有泪水，也有收获。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">生物技术</span>
+  </div>
+  <a href="earlier/向星汝-西南民族大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="f9c5a0657a7d4c08" aria-label="阅读向星汝的西南民族大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="fbcc6955e2262dbd" data-case-search="陈彬 西南大学 历史学（公费师范） 西南 历史类 文科 西南 历史学（公费师范） 211/双一流" data-case-year="2015" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">陈</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">陈彬</span>
+      <span class="fy-case-card-year">2015 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">西南大学</h3>
+    <div class="fy-case-card-major">历史学（公费师范）</div>
+    <div class="fy-case-card-major-score">高考 565 分 · 全省第 3000 名</div>
+    <div class="fy-case-card-summary">
+      永远不要低估一颗想考上理想大学的心。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">西南</span>
+    <span class="fy-tag">历史学（公费师范）</span>
+    <span class="fy-tag">211/双一流</span>
+  </div>
+  <a href="earlier/陈彬-西南大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="fbcc6955e2262dbd" aria-label="阅读陈彬的西南大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="01268b8eddf0718e" data-case-search="张三 湖南大学 土木工程 湖南 物理类 理科 工科 本省 湖南 土木工程 985" data-case-year="2014" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">张</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">张三</span>
+      <span class="fy-case-card-year">2014 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南大学</h3>
+    <div class="fy-case-card-major">土木工程</div>
+    <div class="fy-case-card-major-score">高考 557 分 · 全省第 13000 名</div>
+    <div class="fy-case-card-summary">
+      好好学习，天天向上，享受人生。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">湖南</span>
+  </div>
+  <a href="earlier/张三-湖南大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="01268b8eddf0718e" aria-label="阅读张三的湖南大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="38a6003d810dfcb5" data-case-search="周晶 湖南工业大学 新闻学 湖南省 历史类 文科 本省 湖南省 新闻学" data-case-year="2012" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">周</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">周晶</span>
+      <span class="fy-case-card-year">2012 届 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南工业大学</h3>
+    <div class="fy-case-card-major">新闻学</div>
+    <div class="fy-case-card-major-score">高考 550 分</div>
+    <div class="fy-case-card-summary">
+      一个阶段做一个阶段的事，选好城市，选好专业，享受大学生活（学习、实习、旅游、开黑、谈恋爱能体验的都体验一下）
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">湖南省</span>
+    <span class="fy-tag">新闻学</span>
+  </div>
+  <a href="earlier/周晶-湖南工业大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="38a6003d810dfcb5" aria-label="阅读周晶的湖南工业大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="b24b08430d905a21" data-case-search="肖红 湖南中医药大学 医学影像学 华中 物理类 理科 医学 本省 华中 医学影像学" data-case-year="2011" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">肖</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">肖红</span>
+      <span class="fy-case-card-year">2011 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南中医药大学</h3>
+    <div class="fy-case-card-major">医学影像学</div>
+    <div class="fy-case-card-major-score">高考 520 分</div>
+    <div class="fy-case-card-summary">
+      愿未来活出自己喜欢的生活。
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">医学</span>
+    <span class="fy-tag">本省</span>
+    <span class="fy-tag">华中</span>
+  </div>
+  <a href="earlier/肖红-湖南中医药大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="b24b08430d905a21" aria-label="阅读肖红的湖南中医药大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="c336b7dffede8d5c" data-case-search="浩哥 清华大学 电气工程及自动化 北京 物理类 理科 工科 商科 跨省 北京 电气工程及自动化 985" data-case-year="1998" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">浩</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">浩哥</span>
+      <span class="fy-case-card-year">1998 届 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">清华大学</h3>
+    <div class="fy-case-card-major">电气工程及自动化</div>
+    <div class="fy-case-card-major-score">高考 639 分 · 全省第 100 名</div>
+    <div class="fy-case-card-summary">
+      选择大于努力！开放心态，多试错，多接触，找到自己真正喜欢的方向，形成适合自己的方法论！
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">工科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">跨省</span>
+  </div>
+  <a href="earlier/浩哥-清华大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="c336b7dffede8d5c" aria-label="阅读浩哥的清华大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="873f2c1ea2ac967e" data-case-search="LXY 南华大学 汉语言文学 湖南 历史类 文科 体育 湖南 汉语言文学" data-case-year="0" data-case-group="历史类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">L</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">LXY</span>
+      <span class="fy-case-card-year">届数未提供 · 历史类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">南华大学</h3>
+    <div class="fy-case-card-major">汉语言文学</div>
+    <div class="fy-case-card-major-score">高考 548 分 · 全省第 11000 名</div>
+    <div class="fy-case-card-summary">
+      一定要对自己有规划 分中长期的目标制定 自律时自律 玩乐时玩乐 未来有很多种活法 一定要一直相信自己
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">文科</span>
+    <span class="fy-tag">体育</span>
+    <span class="fy-tag">湖南</span>
+    <span class="fy-tag">汉语言文学</span>
+  </div>
+  <a href="earlier/LXY-南华大学/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="873f2c1ea2ac967e" aria-label="阅读LXY的南华大学案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+<article class="fy-case-card" data-case-id="3022951285c2c4f6" data-case-search="李博依 湖南财政经济学院 金融学 华中 物理类 理科 商科 华中 金融学" data-case-year="0" data-case-group="物理类">
+  <div class="fy-case-card-header">
+    <div class="fy-case-card-avatar">李</div>
+    <div class="fy-case-card-meta">
+      <span class="fy-case-card-name">李博依</span>
+      <span class="fy-case-card-year">届数未提供 · 物理类</span>
+    </div>
+  </div>
+  <div class="fy-case-card-body">
+    <h3 class="fy-case-card-school">湖南财政经济学院</h3>
+    <div class="fy-case-card-major">金融学</div>
+    <div class="fy-case-card-major-score">高考 530 分 · 全省第 70000 名</div>
+    <div class="fy-case-card-summary">
+      加油
+    </div>
+  </div>
+  <div class="fy-case-card-tags">
+    <span class="fy-tag">理科</span>
+    <span class="fy-tag">商科</span>
+    <span class="fy-tag">华中</span>
+    <span class="fy-tag">金融学</span>
+  </div>
+  <a href="earlier/李博依-湖南财政经济学院/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="3022951285c2c4f6" aria-label="阅读李博依的湖南财政经济学院案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
+</article>
+  <!-- /AUTO-GEN: ALL_CASES -->
+  </div>
+  <div class="fy-empty" id="fy-case-empty" hidden><h2>暂时没有找到相关案例</h2><p>可以换个关键词，或者减少筛选条件。也欢迎把你的故事补充进来。</p><a class="fy-btn" href="../contribute/">分享我的故事</a></div>
+  <div class="fy-load-more"><button type="button" class="fy-btn" id="fy-case-more" hidden>再看 12 份案例</button></div>
+</section>
+
+<p class="fy-reference-note">案例记录的是校友当年的个人经历。不同年份、科类和地区的分数与位次不能直接比较。</p>

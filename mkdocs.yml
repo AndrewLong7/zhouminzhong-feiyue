@@ -9,7 +9,11 @@ site_description: >-
   来自学长学姐的真实经验，写给正在寻找方向的后来者。
   汇集湘西州民族中学历届毕业生的真实升学案例与大学体验。
 site_author: 州民中飞跃手册
-site_url: https://andrewlong7.github.io/zhouminzhong-feiyue/
+site_url: https://www.zmzfeiyue.com/
+
+# Jinja overrides are build templates, not public pages.
+exclude_docs: |
+  /overrides/
 
 # ---------- 仓库信息（用于"在 GitHub 编辑此页"链接）----------
 repo_url: https://github.com/AndrewLong7/zhouminzhong-feiyue
@@ -30,9 +34,7 @@ theme:
     accent: teal
 
   # 字体配置
-  font:
-    text: Noto Sans SC
-    code: JetBrains Mono
+  font: false
 
   # 功能开关
   features:
@@ -68,6 +70,11 @@ extra_css:
 # ---------- 额外 JS ----------
 extra_javascript:
   - javascripts/search-proxy.js
+  - javascripts/case-explorer.js
+  - javascripts/analytics.js
+
+hooks:
+  - scripts/site_hooks.py
 
 # ---------- 插件 ----------
 plugins:
@@ -128,6 +135,11 @@ nav:
 
 # ---------- 额外配置 ----------
 extra:
+  # 全部配置齐全后才注入统计脚本；这三个值均不是管理员密码或 API 密钥。
+  feiyue_analytics:
+    script_url: !ENV [FEIYUE_ANALYTICS_SCRIPT, '']
+    website_id: !ENV [FEIYUE_ANALYTICS_WEBSITE_ID, '']
+    dashboard_url: !ENV [FEIYUE_ANALYTICS_DASHBOARD, '']
   # 页脚社交链接
   social:
     - icon: fontawesome/brands/github

@@ -5,7 +5,9 @@
 [![Built with MkDocs](https://img.shields.io/badge/MkDocs-Material-0D9488?style=flat&logo=materialformkdocs)](https://squidfunk.github.io/mkdocs-material/)
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-222?style=flat&logo=github)](https://pages.github.com/)
 
-**🌐 网站入口：[andrewlong7.github.io/zhouminzhong-feiyue](https://andrewlong7.github.io/zhouminzhong-feiyue/)**
+**🌐 网站入口：[www.zmzfeiyue.com](https://www.zmzfeiyue.com/)**
+
+本次 UI 改版、验证范围和维护方式见 [REDESIGN.md](REDESIGN.md)。访问统计可选接入 Umami，配置和指标口径见 [ANALYTICS.md](ANALYTICS.md)。
 
 ## 关于本项目
 
@@ -25,7 +27,7 @@
 - **[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)** — 现代化主题
 - **[GitHub Pages](https://pages.github.com/)** — 免费托管与自动部署
 
-无后端，无数据库，纯静态网站。易于维护，适合开源协作。
+前台为纯静态网站，易于维护，适合开源协作。可选的访问统计使用独立服务；未配置时不会采集访问数据。
 
 ## 分支策略
 
@@ -45,7 +47,7 @@
 
 ```bash
 # 1. 安装依赖
-pip install mkdocs-material pyyaml
+pip install -r requirements.txt
 
 # 2. 进入项目目录
 cd zhouminzhong-feiyue
@@ -54,7 +56,8 @@ cd zhouminzhong-feiyue
 git checkout dev
 
 # 4. 启动本地预览
-mkdocs serve
+python scripts/generate.py
+python -m mkdocs serve
 ```
 
 浏览器访问 `http://127.0.0.1:8000` 查看网站。
