@@ -7,6 +7,7 @@
     <script defer src="{{ 'javascripts/analytics-sanitize.js' | url }}"></script>
     <script defer src="{{ analytics.script_url | e }}" data-website-id="{{ analytics.website_id | e }}" data-domains="www.zmzfeiyue.com,zmzfeiyue.com" data-before-send="fyBeforeSend" data-exclude-hash="true" data-do-not-track="true"></script>
   {% endif %}
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 {% endblock %}
 
 {% block content %}
@@ -26,6 +27,9 @@
     <!-- AUTO-GEN: FOOTER_STATS -->
 <span class="fy-footer-stats-item">最近更新于 2026-09-16</span><span class="fy-footer-stats-sep">·</span><span class="fy-footer-stats-item">已收录 111 份案例 / 79 所大学</span>
     <!-- /AUTO-GEN: FOOTER_STATS -->
+    <span class="fy-footer-stats-sep">·</span>
+    <span id="busuanzi_container_site_pv" class="fy-footer-stats-item fy-busuanzi">累积浏览量 <span id="busuanzi_value_site_pv">…</span> 次</span>
+    <span id="busuanzi_container_site_uv" class="fy-footer-stats-item fy-busuanzi">访客 <span id="busuanzi_value_site_uv">…</span> 人</span>
     {% if config.extra.feiyue_analytics.dashboard_url %}<a href="{{ config.extra.feiyue_analytics.dashboard_url | e }}" rel="noopener noreferrer" target="_blank">管理统计 ↗</a>{% endif %}
   </div>
 {% endblock %}
