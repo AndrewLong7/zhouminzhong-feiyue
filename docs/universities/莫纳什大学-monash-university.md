@@ -21,7 +21,7 @@ not_in_nav: true
 <div class="fy-case-grid">
 
 <!-- AUTO-GEN: SCHOOL_CASE_CARDS -->
-<article class="fy-case-card" data-case-id="df244f81e59c75fe" data-case-search="George 莫纳什大学（Monash University） 经济与金融 墨尔本 物理类 海外 商科 墨尔本" data-case-year="2020" data-case-group="物理类">
+<div class="fy-case-card">
   <div class="fy-case-card-header">
     <div class="fy-case-card-avatar">G</div>
     <div class="fy-case-card-meta">
@@ -30,11 +30,10 @@ not_in_nav: true
     </div>
   </div>
   <div class="fy-case-card-body">
-    <h3 class="fy-case-card-school">莫纳什大学（Monash University）</h3>
-    <div class="fy-case-card-major">经济与金融</div>
+    <div class="fy-case-card-school">莫纳什大学（Monash University） · 经济与金融</div>
     <div class="fy-case-card-major-score">高考 492 分 · 全省第 95771 名</div>
     <div class="fy-case-card-summary">
-      不要瞻前顾后，不要顾此失彼，不要畏手畏脚，脚踏实地往前走，未来一定会握在自己的手里。
+      "不要瞻前顾后，不要顾此失彼，不要畏手畏脚，脚踏实地往前走，未来一定会握在自己的手里。"
     </div>
   </div>
   <div class="fy-case-card-tags">
@@ -42,8 +41,37 @@ not_in_nav: true
     <span class="fy-tag">商科</span>
     <span class="fy-tag">墨尔本</span>
   </div>
-  <a href="../../cases/earlier/George-莫纳什大学（Monash University）/" class="fy-case-card-link" data-fy-event="case_card_click" data-fy-case="df244f81e59c75fe" aria-label="阅读George的莫纳什大学（Monash University）案例">阅读这份故事 <span aria-hidden="true">↗</span></a>
-</article>
+  <a href="../../cases/earlier/George-莫纳什大学（Monash University）/" class="fy-case-card-link">阅读全文 →</a>
+</div>
 <!-- /AUTO-GEN: SCHOOL_CASE_CARDS -->
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

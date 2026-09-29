@@ -1,4 +1,10 @@
-/* Feiyue: readable stories, quiet green, warm paper. Shared across all pages. */
+/* ============================================================
+ * 州民中飞跃手册 - 自定义样式
+ * 设计定位：青年社区感 / 温暖 / 成长 / 非官方
+ * 视觉参考：Notion / GitBook / Medium / 飞跃手册
+ * ============================================================ */
+
+/* ---------- 1. CSS 变量（设计令牌）---------- */
 :root {
   --md-primary-fg-color:#195d45;--md-primary-fg-color--light:#347b60;--md-primary-fg-color--dark:#123f30;
   --md-accent-fg-color:#237751;--md-default-bg-color:#f8f9f5;--md-default-fg-color:#1b3025;
