@@ -1,5 +1,15 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+  {{ super() }}
+  {% set analytics = config.extra.get('feiyue_analytics', {}) %}
+  {% if analytics.get('script_url') and analytics.get('website_id') %}
+    <script defer src="{{ 'javascripts/analytics-sanitize.js' | url }}"></script>
+    <script defer src="{{ analytics.get('script_url') | e }}" data-website-id="{{ analytics.get('website_id') | e }}" data-domains="www.zmzfeiyue.com,zmzfeiyue.com" data-before-send="fyBeforeSend" data-exclude-hash="true" data-do-not-track="true"></script>
+  {% endif %}
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{% endblock %}
+
 {% block content %}
   {% if page.url and page.url.startswith('cases/') and page.url.split('/') | length > 3 %}
   <div style="padding: 10px 16px; margin-bottom: 16px; background: #FEF9E7; border-left: 3px solid #E5D89C; border-radius: 0 6px 6px 0; font-size: 0.82rem; color: #8B7E4A; line-height: 1.6;">
@@ -21,6 +31,7 @@
 
 {% block footer %}
   {{ super() }}
+  {% set analytics = config.extra.get('feiyue_analytics', {}) %}
   <div class="fy-footer-stats">
     <span class="fy-footer-stats-item" style="font-size: 0.78rem; color: var(--feiyue-text-muted);">
       本网站由州民中校友自发创建和维护，非学校官方项目。
@@ -28,36 +39,9 @@
     <!-- AUTO-GEN: FOOTER_STATS -->
 <span class="fy-footer-stats-item">最近更新于 2026-07-26</span><span class="fy-footer-stats-sep">·</span><span class="fy-footer-stats-item">已收录 111 位校友 / 79 所大学</span>
     <!-- /AUTO-GEN: FOOTER_STATS -->
+    <span class="fy-footer-stats-sep">·</span>
+    <span id="busuanzi_container_site_pv" class="fy-footer-stats-item fy-busuanzi">累积浏览量 <span id="busuanzi_value_site_pv">…</span> 次</span>
+    <span id="busuanzi_container_site_uv" class="fy-footer-stats-item fy-busuanzi">访客 <span id="busuanzi_value_site_uv">…</span> 人</span>
+    {% if analytics.get('dashboard_url') %}<a href="{{ analytics.get('dashboard_url') | e }}" rel="noopener noreferrer" target="_blank">管理统计 ↗</a>{% endif %}
   </div>
 {% endblock %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
