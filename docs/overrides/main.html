@@ -31,6 +31,7 @@
 
 {% block footer %}
   {{ super() }}
+  {% set analytics = config.extra.get('feiyue_analytics', {}) %}
   <div class="fy-footer-stats">
     <span class="fy-footer-stats-item" style="font-size: 0.78rem; color: var(--feiyue-text-muted);">
       本网站由州民中校友自发创建和维护，非学校官方项目。
