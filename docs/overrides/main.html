@@ -2,10 +2,10 @@
 
 {% block extrahead %}
   {{ super() }}
-  {% set analytics = config.extra.feiyue_analytics %}
-  {% if analytics.script_url and analytics.website_id %}
+  {% set analytics = config.extra.get('feiyue_analytics', {}) %}
+  {% if analytics.get('script_url') and analytics.get('website_id') %}
     <script defer src="{{ 'javascripts/analytics-sanitize.js' | url }}"></script>
-    <script defer src="{{ analytics.script_url | e }}" data-website-id="{{ analytics.website_id | e }}" data-domains="www.zmzfeiyue.com,zmzfeiyue.com" data-before-send="fyBeforeSend" data-exclude-hash="true" data-do-not-track="true"></script>
+    <script defer src="{{ analytics.get('script_url') | e }}" data-website-id="{{ analytics.get('website_id') | e }}" data-domains="www.zmzfeiyue.com,zmzfeiyue.com" data-before-send="fyBeforeSend" data-exclude-hash="true" data-do-not-track="true"></script>
   {% endif %}
   <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 {% endblock %}
@@ -41,37 +41,6 @@
     <span class="fy-footer-stats-sep">·</span>
     <span id="busuanzi_container_site_pv" class="fy-footer-stats-item fy-busuanzi">累积浏览量 <span id="busuanzi_value_site_pv">…</span> 次</span>
     <span id="busuanzi_container_site_uv" class="fy-footer-stats-item fy-busuanzi">访客 <span id="busuanzi_value_site_uv">…</span> 人</span>
-    {% if config.extra.feiyue_analytics.dashboard_url %}<a href="{{ config.extra.feiyue_analytics.dashboard_url | e }}" rel="noopener noreferrer" target="_blank">管理统计 ↗</a>{% endif %}
+    {% if analytics.get('dashboard_url') %}<a href="{{ analytics.get('dashboard_url') | e }}" rel="noopener noreferrer" target="_blank">管理统计 ↗</a>{% endif %}
   </div>
 {% endblock %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
